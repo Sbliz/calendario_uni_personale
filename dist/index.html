@@ -13,6 +13,7 @@
             --text-muted: #94a3b8;
             --primary: #38bdf8;
             --border: #334155;
+            --orange: #fb923c;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -23,7 +24,7 @@
             line-height: 1.5;
         }
         .container {
-            max-width: 900px;
+            max-width: 960px;
             margin: 0 auto;
         }
         header {
@@ -31,14 +32,14 @@
             margin-bottom: 2.5rem;
         }
         h1 {
-            font-size: 2rem;
+            font-size: 2.1rem;
             font-weight: 700;
             margin-bottom: 0.5rem;
             color: #fff;
         }
         .subtitle {
             color: var(--text-muted);
-            font-size: 1.1rem;
+            font-size: 1.15rem;
         }
         .last-update {
             display: inline-block;
@@ -48,6 +49,15 @@
             color: #38bdf8;
             padding: 0.25rem 0.75rem;
             border-radius: 9999px;
+        }
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem 0;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
         }
         .grid {
             display: grid;
@@ -74,10 +84,12 @@
             align-items: center;
             justify-content: space-between;
             margin-bottom: 0.75rem;
+            gap: 0.5rem;
         }
         .card-header h3 {
-            font-size: 1.15rem;
+            font-size: 1.1rem;
             font-weight: 600;
+            flex-grow: 1;
         }
         .badge {
             font-size: 0.75rem;
@@ -85,6 +97,7 @@
             padding: 0.2rem 0.5rem;
             border-radius: 6px;
             text-transform: uppercase;
+            white-space: nowrap;
         }
         .card-desc {
             color: var(--text-muted);
@@ -152,126 +165,219 @@
         <header>
             <h1>Calendario Medicina e Chirurgia 3</h1>
             <p class="subtitle">UniSR - Canale [CLMMC-C] Linea Viola (S1)</p>
-            <span class="last-update">Ultimo aggiornamento automatico: 18/09/2026 14:32</span>
+            <span class="last-update">Ultimo aggiornamento automatico: 18/09/2026 14:37</span>
         </header>
 
+        <h2 class="section-title">📚 Corsi Obbligatori Curricolari</h2>
         <div class="grid">
             
-        <div class="card">
-            <div class="card-header">
-                <span class="badge" style="background-color: #38bdf822; color: #38bdf8; border: 1px solid #38bdf8;">iOS Completo</span>
-                <h3>UniSR Medicina 3 [Completo]</h3>
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="background-color: #38bdf822; color: #38bdf8; border: 1px solid #38bdf8;">iOS Completo</span>
+                    <h3>UniSR Medicina 3 [Completo]</h3>
+                </div>
+                <p class="card-desc">Calendario accademico completo Medicina 3 (CLMMC-C Linea Viola) per iOS</p>
+                <p class="card-meta"><b>126</b> sessioni in calendario</p>
+                <div class="actions">
+                    <a href="webcal://{HOST_PATH}/medicina3_ios.ics" class="btn btn-ios">
+                         Sottoscrivi su iOS
+                    </a>
+                    <button onclick="copyFeedUrl('medicina3_ios.ics', this)" class="btn btn-copy">
+                        📋 Copia Link Google Calendar
+                    </button>
+                </div>
             </div>
-            <p class="card-desc">Calendario accademico completo Medicina 3 (CLMMC-C Linea Viola) per iOS</p>
-            <p class="card-meta"><b>126</b> sessioni in calendario</p>
-            <div class="actions">
-                <a href="webcal://{HOST_PATH}/medicina3_ios.ics" class="btn btn-ios">
-                     Sottoscrivi su iOS
-                </a>
-                <button onclick="copyFeedUrl('medicina3_ios.ics', this)" class="btn btn-copy">
-                    📋 Copia Link Google Calendar
-                </button>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="background-color: #fef08a22; color: #facc15; border: 1px solid #facc15;">GCal: Banana</span>
+                    <h3>Patologia</h3>
+                </div>
+                <p class="card-desc">Patologia [C0019] - Canale Viola</p>
+                <p class="card-meta"><b>53</b> sessioni in calendario</p>
+                <div class="actions">
+                    <a href="webcal://{HOST_PATH}/medicina3_patologia.ics" class="btn btn-ios">
+                         Sottoscrivi su iOS
+                    </a>
+                    <button onclick="copyFeedUrl('medicina3_patologia.ics', this)" class="btn btn-copy">
+                        📋 Copia Link Google Calendar
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="background-color: #c084fc22; color: #c084fc; border: 1px solid #c084fc;">GCal: Amethyst</span>
+                    <h3>Medicina di Laboratorio</h3>
+                </div>
+                <p class="card-desc">Medicina di Laboratorio [C0020] e Attività Professionalizzanti [C0055]</p>
+                <p class="card-meta"><b>28</b> sessioni in calendario</p>
+                <div class="actions">
+                    <a href="webcal://{HOST_PATH}/medicina3_med_laboratorio.ics" class="btn btn-ios">
+                         Sottoscrivi su iOS
+                    </a>
+                    <button onclick="copyFeedUrl('medicina3_med_laboratorio.ics', this)" class="btn btn-copy">
+                        📋 Copia Link Google Calendar
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="background-color: #f472b622; color: #f472b6; border: 1px solid #f472b6;">GCal: Cherry Blossom</span>
+                    <h3>Preparedness</h3>
+                </div>
+                <p class="card-desc">Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025]</p>
+                <p class="card-meta"><b>10</b> sessioni in calendario</p>
+                <div class="actions">
+                    <a href="webcal://{HOST_PATH}/medicina3_preparedness.ics" class="btn btn-ios">
+                         Sottoscrivi su iOS
+                    </a>
+                    <button onclick="copyFeedUrl('medicina3_preparedness.ics', this)" class="btn btn-copy">
+                        📋 Copia Link Google Calendar
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="background-color: #4ade8022; color: #4ade80; border: 1px solid #4ade80;">GCal: Eucalyptus</span>
+                    <h3>Microbiologia Clinica</h3>
+                </div>
+                <p class="card-desc">Microbiologia e Microbiologia Clinica [C0016]</p>
+                <p class="card-meta"><b>35</b> sessioni in calendario</p>
+                <div class="actions">
+                    <a href="webcal://{HOST_PATH}/medicina3_microbiologia.ics" class="btn btn-ios">
+                         Sottoscrivi su iOS
+                    </a>
+                    <button onclick="copyFeedUrl('medicina3_microbiologia.ics', this)" class="btn btn-copy">
+                        📋 Copia Link Google Calendar
+                    </button>
+                </div>
             </div>
         </div>
 
-        <div class="card">
-            <div class="card-header">
-                <span class="badge" style="background-color: #fef08a22; color: #facc15; border: 1px solid #facc15;">GCal: Banana</span>
-                <h3>Patologia</h3>
+        <h2 class="section-title">🎯 Corsi Elettivi (A scelta dello studente - Colore: Arancione)</h2>
+        <p style="color:var(--text-muted); margin-top:-0.5rem; margin-bottom:1rem; font-size:0.95rem;">
+            Sottoscrivi solo i corsi elettivi che hai effettivamente scelto di frequentare.
+        </p>
+        <div class="grid">
+            
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">GCal: Arancione</span>
+                    <h3>Elettivo: Cyber-Humanities</h3>
+                </div>
+                <p class="card-desc">Corso Elettivo: Cyber-Humanities - Medicina 3</p>
+                <p class="card-meta"><b>4</b> sessioni in calendario</p>
+                <div class="actions">
+                    <a href="webcal://{HOST_PATH}/elettivo_cyber_humanities.ics" class="btn btn-ios">
+                         Sottoscrivi su iOS
+                    </a>
+                    <button onclick="copyFeedUrl('elettivo_cyber_humanities.ics', this)" class="btn btn-copy">
+                        📋 Copia Link Google Calendar
+                    </button>
+                </div>
             </div>
-            <p class="card-desc">Patologia [C0019] - Canale Viola</p>
-            <p class="card-meta"><b>53</b> sessioni in calendario</p>
-            <div class="actions">
-                <a href="webcal://{HOST_PATH}/medicina3_patologia.ics" class="btn btn-ios">
-                     Sottoscrivi su iOS
-                </a>
-                <button onclick="copyFeedUrl('medicina3_patologia.ics', this)" class="btn btn-copy">
-                    📋 Copia Link Google Calendar
-                </button>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="card-header">
-                <span class="badge" style="background-color: #c084fc22; color: #c084fc; border: 1px solid #c084fc;">GCal: Amethyst</span>
-                <h3>Medicina di Laboratorio</h3>
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">GCal: Arancione</span>
+                    <h3>Elettivo: Imaging morfologico e funzionale del sistema nervoso</h3>
+                </div>
+                <p class="card-desc">Corso Elettivo: Imaging morfologico e funzionale del sistema nervoso - Medicina 3</p>
+                <p class="card-meta"><b>5</b> sessioni in calendario</p>
+                <div class="actions">
+                    <a href="webcal://{HOST_PATH}/elettivo_imaging_sistema_nervoso.ics" class="btn btn-ios">
+                         Sottoscrivi su iOS
+                    </a>
+                    <button onclick="copyFeedUrl('elettivo_imaging_sistema_nervoso.ics', this)" class="btn btn-copy">
+                        📋 Copia Link Google Calendar
+                    </button>
+                </div>
             </div>
-            <p class="card-desc">Medicina di Laboratorio [C0020] e Attività Professionalizzanti [C0055]</p>
-            <p class="card-meta"><b>28</b> sessioni in calendario</p>
-            <div class="actions">
-                <a href="webcal://{HOST_PATH}/medicina3_med_laboratorio.ics" class="btn btn-ios">
-                     Sottoscrivi su iOS
-                </a>
-                <button onclick="copyFeedUrl('medicina3_med_laboratorio.ics', this)" class="btn btn-copy">
-                    📋 Copia Link Google Calendar
-                </button>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="card-header">
-                <span class="badge" style="background-color: #f472b622; color: #f472b6; border: 1px solid #f472b6;">GCal: Cherry Blossom</span>
-                <h3>Preparedness</h3>
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">GCal: Arancione</span>
+                    <h3>Elettivo: Ricerche bibliografiche</h3>
+                </div>
+                <p class="card-desc">Corso Elettivo: Ricerche bibliografiche - Medicina 3</p>
+                <p class="card-meta"><b>12</b> sessioni in calendario</p>
+                <div class="actions">
+                    <a href="webcal://{HOST_PATH}/elettivo_ricerche_bibliografiche.ics" class="btn btn-ios">
+                         Sottoscrivi su iOS
+                    </a>
+                    <button onclick="copyFeedUrl('elettivo_ricerche_bibliografiche.ics', this)" class="btn btn-copy">
+                        📋 Copia Link Google Calendar
+                    </button>
+                </div>
             </div>
-            <p class="card-desc">Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025]</p>
-            <p class="card-meta"><b>10</b> sessioni in calendario</p>
-            <div class="actions">
-                <a href="webcal://{HOST_PATH}/medicina3_preparedness.ics" class="btn btn-ios">
-                     Sottoscrivi su iOS
-                </a>
-                <button onclick="copyFeedUrl('medicina3_preparedness.ics', this)" class="btn btn-copy">
-                    📋 Copia Link Google Calendar
-                </button>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="card-header">
-                <span class="badge" style="background-color: #4ade8022; color: #4ade80; border: 1px solid #4ade80;">GCal: Eucalyptus</span>
-                <h3>Microbiologia Clinica</h3>
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">GCal: Arancione</span>
+                    <h3>Elettivo: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria</h3>
+                </div>
+                <p class="card-desc">Corso Elettivo: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria - Medicina 3</p>
+                <p class="card-meta"><b>9</b> sessioni in calendario</p>
+                <div class="actions">
+                    <a href="webcal://{HOST_PATH}/elettivo_semeiotica_chirurgia.ics" class="btn btn-ios">
+                         Sottoscrivi su iOS
+                    </a>
+                    <button onclick="copyFeedUrl('elettivo_semeiotica_chirurgia.ics', this)" class="btn btn-copy">
+                        📋 Copia Link Google Calendar
+                    </button>
+                </div>
             </div>
-            <p class="card-desc">Microbiologia e Microbiologia Clinica [C0016]</p>
-            <p class="card-meta"><b>35</b> sessioni in calendario</p>
-            <div class="actions">
-                <a href="webcal://{HOST_PATH}/medicina3_microbiologia.ics" class="btn btn-ios">
-                     Sottoscrivi su iOS
-                </a>
-                <button onclick="copyFeedUrl('medicina3_microbiologia.ics', this)" class="btn btn-copy">
-                    📋 Copia Link Google Calendar
-                </button>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="card-header">
-                <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">Opzionale</span>
-                <h3>Corsi Elettivi (Opzionale)</h3>
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">GCal: Arancione</span>
+                    <h3>Elettivo: Tele-neuro fisiologia, neuromodulazione e tecnologie digitali</h3>
+                </div>
+                <p class="card-desc">Corso Elettivo: Tele-neuro fisiologia, neuromodulazione e tecnologie digitali - Medicina 3</p>
+                <p class="card-meta"><b>4</b> sessioni in calendario</p>
+                <div class="actions">
+                    <a href="webcal://{HOST_PATH}/elettivo_teleneurofisiologia.ics" class="btn btn-ios">
+                         Sottoscrivi su iOS
+                    </a>
+                    <button onclick="copyFeedUrl('elettivo_teleneurofisiologia.ics', this)" class="btn btn-copy">
+                        📋 Copia Link Google Calendar
+                    </button>
+                </div>
             </div>
-            <p class="card-desc">Corsi elettivi opzionali Medicina 3</p>
-            <p class="card-meta"><b>37</b> sessioni in calendario</p>
-            <div class="actions">
-                <a href="webcal://{HOST_PATH}/medicina3_corsi_elettivi.ics" class="btn btn-ios">
-                     Sottoscrivi su iOS
-                </a>
-                <button onclick="copyFeedUrl('medicina3_corsi_elettivi.ics', this)" class="btn btn-copy">
-                    📋 Copia Link Google Calendar
-                </button>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">GCal: Arancione</span>
+                    <h3>Elettivo: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra</h3>
+                </div>
+                <p class="card-desc">Corso Elettivo: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra - Medicina 3</p>
+                <p class="card-meta"><b>3</b> sessioni in calendario</p>
+                <div class="actions">
+                    <a href="webcal://{HOST_PATH}/elettivo_urgenze_chirurgia_vascolare.ics" class="btn btn-ios">
+                         Sottoscrivi su iOS
+                    </a>
+                    <button onclick="copyFeedUrl('elettivo_urgenze_chirurgia_vascolare.ics', this)" class="btn btn-copy">
+                        📋 Copia Link Google Calendar
+                    </button>
+                </div>
             </div>
-        </div>
         </div>
 
         <div class="instructions">
-            <h2>📱 Come Sottoscrivere i Calendari</h2>
+            <h2>📱 Guida Rapida alla Sottoscrizione</h2>
             <ol>
-                <li><b>Su iPhone / iPad (iOS):</b> Clicca sul pulsante azzurro <i>"Sottoscrivi su iOS"</i> del box <b>Calendario Unico Completo</b>. iOS aprirà l'app Calendario e completerà l'iscrizione.</li>
+                <li><b>Su iPhone / iPad (iOS):</b> Clicca sul pulsante azzurro <i>"Sottoscrivi su iOS"</i> del calendario che desideri aggiungere. iOS aprirà l'app Calendario e completerà l'iscrizione.</li>
                 <li><b>Su Google Calendar:</b>
                     <ul>
-                        <li>Clicca su <i>"Copia Link Google Calendar"</i> per ciascuna materia che desideri sincronizzare.</li>
-                        <li>Apri <a href="https://calendar.google.com" target="_blank" style="color:var(--primary);">Google Calendar</a> sul computer.</li>
-                        <li>Nella colonna a sinistra, accanto ad <b>"Altri calendari"</b>, clicca su <b>+</b> &gt; <b>Da URL</b>.</li>
-                        <li>Incolla l'URL copiato e clicca su <i>"Aggiungi calendario"</i>.</li>
-                        <li>Dal menu a tre puntini (⋮) del calendario appena aggiunto, imposta il colore richiesto:
-                            <b>Banana</b> (Patologia), <b>Amethyst</b> (Med Lab), <b>Cherry Blossom</b> (Preparedness), <b>Eucalyptus</b> (Microbiologia).</li>
+                        <li>Clicca su <i>"Copia Link Google Calendar"</i> accanto alla materia desiderata.</li>
+                        <li>Apri <a href="https://calendar.google.com" target="_blank" style="color:var(--primary);">Google Calendar</a> da browser.</li>
+                        <li>Nella barra laterale a sinistra, accanto ad <b>"Altri calendari"</b>, clicca su <b>+</b> &gt; <b>Da URL</b>.</li>
+                        <li>Incolla l'URL e clicca su <i>"Aggiungi calendario"</i>.</li>
+                        <li>Dal menu a tre puntini (⋮) del calendario aggiunto, assegna il colore corrispondente:
+                            <b>Banana</b> (Patologia), <b>Amethyst</b> (Med Lab), <b>Cherry Blossom</b> (Preparedness), <b>Eucalyptus</b> (Microbiologia), <b>Tangerine / Arancione</b> (Corsi Elettivi).</li>
                     </ul>
                 </li>
             </ol>

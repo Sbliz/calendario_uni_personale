@@ -1,0 +1,159 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendario Medicina 3 Linea Viola//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Ricerche bibliografiche
+X-WR-CALDESC:Corso Elettivo: Ricerche bibliografiche - Medicina 3
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med3-0b72675d427c5e4e@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261006T173000
+DTEND;TZID=Europe/Rome:20261006T193000
+SUMMARY:Ricerche bibliografiche [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Ricerche bibliografiche - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-33febb38ff32ad5b@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261013T173000
+DTEND;TZID=Europe/Rome:20261013T193000
+SUMMARY:Ricerche bibliografiche [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Ricerche bibliografiche - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-f9c4b226017b48ff@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261020T173000
+DTEND;TZID=Europe/Rome:20261020T193000
+SUMMARY:Ricerche bibliografiche [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Ricerche bibliografiche - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-e7967d80585f211c@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261027T173000
+DTEND;TZID=Europe/Rome:20261027T193000
+SUMMARY:Ricerche bibliografiche [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Ricerche bibliografiche - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-93a88356a969d6d8@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261103T173000
+DTEND;TZID=Europe/Rome:20261103T193000
+SUMMARY:Ricerche bibliografiche [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Ricerche bibliografiche - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-1cc41e1828ba5f07@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261110T173000
+DTEND;TZID=Europe/Rome:20261110T193000
+SUMMARY:Ricerche bibliografiche [Esercitazione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Ricerche bibliografiche - ESE - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-41c7c91b506bc82b@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261117T173000
+DTEND;TZID=Europe/Rome:20261117T193000
+SUMMARY:Ricerche bibliografiche [Esercitazione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Ricerche bibliografiche - ESE - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-1945827c3e4b4b0c@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261124T173000
+DTEND;TZID=Europe/Rome:20261124T193000
+SUMMARY:Ricerche bibliografiche [Esercitazione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Ricerche bibliografiche - ESE - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-9cd6f8616a3a2ac2@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261201T173000
+DTEND;TZID=Europe/Rome:20261201T193000
+SUMMARY:Ricerche bibliografiche [Esercitazione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Ricerche bibliografiche - ESE - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-bd56118e7b37e481@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261209T173000
+DTEND;TZID=Europe/Rome:20261209T193000
+SUMMARY:Ricerche bibliografiche [Esercitazione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Ricerche bibliografiche - ESE - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-e64b7783ac20b054@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261215T173000
+DTEND;TZID=Europe/Rome:20261215T193000
+SUMMARY:Ricerche bibliografiche [Esercitazione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Ricerche bibliografiche - ESE - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-e823f40246ea05fd@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20270112T173000
+DTEND;TZID=Europe/Rome:20270112T193000
+SUMMARY:Ricerche bibliografiche [Esercitazione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Ricerche bibliografiche - ESE - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

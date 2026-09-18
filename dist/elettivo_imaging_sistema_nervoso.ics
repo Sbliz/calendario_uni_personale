@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendario Medicina 3 Linea Viola//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Imaging morfologico e funzionale del sistema nervoso
+X-WR-CALDESC:Corso Elettivo: Imaging morfologico e funzionale del sistema nervoso - Medicina 3
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med3-096f3cc69e9411d1@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261008T173000
+DTEND;TZID=Europe/Rome:20261008T193000
+SUMMARY:Imaging morfologico e funzionale del sistema nervoso [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO101
+DESCRIPTION:Insegnamento: Imaging morfologico e funzionale del sistema nervoso - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-262aefd9b2de97c3@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261015T173000
+DTEND;TZID=Europe/Rome:20261015T193000
+SUMMARY:Imaging morfologico e funzionale del sistema nervoso [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO101
+DESCRIPTION:Insegnamento: Imaging morfologico e funzionale del sistema nervoso - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-696aad3452e4a1f7@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261029T173000
+DTEND;TZID=Europe/Rome:20261029T193000
+SUMMARY:Imaging morfologico e funzionale del sistema nervoso [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO101
+DESCRIPTION:Insegnamento: Imaging morfologico e funzionale del sistema nervoso - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-12fea1aad47dd3bc@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261203T173000
+DTEND;TZID=Europe/Rome:20261203T193000
+SUMMARY:Imaging morfologico e funzionale del sistema nervoso [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO101
+DESCRIPTION:Insegnamento: Imaging morfologico e funzionale del sistema nervoso - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-c18768358e27f149@easycourse.unisr.it
+DTSTAMP:20260918T123713Z
+DTSTART;TZID=Europe/Rome:20261210T173000
+DTEND;TZID=Europe/Rome:20261210T193000
+SUMMARY:Imaging morfologico e funzionale del sistema nervoso [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO101
+DESCRIPTION:Insegnamento: Imaging morfologico e funzionale del sistema nervoso - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

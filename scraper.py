@@ -3,12 +3,21 @@
 Sincronizzatore Calendario Accademico UNISR
 Medicina e Chirurgia 3 [CLMMC-C] - Linea Viola (S1)
 
-Estrae le lezioni isolando rigorosamente ciascun blocco 'giorno-container'
-ed estraendo esclusivamente dall'interno di 'lezioni-giornaliere'.
-Garantisce:
-1. Zero lezioni di sabato (eliminata ogni fuga di tag dalle tabelle desktop)
-2. Zero sovrapposizioni orarie
-3. Esclusione dei corsi elettivi opzionali dai calendari principali
+Genera:
+- Calendari Curricolari Principali:
+  1. medicina3_ios.ics                -> Feed completo per Apple Calendar (iOS)
+  2. medicina3_patologia.ics          -> Google Calendar (Colore: Banana)
+  3. medicina3_med_laboratorio.ics    -> Google Calendar (Colore: Amethyst)
+  4. medicina3_preparedness.ics       -> Google Calendar (Colore: Cherry Blossom)
+  5. medicina3_microbiologia.ics      -> Google Calendar (Colore: Eucalyptus)
+
+- Calendari Dedicati per ciascun Corso Elettivo (Colore Google Calendar: Tangerine / Arancione):
+  6. elettivo_cyber_humanities.ics
+  7. elettivo_imaging_sistema_nervoso.ics
+  8. elettivo_ricerche_bibliografiche.ics
+  9. elettivo_semeiotica_chirurgia.ics
+  10. elettivo_teleneurofisiologia.ics
+  11. elettivo_urgenze_chirurgia_vascolare.ics
 """
 
 import os
@@ -16,8 +25,10 @@ import re
 import ssl
 import json
 import hashlib
+import unicodedata
 import urllib.request
 from datetime import datetime, timezone
+from collections import defaultdict
 
 URL_EASYCOURSE = (
     "https://easycourse.unisr.it/easycourse-new/pubblicazioni-riservate/standardGrid/"
@@ -50,8 +61,7 @@ def fetch_schedule_html():
 
 def extract_lessons_from_html(html):
     """
-    Estrae le lezioni isolando ciascun 'giorno-container' prima del giorno successivo
-    o della tabella desktop della settimana seguente.
+    Estrae le lezioni isolando ciascun 'giorno-container'.
     Estrae SOLO dall'interno del contenitore 'lezioni-giornaliere'.
     """
     giorno_blocks = re.findall(
@@ -73,7 +83,6 @@ def extract_lessons_from_html(html):
             continue
         giorno_data = d_match.group(1)
 
-        # Estrai SOLO dentro lezioni-giornaliere
         lez_wrap = re.search(r'<div[^>]*class="lezioni-giornaliere"[^>]*>(.*)', g_content, re.DOTALL)
         if not lez_wrap:
             continue
@@ -123,7 +132,6 @@ def extract_lessons_from_html(html):
                 'elettivo': is_elettivo
             })
 
-    # Ordina cronologicamente
     def sort_key(x):
         d, m, y = x['date'].split('-')
         return f"{y}{m}{d}_{x['ora_inizio']}"
@@ -148,6 +156,22 @@ def clean_title(raw_title):
     if tipo:
         return f"{base_name} [{tipo}]"
     return base_name
+
+
+def get_elective_course_name(full_title):
+    """Estrae il nome univoco della materia per un corso elettivo."""
+    # Es: "Cyber-Humanities - LEZ - Corso Elettivo" -> "Cyber-Humanities"
+    m = re.match(r'^(.*?)\s*-\s*(?:LEZ|ESE|LEZ_D|APR)', full_title)
+    if m:
+        return m.group(1).strip()
+    return full_title.split('[')[0].strip()
+
+
+def slugify(text):
+    """Genera uno slug pulito per il nome del file .ics."""
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
+    text = re.sub(r'[^\w\s-]', '', text).strip().lower()
+    return re.sub(r'[-\s]+', '_', text)
 
 
 def generate_uid(lesson):
@@ -249,30 +273,34 @@ def build_ics_calendar(calendar_name, lessons, description=""):
     return "\r\n".join(lines) + "\r\n"
 
 
-def generate_index_html(feeds_info):
-    """Genera la pagina web per la sottoscrizione rapida."""
-    cards_html = []
-    for f in feeds_info:
-        badge_style = f"background-color: {f['badge_bg']}; color: {f['badge_fg']}; border: 1px solid {f['badge_border']};"
-        cards_html.append(f"""
-        <div class="card">
-            <div class="card-header">
-                <span class="badge" style="{badge_style}">{f['color_name']}</span>
-                <h3>{f['title']}</h3>
-            </div>
-            <p class="card-desc">{f['description']}</p>
-            <p class="card-meta"><b>{f['count']}</b> sessioni in calendario</p>
-            <div class="actions">
-                <a href="webcal://{{HOST_PATH}}/{f['filename']}" class="btn btn-ios">
-                     Sottoscrivi su iOS
-                </a>
-                <button onclick="copyFeedUrl('{f['filename']}', this)" class="btn btn-copy">
-                    📋 Copia Link Google Calendar
-                </button>
-            </div>
-        </div>""")
+def generate_index_html(curricular_feeds, elective_feeds):
+    """Genera la landing page HTML organizzata in sezioni."""
+    
+    def render_cards(feeds):
+        html_cards = []
+        for f in feeds:
+            badge_style = f"background-color: {f['badge_bg']}; color: {f['badge_fg']}; border: 1px solid {f['badge_border']};"
+            html_cards.append(f"""
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="{badge_style}">{f['color_name']}</span>
+                    <h3>{f['title']}</h3>
+                </div>
+                <p class="card-desc">{f['description']}</p>
+                <p class="card-meta"><b>{f['count']}</b> sessioni in calendario</p>
+                <div class="actions">
+                    <a href="webcal://{{HOST_PATH}}/{f['filename']}" class="btn btn-ios">
+                         Sottoscrivi su iOS
+                    </a>
+                    <button onclick="copyFeedUrl('{f['filename']}', this)" class="btn btn-copy">
+                        📋 Copia Link Google Calendar
+                    </button>
+                </div>
+            </div>""")
+        return "\n".join(html_cards)
 
-    feed_cards_str = "\n".join(cards_html)
+    curr_html = render_cards(curricular_feeds)
+    elett_html = render_cards(elective_feeds)
     update_time_str = datetime.now().strftime('%d/%m/%Y %H:%M')
 
     return f"""<!DOCTYPE html>
@@ -290,6 +318,7 @@ def generate_index_html(feeds_info):
             --text-muted: #94a3b8;
             --primary: #38bdf8;
             --border: #334155;
+            --orange: #fb923c;
         }}
         * {{ box-sizing: border-box; margin: 0; padding: 0; }}
         body {{
@@ -300,7 +329,7 @@ def generate_index_html(feeds_info):
             line-height: 1.5;
         }}
         .container {{
-            max-width: 900px;
+            max-width: 960px;
             margin: 0 auto;
         }}
         header {{
@@ -308,14 +337,14 @@ def generate_index_html(feeds_info):
             margin-bottom: 2.5rem;
         }}
         h1 {{
-            font-size: 2rem;
+            font-size: 2.1rem;
             font-weight: 700;
             margin-bottom: 0.5rem;
             color: #fff;
         }}
         .subtitle {{
             color: var(--text-muted);
-            font-size: 1.1rem;
+            font-size: 1.15rem;
         }}
         .last-update {{
             display: inline-block;
@@ -325,6 +354,15 @@ def generate_index_html(feeds_info):
             color: #38bdf8;
             padding: 0.25rem 0.75rem;
             border-radius: 9999px;
+        }}
+        .section-title {{
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem 0;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
         }}
         .grid {{
             display: grid;
@@ -351,10 +389,12 @@ def generate_index_html(feeds_info):
             align-items: center;
             justify-content: space-between;
             margin-bottom: 0.75rem;
+            gap: 0.5rem;
         }}
         .card-header h3 {{
-            font-size: 1.15rem;
+            font-size: 1.1rem;
             font-weight: 600;
+            flex-grow: 1;
         }}
         .badge {{
             font-size: 0.75rem;
@@ -362,6 +402,7 @@ def generate_index_html(feeds_info):
             padding: 0.2rem 0.5rem;
             border-radius: 6px;
             text-transform: uppercase;
+            white-space: nowrap;
         }}
         .card-desc {{
             color: var(--text-muted);
@@ -432,22 +473,31 @@ def generate_index_html(feeds_info):
             <span class="last-update">Ultimo aggiornamento automatico: {update_time_str}</span>
         </header>
 
+        <h2 class="section-title">📚 Corsi Obbligatori Curricolari</h2>
         <div class="grid">
-            {feed_cards_str}
+            {curr_html}
+        </div>
+
+        <h2 class="section-title">🎯 Corsi Elettivi (A scelta dello studente - Colore: Arancione)</h2>
+        <p style="color:var(--text-muted); margin-top:-0.5rem; margin-bottom:1rem; font-size:0.95rem;">
+            Sottoscrivi solo i corsi elettivi che hai effettivamente scelto di frequentare.
+        </p>
+        <div class="grid">
+            {elett_html}
         </div>
 
         <div class="instructions">
-            <h2>📱 Come Sottoscrivere i Calendari</h2>
+            <h2>📱 Guida Rapida alla Sottoscrizione</h2>
             <ol>
-                <li><b>Su iPhone / iPad (iOS):</b> Clicca sul pulsante azzurro <i>"Sottoscrivi su iOS"</i> del box <b>Calendario Unico Completo</b>. iOS aprirà l'app Calendario e completerà l'iscrizione.</li>
+                <li><b>Su iPhone / iPad (iOS):</b> Clicca sul pulsante azzurro <i>"Sottoscrivi su iOS"</i> del calendario che desideri aggiungere. iOS aprirà l'app Calendario e completerà l'iscrizione.</li>
                 <li><b>Su Google Calendar:</b>
                     <ul>
-                        <li>Clicca su <i>"Copia Link Google Calendar"</i> per ciascuna materia che desideri sincronizzare.</li>
-                        <li>Apri <a href="https://calendar.google.com" target="_blank" style="color:var(--primary);">Google Calendar</a> sul computer.</li>
-                        <li>Nella colonna a sinistra, accanto ad <b>"Altri calendari"</b>, clicca su <b>+</b> &gt; <b>Da URL</b>.</li>
-                        <li>Incolla l'URL copiato e clicca su <i>"Aggiungi calendario"</i>.</li>
-                        <li>Dal menu a tre puntini (⋮) del calendario appena aggiunto, imposta il colore richiesto:
-                            <b>Banana</b> (Patologia), <b>Amethyst</b> (Med Lab), <b>Cherry Blossom</b> (Preparedness), <b>Eucalyptus</b> (Microbiologia).</li>
+                        <li>Clicca su <i>"Copia Link Google Calendar"</i> accanto alla materia desiderata.</li>
+                        <li>Apri <a href="https://calendar.google.com" target="_blank" style="color:var(--primary);">Google Calendar</a> da browser.</li>
+                        <li>Nella barra laterale a sinistra, accanto ad <b>"Altri calendari"</b>, clicca su <b>+</b> &gt; <b>Da URL</b>.</li>
+                        <li>Incolla l'URL e clicca su <i>"Aggiungi calendario"</i>.</li>
+                        <li>Dal menu a tre puntini (⋮) del calendario aggiunto, assegna il colore corrispondente:
+                            <b>Banana</b> (Patologia), <b>Amethyst</b> (Med Lab), <b>Cherry Blossom</b> (Preparedness), <b>Eucalyptus</b> (Microbiologia), <b>Tangerine / Arancione</b> (Corsi Elettivi).</li>
                     </ul>
                 </li>
             </ol>
@@ -491,7 +541,7 @@ def main():
     raw_html = fetch_schedule_html()
     print(f"HTML scaricato con successo ({len(raw_html)} bytes)")
 
-    # 2. Parsing isolato per giorno
+    # 2. Parsing dai blocchi giorno-container isolati
     all_lessons = extract_lessons_from_html(raw_html)
     print(f"Sessioni uniche estratte: {len(all_lessons)}")
 
@@ -500,9 +550,9 @@ def main():
     electives = [l for l in all_lessons if l['elettivo']]
 
     print(f"Lezioni Curricolari Obbligatorie: {len(curricular)}")
-    print(f"Lezioni Elettive (escluse dai calendari principali): {len(electives)}")
+    print(f"Lezioni Elettive Totali: {len(electives)}")
 
-    # 4. Raggruppamento per Materia
+    # 4. Raggruppamento Materie Curricolari
     groups = {
         'patologia': [],
         'med_laboratorio': [],
@@ -524,8 +574,16 @@ def main():
         else:
             groups['altre'].append(l)
 
-    # 5. Scrittura File .ics in dist/
-    files_to_generate = [
+    # 5. Raggruppamento dei Corsi Elettivi per singolo corso
+    electives_by_course = defaultdict(list)
+    for l in electives:
+        cname = get_elective_course_name(l['titolo'])
+        electives_by_course[cname].append(l)
+
+    print(f"Corsi Elettivi distinti rilevati: {len(electives_by_course)}")
+
+    # 6. Definizione Feed Curricolari
+    curricular_feeds = [
         {
             'filename': 'medicina3_ios.ics',
             'title': 'UniSR Medicina 3 [Completo]',
@@ -583,41 +641,43 @@ def main():
         }
     ]
 
-    if groups['altre']:
-        files_to_generate.append({
-            'filename': 'medicina3_altre.ics',
-            'title': 'Altre Attività',
-            'description': 'Altre attività curricolari Medicina 3',
-            'lessons': groups['altre'],
-            'badge_bg': '#94a3b822',
-            'badge_fg': '#94a3b8',
-            'badge_border': '#94a3b8',
-            'color_name': 'GCal: Grigio',
-            'count': len(groups['altre'])
-        })
+    # 7. Definizione Feed per ciascun Corso Elettivo (Colore Arancione)
+    elective_feeds = []
+    # Mappa nomi corti per i file
+    slug_map = {
+        'Cyber-Humanities': 'elettivo_cyber_humanities.ics',
+        'Imaging morfologico e funzionale del sistema nervoso': 'elettivo_imaging_sistema_nervoso.ics',
+        'Ricerche bibliografiche': 'elettivo_ricerche_bibliografiche.ics',
+        'Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria': 'elettivo_semeiotica_chirurgia.ics',
+        'Tele-neuro fisiologia, neuromodulazione e tecnologie digitali': 'elettivo_teleneurofisiologia.ics',
+        'Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra': 'elettivo_urgenze_chirurgia_vascolare.ics',
+    }
 
-    if electives:
-        files_to_generate.append({
-            'filename': 'medicina3_corsi_elettivi.ics',
-            'title': 'Corsi Elettivi (Opzionale)',
-            'description': 'Corsi elettivi opzionali Medicina 3',
-            'lessons': electives,
+    for cname, c_lessons in sorted(electives_by_course.items()):
+        fname = slug_map.get(cname, f"elettivo_{slugify(cname)}.ics")
+        elective_feeds.append({
+            'filename': fname,
+            'title': f"Elettivo: {cname}",
+            'description': f"Corso Elettivo: {cname} - Medicina 3",
+            'lessons': c_lessons,
             'badge_bg': '#fb923c22',
             'badge_fg': '#fb923c',
             'badge_border': '#fb923c',
-            'color_name': 'Opzionale',
-            'count': len(electives)
+            'color_name': 'GCal: Arancione',
+            'count': len(c_lessons)
         })
 
-    for item in files_to_generate:
+    # Scrittura di tutti i file .ics
+    all_feeds = curricular_feeds + elective_feeds
+    for item in all_feeds:
         filepath = os.path.join(DIST_DIR, item['filename'])
         ics_content = build_ics_calendar(item['title'], item['lessons'], item['description'])
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(ics_content)
         print(f"Generato: {item['filename']} ({len(item['lessons'])} lezioni)")
 
-    # 6. Generazione pagina HTML di sottoscrizione
-    index_html = generate_index_html(files_to_generate)
+    # 8. Generazione pagina HTML di sottoscrizione
+    index_html = generate_index_html(curricular_feeds, elective_feeds)
     with open(os.path.join(DIST_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(index_html)
     print("Generata pagina di sottoscrizione: dist/index.html")
