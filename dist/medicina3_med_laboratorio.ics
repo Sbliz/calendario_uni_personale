@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med3-535570b3b3b490fd@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20260922T083000
 DTEND;TZID=Europe/Rome:20260922T103000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -36,30 +36,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-b49dc8ac88119012@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20260926T083000
-DTEND;TZID=Europe/Rome:20260926T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-60ebb5d6f2408564@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20260926T103000
-DTEND;TZID=Europe/Rome:20260926T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-c87133d506d899cd@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20260928T103000
 DTEND;TZID=Europe/Rome:20260928T123000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -70,7 +48,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-c2ae68c0ca93f2ef@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20260929T083000
 DTEND;TZID=Europe/Rome:20260929T103000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -80,30 +58,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-018fa0f40fcef1fa@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261003T083000
-DTEND;TZID=Europe/Rome:20261003T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-7416169a37a498dd@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261003T103000
-DTEND;TZID=Europe/Rome:20261003T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-b6eefa98d0ad96b2@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261005T103000
 DTEND;TZID=Europe/Rome:20261005T123000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -114,7 +70,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-a34cca18ad023bc9@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261006T083000
 DTEND;TZID=Europe/Rome:20261006T103000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -124,19 +80,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-61c39774a336d5de@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261010T103000
-DTEND;TZID=Europe/Rome:20261010T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-d3216295fa2d5819@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261012T103000
 DTEND;TZID=Europe/Rome:20261012T123000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -147,7 +92,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-30edde55446a8bc4@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261013T103000
 DTEND;TZID=Europe/Rome:20261013T123000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -157,30 +102,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-c44d8be9a8948049@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261017T103000
-DTEND;TZID=Europe/Rome:20261017T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-c38fdd90ddfd8d82@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261017T133000
-DTEND;TZID=Europe/Rome:20261017T153000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-4356b26a8005ada6@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261019T103000
 DTEND;TZID=Europe/Rome:20261019T123000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -191,7 +114,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-ba8df206ea20d72a@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261020T133000
 DTEND;TZID=Europe/Rome:20261020T153000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -201,52 +124,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-7d1e85c8010903dd@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261024T083000
-DTEND;TZID=Europe/Rome:20261024T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-461c032c04707493@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261024T083000
-DTEND;TZID=Europe/Rome:20261024T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [C0055] - Attività professionalizzanti di medicina di laboratorio 1 (LINEA VIOLA) - APR_S\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-b6b23225d4f52975@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261024T103000
-DTEND;TZID=Europe/Rome:20261024T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-899dc7d1b7eac12d@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261024T133000
-DTEND;TZID=Europe/Rome:20261024T153000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-df61670b20785bc8@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261026T103000
 DTEND;TZID=Europe/Rome:20261026T123000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -257,7 +136,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-168b1e88b98a6d29@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261027T083000
 DTEND;TZID=Europe/Rome:20261027T103000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -268,7 +147,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-533cb1291feb2675@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261030T083000
 DTEND;TZID=Europe/Rome:20261030T123000
 SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
@@ -279,7 +158,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-ba7277f2f0b59fb7@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261030T133000
 DTEND;TZID=Europe/Rome:20261030T153000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -289,19 +168,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-348fc2c604d623a9@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261031T083000
-DTEND;TZID=Europe/Rome:20261031T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 4 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-4751bddaab5b43ee@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261103T083000
 DTEND;TZID=Europe/Rome:20261103T103000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -311,30 +179,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-d8d5ae7f346ac06e@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261107T083000
-DTEND;TZID=Europe/Rome:20261107T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 4 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-d493226f5e126242@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261107T103000
-DTEND;TZID=Europe/Rome:20261107T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 4 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-dcb1ef6d67262c0d@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261109T103000
 DTEND;TZID=Europe/Rome:20261109T123000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -345,7 +191,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-ec0a25281e21c728@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261110T083000
 DTEND;TZID=Europe/Rome:20261110T103000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -355,19 +201,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-7b56bb3acc5a6d13@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261114T103000
-DTEND;TZID=Europe/Rome:20261114T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 4 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-02148dcf23336a16@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261116T103000
 DTEND;TZID=Europe/Rome:20261116T123000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -377,30 +212,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-99949676e071c283@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261121T083000
-DTEND;TZID=Europe/Rome:20261121T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-c4ee618e049b399f@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261121T083000
-DTEND;TZID=Europe/Rome:20261121T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio BORROMINI\, Aula BO402
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [C0055] - Attività professionalizzanti di medicina di laboratorio 1 (LINEA VIOLA) - APR_S\nLuogo: Edificio BORROMINI\, Aula BO402\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-1d868edba56de71f@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261124T083000
 DTEND;TZID=Europe/Rome:20261124T103000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -411,7 +224,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-3ecc7d24ffcaa654@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261127T083000
 DTEND;TZID=Europe/Rome:20261127T123000
 SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
@@ -421,30 +234,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-66b0acb12358d8f2@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261128T083000
-DTEND;TZID=Europe/Rome:20261128T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 2 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-fac4ed3919eea703@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261128T083000
-DTEND;TZID=Europe/Rome:20261128T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio CANOVA\, Aula CA102B
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [C0055] - Attività professionalizzanti di medicina di laboratorio 2 (LINEA VIOLA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-f59f2e174ece628f@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261201T083000
 DTEND;TZID=Europe/Rome:20261201T103000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -455,7 +246,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-6eacb2074e35d91a@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261204T083000
 DTEND;TZID=Europe/Rome:20261204T123000
 SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
@@ -465,30 +256,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-91a5f39a690b6035@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261205T083000
-DTEND;TZID=Europe/Rome:20261205T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 3 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-976f61cfc33a9ecf@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261205T083000
-DTEND;TZID=Europe/Rome:20261205T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio CANOVA\, Aula CA102B
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [C0055] - Attività professionalizzanti di medicina di laboratorio 1 (LINEA VIOLA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-b08ff0be4f7d9987@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261209T083000
 DTEND;TZID=Europe/Rome:20261209T103000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -499,7 +268,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-f6765759502e93d8@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261211T083000
 DTEND;TZID=Europe/Rome:20261211T123000
 SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
@@ -509,30 +278,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-7909d62f2d993e2f@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261212T083000
-DTEND;TZID=Europe/Rome:20261212T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [C0020] - Medicina di laboratorio 4 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-4f1f75f56f3fbe23@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261212T083000
-DTEND;TZID=Europe/Rome:20261212T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio CANOVA\, Aula CA102B
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [C0055] - Attività professionalizzanti di medicina di laboratorio 2 (LINEA VIOLA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-9fb5497b2bacbff2@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261215T083000
 DTEND;TZID=Europe/Rome:20261215T103000
 SUMMARY:Medicina di Laboratorio [Lezione]
@@ -543,7 +290,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-bfde4d6a4daa6eaf@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261216T083000
 DTEND;TZID=Europe/Rome:20261216T123000
 SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
@@ -553,19 +300,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-7dabbcc3648a6926@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261219T083000
-DTEND;TZID=Europe/Rome:20261219T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio CANOVA\, Aula CA102B
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [C0055] - Attività professionalizzanti di medicina di laboratorio 2 (LINEA VIOLA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-066f8a481f6962de@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261221T083000
 DTEND;TZID=Europe/Rome:20261221T123000
 SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
@@ -575,19 +311,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-d3e99d2e5ac0df53@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261226T083000
-DTEND;TZID=Europe/Rome:20261226T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio CANOVA\, Aula CA102B
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [C0055] - Attività professionalizzanti di medicina di laboratorio 1 (LINEA VIOLA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-fe362b8827229536@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20270108T083000
 DTEND;TZID=Europe/Rome:20270108T123000
 SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
@@ -597,19 +322,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-5c4b80af8adb2377@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20270109T083000
-DTEND;TZID=Europe/Rome:20270109T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio CANOVA\, Aula CA102B
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [C0055] - Attività professionalizzanti di medicina di laboratorio 2 (LINEA VIOLA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-2fd2ad3224795cc2@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20270112T083000
 DTEND;TZID=Europe/Rome:20270112T123000
 SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]

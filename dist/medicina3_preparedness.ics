@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med3-a2a4e290b257e804@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20260923T083000
 DTEND;TZID=Europe/Rome:20260923T103000
 SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
@@ -36,19 +36,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-7b417fcab1b7f15e@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20260926T133000
-DTEND;TZID=Europe/Rome:20260926T153000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-84d2b0dc9f09c7ca@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20260930T133000
 DTEND;TZID=Europe/Rome:20260930T153000
 SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
@@ -58,19 +47,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-5607bc728479cf46@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261003T083000
-DTEND;TZID=Europe/Rome:20261003T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-5d66be54571c6f9e@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261007T083000
 DTEND;TZID=Europe/Rome:20261007T103000
 SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
@@ -80,19 +58,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-3c223e3753e1b4a2@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261010T083000
-DTEND;TZID=Europe/Rome:20261010T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-19b7c4cf1ab52e75@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261014T083000
 DTEND;TZID=Europe/Rome:20261014T103000
 SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
@@ -102,30 +69,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-86a5bbc929e03947@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261017T083000
-DTEND;TZID=Europe/Rome:20261017T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-d3bf62afbd03ca2a@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261017T103000
-DTEND;TZID=Europe/Rome:20261017T123000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-be0d0a42b07c40a9@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261020T103000
 DTEND;TZID=Europe/Rome:20261020T123000
 SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
@@ -136,7 +81,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-710d7ddf06113269@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261021T083000
 DTEND;TZID=Europe/Rome:20261021T103000
 SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
@@ -146,30 +91,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-61231e43c96b6e82@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261024T083000
-DTEND;TZID=Europe/Rome:20261024T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-20517e7774f2a426@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261024T103000
-DTEND;TZID=Europe/Rome:20261024T123000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-1e9822f6f22d04d5@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261028T083000
 DTEND;TZID=Europe/Rome:20261028T103000
 SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
@@ -180,7 +103,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-f61cf753c175b8b6@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261028T103000
 DTEND;TZID=Europe/Rome:20261028T123000
 SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
@@ -190,30 +113,8 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:unisr-med3-136b1ad2262f90d8@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261114T083000
-DTEND;TZID=Europe/Rome:20261114T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med3-9b634660338b2f56@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
-DTSTART;TZID=Europe/Rome:20261114T153000
-DTEND;TZID=Europe/Rome:20261114T173000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO302
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 2 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:unisr-med3-d43ae6c72176240a@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261116T153000
 DTEND;TZID=Europe/Rome:20261116T173000
 SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
@@ -224,7 +125,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med3-ff34ecb513f15dd9@easycourse.unisr.it
-DTSTAMP:20260918T115700Z
+DTSTAMP:20260918T123230Z
 DTSTART;TZID=Europe/Rome:20261120T083000
 DTEND;TZID=Europe/Rome:20261120T103000
 SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
