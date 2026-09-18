@@ -3,8 +3,12 @@
 Sincronizzatore Calendario Accademico UNISR
 Medicina e Chirurgia 3 [CLMMC-C] - Linea Viola (S1)
 
-Estrae le lezioni direttamente dai contenitori giornalieri ufficiali di EasyCourse,
-garantendo l'associazione perfetta giorno-ora ed eliminando ogni possibile sovrapposizione.
+Estrae le lezioni isolando rigorosamente ciascun blocco 'giorno-container'
+ed estraendo esclusivamente dall'interno di 'lezioni-giornaliere'.
+Garantisce:
+1. Zero lezioni di sabato (eliminata ogni fuga di tag dalle tabelle desktop)
+2. Zero sovrapposizioni orarie
+3. Esclusione dei corsi elettivi opzionali dai calendari principali
 """
 
 import os
@@ -46,23 +50,35 @@ def fetch_schedule_html():
 
 def extract_lessons_from_html(html):
     """
-    Estrae le lezioni analizzando i blocchi 'giorno-container'.
-    Questo approccio associa univocamente ogni lezione alla sua data reale esatta,
-    ignorando la frammentazione a fasce di 30 minuti della tabella desktop.
+    Estrae le lezioni isolando ciascun 'giorno-container' prima del giorno successivo
+    o della tabella desktop della settimana seguente.
+    Estrae SOLO dall'interno del contenitore 'lezioni-giornaliere'.
     """
-    giorni = re.split(r'<div[^>]*class="giorno-container[^"]*"[^>]*>', html)[1:]
-    print(f"Giorni identificati nel semestre: {len(giorni)}")
+    giorno_blocks = re.findall(
+        r'<div[^>]*class="giorno-container\s*([^"]*)"[^>]*>(.*?)(?=<div[^>]*class="giorno-container|<div[^>]*class="easy-ph|<!-- ================= DESKTOP|$)',
+        html,
+        re.DOTALL
+    )
+    print(f"Blocchi giorno-container isolati: {len(giorno_blocks)}")
 
     all_lessons = []
     seen = set()
 
-    for g in giorni:
-        d_match = re.search(r'(\d{2}-\d{2}-\d{4})', g[:1500])
-        if not d_match or "senza-lezioni" in g[:200]:
+    for classes, g_content in giorno_blocks:
+        if "senza-lezioni" in classes:
+            continue
+
+        d_match = re.search(r'(\d{2}-\d{2}-\d{4})', g_content[:1000])
+        if not d_match:
             continue
         giorno_data = d_match.group(1)
 
-        lezioni_tags = re.findall(r'<div[^>]*class="lezione"[^>]*>', g)
+        # Estrai SOLO dentro lezioni-giornaliere
+        lez_wrap = re.search(r'<div[^>]*class="lezioni-giornaliere"[^>]*>(.*)', g_content, re.DOTALL)
+        if not lez_wrap:
+            continue
+
+        lezioni_tags = re.findall(r'<div[^>]*class="lezione"[^>]*>', lez_wrap.group(1))
         for l in lezioni_tags:
             def get_attr(name):
                 m = re.search(rf'data-{name}="([^"]*)"', l)
@@ -117,7 +133,7 @@ def extract_lessons_from_html(html):
 
 
 def clean_title(raw_title):
-    """Pulisce il titolo per una visualizzazione chiara sul calendario."""
+    """Pulisce il titolo per una visualizzazione ordinata nel calendario."""
     tipo = ""
     if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
         tipo = "Lezione"
@@ -160,7 +176,7 @@ def escape_ical_text(text):
 
 
 def build_ics_calendar(calendar_name, lessons, description=""):
-    """Costruisce il contenuto iCalendar RFC 5545."""
+    """Costruisce il file iCalendar RFC 5545 conforme."""
     now_utc = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
     lines = [
@@ -234,7 +250,7 @@ def build_ics_calendar(calendar_name, lessons, description=""):
 
 
 def generate_index_html(feeds_info):
-    """Genera la landing page HTML per facilitare l'iscrizione con un tocco."""
+    """Genera la pagina web per la sottoscrizione rapida."""
     cards_html = []
     for f in feeds_info:
         badge_style = f"background-color: {f['badge_bg']}; color: {f['badge_fg']}; border: 1px solid {f['badge_border']};"
@@ -475,7 +491,7 @@ def main():
     raw_html = fetch_schedule_html()
     print(f"HTML scaricato con successo ({len(raw_html)} bytes)")
 
-    # 2. Parsing dai blocchi giorno-container
+    # 2. Parsing isolato per giorno
     all_lessons = extract_lessons_from_html(raw_html)
     print(f"Sessioni uniche estratte: {len(all_lessons)}")
 
@@ -483,7 +499,7 @@ def main():
     curricular = [l for l in all_lessons if not l['elettivo']]
     electives = [l for l in all_lessons if l['elettivo']]
 
-    print(f"Lezioni Curricolari: {len(curricular)}")
+    print(f"Lezioni Curricolari Obbligatorie: {len(curricular)}")
     print(f"Lezioni Elettive (escluse dai calendari principali): {len(electives)}")
 
     # 4. Raggruppamento per Materia
