@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sincronizzazione Calendario UniSR - Medicina 3</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --surface-hover: #334155;
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --primary: #38bdf8;
+            --border: #334155;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            padding: 2rem 1rem;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+        .last-update {
+            display: inline-block;
+            margin-top: 0.75rem;
+            font-size: 0.85rem;
+            background: #0ea5e922;
+            color: #38bdf8;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.25rem;
+            margin-bottom: 2.5rem;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+            border-color: #475569;
+        }
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.75rem;
+        }
+        .card-header h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+        }
+        .badge {
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.2rem 0.5rem;
+            border-radius: 6px;
+            text-transform: uppercase;
+        }
+        .card-desc {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+        .card-meta {
+            font-size: 0.85rem;
+            color: #cbd5e1;
+            margin-bottom: 1rem;
+        }
+        .actions {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .btn {
+            display: block;
+            text-align: center;
+            padding: 0.6rem 0.75rem;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.9; }
+        .btn-ios {
+            background: #0284c7;
+            color: white;
+        }
+        .btn-copy {
+            background: var(--surface-hover);
+            color: #e2e8f0;
+            border: 1px solid var(--border);
+        }
+        .instructions {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+        .instructions h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+        .instructions ol {
+            padding-left: 1.25rem;
+            color: var(--text-muted);
+        }
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+        .instructions ul {
+            margin-top: 0.5rem;
+            padding-left: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Calendario Medicina e Chirurgia 3</h1>
+            <p class="subtitle">UniSR - Canale [CLMMC-C] Linea Viola (S1)</p>
+            <span class="last-update">Ultimo aggiornamento automatico: 18/09/2026 13:57</span>
+        </header>
+
+        <div class="grid">
+            
+        <div class="card">
+            <div class="card-header">
+                <span class="badge" style="background-color: #38bdf822; color: #38bdf8; border: 1px solid #38bdf8;">iOS Completo</span>
+                <h3>UniSR Medicina 3 [Completo]</h3>
+            </div>
+            <p class="card-desc">Calendario accademico completo Medicina 3 (CLMMC-C Linea Viola) per iOS</p>
+            <p class="card-meta"><b>244</b> sessioni in calendario</p>
+            <div class="actions">
+                <a href="webcal://{HOST_PATH}/medicina3_ios.ics" class="btn btn-ios">
+                     Sottoscrivi su iOS
+                </a>
+                <button onclick="copyFeedUrl('medicina3_ios.ics', this)" class="btn btn-copy">
+                    📋 Copia Link Google Calendar
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span class="badge" style="background-color: #fef08a22; color: #facc15; border: 1px solid #facc15;">GCal: Banana</span>
+                <h3>Patologia</h3>
+            </div>
+            <p class="card-desc">Patologia [C0019] - Canale Viola</p>
+            <p class="card-meta"><b>102</b> sessioni in calendario</p>
+            <div class="actions">
+                <a href="webcal://{HOST_PATH}/medicina3_patologia.ics" class="btn btn-ios">
+                     Sottoscrivi su iOS
+                </a>
+                <button onclick="copyFeedUrl('medicina3_patologia.ics', this)" class="btn btn-copy">
+                    📋 Copia Link Google Calendar
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span class="badge" style="background-color: #c084fc22; color: #c084fc; border: 1px solid #c084fc;">GCal: Amethyst</span>
+                <h3>Medicina di Laboratorio</h3>
+            </div>
+            <p class="card-desc">Medicina di Laboratorio [C0020] e Attività Professionalizzanti [C0055]</p>
+            <p class="card-meta"><b>54</b> sessioni in calendario</p>
+            <div class="actions">
+                <a href="webcal://{HOST_PATH}/medicina3_med_laboratorio.ics" class="btn btn-ios">
+                     Sottoscrivi su iOS
+                </a>
+                <button onclick="copyFeedUrl('medicina3_med_laboratorio.ics', this)" class="btn btn-copy">
+                    📋 Copia Link Google Calendar
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span class="badge" style="background-color: #f472b622; color: #f472b6; border: 1px solid #f472b6;">GCal: Cherry Blossom</span>
+                <h3>Preparedness</h3>
+            </div>
+            <p class="card-desc">Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025]</p>
+            <p class="card-meta"><b>19</b> sessioni in calendario</p>
+            <div class="actions">
+                <a href="webcal://{HOST_PATH}/medicina3_preparedness.ics" class="btn btn-ios">
+                     Sottoscrivi su iOS
+                </a>
+                <button onclick="copyFeedUrl('medicina3_preparedness.ics', this)" class="btn btn-copy">
+                    📋 Copia Link Google Calendar
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span class="badge" style="background-color: #4ade8022; color: #4ade80; border: 1px solid #4ade80;">GCal: Eucalyptus</span>
+                <h3>Microbiologia Clinica</h3>
+            </div>
+            <p class="card-desc">Microbiologia e Microbiologia Clinica [C0016]</p>
+            <p class="card-meta"><b>69</b> sessioni in calendario</p>
+            <div class="actions">
+                <a href="webcal://{HOST_PATH}/medicina3_microbiologia.ics" class="btn btn-ios">
+                     Sottoscrivi su iOS
+                </a>
+                <button onclick="copyFeedUrl('medicina3_microbiologia.ics', this)" class="btn btn-copy">
+                    📋 Copia Link Google Calendar
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">Opzionale</span>
+                <h3>Corsi Elettivi (Opzionale)</h3>
+            </div>
+            <p class="card-desc">Corsi elettivi opzionali Medicina 3</p>
+            <p class="card-meta"><b>74</b> sessioni in calendario</p>
+            <div class="actions">
+                <a href="webcal://{HOST_PATH}/medicina3_corsi_elettivi.ics" class="btn btn-ios">
+                     Sottoscrivi su iOS
+                </a>
+                <button onclick="copyFeedUrl('medicina3_corsi_elettivi.ics', this)" class="btn btn-copy">
+                    📋 Copia Link Google Calendar
+                </button>
+            </div>
+        </div>
+        </div>
+
+        <div class="instructions">
+            <h2>📱 Come Sottoscrivere i Calendari</h2>
+            <ol>
+                <li><b>Su iPhone / iPad (iOS):</b> Clicca sul pulsante azzurro <i>"Sottoscrivi su iOS"</i> del box <b>Calendario Unico Completo</b>. iOS aprirà l'app Calendario e completerà l'iscrizione.</li>
+                <li><b>Su Google Calendar:</b>
+                    <ul>
+                        <li>Clicca su <i>"Copia Link Google Calendar"</i> per ciascuna materia che desideri sincronizzare.</li>
+                        <li>Apri <a href="https://calendar.google.com" target="_blank" style="color:var(--primary);">Google Calendar</a> sul computer.</li>
+                        <li>Nella colonna a sinistra, accanto ad <b>"Altri calendari"</b>, clicca su <b>+</b> &gt; <b>Da URL</b>.</li>
+                        <li>Incolla l'URL copiato e clicca su <i>"Aggiungi calendario"</i>.</li>
+                        <li>Dal menu a tre puntini (⋮) del calendario appena aggiunto, imposta il colore richiesto:
+                            <b>Banana</b> (Patologia), <b>Amethyst</b> (Med Lab), <b>Cherry Blossom</b> (Preparedness), <b>Eucalyptus</b> (Microbiologia).</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        const hostPath = window.location.href.replace(/\/index\.html$/, '').replace(/\/$/, '');
+        document.querySelectorAll('a.btn-ios').forEach(a => {
+            const currentHref = a.getAttribute('href');
+            a.setAttribute('href', currentHref.replace('{HOST_PATH}', hostPath.replace(/^https?:\/\//, '')));
+        });
+
+        function copyFeedUrl(filename, btn) {
+            const url = hostPath + '/' + filename;
+            navigator.clipboard.writeText(url).then(() => {
+                const orig = btn.innerText;
+                btn.innerText = '✅ Link Copiato!';
+                btn.style.borderColor = '#22c55e';
+                btn.style.color = '#22c55e';
+                setTimeout(() => {
+                    btn.innerText = orig;
+                    btn.style.borderColor = '';
+                    btn.style.color = '';
+                }, 2000);
+            }).catch(() => {
+                prompt('Copia questo link:', url);
+            });
+        }
+    </script>
+</body>
+</html>

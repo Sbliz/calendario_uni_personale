@@ -3,14 +3,8 @@
 Sincronizzatore Calendario Accademico UNISR
 Medicina e Chirurgia 3 [CLMMC-C] - Linea Viola (S1)
 
-Genera:
-1. medicina3_ios.ics                -> Feed unico completo per Apple Calendar (iOS)
-2. medicina3_patologia.ics          -> Google Calendar (Colore: Banana)
-3. medicina3_med_laboratorio.ics    -> Google Calendar (Colore: Amethyst)
-4. medicina3_preparedness.ics       -> Google Calendar (Colore: Cherry Blossom)
-5. medicina3_microbiologia.ics      -> Google Calendar (Colore: Eucalyptus)
-6. medicina3_altre.ics              -> Google Calendar (Eventuali altre lezioni)
-7. medicina3_corsi_elettivi.ics     -> File opzionale separato con i corsi elettivi
+Estrae le lezioni direttamente dai contenitori giornalieri ufficiali di EasyCourse,
+garantendo l'associazione perfetta giorno-ora ed eliminando ogni possibile sovrapposizione.
 """
 
 import os
@@ -20,9 +14,7 @@ import json
 import hashlib
 import urllib.request
 from datetime import datetime, timezone
-from html.parser import HTMLParser
 
-# Endpoint EasyCourse UNISR
 URL_EASYCOURSE = (
     "https://easycourse.unisr.it/easycourse-new/pubblicazioni-riservate/standardGrid/"
     "figlia-4/2026-2027/s1/riservato?"
@@ -32,97 +24,9 @@ URL_EASYCOURSE = (
 DIST_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dist")
 
 
-class AccurateGridParser(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.in_grid = False
-        self.header_depth = 0
-        self.header_text = []
-        self.current_dates = []
-        self.col_index = -1
-        self.lessons = []
-
-    def handle_starttag(self, tag, attrs):
-        attrs_dict = dict(attrs)
-        classes = attrs_dict.get('class', '').split()
-
-        if 'orario-grid' in classes:
-            self.in_grid = True
-            self.current_dates = []
-            self.col_index = -1
-
-        if self.in_grid:
-            # Riconoscimento colonne header data
-            if 'grid-header' in classes and 'ora' not in classes:
-                self.header_depth = 1
-                self.header_text = []
-            elif self.header_depth > 0 and tag == 'div':
-                self.header_depth += 1
-
-            # Riconoscimento riga oraria e celle
-            if 'grid-ora' in classes:
-                self.col_index = -1
-            elif 'grid-cell' in classes:
-                self.col_index += 1
-
-            # Estrazione elemento lezione
-            if 'lezione' in classes:
-                ora_ini = attrs_dict.get('data-ora-inizio', '').strip()
-                ora_fine = attrs_dict.get('data-ora-fine', '').strip()
-                titolo = attrs_dict.get('data-titolo', '').strip()
-                aula = attrs_dict.get('data-aula', '').strip()
-                sede = attrs_dict.get('data-sede', '').strip()
-                docenti_json = attrs_dict.get('data-docenti', '')
-                lesson_id = attrs_dict.get('data-id', '').strip()
-
-                date_str = ""
-                if 0 <= self.col_index < len(self.current_dates):
-                    date_str = self.current_dates[self.col_index]
-
-                # Parsing docenti
-                nomi_docenti = []
-                if docenti_json:
-                    try:
-                        doc_data = json.loads(docenti_json)
-                        for d in doc_data:
-                            nome = f"{d.get('Nome', '')} {d.get('Cognome', '')}".strip()
-                            if nome:
-                                nomi_docenti.append(nome)
-                    except Exception:
-                        pass
-
-                is_elettivo = 'elettiv' in titolo.lower()
-
-                self.lessons.append({
-                    'id': lesson_id,
-                    'date': date_str,
-                    'ora_inizio': ora_ini,
-                    'ora_fine': ora_fine,
-                    'titolo': titolo,
-                    'aula': aula,
-                    'sede': sede,
-                    'docenti': nomi_docenti,
-                    'elettivo': is_elettivo
-                })
-
-    def handle_endtag(self, tag):
-        if self.header_depth > 0 and tag == 'div':
-            self.header_depth -= 1
-            if self.header_depth == 0:
-                txt = ''.join(self.header_text)
-                m = re.search(r'(\d{2}-\d{2}-\d{4})', txt)
-                if m:
-                    self.current_dates.append(m.group(1))
-                self.header_text = []
-
-    def handle_data(self, data):
-        if self.header_depth > 0:
-            self.header_text.append(data)
-
-
 def fetch_schedule_html():
     """Scarica il codice HTML dell'intero semestre da EasyCourse."""
-    print(f"Collegamento a EasyCourse UNISR:\n{URL_EASYCOURSE}")
+    print("Collegamento a EasyCourse UNISR per il semestre completo...")
     ctx = ssl.create_default_context()
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
@@ -140,8 +44,80 @@ def fetch_schedule_html():
         return resp.read().decode('utf-8', errors='ignore')
 
 
+def extract_lessons_from_html(html):
+    """
+    Estrae le lezioni analizzando i blocchi 'giorno-container'.
+    Questo approccio associa univocamente ogni lezione alla sua data reale esatta,
+    ignorando la frammentazione a fasce di 30 minuti della tabella desktop.
+    """
+    giorni = re.split(r'<div[^>]*class="giorno-container[^"]*"[^>]*>', html)[1:]
+    print(f"Giorni identificati nel semestre: {len(giorni)}")
+
+    all_lessons = []
+    seen = set()
+
+    for g in giorni:
+        d_match = re.search(r'(\d{2}-\d{2}-\d{4})', g[:1500])
+        if not d_match or "senza-lezioni" in g[:200]:
+            continue
+        giorno_data = d_match.group(1)
+
+        lezioni_tags = re.findall(r'<div[^>]*class="lezione"[^>]*>', g)
+        for l in lezioni_tags:
+            def get_attr(name):
+                m = re.search(rf'data-{name}="([^"]*)"', l)
+                return m.group(1).strip() if m else ""
+
+            ora_ini = get_attr("ora-inizio")
+            ora_fine = get_attr("ora-fine")
+            titolo = get_attr("titolo")
+            aula = get_attr("aula")
+            sede = get_attr("sede")
+            docenti_json = get_attr("docenti")
+            lesson_id = get_attr("id")
+
+            # Parsing docenti
+            nomi_docenti = []
+            if docenti_json:
+                try:
+                    doc_data = json.loads(docenti_json)
+                    for d in doc_data:
+                        nome = f"{d.get('Nome', '')} {d.get('Cognome', '')}".strip()
+                        if nome:
+                            nomi_docenti.append(nome)
+                except Exception:
+                    pass
+
+            is_elettivo = 'elettiv' in titolo.lower()
+
+            key = (giorno_data, ora_ini, ora_fine, titolo, sede, aula)
+            if key in seen:
+                continue
+            seen.add(key)
+
+            all_lessons.append({
+                'id': lesson_id,
+                'date': giorno_data,
+                'ora_inizio': ora_ini,
+                'ora_fine': ora_fine,
+                'titolo': titolo,
+                'aula': aula,
+                'sede': sede,
+                'docenti': nomi_docenti,
+                'elettivo': is_elettivo
+            })
+
+    # Ordina cronologicamente
+    def sort_key(x):
+        d, m, y = x['date'].split('-')
+        return f"{y}{m}{d}_{x['ora_inizio']}"
+
+    all_lessons.sort(key=sort_key)
+    return all_lessons
+
+
 def clean_title(raw_title):
-    """Pulisce il titolo per una migliore leggibilità nel calendario."""
+    """Pulisce il titolo per una visualizzazione chiara sul calendario."""
     tipo = ""
     if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
         tipo = "Lezione"
@@ -159,21 +135,21 @@ def clean_title(raw_title):
 
 
 def generate_uid(lesson):
-    """Genera un UID RFC 5545 deterministico basato sulle proprietà dell'evento."""
+    """Genera un UID deterministico e persistente per ciascuna sessione."""
     unique_key = f"{lesson['date']}_{lesson['ora_inizio']}_{lesson['ora_fine']}_{lesson['titolo']}_{lesson['sede']}_{lesson['aula']}"
     h = hashlib.sha256(unique_key.encode('utf-8')).hexdigest()[:16]
     return f"unisr-med3-{h}@easycourse.unisr.it"
 
 
 def format_ical_dt(date_str, time_str):
-    """Converte 'DD-MM-YYYY' e 'HH:MM' in formato iCal 'YYYYMMDDTHHMMSS'."""
+    """Converte 'DD-MM-YYYY' e 'HH:MM' in 'YYYYMMDDTHHMMSS'."""
     day, month, year = date_str.split('-')
     hour, minute = time_str.split(':')
     return f"{year}{month}{day}T{hour}{minute}00"
 
 
 def escape_ical_text(text):
-    """Esegue l'escape dei caratteri speciali RFC 5545."""
+    """Escape per caratteri speciali standard RFC 5545."""
     if not text:
         return ""
     text = text.replace('\\', '\\\\')
@@ -184,7 +160,7 @@ def escape_ical_text(text):
 
 
 def build_ics_calendar(calendar_name, lessons, description=""):
-    """Costruisce la stringa iCalendar RFC 5545 per una lista di lezioni."""
+    """Costruisce il contenuto iCalendar RFC 5545."""
     now_utc = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
     lines = [
@@ -258,7 +234,7 @@ def build_ics_calendar(calendar_name, lessons, description=""):
 
 
 def generate_index_html(feeds_info):
-    """Genera una pagina web moderna per facilitare la sottoscrizione ai feed con un clic."""
+    """Genera la landing page HTML per facilitare l'iscrizione con un tocco."""
     cards_html = []
     for f in feeds_info:
         badge_style = f"background-color: {f['badge_bg']}; color: {f['badge_fg']}; border: 1px solid {f['badge_border']};"
@@ -499,31 +475,18 @@ def main():
     raw_html = fetch_schedule_html()
     print(f"HTML scaricato con successo ({len(raw_html)} bytes)")
 
-    # 2. Parsing
-    parser = AccurateGridParser()
-    parser.feed(raw_html)
-    print(f"Lezioni grezze estratte: {len(parser.lessons)}")
+    # 2. Parsing dai blocchi giorno-container
+    all_lessons = extract_lessons_from_html(raw_html)
+    print(f"Sessioni uniche estratte: {len(all_lessons)}")
 
-    # 3. Deduplicazione
-    unique_lessons = {}
-    for l in parser.lessons:
-        if not l['date']:
-            continue
-        key = (l['date'], l['ora_inizio'], l['ora_fine'], l['titolo'], l['aula'], l['sede'])
-        if key not in unique_lessons:
-            unique_lessons[key] = l
-
-    all_unique = list(unique_lessons.values())
-    print(f"Sessioni uniche deduplicate: {len(all_unique)}")
-
-    # 4. Separazione Curricolari vs Corsi Elettivi
-    curricular = [l for l in all_unique if not l['elettivo']]
-    electives = [l for l in all_unique if l['elettivo']]
+    # 3. Separazione Curricolari vs Corsi Elettivi
+    curricular = [l for l in all_lessons if not l['elettivo']]
+    electives = [l for l in all_lessons if l['elettivo']]
 
     print(f"Lezioni Curricolari: {len(curricular)}")
     print(f"Lezioni Elettive (escluse dai calendari principali): {len(electives)}")
 
-    # 5. Raggruppamento per Materia
+    # 4. Raggruppamento per Materia
     groups = {
         'patologia': [],
         'med_laboratorio': [],
@@ -545,7 +508,7 @@ def main():
         else:
             groups['altre'].append(l)
 
-    # 6. Scrittura File .ics in dist/
+    # 5. Scrittura File .ics in dist/
     files_to_generate = [
         {
             'filename': 'medicina3_ios.ics',
@@ -617,7 +580,6 @@ def main():
             'count': len(groups['altre'])
         })
 
-    # File opzionale per corsi elettivi (se vorrai attivarli in futuro)
     if electives:
         files_to_generate.append({
             'filename': 'medicina3_corsi_elettivi.ics',
@@ -638,7 +600,7 @@ def main():
             f.write(ics_content)
         print(f"Generato: {item['filename']} ({len(item['lessons'])} lezioni)")
 
-    # 7. Generazione pagina HTML di sottoscrizione
+    # 6. Generazione pagina HTML di sottoscrizione
     index_html = generate_index_html(files_to_generate)
     with open(os.path.join(DIST_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(index_html)

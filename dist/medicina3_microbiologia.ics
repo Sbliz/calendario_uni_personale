@@ -1,0 +1,786 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendario Medicina 3 Linea Viola//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Microbiologia Clinica
+X-WR-CALDESC:Microbiologia e Microbiologia Clinica [C0016]
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med3-f820362d590ac031@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20260926T103000
+DTEND;TZID=Europe/Rome:20260926T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-6cd182632b42aea4@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20260926T133000
+DTEND;TZID=Europe/Rome:20260926T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-35764988959c8a35@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20260930T103000
+DTEND;TZID=Europe/Rome:20260930T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-02f79ad9ed01ad70@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261002T133000
+DTEND;TZID=Europe/Rome:20261002T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-877059a47d1bb79c@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261003T103000
+DTEND;TZID=Europe/Rome:20261003T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-dedba2a109981205@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261003T103000
+DTEND;TZID=Europe/Rome:20261003T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-e979b2b6ab2921f7@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261007T103000
+DTEND;TZID=Europe/Rome:20261007T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-bdc138016e834bec@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261008T103000
+DTEND;TZID=Europe/Rome:20261008T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-3058814323f30e4a@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261010T103000
+DTEND;TZID=Europe/Rome:20261010T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-af2dd570a001e835@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261010T133000
+DTEND;TZID=Europe/Rome:20261010T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-37bf6c0eaf76b37c@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261010T153000
+DTEND;TZID=Europe/Rome:20261010T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-2a5a4dbc07ade223@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261012T133000
+DTEND;TZID=Europe/Rome:20261012T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-2127d3e29ff50f1d@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261014T103000
+DTEND;TZID=Europe/Rome:20261014T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-7bd12f3edf452f3c@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261015T153000
+DTEND;TZID=Europe/Rome:20261015T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-d10907ce1694f478@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261017T103000
+DTEND;TZID=Europe/Rome:20261017T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-7a85fdd4a43cc786@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261017T133000
+DTEND;TZID=Europe/Rome:20261017T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-37c6c160153331c7@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261019T133000
+DTEND;TZID=Europe/Rome:20261019T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-441b2e23510a2243@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261022T103000
+DTEND;TZID=Europe/Rome:20261022T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-8045e79128caf77c@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261024T103000
+DTEND;TZID=Europe/Rome:20261024T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA401
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA401\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-b831a934643df4d3@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261024T133000
+DTEND;TZID=Europe/Rome:20261024T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-e6fd038efcddfca3@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261024T153000
+DTEND;TZID=Europe/Rome:20261024T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-269d87f7d6caa9f1@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261027T133000
+DTEND;TZID=Europe/Rome:20261027T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-a8e9c659ab60291d@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261029T103000
+DTEND;TZID=Europe/Rome:20261029T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA401
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA401\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-3297b121112965a3@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261030T153000
+DTEND;TZID=Europe/Rome:20261030T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-c4e33b3e15153e32@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261031T083000
+DTEND;TZID=Europe/Rome:20261031T103000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-768e4d92277f8048@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261031T103000
+DTEND;TZID=Europe/Rome:20261031T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-06718e574dd5d9f0@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261031T103000
+DTEND;TZID=Europe/Rome:20261031T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-6c3569556498ace5@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261031T133000
+DTEND;TZID=Europe/Rome:20261031T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-83947336a271be3b@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261031T133000
+DTEND;TZID=Europe/Rome:20261031T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-e0cb227a1afee07c@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-f2480a90ccf0ebd9@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261102T133000
+DTEND;TZID=Europe/Rome:20261102T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-49b51fba319d63b9@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261103T133000
+DTEND;TZID=Europe/Rome:20261103T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-d97d9e8e022c6dad@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261104T103000
+DTEND;TZID=Europe/Rome:20261104T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-4672d6fd91b570ba@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261104T153000
+DTEND;TZID=Europe/Rome:20261104T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-0cad704f1a8544e7@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261105T083000
+DTEND;TZID=Europe/Rome:20261105T103000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-95b3b67648615ab2@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261105T103000
+DTEND;TZID=Europe/Rome:20261105T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-21da9cba5950fb85@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261107T083000
+DTEND;TZID=Europe/Rome:20261107T103000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-25b546e52cc9af94@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261107T083000
+DTEND;TZID=Europe/Rome:20261107T103000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO201
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-aa61f50e27a895cb@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261107T103000
+DTEND;TZID=Europe/Rome:20261107T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-abaf36df5c8f29c6@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261107T133000
+DTEND;TZID=Europe/Rome:20261107T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-326316189ceaaca0@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261109T083000
+DTEND;TZID=Europe/Rome:20261109T103000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-0503a7b2e967484e@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261110T103000
+DTEND;TZID=Europe/Rome:20261110T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-dd9a6e6121b7dd66@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261111T083000
+DTEND;TZID=Europe/Rome:20261111T103000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO201
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-75fe60a2e21a7a32@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261111T103000
+DTEND;TZID=Europe/Rome:20261111T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-37e52c96fefd99e5@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261111T133000
+DTEND;TZID=Europe/Rome:20261111T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-94039478c20f279f@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261114T103000
+DTEND;TZID=Europe/Rome:20261114T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA301
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-036f45a5943b977b@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261114T103000
+DTEND;TZID=Europe/Rome:20261114T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO301
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-c66c2b9130b452c2@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-1ca05ddd63e8e978@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261117T153000
+DTEND;TZID=Europe/Rome:20261117T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-ae8149bb6e554204@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261118T103000
+DTEND;TZID=Europe/Rome:20261118T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA301
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-dde8e8bf78e39652@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261119T103000
+DTEND;TZID=Europe/Rome:20261119T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO301
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-77bac029d0823261@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261121T103000
+DTEND;TZID=Europe/Rome:20261121T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-8e488107be6b311d@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 3 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-2b5ac74bac61d011@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261126T103000
+DTEND;TZID=Europe/Rome:20261126T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-a0977b29613f8965@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261127T153000
+DTEND;TZID=Europe/Rome:20261127T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 3 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-7df2ebef70146109@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261128T103000
+DTEND;TZID=Europe/Rome:20261128T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO302
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 2 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-35871076752ee899@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261128T133000
+DTEND;TZID=Europe/Rome:20261128T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-b3e884d6270b290f@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-8d07da8d39b49351@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261202T103000
+DTEND;TZID=Europe/Rome:20261202T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO302
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 2 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-d8c9492ba4c27bdb@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261203T133000
+DTEND;TZID=Europe/Rome:20261203T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-f5daa85abd03e18e@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261203T153000
+DTEND;TZID=Europe/Rome:20261203T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-cebb6f2df97ad44c@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261205T133000
+DTEND;TZID=Europe/Rome:20261205T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-52d8fc466a7e27ab@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261210T133000
+DTEND;TZID=Europe/Rome:20261210T153000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-fa8b6b5b691e648a@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261212T083000
+DTEND;TZID=Europe/Rome:20261212T103000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-2e52955b659a9404@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261212T103000
+DTEND;TZID=Europe/Rome:20261212T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-d3c8e9e0bcf23d38@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261212T153000
+DTEND;TZID=Europe/Rome:20261212T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO402
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO402\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-4295dde4b795e1d7@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261216T153000
+DTEND;TZID=Europe/Rome:20261216T173000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO402
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO402\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-4ee5a9dc37393ccc@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261217T083000
+DTEND;TZID=Europe/Rome:20261217T103000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med3-2ad1a2b1886c50a8@easycourse.unisr.it
+DTSTAMP:20260918T115700Z
+DTSTART;TZID=Europe/Rome:20261217T103000
+DTEND;TZID=Europe/Rome:20261217T123000
+SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [C0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
