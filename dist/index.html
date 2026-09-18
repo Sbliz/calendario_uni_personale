@@ -165,7 +165,7 @@
         <header>
             <h1>Calendario Medicina e Chirurgia 3</h1>
             <p class="subtitle">UniSR - Canale [CLMMC-C] Linea Viola (S1)</p>
-            <span class="last-update">Ultimo aggiornamento automatico: 18/09/2026 14:37</span>
+            <span class="last-update">Ultimo aggiornamento automatico: 18/09/2026 14:50</span>
         </header>
 
         <h2 class="section-title">📚 Corsi Obbligatori Curricolari</h2>
@@ -392,7 +392,7 @@
         });
 
         function copyFeedUrl(filename, btn) {
-            const url = hostPath + '/' + filename;
+            const url = hostPath + '/' + filename + '?v=2';
             navigator.clipboard.writeText(url).then(() => {
                 const orig = btn.innerText;
                 btn.innerText = '✅ Link Copiato!';

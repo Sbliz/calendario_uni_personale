@@ -512,7 +512,7 @@ def generate_index_html(curricular_feeds, elective_feeds):
         }});
 
         function copyFeedUrl(filename, btn) {{
-            const url = hostPath + '/' + filename;
+            const url = hostPath + '/' + filename + '?v=2';
             navigator.clipboard.writeText(url).then(() => {{
                 const orig = btn.innerText;
                 btn.innerText = '✅ Link Copiato!';
