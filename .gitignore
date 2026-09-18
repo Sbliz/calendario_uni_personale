@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+semester_full.html
+easycourse_w1.html
+orario_home.html
+scratch_sample_grid.html
+scratch/
+.system_generated/
