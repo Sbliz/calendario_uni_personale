@@ -1,12 +1,12 @@
-# 📅 UniSR Sync - Calendario Accademico Medicina e Chirurgia
+# Calendario Accademico Medicina e Chirurgia
 
-Sistema automatico in Cloud per sincronizzare in tempo reale l'orario delle lezioni da **EasyCourse UniSR** verso qualsiasi client di calendario: **Apple Calendar (iOS/macOS)**, **Google Calendar (Android/Web)** e **Microsoft Outlook (Windows/Office 365)**.
+Sistema automatico in Cloud per sincronizzare in tempo reale l'orario delle lezioni da **EasyCourse UniSR** verso qualsiasi client di calendario: Apple Calendar, Google Calendar e Microsoft Outlook.
 
-Copre l'intero **Corso di Laurea Magistrale a Ciclo Unico in Medicina e Chirurgia** (tutti gli anni dal **1° al 6°** e tutte le **linee e canali**).
+Copre l'intero Corso di Laurea Magistrale a Ciclo Unico in Medicina e Chirurgia (tutti gli anni dal 1° al 6° e tutte le linee).
 
 ---
 
-## 🎯 Caratteristiche
+## Caratteristiche
 
 1. **🌐 Portale Web Interattivo:** Pagina web unificata (`index.html`) con selettore dinamico a tendina (*Anno* e *Linea*) che mostra all'istante i feed corretti per il proprio percorso.
 2. **📱 Feed Unico per Apple Calendar (iOS / iPadOS / macOS):** Sottoscrizione con un singolo clic via protocollo `webcal://` con tutti i corsi curricolari del semestre.
