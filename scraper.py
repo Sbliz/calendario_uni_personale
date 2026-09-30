@@ -641,7 +641,8 @@ def build_ics_calendar(calendar_name, lessons, description=""):
 
 def generate_dynamic_index(ui_data, dist_dir):
     """
-    Genera una SPA HTML standalone con dropdown Anno e Linea.
+    Genera una SPA HTML standalone con selettori Anno e Linea e supporto
+    multi-piattaforma: Apple, Google Calendar, Microsoft Outlook, Android/Samsung e Thunderbird.
     """
     html_template = """<!DOCTYPE html>
 <html lang="it">
@@ -654,64 +655,89 @@ def generate_dynamic_index(ui_data, dist_dir):
             --bg: #0f172a; --surface: #1e293b; --surface-hover: #334155;
             --text: #f8fafc; --text-muted: #94a3b8; --primary: #38bdf8;
             --border: #334155; --orange: #fb923c;
+            --apple: #0284c7; --google: #1a73e8; --outlook: #0078d4;
         }
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, system-ui, sans-serif; }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
         body { background: var(--bg); color: var(--text); padding: 2rem 1rem; line-height: 1.5; }
-        .container { max-width: 960px; margin: 0 auto; }
+        .container { max-width: 980px; margin: 0 auto; }
         header { text-align: center; margin-bottom: 2rem; }
-        h1 { font-size: 2rem; margin-bottom: 0.5rem; color: #fff; }
-        .subtitle { color: var(--text-muted); font-size: 1.1rem; }
+        h1 { font-size: 2.1rem; margin-bottom: 0.5rem; color: #fff; }
+        .subtitle { color: var(--text-muted); font-size: 1.15rem; }
         
         .selector-box {
             background: var(--surface); border: 1px solid var(--border);
-            border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem;
+            border-radius: 14px; padding: 1.5rem; margin-bottom: 2rem;
             display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; align-items: center;
         }
         select {
-            padding: 0.6rem 1rem; border-radius: 8px; border: 1px solid #475569;
+            padding: 0.7rem 1.2rem; border-radius: 10px; border: 1px solid #475569;
             background: #0f172a; color: #fff; font-size: 1rem; cursor: pointer;
-            outline: none; min-width: 200px;
+            outline: none; min-width: 220px;
         }
         select:focus { border-color: var(--primary); }
         
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem; }
         .card {
             background: var(--surface); border: 1px solid var(--border);
-            border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between;
+            border-radius: 14px; padding: 1.35rem; display: flex; flex-direction: column; justify-content: space-between;
+            transition: transform 0.2s ease, border-color 0.2s ease;
         }
-        .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; }
-        .card-header h3 { font-size: 1.05rem; font-weight: 600; flex-grow: 1; }
-        .badge { font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 6px; text-transform: uppercase; white-space: nowrap; margin-right: 8px; }
+        .card:hover { transform: translateY(-2px); border-color: #475569; }
+        .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; gap: 0.5rem; }
+        .card-header h3 { font-size: 1.1rem; font-weight: 600; flex-grow: 1; }
+        .badge { font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px; text-transform: uppercase; white-space: nowrap; }
         .card-meta { font-size: 0.85rem; color: #cbd5e1; margin-bottom: 1rem; }
         .actions { display: flex; flex-direction: column; gap: 0.5rem; }
+        .actions-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+        
         .btn {
-            display: block; text-align: center; padding: 0.6rem; border-radius: 8px;
-            font-size: 0.85rem; font-weight: 600; text-decoration: none; cursor: pointer;
+            display: flex; align-items: center; justify-content: center; gap: 0.4rem;
+            text-align: center; padding: 0.6rem 0.8rem; border-radius: 8px;
+            font-size: 0.82rem; font-weight: 600; text-decoration: none; cursor: pointer;
             border: none; transition: opacity 0.2s;
         }
         .btn:hover { opacity: 0.9; }
-        .btn-ios { background: #0284c7; color: white; }
-        .btn-copy { background: var(--surface-hover); color: #e2e8f0; border: 1px solid var(--border); }
+        .btn-apple { background: #0284c7; color: white; }
+        .btn-gcal { background: #2563eb; color: white; }
+        .btn-outlook { background: #0284c7; color: white; }
+        .btn-copy { background: var(--surface-hover); color: #e2e8f0; border: 1px solid var(--border); width: 100%; }
+        
         .hidden { display: none !important; }
-        .section-title { font-size: 1.3rem; margin: 2rem 0 1rem; color: #fff; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+        .section-title { font-size: 1.35rem; margin: 2.2rem 0 1rem; color: #fff; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
+        
+        /* Guide multi-dispositivo */
+        .guide-box {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 14px; padding: 1.75rem; margin-top: 3rem;
+        }
+        .guide-box h2 { font-size: 1.3rem; margin-bottom: 1rem; color: #fff; }
+        .platforms-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin-top: 1rem;
+        }
+        .platform-card {
+            background: #0f172a; border: 1px solid var(--border); border-radius: 10px; padding: 1rem;
+        }
+        .platform-card h4 { font-size: 0.98rem; margin-bottom: 0.4rem; color: var(--primary); display: flex; align-items: center; gap: 0.4rem; }
+        .platform-card p, .platform-card li { font-size: 0.85rem; color: var(--text-muted); line-height: 1.4; }
+        .platform-card ul { padding-left: 1.2rem; margin-top: 0.3rem; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Sincronizzazione Calendario UniSR</h1>
-            <p class="subtitle">Medicina e Chirurgia - Tutti gli Anni e Canali</p>
+            <p class="subtitle">CdLM Medicina e Chirurgia - Tutti gli Anni e Canali</p>
         </header>
 
         <div class="selector-box">
             <select id="anno-select" onchange="updateLinee()">
                 <option value="">-- Seleziona Anno --</option>
-                <option value="1">Anno 1</option>
-                <option value="2">Anno 2</option>
-                <option value="3">Anno 3</option>
-                <option value="4">Anno 4</option>
-                <option value="5">Anno 5</option>
-                <option value="6">Anno 6</option>
+                <option value="1">1° Anno</option>
+                <option value="2">2° Anno</option>
+                <option value="3">3° Anno</option>
+                <option value="4">4° Anno</option>
+                <option value="5">5° Anno</option>
+                <option value="6">6° Anno</option>
             </select>
             <select id="linea-select" onchange="renderFeeds()" disabled>
                 <option value="">-- Prima seleziona l'Anno --</option>
@@ -719,31 +745,75 @@ def generate_dynamic_index(ui_data, dist_dir):
         </div>
 
         <div id="content-area" class="hidden">
-            <div class="card" style="border-color: var(--primary); background: #0f172a; margin-bottom: 2rem;">
+            <!-- Box Calendario Completo Curricolare -->
+            <div class="card" style="border-color: var(--primary); background: #0b1329; margin-bottom: 2rem;">
                 <div class="card-header">
-                    <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf8;">iOS</span>
-                    <h3>Calendario Completo (Obbligatori)</h3>
+                    <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf8;">FEED UNICO COMPLETO</span>
+                    <h3 id="full-card-title">Tutti i Corsi Curricolari Obbligatori</h3>
                 </div>
                 <p class="card-meta" id="ios-meta"></p>
                 <div class="actions">
-                    <a id="ios-btn" href="#" class="btn btn-ios">Sottoscrivi su Apple Calendar</a>
+                    <div class="actions-row">
+                        <a id="apple-full-btn" href="#" class="btn btn-apple">🍏 Apple Calendar (iOS/Mac)</a>
+                        <a id="gcal-full-btn" href="#" target="_blank" class="btn btn-gcal">📅 Google Calendar</a>
+                    </div>
+                    <div class="actions-row">
+                        <a id="outlook-full-btn" href="#" target="_blank" class="btn btn-outlook">📧 Outlook / 365</a>
+                        <button id="copy-full-btn" onclick="" class="btn btn-copy">📋 Copia Link Universale (ICS)</button>
+                    </div>
                 </div>
             </div>
 
-            <h2 class="section-title">📚 Moduli Obbligatori (Google Calendar)</h2>
+            <!-- Moduli Obbligatori per Materia -->
+            <h2 class="section-title">📚 Corsi per Materia (Google Calendar / Outlook / Multi-Colore)</h2>
+            <p style="color:var(--text-muted); font-size:0.9rem; margin-top:-0.5rem; margin-bottom:1.25rem;">
+                Sottoscrivi le singole materie per visualizzarle con colori dedicati nel tuo calendario.
+            </p>
             <div class="grid" id="materie-grid"></div>
 
-            <h2 class="section-title">🎯 Corsi Elettivi (Arancione)</h2>
-            <p style="color:var(--text-muted); font-size:0.9rem; margin-top:-0.5rem; margin-bottom:1rem;">
+            <!-- Corsi Elettivi -->
+            <h2 class="section-title">🎯 Corsi Elettivi (A scelta dello studente - Arancione)</h2>
+            <p style="color:var(--text-muted); font-size:0.9rem; margin-top:-0.5rem; margin-bottom:1.25rem;">
                 Sottoscrivi unicamente i corsi opzionali che hai inserito nel piano di studi.
             </p>
             <div class="grid" id="elettivi-grid"></div>
+        </div>
+
+        <!-- Guida Multi-Piattaforma -->
+        <div class="guide-box">
+            <h2>📱 Istruzioni Rapide per Dispositivo</h2>
+            <div class="platforms-grid">
+                <div class="platform-card">
+                    <h4>🍏 Apple (iPhone, iPad, Mac)</h4>
+                    <p>Clicca sul pulsante azzurro <b>"Apple Calendar"</b>. Il sistema aprirà automaticamente l'app Calendario. Sincronizzandosi con iCloud, apparirà su tutti i tuoi dispositivi e Apple Watch.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>📅 Google Calendar (Android / PC)</h4>
+                    <p>Clicca su <b>"Google Calendar"</b> per aggiungerlo direttamente con 1 clic. Da smartphone Android, assicurati che la sincronizzazione sia attiva nell'app Google Calendar.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>📧 Microsoft Outlook (Windows / Mac / Web)</h4>
+                    <p>Clicca su <b>"Outlook / 365"</b> per aprire la sottoscrizione web, oppure copia il link ICS e incollalo in Outlook in <i>"Aggiungi calendario" ➔ "Iscriviti dal Web"</i>.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>📲 Samsung Calendar / Android Nativo</h4>
+                    <p>Copia il link universale ICS e incollalo nell'app Calendario sotto <i>"Gestisci calendari" ➔ "Aggiungi da URL"</i>, oppure sottoscrivi tramite Google Calendar.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>📝 Notion Calendar (ex Cron)</h4>
+                    <p>Aggiungi i calendari al tuo account Google Calendar: Notion Calendar li mostrerà automaticamente mantenendo colori e orari aggiornati.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>🦅 Mozilla Thunderbird & Altri</h4>
+                    <p>In Thunderbird seleziona <i>Nuovo Calendario ➔ Sulla rete ➔ Formato iCalendar (ICS)</i> e incolla il link universale copiato dal pulsante.</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <script>
         const uiData = __UI_DATA_INJECT__;
-        const hostPath = window.location.href.replace(/\/index\.html$/, '').replace(/\/$/, '');
+        const hostPath = window.location.href.replace(/[/]index[.]html$/, '').replace(/[/]$/, '');
         
         const annoSelect = document.getElementById('anno-select');
         const lineaSelect = document.getElementById('linea-select');
@@ -783,19 +853,40 @@ def generate_dynamic_index(ui_data, dist_dir):
             const config = uiData.find(d => d.anno === anno && d.slug_linea === slug);
             if (!config) return;
             
-            document.getElementById('ios-meta').textContent = `${config.ios_count} eventi obbligatori complessivi`;
-            document.getElementById('ios-btn').href = `webcal://${hostPath.replace(/^https?:\/\//, '')}/${config.ios_link}`;
+            // URLs per il feed completo
+            const fullIcsUrl = hostPath + '/' + config.ios_link + '?v=2';
+            const cleanWebcal = fullIcsUrl.replace(/^https?:[/][/]/, 'webcal://');
+            const gcalFullUrl = 'https://calendar.google.com/calendar/render?cid=' + encodeURIComponent(cleanWebcal);
+            const outlookFullUrl = 'https://outlook.live.com/calendar/0/addfromweb?url=' + encodeURIComponent(fullIcsUrl) + '&name=' + encodeURIComponent('UniSR ' + config.linea_name);
+
+            document.getElementById('ios-meta').textContent = `${config.ios_count} eventi curricolari obbligatori nel semestre`;
+            document.getElementById('apple-full-btn').href = cleanWebcal;
+            document.getElementById('gcal-full-btn').href = gcalFullUrl;
+            document.getElementById('outlook-full-btn').href = outlookFullUrl;
+            document.getElementById('copy-full-btn').setAttribute('onclick', `copyFeedUrl('${config.ios_link}', this)`);
             
             function buildCard(item) {
+                const itemIcsUrl = hostPath + '/' + item.file + '?v=2';
+                const itemWebcal = itemIcsUrl.replace(/^https?:[/][/]/, 'webcal://');
+                const gcalItemUrl = 'https://calendar.google.com/calendar/render?cid=' + encodeURIComponent(itemWebcal);
+                const outlookItemUrl = 'https://outlook.live.com/calendar/0/addfromweb?url=' + encodeURIComponent(itemIcsUrl) + '&name=' + encodeURIComponent(item.name);
+                
                 return `
                 <div class="card">
                     <div class="card-header">
                         <span class="badge" style="background: ${item.bg_hex}; color: ${item.color_hex}; border: 1px solid ${item.color_hex};">${item.color_name}</span>
                         <h3>${item.name}</h3>
                     </div>
-                    <p class="card-meta">${item.count} sessioni in orario</p>
+                    <p class="card-meta"><b>${item.count}</b> sessioni in calendario</p>
                     <div class="actions">
-                        <button onclick="copyFeedUrl('${item.file}', this)" class="btn btn-copy">📋 Copia Link GCal</button>
+                        <div class="actions-row">
+                            <a href="${gcalItemUrl}" target="_blank" class="btn btn-gcal">📅 Google</a>
+                            <a href="${itemWebcal}" class="btn btn-apple">🍏 Apple</a>
+                        </div>
+                        <div class="actions-row">
+                            <a href="${outlookItemUrl}" target="_blank" class="btn btn-outlook">📧 Outlook</a>
+                            <button onclick="copyFeedUrl('${item.file}', this)" class="btn btn-copy">📋 Copia ICS</button>
+                        </div>
                     </div>
                 </div>`;
             }
@@ -803,7 +894,7 @@ def generate_dynamic_index(ui_data, dist_dir):
             materieGrid.innerHTML = config.materie.map(buildCard).join('');
             elettiviGrid.innerHTML = config.elettivi.map(buildCard).join('');
             if(config.elettivi.length === 0) {
-                elettiviGrid.innerHTML = '<p style="color:var(--text-muted)">Nessun corso elettivo rilevato per questo piano di studi.</p>';
+                elettiviGrid.innerHTML = '<p style="color:var(--text-muted); font-size:0.95rem;">Nessun corso elettivo rilevato per questo anno/linea.</p>';
             }
             
             contentArea.classList.remove('hidden');
@@ -813,7 +904,7 @@ def generate_dynamic_index(ui_data, dist_dir):
             const url = hostPath + '/' + filename + '?v=2';
             navigator.clipboard.writeText(url).then(() => {
                 const orig = btn.innerText;
-                btn.innerText = '✅ Link Copiato!';
+                btn.innerText = '✅ Copiato!';
                 btn.style.borderColor = '#22c55e'; btn.style.color = '#22c55e';
                 setTimeout(() => { btn.innerText = orig; btn.style.borderColor = ''; btn.style.color = ''; }, 2000);
             }).catch(() => {
@@ -828,6 +919,7 @@ def generate_dynamic_index(ui_data, dist_dir):
     with open(os.path.join(dist_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(final_html)
     print("Pagina web dinamica index.html generata correttamente in dist/")
+
 
 
 def main():

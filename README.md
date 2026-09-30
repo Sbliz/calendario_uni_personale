@@ -1,86 +1,72 @@
-# 📅 UniSR Sync - Calendario Accademico Medicina 3
+# 📅 UniSR Sync - Calendario Accademico Medicina e Chirurgia
 
-Sistema automatico in Cloud per sincronizzare in tempo reale l'orario delle lezioni da **EasyCourse UniSR** (Medicina e Chirurgia 3, canale [CLMMC-C] Linea Viola) verso **Apple Calendar (iOS)** e **Google Calendar**.
+Sistema automatico in Cloud per sincronizzare in tempo reale l'orario delle lezioni da **EasyCourse UniSR** verso qualsiasi client di calendario: **Apple Calendar (iOS/macOS)**, **Google Calendar (Android/Web)** e **Microsoft Outlook (Windows/Office 365)**.
+
+Copre l'intero **Corso di Laurea Magistrale a Ciclo Unico in Medicina e Chirurgia** (tutti gli anni dal **1° al 6°** e tutte le **linee e canali**).
 
 ---
 
 ## 🎯 Caratteristiche
 
-1. **📱 Feed Unico per iOS:** Un solo link `.ics` per Apple Calendar con tutte le lezioni obbligatorie del semestre.
-2. **🎨 4 Feed Tematici per Google Calendar:** Suddivisi per materia per assegnare i colori nativi desiderati:
-   * **Patologia** ➔ Colore: **Banana** (Giallo)
-   * **Medicina di Laboratorio** (inclusi tirocini pratici) ➔ Colore: **Amethyst** (Viola)
-   * **Preparedness in Medicina** ➔ Colore: **Cherry Blossom** (Rosa)
-   * **Microbiologia e Microbiologia Clinica** ➔ Colore: **Eucalyptus** (Verde)
-3. **🎯 Calendari Ad Hoc per i Corsi Elettivi:** Ciascun corso elettivo dispone di un feed `.ics` dedicato con colore **Arancione / Tangerine** per Google Calendar, così da poter aggiungere unicamente i corsi scelti senza intasare il calendario.
-4. **☁️ 100% Automatico e Gratuito:** Funziona via GitHub Actions (aggiornamento 2 volte al giorno, alle 07:00 e alle 19:00 italiane) e pubblica i file su GitHub Pages a costo zero e senza computer accesi.
-5. **🌐 Portale di Sottoscrizione:** Genera una comoda pagina web (`index.html`) accessibile da smartphone con pulsante one-click *"Sottoscrivi su iOS"* e pulsanti *"Copia Link"* per Google Calendar divisi tra materie obbligatorie ed elettive.
+1. **🌐 Portale Web Interattivo:** Pagina web unificata (`index.html`) con selettore dinamico a tendina (*Anno* e *Linea*) che mostra all'istante i feed corretti per il proprio percorso.
+2. **📱 Feed Unico per Apple Calendar (iOS / iPadOS / macOS):** Sottoscrizione con un singolo clic via protocollo `webcal://` con tutti i corsi curricolari del semestre.
+3. **🎨 Feed Singoli per Google Calendar (con Colori Intelligenti):** Suddivisione per singola materia con indicazione del colore nativo ottimale (assegnato deterministicamente tramite hash del nome) per una visualizzazione chiara e ordinata.
+4. **🎯 Feed Dedicati per i Corsi Elettivi (Colore Tangerine / Arancione):** Ciascun corso a scelta dispone di un feed `.ics` indipendente per consentire la sottoscrizione unicamente dei corsi effettivi del proprio piano di studi.
+5. **☁️ 100% Automatico e Gratuito:** Esecuzione serverless tramite **GitHub Actions** (aggiornamento due volte al giorno: alle 07:00 e alle 19:00 italiane) e hosting statico su **GitHub Pages** a costo zero e senza computer accesi.
+6. **🔒 Precisione e Anti-Sovrapposizioni:** Algoritmo di parsing rigoroso che isola i contenitori giornalieri ufficiali, escludendo eventi fuori orario e sabato.
 
 ---
 
-## 🚀 Setup Iniziale (Una Tantum)
+## 📲 Dispositivi e Piattaforme Supportate
 
-### 1. Carica il progetto su un Repository GitHub
-Se non l'hai già fatto, crea un repository su [GitHub](https://github.com/new) (es. `calendario-unisr`):
+Il sistema genera file standard **iCalendar (RFC 5545)** compatibili con l'intero panorama dei dispositivi moderni:
 
-```bash
-git init
-git add .
-git commit -m "Initial commit - UniSR Calendar Sync"
-git branch -M main
-git remote add origin https://github.com/<TUO-USERNAME>/<NOME-REPO>.git
-git push -u origin main
-```
+### 1. Apple (iPhone, iPad, Mac, Apple Watch)
+* **Come sottoscrivere:** Dalla pagina web del portale, seleziona il tuo anno e la tua linea e tocca **"Sottoscrivi su Apple Calendar"**. iOS/macOS aprirà automaticamente l'app Calendario.
+* **Sincronizzazione:** Se associato a iCloud, il calendario apparirà sincronizzato su tutti i dispositivi Apple della stessa persona.
 
-### 2. Abilita GitHub Pages per l'hosting dei calendari
-1. Nel tuo repository su GitHub, vai su **Settings** > **Pages** (nel menu laterale).
-2. Sotto la voce **Build and deployment** > **Source**, seleziona:
+### 2. Google Calendar (Android, Browser Desktop, App Mobile)
+* **Come sottoscrivere:**
+  1. Sul portale clicca su **"📋 Copia Link GCal"** accanto alla materia desiderata.
+  2. Apri [Google Calendar Web](https://calendar.google.com) da browser (PC o modalità desktop su smartphone).
+  3. Nella barra laterale a sinistra, accanto ad **Altri calendari**, clicca su **+** ➔ **Da URL**.
+  4. Incolla il link e clicca **Aggiungi calendario**.
+  5. Dal menu a tre puntini (⋮) del calendario aggiunto, assegna il colore consigliato indicato sul badge.
+* **Android:** I calendari aggiunti su Google Calendar Web compariranno automaticamente nell'app Google Calendar su qualsiasi smartphone Android (assicurandosi che la spunta di sincronizzazione sia attiva nelle impostazioni dell'app).
+
+### 3. Microsoft Outlook (Windows, Mac, Office 365, Outlook Web)
+* Molto utilizzato su PC Windows e da chi sfrutta account universitari Microsoft:
+  1. Copia il link del feed desiderato dal portale.
+  2. Apri [Outlook sul Web](https://outlook.office.com/calendar) o l'app **Outlook per Windows / Mac**.
+  3. Seleziona **Aggiungi calendario** ➔ **Iscriviti dal Web** (o *Da Internet*).
+  4. Incolla il link e clicca su **Importa / Salva**.
+
+### 4. Mozilla Thunderbird & Client Open Source (Linux / Windows)
+* Seleziona **Nuovo Calendario** ➔ **Sulla rete** ➔ Formato **iCalendar (ICS)** ➔ Incolla l'URL del feed.
+
+### 5. Notion Calendar (ex Cron)
+* Connetti il tuo account Google Calendar a Notion Calendar: tutti i calendari sottoscritti su Google compariranno all'interno di Notion Calendar.
+
+---
+
+## 🚀 Setup Iniziale del Repository (Una Tantum)
+
+### 1. Configurazione GitHub Pages
+1. Nel tuo repository su GitHub, accedi a **Settings** ➔ **Pages** (menu laterale).
+2. Sotto **Build and deployment** ➔ **Source**, seleziona:
    👉 **GitHub Actions** (non "Deploy from a branch").
-3. Vai nella scheda **Actions** in alto: vedrai partire il workflow `Sincronizza Calendari UniSR`.
-4. Al termine dell'esecuzione (circa 20-30 secondi), GitHub Pages ti mostrerà il link del tuo sito:
+3. Vai nella scheda **Actions** del repository: vedrai avviarsi il workflow `Sincronizza Calendari UniSR`.
+4. Al termine, il tuo sito sarà attivo all'indirizzo:
    `https://<TUO-USERNAME>.github.io/<NOME-REPO>/`
-
----
-
-## 📲 Come Aggiungere i Calendari
-
-Apri da smartphone o computer il link del tuo sito GitHub Pages `https://<TUO-USERNAME>.github.io/<NOME-REPO>/`. Da lì potrai cliccare direttamente sui pulsanti oppure seguire le istruzioni manuali:
-
-### A. Su iPhone / iPad (iOS) - Feed Unico
-1. Sul portale web clicca su **"Sottoscrivi su iOS"** nel box *Calendario Unico Completo*.
-2. In alternativa, su iPhone vai in:
-   * **Impostazioni** > **App** > **Calendario** > **Account** > **Aggiungi account** > **Altro** > **Aggiungi calendario con sottoscrizione**.
-   * Incolla il link:
-     `https://<TUO-USERNAME>.github.io/<NOME-REPO>/medicina3_ios.ics`
-   * Premi **Salva**. Il calendario si aggiornerà automaticamente in background.
-
----
-
-### B. Su Google Calendar - 4 Feed con Colori
-1. Apri [Google Calendar Web](https://calendar.google.com) da browser sul computer.
-2. Nella colonna di sinistra, accanto ad **Altri calendari**, clicca sul pulsante **+** e seleziona **Da URL**.
-3. Incolla il link del primo feed (es. Patologia) e clicca **Aggiungi calendario**:
-   * `https://<TUO-USERNAME>.github.io/<NOME-REPO>/medicina3_patologia.ics`
-4. Ripeti l'operazione per gli altri 3 feed:
-   * `https://<TUO-USERNAME>.github.io/<NOME-REPO>/medicina3_med_laboratorio.ics`
-   * `https://<TUO-USERNAME>.github.io/<NOME-REPO>/medicina3_preparedness.ics`
-   * `https://<TUO-USERNAME>.github.io/<NOME-REPO>/medicina3_microbiologia.ics`
-5. **Imposta i Colori:**
-   * Trova ciascun calendario nella lista *Altri calendari*.
-   * Clicca sui **tre puntini verticali (⋮)** accanto al nome:
-     * Per Patologia seleziona **Banana** 🍌
-     * Per Medicina di Laboratorio seleziona **Amethyst** 🟣
-     * Per Preparedness seleziona **Cherry Blossom** 🌸
-     * Per Microbiologia seleziona **Eucalyptus** 🍃
 
 ---
 
 ## 🛠️ Esecuzione Locale (Opzionale)
 
-Puoi eseguire lo script anche in locale senza dipendenze esterne:
+Puoi avviare lo scraper in locale in qualsiasi momento senza installare pacchetti esterni (utilizza solo moduli nativi della standard library di Python):
 
 ```bash
-python scraper.py
+python src/scraper.py
 ```
 
-I file generati saranno disponibili nella cartella `dist/`.
+I file generati e la pagina web saranno salvati nella cartella `dist/`.
