@@ -8,16 +8,16 @@ Copre l'intero Corso di Laurea Magistrale a Ciclo Unico in Medicina e Chirurgia 
 
 ## Caratteristiche
 
-1. **🌐 Portale Web Interattivo:** Pagina web unificata (`index.html`) con selettore dinamico a tendina (*Anno* e *Linea*) che mostra all'istante i feed corretti per il proprio percorso.
-2. **📱 Feed Unico per Apple Calendar (iOS / iPadOS / macOS):** Sottoscrizione con un singolo clic via protocollo `webcal://` con tutti i corsi curricolari del semestre.
-3. **🎨 Feed Singoli per Google Calendar (con Colori Intelligenti):** Suddivisione per singola materia con indicazione del colore nativo ottimale (assegnato deterministicamente tramite hash del nome) per una visualizzazione chiara e ordinata.
-4. **🎯 Feed Dedicati per i Corsi Elettivi (Colore Tangerine / Arancione):** Ciascun corso a scelta dispone di un feed `.ics` indipendente per consentire la sottoscrizione unicamente dei corsi effettivi del proprio piano di studi.
-5. **☁️ 100% Automatico e Gratuito:** Esecuzione serverless tramite **GitHub Actions** (aggiornamento due volte al giorno: alle 07:00 e alle 19:00 italiane) e hosting statico su **GitHub Pages** a costo zero e senza computer accesi.
-6. **🔒 Precisione e Anti-Sovrapposizioni:** Algoritmo di parsing rigoroso che isola i contenitori giornalieri ufficiali, escludendo eventi fuori orario e sabato.
+1. **Portale Web Interattivo:** Pagina web unificata (`index.html`) con selettore dinamico a tendina (*Anno* e *Linea*) che mostra all'istante i feed corretti per il proprio percorso.
+2. **Feed Unico per Apple Calendar (iOS / iPadOS / macOS):** Sottoscrizione con un singolo clic via protocollo `webcal://` con tutti i corsi curricolari del semestre.
+3. **Feed Singoli per Google Calendar (con Colori Intelligenti):** Suddivisione per singola materia con indicazione del colore nativo ottimale (assegnato deterministicamente tramite hash del nome) per una visualizzazione chiara e ordinata.
+4. **Feed Dedicati per i Corsi Elettivi (Colore Tangerine / Arancione):** Ciascun corso a scelta dispone di un feed `.ics` indipendente per consentire la sottoscrizione unicamente dei corsi effettivi del proprio piano di studi.
+5. **100% Automatico e Gratuito:** Esecuzione serverless tramite **GitHub Actions** (aggiornamento due volte al giorno: alle 07:00 e alle 19:00 italiane) e hosting statico su **GitHub Pages** a costo zero e senza computer accesi.
+6. **Precisione e Anti-Sovrapposizioni:** Algoritmo di parsing rigoroso che isola i contenitori giornalieri ufficiali, escludendo eventi fuori orario e sabato.
 
 ---
 
-## 📲 Dispositivi e Piattaforme Supportate
+## Dispositivi e Piattaforme Supportate
 
 Il sistema genera file standard **iCalendar (RFC 5545)** compatibili con l'intero panorama dei dispositivi moderni:
 
@@ -47,26 +47,4 @@ Il sistema genera file standard **iCalendar (RFC 5545)** compatibili con l'inter
 ### 5. Notion Calendar (ex Cron)
 * Connetti il tuo account Google Calendar a Notion Calendar: tutti i calendari sottoscritti su Google compariranno all'interno di Notion Calendar.
 
----
 
-## 🚀 Setup Iniziale del Repository (Una Tantum)
-
-### 1. Configurazione GitHub Pages
-1. Nel tuo repository su GitHub, accedi a **Settings** ➔ **Pages** (menu laterale).
-2. Sotto **Build and deployment** ➔ **Source**, seleziona:
-   👉 **GitHub Actions** (non "Deploy from a branch").
-3. Vai nella scheda **Actions** del repository: vedrai avviarsi il workflow `Sincronizza Calendari UniSR`.
-4. Al termine, il tuo sito sarà attivo all'indirizzo:
-   `https://<TUO-USERNAME>.github.io/<NOME-REPO>/`
-
----
-
-## 🛠️ Esecuzione Locale (Opzionale)
-
-Puoi avviare lo scraper in locale in qualsiasi momento senza installare pacchetti esterni (utilizza solo moduli nativi della standard library di Python):
-
-```bash
-python src/scraper.py
-```
-
-I file generati e la pagina web saranno salvati nella cartella `dist/`.
