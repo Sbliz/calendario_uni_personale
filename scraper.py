@@ -1,28 +1,13 @@
 #!/usr/bin/env python3
 """
 Sincronizzatore Calendario Accademico UNISR
-Medicina e Chirurgia 3 [CLMMC-C] - Linea Viola (S1)
-
-Genera:
-- Calendari Curricolari Principali:
-  1. medicina3_ios.ics                -> Feed completo per Apple Calendar (iOS)
-  2. medicina3_patologia.ics          -> Google Calendar (Colore: Banana)
-  3. medicina3_med_laboratorio.ics    -> Google Calendar (Colore: Amethyst)
-  4. medicina3_preparedness.ics       -> Google Calendar (Colore: Cherry Blossom)
-  5. medicina3_microbiologia.ics      -> Google Calendar (Colore: Eucalyptus)
-
-- Calendari Dedicati per ciascun Corso Elettivo (Colore Google Calendar: Tangerine / Arancione):
-  6. elettivo_cyber_humanities.ics
-  7. elettivo_imaging_sistema_nervoso.ics
-  8. elettivo_ricerche_bibliografiche.ics
-  9. elettivo_semeiotica_chirurgia.ics
-  10. elettivo_teleneurofisiologia.ics
-  11. elettivo_urgenze_chirurgia_vascolare.ics
+Multicanale - Medicina e Chirurgia (Tutti gli anni, tutte le linee)
 """
 
 import os
 import re
 import ssl
+import time
 import json
 import hashlib
 import unicodedata
@@ -30,54 +15,70 @@ import urllib.request
 from datetime import datetime, timezone
 from collections import defaultdict
 
-URL_EASYCOURSE = (
-    "https://easycourse.unisr.it/easycourse-new/pubblicazioni-riservate/standardGrid/"
-    "figlia-4/2026-2027/s1/riservato?"
-    "catena=S1&ricercaIndex=Corso+di+studi&CorsoDiStudio=458&annoCorso=1084&curriculum=1736&settimana=all"
-)
+from courses_config import MEDICINA_CONFIG
 
-DIST_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dist")
+DIST_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dist")
 
+PALETTE = [
+    ('#facc15', '#fef08a22', 'Banana'),
+    ('#c084fc', '#c084fc22', 'Amethyst'),
+    ('#f472b6', '#f472b622', 'Cherry Blossom'),
+    ('#4ade80', '#4ade8022', 'Eucalyptus'),
+    ('#60a5fa', '#60a5fa22', 'Peacock'),
+    ('#f87171', '#f8717122', 'Tomato'),
+    ('#2dd4bf', '#2dd4bf22', 'Sage'),
+    ('#818cf8', '#818cf822', 'Blueberry'),
+    ('#a78bfa', '#a78bfa22', 'Grape'),
+    ('#34d399', '#34d39922', 'Basil'),
+    ('#fbbf24', '#fbbf2422', 'Mango'),
+    ('#94a3b8', '#94a3b822', 'Graphite'),
+]
 
-def fetch_schedule_html():
-    """Scarica il codice HTML dell'intero semestre da EasyCourse."""
-    print("Collegamento a EasyCourse UNISR per il semestre completo...")
+def get_color_for_subject(subject_name):
+    """Assegna un colore della palette in base all'hash del nome (deterministico)."""
+    h = int(hashlib.md5(subject_name.encode('utf-8')).hexdigest(), 16)
+    return PALETTE[h % len(PALETTE)]
+
+def fetch_schedule_html(cdl_id, anno_id, curr_id):
     ctx = ssl.create_default_context()
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
 
+    url = (
+        f"https://easycourse.unisr.it/easycourse-new/pubblicazioni-riservate/standardGrid/"
+        f"figlia-4/2026-2027/s1/riservato?"
+        f"catena=S1&ricercaIndex=Corso+di+studi&CorsoDiStudio={cdl_id}&annoCorso={anno_id}&curriculum={curr_id}&settimana=all"
+    )
     req = urllib.request.Request(
-        URL_EASYCOURSE,
+        url,
         headers={
-            'User-Agent': (
-                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-            )
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
     )
-    with urllib.request.urlopen(req, context=ctx, timeout=60) as resp:
-        return resp.read().decode('utf-8', errors='ignore')
-
+    # 3 tentativi
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, context=ctx, timeout=40) as resp:
+                return resp.read().decode('utf-8', errors='ignore')
+        except Exception as e:
+            if attempt == 2:
+                print(f"Errore download {cdl_id}/{anno_id}/{curr_id}: {e}")
+                return ""
+            time.sleep(2)
 
 def extract_lessons_from_html(html):
-    """
-    Estrae le lezioni isolando ciascun 'giorno-container'.
-    Estrae SOLO dall'interno del contenitore 'lezioni-giornaliere'.
-    """
     giorno_blocks = re.findall(
         r'<div[^>]*class="giorno-container\s*([^"]*)"[^>]*>(.*?)(?=<div[^>]*class="giorno-container|<div[^>]*class="easy-ph|<!-- ================= DESKTOP|$)',
         html,
         re.DOTALL
     )
-    print(f"Blocchi giorno-container isolati: {len(giorno_blocks)}")
-
+    
     all_lessons = []
     seen = set()
 
     for classes, g_content in giorno_blocks:
         if "senza-lezioni" in classes:
             continue
-
         d_match = re.search(r'(\d{2}-\d{2}-\d{4})', g_content[:1000])
         if not d_match:
             continue
@@ -101,7 +102,6 @@ def extract_lessons_from_html(html):
             docenti_json = get_attr("docenti")
             lesson_id = get_attr("id")
 
-            # Parsing docenti
             nomi_docenti = []
             if docenti_json:
                 try:
@@ -139,9 +139,7 @@ def extract_lessons_from_html(html):
     all_lessons.sort(key=sort_key)
     return all_lessons
 
-
 def clean_title(raw_title):
-    """Pulisce il titolo per una visualizzazione ordinata nel calendario."""
     tipo = ""
     if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
         tipo = "Lezione"
@@ -149,47 +147,35 @@ def clean_title(raw_title):
         tipo = "Esercitazione"
     elif " - APR" in raw_title or " - TIR" in raw_title:
         tipo = "Attività Pratica"
-
+    
     base_match = re.match(r'^(.*?)(?:\s*\[|\s*-)', raw_title)
     base_name = base_match.group(1).strip() if base_match else raw_title
-
     if tipo:
         return f"{base_name} [{tipo}]"
     return base_name
 
-
-def get_elective_course_name(full_title):
-    """Estrae il nome univoco della materia per un corso elettivo."""
-    # Es: "Cyber-Humanities - LEZ - Corso Elettivo" -> "Cyber-Humanities"
-    m = re.match(r'^(.*?)\s*-\s*(?:LEZ|ESE|LEZ_D|APR)', full_title)
+def get_base_subject_name(cleaned_title):
+    m = re.match(r'^(.*?)\s*\[', cleaned_title)
     if m:
         return m.group(1).strip()
-    return full_title.split('[')[0].strip()
-
+    return cleaned_title
 
 def slugify(text):
-    """Genera uno slug pulito per il nome del file .ics."""
     text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
     text = re.sub(r'[^\w\s-]', '', text).strip().lower()
     return re.sub(r'[-\s]+', '_', text)
 
-
 def generate_uid(lesson):
-    """Genera un UID deterministico e persistente per ciascuna sessione."""
     unique_key = f"{lesson['date']}_{lesson['ora_inizio']}_{lesson['ora_fine']}_{lesson['titolo']}_{lesson['sede']}_{lesson['aula']}"
     h = hashlib.sha256(unique_key.encode('utf-8')).hexdigest()[:16]
-    return f"unisr-med3-{h}@easycourse.unisr.it"
-
+    return f"unisr-med-{h}@easycourse.unisr.it"
 
 def format_ical_dt(date_str, time_str):
-    """Converte 'DD-MM-YYYY' e 'HH:MM' in 'YYYYMMDDTHHMMSS'."""
     day, month, year = date_str.split('-')
     hour, minute = time_str.split(':')
     return f"{year}{month}{day}T{hour}{minute}00"
 
-
 def escape_ical_text(text):
-    """Escape per caratteri speciali standard RFC 5545."""
     if not text:
         return ""
     text = text.replace('\\', '\\\\')
@@ -198,15 +184,12 @@ def escape_ical_text(text):
     text = text.replace('\n', '\\n')
     return text
 
-
 def build_ics_calendar(calendar_name, lessons, description=""):
-    """Costruisce il file iCalendar RFC 5545 conforme."""
     now_utc = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//UniSR//Calendario Medicina 3 Linea Viola//IT",
+        "PRODID:-//UniSR//Calendari Medicina//IT",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         f"X-WR-CALNAME:{escape_ical_text(calendar_name)}",
@@ -231,7 +214,6 @@ def build_ics_calendar(calendar_name, lessons, description=""):
         "END:STANDARD",
         "END:VTIMEZONE",
     ]
-
     for l in lessons:
         dtstart = format_ical_dt(l['date'], l['ora_inizio'])
         dtend = format_ical_dt(l['date'], l['ora_fine'])
@@ -239,19 +221,13 @@ def build_ics_calendar(calendar_name, lessons, description=""):
         summary = clean_title(l['titolo'])
 
         loc_parts = []
-        if l['sede']:
-            loc_parts.append(f"Edificio {l['sede']}")
-        if l['aula']:
-            loc_parts.append(f"Aula {l['aula']}")
+        if l['sede']: loc_parts.append(f"Edificio {l['sede']}")
+        if l['aula']: loc_parts.append(f"Aula {l['aula']}")
         location = ", ".join(loc_parts)
 
-        desc_lines = [
-            f"Insegnamento: {l['titolo']}",
-        ]
-        if l['docenti']:
-            desc_lines.append(f"Docenti: {', '.join(l['docenti'])}")
-        if location:
-            desc_lines.append(f"Luogo: {location}")
+        desc_lines = [f"Insegnamento: {l['titolo']}"]
+        if l['docenti']: desc_lines.append(f"Docenti: {', '.join(l['docenti'])}")
+        if location: desc_lines.append(f"Luogo: {location}")
         desc_lines.append(f"Orario: {l['ora_inizio']} - {l['ora_fine']}")
         desc_lines.append("Fonte: EasyCourse UniSR (Sincronizzato)")
 
@@ -268,422 +244,329 @@ def build_ics_calendar(calendar_name, lessons, description=""):
             "TRANSP:OPAQUE",
             "END:VEVENT"
         ])
-
     lines.append("END:VCALENDAR")
     return "\r\n".join(lines) + "\r\n"
 
-
-def generate_index_html(curricular_feeds, elective_feeds):
-    """Genera la landing page HTML organizzata in sezioni."""
+def main():
+    print("=== Avvio Sincronizzatore Multicanale UniSR ===")
+    os.makedirs(DIST_DIR, exist_ok=True)
     
-    def render_cards(feeds):
-        html_cards = []
-        for f in feeds:
-            badge_style = f"background-color: {f['badge_bg']}; color: {f['badge_fg']}; border: 1px solid {f['badge_border']};"
-            html_cards.append(f"""
-            <div class="card">
-                <div class="card-header">
-                    <span class="badge" style="{badge_style}">{f['color_name']}</span>
-                    <h3>{f['title']}</h3>
-                </div>
-                <p class="card-desc">{f['description']}</p>
-                <p class="card-meta"><b>{f['count']}</b> sessioni in calendario</p>
-                <div class="actions">
-                    <a href="webcal://{{HOST_PATH}}/{f['filename']}" class="btn btn-ios">
-                         Sottoscrivi su iOS
-                    </a>
-                    <button onclick="copyFeedUrl('{f['filename']}', this)" class="btn btn-copy">
-                        📋 Copia Link Google Calendar
-                    </button>
-                </div>
-            </div>""")
-        return "\n".join(html_cards)
+    total_lezioni_estratte = 0
+    total_feed_generati = 0
 
-    curr_html = render_cards(curricular_feeds)
-    elett_html = render_cards(elective_feeds)
-    update_time_str = datetime.now().strftime('%d/%m/%Y %H:%M')
+    ui_data = []
 
-    return f"""<!DOCTYPE html>
+    for cfg in MEDICINA_CONFIG:
+        # Per ora escludiamo l'IMD per test
+        if cfg['is_imd']: 
+            continue
+            
+        print(f"\nElaborazione: Anno {cfg['anno']} - {cfg['linea_name']} ({cfg['cdl_name']})")
+        html = fetch_schedule_html(cfg['cdl_id'], cfg['anno_id'], cfg['linea_id'])
+        if not html:
+            continue
+            
+        lessons = extract_lessons_from_html(html)
+        print(f" -> Trovate {len(lessons)} lezioni")
+        total_lezioni_estratte += len(lessons)
+        
+        if not lessons:
+            continue
+            
+        # Percorso: dist/anno_{N}/{slug_linea}/
+        group_dir = os.path.join(DIST_DIR, f"anno_{cfg['anno']}", cfg['slug_linea'])
+        os.makedirs(group_dir, exist_ok=True)
+
+        curricular = [l for l in lessons if not l['elettivo']]
+        electives = [l for l in lessons if l['elettivo']]
+        
+        # Salvataggio iOS completo
+        ios_file = "completo_ios.ics"
+        ios_path = os.path.join(group_dir, ios_file)
+        with open(ios_path, 'w', encoding='utf-8') as f:
+            f.write(build_ics_calendar(f"UniSR Anno {cfg['anno']} - {cfg['linea_name']}", curricular, "Feed completo iOS"))
+        total_feed_generati += 1
+        
+        # Raggruppamento per materia
+        subjects = defaultdict(list)
+        for l in curricular:
+            base_subj = get_base_subject_name(clean_title(l['titolo']))
+            subjects[base_subj].append(l)
+            
+        elettivi_subjects = defaultdict(list)
+        for l in electives:
+            base_subj = get_base_subject_name(clean_title(l['titolo']))
+            elettivi_subjects[base_subj].append(l)
+
+        # UI Config per questa combinazione
+        combo_ui = {
+            "anno": cfg['anno'],
+            "linea_name": cfg['linea_name'],
+            "slug_linea": cfg['slug_linea'],
+            "ios_link": f"anno_{cfg['anno']}/{cfg['slug_linea']}/{ios_file}",
+            "ios_count": len(curricular),
+            "materie": [],
+            "elettivi": []
+        }
+
+        for subj_name, subj_lessons in sorted(subjects.items()):
+            slug_subj = slugify(subj_name)
+            filename = f"materia_{slug_subj}.ics"
+            filepath = os.path.join(group_dir, filename)
+            
+            color_hex, bg_hex, color_name = get_color_for_subject(subj_name)
+            
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(build_ics_calendar(f"{subj_name}", subj_lessons, f"Corso: {subj_name}"))
+            total_feed_generati += 1
+            
+            combo_ui["materie"].append({
+                "name": subj_name,
+                "file": f"anno_{cfg['anno']}/{cfg['slug_linea']}/{filename}",
+                "count": len(subj_lessons),
+                "color_name": color_name,
+                "color_hex": color_hex,
+                "bg_hex": bg_hex
+            })
+            
+        for subj_name, subj_lessons in sorted(elettivi_subjects.items()):
+            slug_subj = slugify(subj_name)
+            filename = f"elettivo_{slug_subj}.ics"
+            filepath = os.path.join(group_dir, filename)
+            
+            # Elettivi sempre Tangerine/Orange
+            color_hex, bg_hex, color_name = '#fb923c', '#fb923c22', 'Tangerine'
+            
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(build_ics_calendar(f"Elettivo: {subj_name}", subj_lessons, f"Corso Elettivo: {subj_name}"))
+            total_feed_generati += 1
+            
+            combo_ui["elettivi"].append({
+                "name": subj_name,
+                "file": f"anno_{cfg['anno']}/{cfg['slug_linea']}/{filename}",
+                "count": len(subj_lessons),
+                "color_name": color_name,
+                "color_hex": color_hex,
+                "bg_hex": bg_hex
+            })
+
+        ui_data.append(combo_ui)
+        
+        # Delay anti-rate-limit
+        time.sleep(1.0)
+        
+    print(f"\n=== Fine ===")
+    print(f"Totale Lezioni Estratte: {total_lezioni_estratte}")
+    print(f"Totale Feed Generati: {total_feed_generati}")
+    
+    # Salviamo un file JSON con la struttura per l'interfaccia UI
+    with open(os.path.join(DIST_DIR, "ui_data.json"), "w", encoding="utf-8") as f:
+        json.dump(ui_data, f, ensure_ascii=False, indent=2)
+
+    generate_dynamic_index(ui_data, DIST_DIR)
+
+if __name__ == "__main__":
+    main()
+
+
+import os
+import json
+
+def generate_dynamic_index(ui_data, dist_dir):
+    """
+    Genera una SPA (Single Page Application) HTML che legge la configurazione
+    ed espone i dropdown per Anno e Linea, mostrando i calendari giusti.
+    """
+    
+    html_template = """<!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sincronizzazione Calendario UniSR - Medicina 3</title>
+    <title>Calendari UniSR - Medicina e Chirurgia</title>
     <style>
-        :root {{
-            --bg: #0f172a;
-            --surface: #1e293b;
-            --surface-hover: #334155;
-            --text: #f8fafc;
-            --text-muted: #94a3b8;
-            --primary: #38bdf8;
-            --border: #334155;
-            --orange: #fb923c;
-        }}
-        * {{ box-sizing: border-box; margin: 0; padding: 0; }}
-        body {{
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: var(--bg);
-            color: var(--text);
-            padding: 2rem 1rem;
-            line-height: 1.5;
-        }}
-        .container {{
-            max-width: 960px;
-            margin: 0 auto;
-        }}
-        header {{
-            text-align: center;
-            margin-bottom: 2.5rem;
-        }}
-        h1 {{
-            font-size: 2.1rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            color: #fff;
-        }}
-        .subtitle {{
-            color: var(--text-muted);
-            font-size: 1.15rem;
-        }}
-        .last-update {{
-            display: inline-block;
-            margin-top: 0.75rem;
-            font-size: 0.85rem;
-            background: #0ea5e922;
-            color: #38bdf8;
-            padding: 0.25rem 0.75rem;
-            border-radius: 9999px;
-        }}
-        .section-title {{
-            font-size: 1.4rem;
-            font-weight: 600;
-            margin: 2rem 0 1rem 0;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }}
-        .grid {{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.25rem;
-            margin-bottom: 2.5rem;
-        }}
-        .card {{
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 1.25rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: transform 0.2s ease, border-color 0.2s ease;
-        }}
-        .card:hover {{
-            transform: translateY(-2px);
-            border-color: #475569;
-        }}
-        .card-header {{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 0.75rem;
-            gap: 0.5rem;
-        }}
-        .card-header h3 {{
-            font-size: 1.1rem;
-            font-weight: 600;
-            flex-grow: 1;
-        }}
-        .badge {{
-            font-size: 0.75rem;
-            font-weight: 700;
-            padding: 0.2rem 0.5rem;
-            border-radius: 6px;
-            text-transform: uppercase;
-            white-space: nowrap;
-        }}
-        .card-desc {{
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            margin-bottom: 0.75rem;
-        }}
-        .card-meta {{
-            font-size: 0.85rem;
-            color: #cbd5e1;
-            margin-bottom: 1rem;
-        }}
-        .actions {{
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-        }}
-        .btn {{
-            display: block;
-            text-align: center;
-            padding: 0.6rem 0.75rem;
-            border-radius: 8px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            text-decoration: none;
-            cursor: pointer;
-            border: none;
-            transition: opacity 0.2s;
-        }}
-        .btn:hover {{ opacity: 0.9; }}
-        .btn-ios {{
-            background: #0284c7;
-            color: white;
-        }}
-        .btn-copy {{
-            background: var(--surface-hover);
-            color: #e2e8f0;
-            border: 1px solid var(--border);
-        }}
-        .instructions {{
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 1.5rem;
-        }}
-        .instructions h2 {{
-            font-size: 1.25rem;
-            margin-bottom: 1rem;
-            color: #fff;
-        }}
-        .instructions ol {{
-            padding-left: 1.25rem;
-            color: var(--text-muted);
-        }}
-        .instructions li {{
-            margin-bottom: 0.5rem;
-        }}
-        .instructions ul {{
-            margin-top: 0.5rem;
-            padding-left: 1.25rem;
-        }}
+        :root {
+            --bg: #0f172a; --surface: #1e293b; --surface-hover: #334155;
+            --text: #f8fafc; --text-muted: #94a3b8; --primary: #38bdf8;
+            --border: #334155; --orange: #fb923c;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, system-ui, sans-serif; }
+        body { background: var(--bg); color: var(--text); padding: 2rem 1rem; line-height: 1.5; }
+        .container { max-width: 960px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 2rem; }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; color: #fff; }
+        .subtitle { color: var(--text-muted); font-size: 1.1rem; }
+        
+        .selector-box {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem;
+            display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; align-items: center;
+        }
+        select {
+            padding: 0.6rem 1rem; border-radius: 8px; border: 1px solid #475569;
+            background: #0f172a; color: #fff; font-size: 1rem; cursor: pointer;
+            outline: none; min-width: 200px;
+        }
+        select:focus { border-color: var(--primary); }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem; }
+        .card {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between;
+        }
+        .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; }
+        .card-header h3 { font-size: 1.05rem; font-weight: 600; flex-grow: 1; }
+        .badge { font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 6px; text-transform: uppercase; white-space: nowrap; margin-right: 8px; }
+        .card-meta { font-size: 0.85rem; color: #cbd5e1; margin-bottom: 1rem; }
+        .actions { display: flex; flex-direction: column; gap: 0.5rem; }
+        .btn {
+            display: block; text-align: center; padding: 0.6rem; border-radius: 8px;
+            font-size: 0.85rem; font-weight: 600; text-decoration: none; cursor: pointer;
+            border: none; transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.9; }
+        .btn-ios { background: #0284c7; color: white; }
+        .btn-copy { background: var(--surface-hover); color: #e2e8f0; border: 1px solid var(--border); }
+        .hidden { display: none !important; }
+        .section-title { font-size: 1.3rem; margin: 2rem 0 1rem; color: #fff; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Calendario Medicina e Chirurgia 3</h1>
-            <p class="subtitle">UniSR - Canale [CLMMC-C] Linea Viola (S1)</p>
-            <span class="last-update">Ultimo aggiornamento automatico: {update_time_str}</span>
+            <h1>Sincronizzazione Calendario UniSR</h1>
+            <p class="subtitle">Medicina e Chirurgia - Multi-Canale</p>
         </header>
 
-        <h2 class="section-title">📚 Corsi Obbligatori Curricolari</h2>
-        <div class="grid">
-            {curr_html}
+        <div class="selector-box">
+            <select id="anno-select" onchange="updateLinee()">
+                <option value="">-- Seleziona Anno --</option>
+                <option value="1">Anno 1</option>
+                <option value="2">Anno 2</option>
+                <option value="3">Anno 3</option>
+                <option value="4">Anno 4</option>
+                <option value="5">Anno 5</option>
+                <option value="6">Anno 6</option>
+            </select>
+            <select id="linea-select" onchange="renderFeeds()" disabled>
+                <option value="">-- Prima seleziona l'Anno --</option>
+            </select>
         </div>
 
-        <h2 class="section-title">🎯 Corsi Elettivi (A scelta dello studente - Colore: Arancione)</h2>
-        <p style="color:var(--text-muted); margin-top:-0.5rem; margin-bottom:1rem; font-size:0.95rem;">
-            Sottoscrivi solo i corsi elettivi che hai effettivamente scelto di frequentare.
-        </p>
-        <div class="grid">
-            {elett_html}
-        </div>
+        <div id="content-area" class="hidden">
+            <!-- iOS Completo -->
+            <div class="card" style="border-color: var(--primary); background: #0f172a; margin-bottom: 2rem;">
+                <div class="card-header">
+                    <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf8;">iOS</span>
+                    <h3>Calendario Completo (Obbligatori)</h3>
+                </div>
+                <p class="card-meta" id="ios-meta"></p>
+                <div class="actions">
+                    <a id="ios-btn" href="#" class="btn btn-ios">Sottoscrivi su Apple Calendar</a>
+                </div>
+            </div>
 
-        <div class="instructions">
-            <h2>📱 Guida Rapida alla Sottoscrizione</h2>
-            <ol>
-                <li><b>Su iPhone / iPad (iOS):</b> Clicca sul pulsante azzurro <i>"Sottoscrivi su iOS"</i> del calendario che desideri aggiungere. iOS aprirà l'app Calendario e completerà l'iscrizione.</li>
-                <li><b>Su Google Calendar:</b>
-                    <ul>
-                        <li>Clicca su <i>"Copia Link Google Calendar"</i> accanto alla materia desiderata.</li>
-                        <li>Apri <a href="https://calendar.google.com" target="_blank" style="color:var(--primary);">Google Calendar</a> da browser.</li>
-                        <li>Nella barra laterale a sinistra, accanto ad <b>"Altri calendari"</b>, clicca su <b>+</b> &gt; <b>Da URL</b>.</li>
-                        <li>Incolla l'URL e clicca su <i>"Aggiungi calendario"</i>.</li>
-                        <li>Dal menu a tre puntini (⋮) del calendario aggiunto, assegna il colore corrispondente:
-                            <b>Banana</b> (Patologia), <b>Amethyst</b> (Med Lab), <b>Cherry Blossom</b> (Preparedness), <b>Eucalyptus</b> (Microbiologia), <b>Tangerine / Arancione</b> (Corsi Elettivi).</li>
-                    </ul>
-                </li>
-            </ol>
+            <h2 class="section-title">📚 Moduli Obbligatori (Google Calendar)</h2>
+            <div class="grid" id="materie-grid"></div>
+
+            <h2 class="section-title">🎯 Corsi Elettivi (Arancione)</h2>
+            <p style="color:var(--text-muted); font-size:0.9rem; margin-top:-0.5rem; margin-bottom:1rem;">
+                Sottoscrivi unicamente i corsi opzionali che hai inserito nel piano di studi.
+            </p>
+            <div class="grid" id="elettivi-grid"></div>
         </div>
     </div>
 
     <script>
+        const uiData = __UI_DATA_INJECT__;
         const hostPath = window.location.href.replace(/\\/index\\.html$/, '').replace(/\\/$/, '');
-        document.querySelectorAll('a.btn-ios').forEach(a => {{
-            const currentHref = a.getAttribute('href');
-            a.setAttribute('href', currentHref.replace('{{HOST_PATH}}', hostPath.replace(/^https?:\\/\\//, '')));
-        }});
+        
+        const annoSelect = document.getElementById('anno-select');
+        const lineaSelect = document.getElementById('linea-select');
+        const contentArea = document.getElementById('content-area');
+        const materieGrid = document.getElementById('materie-grid');
+        const elettiviGrid = document.getElementById('elettivi-grid');
+        
+        function updateLinee() {
+            const anno = parseInt(annoSelect.value);
+            lineaSelect.innerHTML = '<option value="">-- Seleziona Linea --</option>';
+            if (!anno) {
+                lineaSelect.disabled = true;
+                contentArea.classList.add('hidden');
+                return;
+            }
+            
+            lineaSelect.disabled = false;
+            contentArea.classList.add('hidden');
+            
+            const comboDisponibili = uiData.filter(d => d.anno === anno);
+            comboDisponibili.forEach(c => {
+                const opt = document.createElement('option');
+                opt.value = c.slug_linea;
+                // Pulisce il nome linea (es. toglie "PERCORSO COMUNE")
+                opt.textContent = c.linea_name.replace('PERCORSO COMUNE', '').trim() || 'Linea Comune';
+                lineaSelect.appendChild(opt);
+            });
+        }
+        
+        function renderFeeds() {
+            const anno = parseInt(annoSelect.value);
+            const slug = lineaSelect.value;
+            if (!anno || !slug) {
+                contentArea.classList.add('hidden');
+                return;
+            }
+            
+            const config = uiData.find(d => d.anno === anno && d.slug_linea === slug);
+            if (!config) return;
+            
+            // Render iOS
+            document.getElementById('ios-meta').textContent = `${config.ios_count} eventi obbligatori complessivi`;
+            document.getElementById('ios-btn').href = `webcal://${hostPath.replace(/^https?:\\/\\//, '')}/${config.ios_link}`;
+            
+            // Helper generatore carte
+            function buildCard(item) {
+                return `
+                <div class="card">
+                    <div class="card-header">
+                        <span class="badge" style="background: ${item.bg_hex}; color: ${item.color_hex}; border: 1px solid ${item.color_hex};">${item.color_name}</span>
+                        <h3>${item.name}</h3>
+                    </div>
+                    <p class="card-meta">${item.count} sessioni in orario</p>
+                    <div class="actions">
+                        <button onclick="copyFeedUrl('${item.file}', this)" class="btn btn-copy">📋 Copia Link GCal</button>
+                    </div>
+                </div>`;
+            }
+            
+            materieGrid.innerHTML = config.materie.map(buildCard).join('');
+            elettiviGrid.innerHTML = config.elettivi.map(buildCard).join('');
+            if(config.elettivi.length === 0) {
+                elettiviGrid.innerHTML = '<p style="color:var(--text-muted)">Nessun corso elettivo rilevato per questo piano di studi.</p>';
+            }
+            
+            contentArea.classList.remove('hidden');
+        }
 
-        function copyFeedUrl(filename, btn) {{
+        window.copyFeedUrl = function(filename, btn) {
             const url = hostPath + '/' + filename + '?v=2';
-            navigator.clipboard.writeText(url).then(() => {{
+            navigator.clipboard.writeText(url).then(() => {
                 const orig = btn.innerText;
                 btn.innerText = '✅ Link Copiato!';
-                btn.style.borderColor = '#22c55e';
-                btn.style.color = '#22c55e';
-                setTimeout(() => {{
-                    btn.innerText = orig;
-                    btn.style.borderColor = '';
-                    btn.style.color = '';
-                }}, 2000);
-            }}).catch(() => {{
+                btn.style.borderColor = '#22c55e'; btn.style.color = '#22c55e';
+                setTimeout(() => { btn.innerText = orig; btn.style.borderColor = ''; btn.style.color = ''; }, 2000);
+            }).catch(() => {
                 prompt('Copia questo link:', url);
-            }});
-        }}
+            });
+        };
     </script>
 </body>
 </html>
 """
 
-
-def main():
-    print("=== Avvio Sincronizzatore Calendario UniSR ===")
-    os.makedirs(DIST_DIR, exist_ok=True)
-
-    # 1. Download HTML
-    raw_html = fetch_schedule_html()
-    print(f"HTML scaricato con successo ({len(raw_html)} bytes)")
-
-    # 2. Parsing dai blocchi giorno-container isolati
-    all_lessons = extract_lessons_from_html(raw_html)
-    print(f"Sessioni uniche estratte: {len(all_lessons)}")
-
-    # 3. Separazione Curricolari vs Corsi Elettivi
-    curricular = [l for l in all_lessons if not l['elettivo']]
-    electives = [l for l in all_lessons if l['elettivo']]
-
-    print(f"Lezioni Curricolari Obbligatorie: {len(curricular)}")
-    print(f"Lezioni Elettive Totali: {len(electives)}")
-
-    # 4. Raggruppamento Materie Curricolari
-    groups = {
-        'patologia': [],
-        'med_laboratorio': [],
-        'preparedness': [],
-        'microbiologia': [],
-        'altre': []
-    }
-
-    for l in curricular:
-        t = l['titolo'].lower()
-        if 'patologia' in t and 'laboratorio' not in t:
-            groups['patologia'].append(l)
-        elif 'laboratorio' in t:
-            groups['med_laboratorio'].append(l)
-        elif 'preparedness' in t:
-            groups['preparedness'].append(l)
-        elif 'microbiologia' in t:
-            groups['microbiologia'].append(l)
-        else:
-            groups['altre'].append(l)
-
-    # 5. Raggruppamento dei Corsi Elettivi per singolo corso
-    electives_by_course = defaultdict(list)
-    for l in electives:
-        cname = get_elective_course_name(l['titolo'])
-        electives_by_course[cname].append(l)
-
-    print(f"Corsi Elettivi distinti rilevati: {len(electives_by_course)}")
-
-    # 6. Definizione Feed Curricolari
-    curricular_feeds = [
-        {
-            'filename': 'medicina3_ios.ics',
-            'title': 'UniSR Medicina 3 [Completo]',
-            'description': 'Calendario accademico completo Medicina 3 (CLMMC-C Linea Viola) per iOS',
-            'lessons': curricular,
-            'badge_bg': '#38bdf822',
-            'badge_fg': '#38bdf8',
-            'badge_border': '#38bdf8',
-            'color_name': 'iOS Completo',
-            'count': len(curricular)
-        },
-        {
-            'filename': 'medicina3_patologia.ics',
-            'title': 'Patologia',
-            'description': 'Patologia [C0019] - Canale Viola',
-            'lessons': groups['patologia'],
-            'badge_bg': '#fef08a22',
-            'badge_fg': '#facc15',
-            'badge_border': '#facc15',
-            'color_name': 'GCal: Banana',
-            'count': len(groups['patologia'])
-        },
-        {
-            'filename': 'medicina3_med_laboratorio.ics',
-            'title': 'Medicina di Laboratorio',
-            'description': 'Medicina di Laboratorio [C0020] e Attività Professionalizzanti [C0055]',
-            'lessons': groups['med_laboratorio'],
-            'badge_bg': '#c084fc22',
-            'badge_fg': '#c084fc',
-            'badge_border': '#c084fc',
-            'color_name': 'GCal: Amethyst',
-            'count': len(groups['med_laboratorio'])
-        },
-        {
-            'filename': 'medicina3_preparedness.ics',
-            'title': 'Preparedness',
-            'description': 'Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025]',
-            'lessons': groups['preparedness'],
-            'badge_bg': '#f472b622',
-            'badge_fg': '#f472b6',
-            'badge_border': '#f472b6',
-            'color_name': 'GCal: Cherry Blossom',
-            'count': len(groups['preparedness'])
-        },
-        {
-            'filename': 'medicina3_microbiologia.ics',
-            'title': 'Microbiologia Clinica',
-            'description': 'Microbiologia e Microbiologia Clinica [C0016]',
-            'lessons': groups['microbiologia'],
-            'badge_bg': '#4ade8022',
-            'badge_fg': '#4ade80',
-            'badge_border': '#4ade80',
-            'color_name': 'GCal: Eucalyptus',
-            'count': len(groups['microbiologia'])
-        }
-    ]
-
-    # 7. Definizione Feed per ciascun Corso Elettivo (Colore Arancione)
-    elective_feeds = []
-    # Mappa nomi corti per i file
-    slug_map = {
-        'Cyber-Humanities': 'elettivo_cyber_humanities.ics',
-        'Imaging morfologico e funzionale del sistema nervoso': 'elettivo_imaging_sistema_nervoso.ics',
-        'Ricerche bibliografiche': 'elettivo_ricerche_bibliografiche.ics',
-        'Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria': 'elettivo_semeiotica_chirurgia.ics',
-        'Tele-neuro fisiologia, neuromodulazione e tecnologie digitali': 'elettivo_teleneurofisiologia.ics',
-        'Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra': 'elettivo_urgenze_chirurgia_vascolare.ics',
-    }
-
-    for cname, c_lessons in sorted(electives_by_course.items()):
-        fname = slug_map.get(cname, f"elettivo_{slugify(cname)}.ics")
-        elective_feeds.append({
-            'filename': fname,
-            'title': f"Elettivo: {cname}",
-            'description': f"Corso Elettivo: {cname} - Medicina 3",
-            'lessons': c_lessons,
-            'badge_bg': '#fb923c22',
-            'badge_fg': '#fb923c',
-            'badge_border': '#fb923c',
-            'color_name': 'GCal: Arancione',
-            'count': len(c_lessons)
-        })
-
-    # Scrittura di tutti i file .ics
-    all_feeds = curricular_feeds + elective_feeds
-    for item in all_feeds:
-        filepath = os.path.join(DIST_DIR, item['filename'])
-        ics_content = build_ics_calendar(item['title'], item['lessons'], item['description'])
-        with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(ics_content)
-        print(f"Generato: {item['filename']} ({len(item['lessons'])} lezioni)")
-
-    # 8. Generazione pagina HTML di sottoscrizione
-    index_html = generate_index_html(curricular_feeds, elective_feeds)
-    with open(os.path.join(DIST_DIR, "index.html"), "w", encoding="utf-8") as f:
-        f.write(index_html)
-    print("Generata pagina di sottoscrizione: dist/index.html")
-
-    print("=== Sincronizzazione completata con successo ===")
-
-
-if __name__ == "__main__":
-    main()
+    # Inietta il JSON direttamente nel Javascript
+    final_html = html_template.replace('__UI_DATA_INJECT__', json.dumps(ui_data, ensure_ascii=False))
+    
+    with open(os.path.join(dist_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(final_html)
+    print("Pagina web dinamica index.html generata correttamente in dist/")
