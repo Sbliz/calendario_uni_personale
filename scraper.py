@@ -2,6 +2,7 @@
 """
 Sincronizzatore Calendario Accademico UNISR
 Multicanale - Medicina e Chirurgia (Tutti gli anni, tutte le linee)
+File monolitico auto-consistente per GitHub Actions.
 """
 
 import os
@@ -14,8 +15,6 @@ import unicodedata
 import urllib.request
 from datetime import datetime, timezone
 from collections import defaultdict
-
-from courses_config import MEDICINA_CONFIG
 
 DIST_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dist")
 
@@ -34,10 +33,395 @@ PALETTE = [
     ('#94a3b8', '#94a3b822', 'Graphite'),
 ]
 
+MEDICINA_CONFIG = [
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia 2 [CLMMC-B]",
+        "cdl_id": 456,
+        "anno": 3,
+        "anno_id": 1081,
+        "linea_name": "PERCORSO COMUNE LINEA GIALLA",
+        "linea_id": 1729,
+        "slug_linea": "gialla",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia 2 [CLMMC-B]",
+        "cdl_id": 456,
+        "anno": 3,
+        "anno_id": 1081,
+        "linea_name": "PERCORSO COMUNE LINEA VERDE",
+        "linea_id": 1730,
+        "slug_linea": "verde",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia 2 [CLMMCB]",
+        "cdl_id": 457,
+        "anno": 1,
+        "anno_id": 1082,
+        "linea_name": "PERCORSO COMUNE LINEA GIALLA",
+        "linea_id": 1731,
+        "slug_linea": "gialla",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia 2 [CLMMCB]",
+        "cdl_id": 457,
+        "anno": 1,
+        "anno_id": 1082,
+        "linea_name": "PERCORSO COMUNE LINEA VERDE",
+        "linea_id": 1732,
+        "slug_linea": "verde",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia 2 [CLMMCB]",
+        "cdl_id": 457,
+        "anno": 2,
+        "anno_id": 1083,
+        "linea_name": "PERCORSO COMUNE LINEA GIALLA",
+        "linea_id": 1733,
+        "slug_linea": "gialla",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia 2 [CLMMCB]",
+        "cdl_id": 457,
+        "anno": 2,
+        "anno_id": 1083,
+        "linea_name": "PERCORSO COMUNE LINEA VERDE",
+        "linea_id": 1734,
+        "slug_linea": "verde",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia 3 [CLMMC-C]",
+        "cdl_id": 458,
+        "anno": 3,
+        "anno_id": 1084,
+        "linea_name": "PERCORSO COMUNE LINEA ROSSA",
+        "linea_id": 1735,
+        "slug_linea": "rossa",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia 3 [CLMMC-C]",
+        "cdl_id": 458,
+        "anno": 3,
+        "anno_id": 1084,
+        "linea_name": "PERCORSO COMUNE LINEA VIOLA",
+        "linea_id": 1736,
+        "slug_linea": "viola",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia 3 [CLMMCC]",
+        "cdl_id": 459,
+        "anno": 1,
+        "anno_id": 1085,
+        "linea_name": "PERCORSO COMUNE LINEA ROSSA",
+        "linea_id": 1737,
+        "slug_linea": "rossa",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia 3 [CLMMCC]",
+        "cdl_id": 459,
+        "anno": 1,
+        "anno_id": 1085,
+        "linea_name": "PERCORSO COMUNE LINEA VIOLA",
+        "linea_id": 1738,
+        "slug_linea": "viola",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia 3 [CLMMCC]",
+        "cdl_id": 459,
+        "anno": 2,
+        "anno_id": 1086,
+        "linea_name": "PERCORSO COMUNE LINEA ROSSA",
+        "linea_id": 1739,
+        "slug_linea": "rossa",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia 3 [CLMMCC]",
+        "cdl_id": 459,
+        "anno": 2,
+        "anno_id": 1086,
+        "linea_name": "PERCORSO COMUNE LINEA VIOLA",
+        "linea_id": 1740,
+        "slug_linea": "viola",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMCA]",
+        "cdl_id": 455,
+        "anno": 1,
+        "anno_id": 1079,
+        "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
+        "linea_id": 1725,
+        "slug_linea": "azzurra",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMCA]",
+        "cdl_id": 455,
+        "anno": 1,
+        "anno_id": 1079,
+        "linea_name": "PERCORSO COMUNE LINEA BIANCA",
+        "linea_id": 1726,
+        "slug_linea": "bianca",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMCA]",
+        "cdl_id": 455,
+        "anno": 2,
+        "anno_id": 1080,
+        "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
+        "linea_id": 1727,
+        "slug_linea": "azzurra",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMCA]",
+        "cdl_id": 455,
+        "anno": 2,
+        "anno_id": 1080,
+        "linea_name": "PERCORSO COMUNE LINEA BIANCA",
+        "linea_id": 1728,
+        "slug_linea": "bianca",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 3,
+        "anno_id": 1075,
+        "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
+        "linea_id": 1709,
+        "slug_linea": "azzurra",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 3,
+        "anno_id": 1075,
+        "linea_name": "PERCORSO COMUNE LINEA BIANCA",
+        "linea_id": 1710,
+        "slug_linea": "bianca",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 4,
+        "anno_id": 1076,
+        "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
+        "linea_id": 1711,
+        "slug_linea": "azzurra",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 4,
+        "anno_id": 1076,
+        "linea_name": "PERCORSO COMUNE LINEA BIANCA",
+        "linea_id": 1712,
+        "slug_linea": "bianca",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 4,
+        "anno_id": 1076,
+        "linea_name": "PERCORSO COMUNE LINEA GIALLA",
+        "linea_id": 1713,
+        "slug_linea": "gialla",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 4,
+        "anno_id": 1076,
+        "linea_name": "PERCORSO COMUNE LINEA ROSSA",
+        "linea_id": 1714,
+        "slug_linea": "rossa",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 4,
+        "anno_id": 1076,
+        "linea_name": "PERCORSO COMUNE LINEA VERDE",
+        "linea_id": 1715,
+        "slug_linea": "verde",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 4,
+        "anno_id": 1076,
+        "linea_name": "PERCORSO COMUNE LINEA VIOLA",
+        "linea_id": 1716,
+        "slug_linea": "viola",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 5,
+        "anno_id": 1077,
+        "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
+        "linea_id": 1717,
+        "slug_linea": "azzurra",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 5,
+        "anno_id": 1077,
+        "linea_name": "PERCORSO COMUNE LINEA BIANCA",
+        "linea_id": 1718,
+        "slug_linea": "bianca",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 5,
+        "anno_id": 1077,
+        "linea_name": "PERCORSO COMUNE LINEA GIALLA",
+        "linea_id": 1719,
+        "slug_linea": "gialla",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 5,
+        "anno_id": 1077,
+        "linea_name": "PERCORSO COMUNE LINEA VERDE",
+        "linea_id": 1720,
+        "slug_linea": "verde",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 6,
+        "anno_id": 1078,
+        "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
+        "linea_id": 1721,
+        "slug_linea": "azzurra",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 6,
+        "anno_id": 1078,
+        "linea_name": "PERCORSO COMUNE LINEA BIANCA",
+        "linea_id": 1722,
+        "slug_linea": "bianca",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 6,
+        "anno_id": 1078,
+        "linea_name": "PERCORSO COMUNE LINEA GIALLA",
+        "linea_id": 1723,
+        "slug_linea": "gialla",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "Corso di Laurea magistrale in Medicina e Chirurgia [CLMMC]",
+        "cdl_id": 454,
+        "anno": 6,
+        "anno_id": 1078,
+        "linea_name": "PERCORSO COMUNE LINEA VERDE",
+        "linea_id": 1724,
+        "slug_linea": "verde",
+        "is_imd": False
+    },
+    {
+        "cdl_name": "International MD Program Corso di Laurea Magistrale in Medicina e Chirurgia [CLIMDP]",
+        "cdl_id": 460,
+        "anno": 1,
+        "anno_id": 1087,
+        "linea_name": "PERCORSO COMUNE",
+        "linea_id": 1741,
+        "slug_linea": "comune",
+        "is_imd": True
+    },
+    {
+        "cdl_name": "International MD Program Corso di Laurea Magistrale in Medicina e Chirurgia [CLIMDP]",
+        "cdl_id": 460,
+        "anno": 2,
+        "anno_id": 1088,
+        "linea_name": "PERCORSO COMUNE",
+        "linea_id": 1742,
+        "slug_linea": "comune",
+        "is_imd": True
+    },
+    {
+        "cdl_name": "International MD Program Corso di Laurea Magistrale in Medicina e Chirurgia [CLMMCI]",
+        "cdl_id": 461,
+        "anno": 3,
+        "anno_id": 1089,
+        "linea_name": "PERCORSO COMUNE",
+        "linea_id": 1743,
+        "slug_linea": "comune",
+        "is_imd": True
+    },
+    {
+        "cdl_name": "International MD Program Corso di Laurea Magistrale in Medicina e Chirurgia [CLMMCI]",
+        "cdl_id": 461,
+        "anno": 4,
+        "anno_id": 1090,
+        "linea_name": "PERCORSO COMUNE",
+        "linea_id": 1744,
+        "slug_linea": "comune",
+        "is_imd": True
+    },
+    {
+        "cdl_name": "International MD Program Corso di Laurea Magistrale in Medicina e Chirurgia [CLMMCI]",
+        "cdl_id": 461,
+        "anno": 5,
+        "anno_id": 1091,
+        "linea_name": "PERCORSO COMUNE",
+        "linea_id": 1745,
+        "slug_linea": "comune",
+        "is_imd": True
+    },
+    {
+        "cdl_name": "International MD Program Corso di Laurea Magistrale in Medicina e Chirurgia [CLMMCI]",
+        "cdl_id": 461,
+        "anno": 6,
+        "anno_id": 1092,
+        "linea_name": "PERCORSO COMUNE",
+        "linea_id": 1746,
+        "slug_linea": "comune",
+        "is_imd": True
+    },
+]
+
+
 def get_color_for_subject(subject_name):
     """Assegna un colore della palette in base all'hash del nome (deterministico)."""
     h = int(hashlib.md5(subject_name.encode('utf-8')).hexdigest(), 16)
     return PALETTE[h % len(PALETTE)]
+
 
 def fetch_schedule_html(cdl_id, anno_id, curr_id):
     ctx = ssl.create_default_context()
@@ -55,7 +439,6 @@ def fetch_schedule_html(cdl_id, anno_id, curr_id):
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
     )
-    # 3 tentativi
     for attempt in range(3):
         try:
             with urllib.request.urlopen(req, context=ctx, timeout=40) as resp:
@@ -65,6 +448,7 @@ def fetch_schedule_html(cdl_id, anno_id, curr_id):
                 print(f"Errore download {cdl_id}/{anno_id}/{curr_id}: {e}")
                 return ""
             time.sleep(2)
+
 
 def extract_lessons_from_html(html):
     giorno_blocks = re.findall(
@@ -139,6 +523,7 @@ def extract_lessons_from_html(html):
     all_lessons.sort(key=sort_key)
     return all_lessons
 
+
 def clean_title(raw_title):
     tipo = ""
     if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
@@ -154,26 +539,31 @@ def clean_title(raw_title):
         return f"{base_name} [{tipo}]"
     return base_name
 
+
 def get_base_subject_name(cleaned_title):
     m = re.match(r'^(.*?)\s*\[', cleaned_title)
     if m:
         return m.group(1).strip()
     return cleaned_title
 
+
 def slugify(text):
     text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
     text = re.sub(r'[^\w\s-]', '', text).strip().lower()
     return re.sub(r'[-\s]+', '_', text)
+
 
 def generate_uid(lesson):
     unique_key = f"{lesson['date']}_{lesson['ora_inizio']}_{lesson['ora_fine']}_{lesson['titolo']}_{lesson['sede']}_{lesson['aula']}"
     h = hashlib.sha256(unique_key.encode('utf-8')).hexdigest()[:16]
     return f"unisr-med-{h}@easycourse.unisr.it"
 
+
 def format_ical_dt(date_str, time_str):
     day, month, year = date_str.split('-')
     hour, minute = time_str.split(':')
     return f"{year}{month}{day}T{hour}{minute}00"
+
 
 def escape_ical_text(text):
     if not text:
@@ -183,6 +573,7 @@ def escape_ical_text(text):
     text = text.replace(',', '\\,')
     text = text.replace('\n', '\\n')
     return text
+
 
 def build_ics_calendar(calendar_name, lessons, description=""):
     now_utc = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
@@ -247,137 +638,11 @@ def build_ics_calendar(calendar_name, lessons, description=""):
     lines.append("END:VCALENDAR")
     return "\r\n".join(lines) + "\r\n"
 
-def main():
-    print("=== Avvio Sincronizzatore Multicanale UniSR ===")
-    os.makedirs(DIST_DIR, exist_ok=True)
-    
-    total_lezioni_estratte = 0
-    total_feed_generati = 0
-
-    ui_data = []
-
-    for cfg in MEDICINA_CONFIG:
-        # Per ora escludiamo l'IMD per test
-        if cfg['is_imd']: 
-            continue
-            
-        print(f"\nElaborazione: Anno {cfg['anno']} - {cfg['linea_name']} ({cfg['cdl_name']})")
-        html = fetch_schedule_html(cfg['cdl_id'], cfg['anno_id'], cfg['linea_id'])
-        if not html:
-            continue
-            
-        lessons = extract_lessons_from_html(html)
-        print(f" -> Trovate {len(lessons)} lezioni")
-        total_lezioni_estratte += len(lessons)
-        
-        if not lessons:
-            continue
-            
-        # Percorso: dist/anno_{N}/{slug_linea}/
-        group_dir = os.path.join(DIST_DIR, f"anno_{cfg['anno']}", cfg['slug_linea'])
-        os.makedirs(group_dir, exist_ok=True)
-
-        curricular = [l for l in lessons if not l['elettivo']]
-        electives = [l for l in lessons if l['elettivo']]
-        
-        # Salvataggio iOS completo
-        ios_file = "completo_ios.ics"
-        ios_path = os.path.join(group_dir, ios_file)
-        with open(ios_path, 'w', encoding='utf-8') as f:
-            f.write(build_ics_calendar(f"UniSR Anno {cfg['anno']} - {cfg['linea_name']}", curricular, "Feed completo iOS"))
-        total_feed_generati += 1
-        
-        # Raggruppamento per materia
-        subjects = defaultdict(list)
-        for l in curricular:
-            base_subj = get_base_subject_name(clean_title(l['titolo']))
-            subjects[base_subj].append(l)
-            
-        elettivi_subjects = defaultdict(list)
-        for l in electives:
-            base_subj = get_base_subject_name(clean_title(l['titolo']))
-            elettivi_subjects[base_subj].append(l)
-
-        # UI Config per questa combinazione
-        combo_ui = {
-            "anno": cfg['anno'],
-            "linea_name": cfg['linea_name'],
-            "slug_linea": cfg['slug_linea'],
-            "ios_link": f"anno_{cfg['anno']}/{cfg['slug_linea']}/{ios_file}",
-            "ios_count": len(curricular),
-            "materie": [],
-            "elettivi": []
-        }
-
-        for subj_name, subj_lessons in sorted(subjects.items()):
-            slug_subj = slugify(subj_name)
-            filename = f"materia_{slug_subj}.ics"
-            filepath = os.path.join(group_dir, filename)
-            
-            color_hex, bg_hex, color_name = get_color_for_subject(subj_name)
-            
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.write(build_ics_calendar(f"{subj_name}", subj_lessons, f"Corso: {subj_name}"))
-            total_feed_generati += 1
-            
-            combo_ui["materie"].append({
-                "name": subj_name,
-                "file": f"anno_{cfg['anno']}/{cfg['slug_linea']}/{filename}",
-                "count": len(subj_lessons),
-                "color_name": color_name,
-                "color_hex": color_hex,
-                "bg_hex": bg_hex
-            })
-            
-        for subj_name, subj_lessons in sorted(elettivi_subjects.items()):
-            slug_subj = slugify(subj_name)
-            filename = f"elettivo_{slug_subj}.ics"
-            filepath = os.path.join(group_dir, filename)
-            
-            # Elettivi sempre Tangerine/Orange
-            color_hex, bg_hex, color_name = '#fb923c', '#fb923c22', 'Tangerine'
-            
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.write(build_ics_calendar(f"Elettivo: {subj_name}", subj_lessons, f"Corso Elettivo: {subj_name}"))
-            total_feed_generati += 1
-            
-            combo_ui["elettivi"].append({
-                "name": subj_name,
-                "file": f"anno_{cfg['anno']}/{cfg['slug_linea']}/{filename}",
-                "count": len(subj_lessons),
-                "color_name": color_name,
-                "color_hex": color_hex,
-                "bg_hex": bg_hex
-            })
-
-        ui_data.append(combo_ui)
-        
-        # Delay anti-rate-limit
-        time.sleep(1.0)
-        
-    print(f"\n=== Fine ===")
-    print(f"Totale Lezioni Estratte: {total_lezioni_estratte}")
-    print(f"Totale Feed Generati: {total_feed_generati}")
-    
-    # Salviamo un file JSON con la struttura per l'interfaccia UI
-    with open(os.path.join(DIST_DIR, "ui_data.json"), "w", encoding="utf-8") as f:
-        json.dump(ui_data, f, ensure_ascii=False, indent=2)
-
-    generate_dynamic_index(ui_data, DIST_DIR)
-
-if __name__ == "__main__":
-    main()
-
-
-import os
-import json
 
 def generate_dynamic_index(ui_data, dist_dir):
     """
-    Genera una SPA (Single Page Application) HTML che legge la configurazione
-    ed espone i dropdown per Anno e Linea, mostrando i calendari giusti.
+    Genera una SPA HTML standalone con dropdown Anno e Linea.
     """
-    
     html_template = """<!DOCTYPE html>
 <html lang="it">
 <head>
@@ -435,7 +700,7 @@ def generate_dynamic_index(ui_data, dist_dir):
     <div class="container">
         <header>
             <h1>Sincronizzazione Calendario UniSR</h1>
-            <p class="subtitle">Medicina e Chirurgia - Multi-Canale</p>
+            <p class="subtitle">Medicina e Chirurgia - Tutti gli Anni e Canali</p>
         </header>
 
         <div class="selector-box">
@@ -454,7 +719,6 @@ def generate_dynamic_index(ui_data, dist_dir):
         </div>
 
         <div id="content-area" class="hidden">
-            <!-- iOS Completo -->
             <div class="card" style="border-color: var(--primary); background: #0f172a; margin-bottom: 2rem;">
                 <div class="card-header">
                     <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf8;">iOS</span>
@@ -479,7 +743,7 @@ def generate_dynamic_index(ui_data, dist_dir):
 
     <script>
         const uiData = __UI_DATA_INJECT__;
-        const hostPath = window.location.href.replace(/\\/index\\.html$/, '').replace(/\\/$/, '');
+        const hostPath = window.location.href.replace(/\/index\.html$/, '').replace(/\/$/, '');
         
         const annoSelect = document.getElementById('anno-select');
         const lineaSelect = document.getElementById('linea-select');
@@ -503,7 +767,6 @@ def generate_dynamic_index(ui_data, dist_dir):
             comboDisponibili.forEach(c => {
                 const opt = document.createElement('option');
                 opt.value = c.slug_linea;
-                // Pulisce il nome linea (es. toglie "PERCORSO COMUNE")
                 opt.textContent = c.linea_name.replace('PERCORSO COMUNE', '').trim() || 'Linea Comune';
                 lineaSelect.appendChild(opt);
             });
@@ -520,11 +783,9 @@ def generate_dynamic_index(ui_data, dist_dir):
             const config = uiData.find(d => d.anno === anno && d.slug_linea === slug);
             if (!config) return;
             
-            // Render iOS
             document.getElementById('ios-meta').textContent = `${config.ios_count} eventi obbligatori complessivi`;
-            document.getElementById('ios-btn').href = `webcal://${hostPath.replace(/^https?:\\/\\//, '')}/${config.ios_link}`;
+            document.getElementById('ios-btn').href = `webcal://${hostPath.replace(/^https?:\/\//, '')}/${config.ios_link}`;
             
-            // Helper generatore carte
             function buildCard(item) {
                 return `
                 <div class="card">
@@ -563,10 +824,122 @@ def generate_dynamic_index(ui_data, dist_dir):
 </body>
 </html>
 """
-
-    # Inietta il JSON direttamente nel Javascript
     final_html = html_template.replace('__UI_DATA_INJECT__', json.dumps(ui_data, ensure_ascii=False))
-    
     with open(os.path.join(dist_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(final_html)
     print("Pagina web dinamica index.html generata correttamente in dist/")
+
+
+def main():
+    print("=== Avvio Sincronizzatore Multicanale UniSR ===")
+    os.makedirs(DIST_DIR, exist_ok=True)
+    
+    total_lezioni_estratte = 0
+    total_feed_generati = 0
+    ui_data = []
+
+    for cfg in MEDICINA_CONFIG:
+        if cfg['is_imd']: 
+            continue
+            
+        print(f"\nElaborazione: Anno {cfg['anno']} - {cfg['linea_name']} ({cfg['cdl_name']})")
+        html = fetch_schedule_html(cfg['cdl_id'], cfg['anno_id'], cfg['linea_id'])
+        if not html:
+            continue
+            
+        lessons = extract_lessons_from_html(html)
+        print(f" -> Trovate {len(lessons)} lezioni")
+        total_lezioni_estratte += len(lessons)
+        
+        if not lessons:
+            continue
+            
+        group_dir = os.path.join(DIST_DIR, f"anno_{cfg['anno']}", cfg['slug_linea'])
+        os.makedirs(group_dir, exist_ok=True)
+
+        curricular = [l for l in lessons if not l['elettivo']]
+        electives = [l for l in lessons if l['elettivo']]
+        
+        # Salvataggio iOS completo
+        ios_file = "completo_ios.ics"
+        ios_path = os.path.join(group_dir, ios_file)
+        with open(ios_path, 'w', encoding='utf-8') as f:
+            f.write(build_ics_calendar(f"UniSR Anno {cfg['anno']} - {cfg['linea_name']}", curricular, "Feed completo iOS"))
+        total_feed_generati += 1
+        
+        # Raggruppamento per materia
+        subjects = defaultdict(list)
+        for l in curricular:
+            base_subj = get_base_subject_name(clean_title(l['titolo']))
+            subjects[base_subj].append(l)
+            
+        elettivi_subjects = defaultdict(list)
+        for l in electives:
+            base_subj = get_base_subject_name(clean_title(l['titolo']))
+            elettivi_subjects[base_subj].append(l)
+
+        combo_ui = {
+            "anno": cfg['anno'],
+            "linea_name": cfg['linea_name'],
+            "slug_linea": cfg['slug_linea'],
+            "ios_link": f"anno_{cfg['anno']}/{cfg['slug_linea']}/{ios_file}",
+            "ios_count": len(curricular),
+            "materie": [],
+            "elettivi": []
+        }
+
+        for subj_name, subj_lessons in sorted(subjects.items()):
+            slug_subj = slugify(subj_name)
+            filename = f"materia_{slug_subj}.ics"
+            filepath = os.path.join(group_dir, filename)
+            
+            color_hex, bg_hex, color_name = get_color_for_subject(subj_name)
+            
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(build_ics_calendar(f"{subj_name}", subj_lessons, f"Corso: {subj_name}"))
+            total_feed_generati += 1
+            
+            combo_ui["materie"].append({
+                "name": subj_name,
+                "file": f"anno_{cfg['anno']}/{cfg['slug_linea']}/{filename}",
+                "count": len(subj_lessons),
+                "color_name": color_name,
+                "color_hex": color_hex,
+                "bg_hex": bg_hex
+            })
+            
+        for subj_name, subj_lessons in sorted(elettivi_subjects.items()):
+            slug_subj = slugify(subj_name)
+            filename = f"elettivo_{slug_subj}.ics"
+            filepath = os.path.join(group_dir, filename)
+            
+            color_hex, bg_hex, color_name = '#fb923c', '#fb923c22', 'Tangerine'
+            
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(build_ics_calendar(f"Elettivo: {subj_name}", subj_lessons, f"Corso Elettivo: {subj_name}"))
+            total_feed_generati += 1
+            
+            combo_ui["elettivi"].append({
+                "name": subj_name,
+                "file": f"anno_{cfg['anno']}/{cfg['slug_linea']}/{filename}",
+                "count": len(subj_lessons),
+                "color_name": color_name,
+                "color_hex": color_hex,
+                "bg_hex": bg_hex
+            })
+
+        ui_data.append(combo_ui)
+        time.sleep(1.0)
+        
+    print(f"\n=== Fine ===")
+    print(f"Totale Lezioni Estratte: {total_lezioni_estratte}")
+    print(f"Totale Feed Generati: {total_feed_generati}")
+    
+    with open(os.path.join(DIST_DIR, "ui_data.json"), "w", encoding="utf-8") as f:
+        json.dump(ui_data, f, ensure_ascii=False, indent=2)
+
+    generate_dynamic_index(ui_data, DIST_DIR)
+
+
+if __name__ == "__main__":
+    main()
