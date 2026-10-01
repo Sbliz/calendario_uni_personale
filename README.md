@@ -59,6 +59,13 @@ Il sistema genera file standard **iCalendar (RFC 5545)** compatibili con l'inter
 4. Al termine, il tuo sito sarà attivo all'indirizzo:
    `https://<TUO-USERNAME>.github.io/<NOME-REPO>/`
 
+## 📝 Personalizzazione Acronimi e Sigle
+
+Gli acronimi utilizzati nei titoli degli eventi (es. `[PATO]`) e nella legenda della pagina web sono definiti nel file:
+👉 **[`ACRONIMI.md`](ACRONIMI.md)**
+
+Puoi modificare o aggiungere nuovi acronimi direttamente modificando la tabella in quel file (anche dal browser su GitHub). Alla successiva esecuzione del workflow o dello scraper, i calendari verranno generati con le sigle aggiornate.
+
 ---
 
 ## 🛠️ Esecuzione Locale (Opzionale)

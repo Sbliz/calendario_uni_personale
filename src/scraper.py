@@ -13,10 +13,12 @@ import json
 import hashlib
 import unicodedata
 import urllib.request
+import html
 from datetime import datetime, timezone
 from collections import defaultdict
 
 DIST_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dist")
+ACRONIMI_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "ACRONIMI.md")
 
 PALETTE = [
     ('#facc15', '#fef08a22', 'Banana'),
@@ -480,7 +482,7 @@ def extract_lessons_from_html(html):
 
             ora_ini = get_attr("ora-inizio")
             ora_fine = get_attr("ora-fine")
-            titolo = get_attr("titolo")
+            titolo = html.unescape(get_attr("titolo"))
             aula = get_attr("aula")
             sede = get_attr("sede")
             docenti_json = get_attr("docenti")
@@ -524,20 +526,73 @@ def extract_lessons_from_html(html):
     return all_lessons
 
 
-def get_abbreviation(name):
-    name_upper = name.upper()
-    if "PATOLOGIA" in name_upper: return "PATO"
-    if "CHIRURGIA VASCOLARE" in name_upper: return "CHIRVAS"
-    if "ATTIVITÀ PROFESSIONALIZZANTI" in name_upper or ("ATTIVITA" in name_upper and "PROFESSIONALIZZANTI" in name_upper): return "APRO"
-    if "MEDICINA DI LABORATORIO" in name_upper: return "MEDLAB"
-    if "EVENTI GENERICI" in name_upper: return "EVENTI"
+ACRONYMS_MAP = {}
+
+def load_acronyms_map(md_file=ACRONIMI_FILE):
+    """
+    Carica la mappatura degli acronimi dal file markdown ACRONIMI.md.
+    Permette all'utente di personalizzare gli acronimi modificando direttamente il file .md.
+    """
+    global ACRONYMS_MAP
+    if not os.path.exists(md_file):
+        print(f"[Avviso] File acronimi non trovato: {md_file}")
+        return {}
     
+    mapping = {}
+    try:
+        with open(md_file, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line.startswith("|") or not line.endswith("|"):
+                    continue
+                cols = [c.strip() for c in line.split("|")[1:-1]]
+                if len(cols) >= 2:
+                    subject, abbr = cols[0], cols[1]
+                    if not subject or not abbr or "---" in subject or "materia" in subject.lower():
+                        continue
+                    clean_subj = html.unescape(subject).strip()
+                    mapping[clean_subj.lower()] = abbr.strip().upper()
+        print(f"[Acronimi] Caricati {len(mapping)} acronimi dal file {os.path.basename(md_file)}")
+    except Exception as e:
+        print(f"[Errore] Impossibile leggere {md_file}: {e}")
+        
+    ACRONYMS_MAP = mapping
+    return mapping
+
+
+def get_abbreviation(name):
+    """
+    Restituisce l'acronimo per la materia specificata.
+    1. Cerca prima nel dizionario caricato dal file ACRONIMI.md
+    2. Cerca corrispondenze parziali / parole chiave nel file ACRONIMI.md
+    3. Genera una sigla euristica automatica come fallback per corsi futuri non ancora censiti.
+    """
+    if not name:
+        return "GEN"
+        
+    global ACRONYMS_MAP
+    if not ACRONYMS_MAP:
+        load_acronyms_map()
+        
+    norm = html.unescape(name).strip().lower()
+    
+    # 1. Corrispondenza esatta nella tabella ACRONIMI.md
+    if norm in ACRONYMS_MAP:
+        return ACRONYMS_MAP[norm]
+        
+    # 2. Corrispondenza parziale (sottostringa o parola chiave presente nel file)
+    for k, v in ACRONYMS_MAP.items():
+        if k and (k in norm or norm in k):
+            return v
+            
+    # 3. Fallback dinamico
+    name_upper = html.unescape(name).upper()
     words = re.findall(r'[A-ZÀ-ÖØ-Þ]+', name_upper)
     stopwords = {"DI", "E", "IN", "DEL", "DELLA", "DELLO", "DEI", "DELLE", "DA", "A", "I", "II", "III", "IV", "V", "VI", "PER", "CON"}
     words = [w for w in words if w not in stopwords]
     
     if not words:
-        return name[:4].upper()
+        return re.sub(r'[^A-Z0-9]', '', name_upper)[:4] or "GEN"
         
     if len(words) == 1:
         return words[0][:4]
@@ -546,20 +601,25 @@ def get_abbreviation(name):
 
 
 def clean_title(raw_title):
+    raw_title = html.unescape(raw_title)
     tipo = ""
     if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
         tipo = "Lezione"
     elif " - ESE" in raw_title:
         tipo = "Esercitazione"
-    elif " - APR" in raw_title or " - TIR" in raw_title:
+    elif " - APR" in raw_title or " - TIR" in raw_title or " - APRO" in raw_title:
         tipo = "Attività Pratica"
     
-    # Rimuove i suffissi noti invece di tagliare al primo trattino
-    base_name = re.sub(r'\s*-\s*(LEZ(_D)?|ESE|APR|TIR).*$', '', raw_title, flags=re.IGNORECASE)
-    # Rimuove l'eventuale [TIPO] o altro tra parentesi quadre
+    clean = re.sub(r'\s*-\s*Corso Elettivo.*$', '', raw_title, flags=re.IGNORECASE)
+    clean = re.sub(r'\s*-\s*(LEZ(_D)?|ESE|APR(_[A-Z0-9]+)?|TIR|APRO).*$', '', clean, flags=re.IGNORECASE)
+    
+    # Se dopo la rimozione dei tipi rimane una struttura 'NomeInsegnamento - ModuloCanale',
+    # estraiamo il nome principale dell'insegnamento per evitare duplicati come 'Semeiotica - Semeiotica 2'
+    parts = re.split(r'\s+-\s+', clean)
+    base_name = parts[0].strip()
     base_name = re.sub(r'\s*\[.*?\]', '', base_name).strip()
     
-    if base_name.lower() == "evento generico":
+    if base_name.lower() in ("evento generico", "eventi generici"):
         base_name = "Eventi generici"
         
     if tipo:
@@ -980,6 +1040,7 @@ def generate_dynamic_index(ui_data, dist_dir):
 def main():
     print("=== Avvio Sincronizzatore Multicanale UniSR ===")
     os.makedirs(DIST_DIR, exist_ok=True)
+    load_acronyms_map()
     
     total_lezioni_estratte = 0
     total_feed_generati = 0
