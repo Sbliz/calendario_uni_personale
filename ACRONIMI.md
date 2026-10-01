@@ -10,44 +10,67 @@ Questo file definisce la mappatura tra le **materie/corsi** dell'Università Vit
 
 ---
 
-## 📚 Corsi Curricolari Obbligatori
+## 📚 Corsi Curricolari Obbligatori (1° Semestre - Attivi)
 
 | Materia / Corso | Acronimo | Note / Descrizione |
 | :--- | :--- | :--- |
-| Anatomia Patologica | ANATPAT | Corso Curricolare |
-| Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche | AUTOVAL | Corso Curricolare |
-| Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica | BASIPSIC | Corso Curricolare |
-| Biochimica | BIOCHIM | Corso Curricolare |
-| Biologia | BIOL | Corso Curricolare |
-| Chimica e propedeutica biochimica | CHIM | Corso Curricolare |
-| Clinica Chirurgica | CLINCHIR | Corso Curricolare |
-| Comunicazione Clinica in Lingua Inglese e Storia della Medicina | COMCLIN | Corso Curricolare |
-| Fisiologia | FISIO | Corso Curricolare |
-| Gastroenterologia | GASTRO | Corso Curricolare |
-| Genetica Medica | GENET | Corso Curricolare |
-| Ginecologia ed Ostetricia | GINOST | Corso Curricolare |
-| Immunologia clinica e reumatologia | IMMUNO | Corso Curricolare |
-| Istologia | ISTO | Corso Curricolare |
-| Malattie Infettive | INFETT | Corso Curricolare |
-| Medicina di Laboratorio | MEDLAB | Corso Curricolare |
-| Microbiologia e Microbiologia Clinica | MICRO | Corso Curricolare |
-| Morfologia Umana | MORFUM | Corso Curricolare |
-| Neurologia | NEURO | Corso Curricolare |
-| Patologia | PATO | Corso Curricolare |
-| Pediatria | PEDIAT | Corso Curricolare |
-| Preparedness in Medicina: dal Quotidiano allo Straordinario | PREP | Corso Curricolare |
-| Semeiotica | SEMEIO | Corso Curricolare |
-| Specialità medico-Chirurgiche Testa-Collo | TESTCOLL | Corso Curricolare |
-| Statistica | STAT | Corso Curricolare |
+| Anatomia Patologica | ANATPAT | 4° Anno |
+| Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche | AUTOVAL | 1° Anno |
+| Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica | BASIPSIC | 1° Anno |
+| Biochimica | BIOCHIM | 1° Anno |
+| Biologia | BIOL | 1° Anno |
+| Chimica e propedeutica biochimica | CHIM | 1° Anno |
+| Clinica Chirurgica | CLINCHIR | 6° Anno |
+| Comunicazione Clinica in Lingua Inglese e Storia della Medicina | COMCLIN | 1° Anno |
+| Fisiologia | FISIO | 2° Anno |
+| Gastroenterologia | GASTRO | 4° Anno |
+| Genetica Medica | GENET | 2° Anno |
+| Ginecologia ed Ostetricia | GINOST | 6° Anno |
+| Immunologia clinica e reumatologia | IMMUNO | 4° Anno |
+| Istologia | ISTO | 2° Anno |
+| Malattie Infettive | INFETT | 4° Anno |
+| Medicina di Laboratorio | MEDLAB | 3° Anno |
+| Microbiologia e Microbiologia Clinica | MICRO | 3° Anno |
+| Morfologia Umana | MORFUM | 2° Anno (Anatomia Umana) |
+| Neurologia | NEURO | 5° Anno |
+| Patologia | PATO | 3° Anno (Patologia Generale) |
+| Pediatria | PEDIAT | 6° Anno |
+| Preparedness in Medicina: dal Quotidiano allo Straordinario | PREP | 3° Anno |
+| Semeiotica | SEMEIO | 2° Anno (Metodologia Clinica) |
+| Specialità medico-Chirurgiche Testa-Collo | TESTCOLL | 5° Anno (ORL, Odonto, Oftalmo) |
+| Statistica | STAT | 1° Anno (Statistica Medica e Fisica) |
 
 ---
 
-## 🩺 Attività Pratiche e Professionalizzanti
+## 📚 Corsi Curricolari Previsti (2° Semestre / Annuali)
+
+Questi corsi completano l'offerta formativa dell'intero percorso di Medicina UniSR e le loro sigle sono già preimpostate per quando l'università pubblicherà i calendari del secondo semestre:
 
 | Materia / Corso | Acronimo | Note / Descrizione |
 | :--- | :--- | :--- |
-| Attività professionalizzanti di medicina di laboratorio | APRO | Tirocinio / Attività pratica di laboratorio |
-| Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche | APROCHIR | Internato / Tirocinio chirurgico |
+| Cardiologia e Cardiochirurgia | CARDIO | Malattie dell'Apparato Cardiovascolare |
+| Clinica Medica | CLINMED | Medicina Interna e Terapia Medica |
+| Dermatologia | DERMA | Malattie Cutanee e Veneree |
+| Ematologia e Oncologia Medica | EMATONCO | Ematologia e Oncologia Clinica |
+| Farmacologia | FARMA | Farmacologia Generale e Clinica |
+| Fisica Medica | FISMED | Fisica Applicata alla Medicina |
+| Igiene e Sanità Pubblica | IGIENE | Medicina Preventiva e Sanità |
+| Malattie dell'Apparato Respiratorio | PNEUMO | Pneumologia e Malattie Respiratorie |
+| Medicina Legale e Bioetica | MEDLEG | Medicina Legale, Deontologia e Bioetica |
+| Medicina d'Emergenza e Urgenza | EMERG | Emergenze Medico-Chirurgiche e Rianimazione |
+| Nefrologia e Urologia | NEFRO | Malattie Renali e del Tratto Urinario |
+| Ortopedia e Traumatologia | ORTO | Malattie dell'Apparato Locomotore |
+| Psichiatria e Psicologia Clinica | PSICH | Salute Mentale e Psichiatria Clinica |
+
+---
+
+## 🩺 Attività Pratiche e Tirocini Professionalizzanti
+
+| Materia / Corso | Acronimo | Note / Descrizione |
+| :--- | :--- | :--- |
+| Attività professionalizzanti di medicina di laboratorio | APRO | Tirocinio / Attività pratica di laboratorio (3° anno) |
+| Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche | APROCHIR | Internato / Tirocinio chirurgico (4° anno) |
+| Tirocinio Pratico Valutativo | TPVES | Tirocinio abilitante alla professione medica |
 
 ---
 
@@ -97,3 +120,4 @@ Questo file definisce la mappatura tra le **materie/corsi** dell'Università Vit
 | Materia / Corso | Acronimo | Note / Descrizione |
 | :--- | :--- | :--- |
 | Eventi generici | EVENTI | Attività extra, assemblee, benvenuto matricole o altri eventi generici |
+| Evento generico | EVENTI | Variante singolare presente nei feed |
