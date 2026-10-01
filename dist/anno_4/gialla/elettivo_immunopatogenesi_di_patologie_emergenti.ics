@@ -1,0 +1,159 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Immunopatogenesi di patologie emergenti
+X-WR-CALDESC:Corso Elettivo: Immunopatogenesi di patologie emergenti
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-a198880f349b74ef@easycourse.unisr.it
+DTSTAMP:20260930T203157Z
+DTSTART;TZID=Europe/Rome:20261008T173000
+DTEND;TZID=Europe/Rome:20261008T193000
+SUMMARY:Immunopatogenesi di patologie emergenti [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunopatogenesi di patologie emergenti - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d340be8fc41a092b@easycourse.unisr.it
+DTSTAMP:20260930T203157Z
+DTSTART;TZID=Europe/Rome:20261015T173000
+DTEND;TZID=Europe/Rome:20261015T193000
+SUMMARY:Immunopatogenesi di patologie emergenti [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunopatogenesi di patologie emergenti - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-95fe04d449485bf2@easycourse.unisr.it
+DTSTAMP:20260930T203157Z
+DTSTART;TZID=Europe/Rome:20261022T173000
+DTEND;TZID=Europe/Rome:20261022T193000
+SUMMARY:Immunopatogenesi di patologie emergenti [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunopatogenesi di patologie emergenti - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-773ab1cd7959f5d8@easycourse.unisr.it
+DTSTAMP:20260930T203157Z
+DTSTART;TZID=Europe/Rome:20261029T173000
+DTEND;TZID=Europe/Rome:20261029T193000
+SUMMARY:Immunopatogenesi di patologie emergenti [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunopatogenesi di patologie emergenti - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1b059fcfaed6a7e8@easycourse.unisr.it
+DTSTAMP:20260930T203157Z
+DTSTART;TZID=Europe/Rome:20261105T173000
+DTEND;TZID=Europe/Rome:20261105T193000
+SUMMARY:Immunopatogenesi di patologie emergenti [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunopatogenesi di patologie emergenti - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6b3236f1705a20c8@easycourse.unisr.it
+DTSTAMP:20260930T203157Z
+DTSTART;TZID=Europe/Rome:20261112T173000
+DTEND;TZID=Europe/Rome:20261112T193000
+SUMMARY:Immunopatogenesi di patologie emergenti [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunopatogenesi di patologie emergenti - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2a916fdf953024a8@easycourse.unisr.it
+DTSTAMP:20260930T203157Z
+DTSTART;TZID=Europe/Rome:20261119T173000
+DTEND;TZID=Europe/Rome:20261119T193000
+SUMMARY:Immunopatogenesi di patologie emergenti [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunopatogenesi di patologie emergenti - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-48cae4f724029351@easycourse.unisr.it
+DTSTAMP:20260930T203157Z
+DTSTART;TZID=Europe/Rome:20261126T173000
+DTEND;TZID=Europe/Rome:20261126T193000
+SUMMARY:Immunopatogenesi di patologie emergenti [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunopatogenesi di patologie emergenti - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3e26a7981fceb480@easycourse.unisr.it
+DTSTAMP:20260930T203157Z
+DTSTART;TZID=Europe/Rome:20261203T173000
+DTEND;TZID=Europe/Rome:20261203T193000
+SUMMARY:Immunopatogenesi di patologie emergenti [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunopatogenesi di patologie emergenti - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-96111bd8a7d3b492@easycourse.unisr.it
+DTSTAMP:20260930T203157Z
+DTSTART;TZID=Europe/Rome:20261210T173000
+DTEND;TZID=Europe/Rome:20261210T193000
+SUMMARY:Immunopatogenesi di patologie emergenti [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunopatogenesi di patologie emergenti - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d8f3821652e36636@easycourse.unisr.it
+DTSTAMP:20260930T203157Z
+DTSTART;TZID=Europe/Rome:20261217T173000
+DTEND;TZID=Europe/Rome:20261217T193000
+SUMMARY:Immunopatogenesi di patologie emergenti [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunopatogenesi di patologie emergenti - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d862896012a562d2@easycourse.unisr.it
+DTSTAMP:20260930T203157Z
+DTSTART;TZID=Europe/Rome:20270114T173000
+DTEND;TZID=Europe/Rome:20270114T193000
+SUMMARY:Immunopatogenesi di patologie emergenti [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunopatogenesi di patologie emergenti - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

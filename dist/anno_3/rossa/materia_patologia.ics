@@ -1,0 +1,621 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Patologia
+X-WR-CALDESC:Corso: Patologia
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-d4175953a7a14a6b@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20260922T103000
+DTEND;TZID=Europe/Rome:20260922T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-facf331cae8e2756@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20260924T083000
+DTEND;TZID=Europe/Rome:20260924T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8f2708a68606dc1a@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20260928T083000
+DTEND;TZID=Europe/Rome:20260928T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d4271a23aab56887@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20260930T083000
+DTEND;TZID=Europe/Rome:20260930T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-955ae5c5288f2dca@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261001T133000
+DTEND;TZID=Europe/Rome:20261001T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA302
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-145283a3f1861bc9@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261002T103000
+DTEND;TZID=Europe/Rome:20261002T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-deb2eff06688f86e@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261005T083000
+DTEND;TZID=Europe/Rome:20261005T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6861ee13964476d9@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261006T103000
+DTEND;TZID=Europe/Rome:20261006T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 2 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-21f2019c8291529a@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261007T133000
+DTEND;TZID=Europe/Rome:20261007T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-13363b48989d9e7f@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261008T083000
+DTEND;TZID=Europe/Rome:20261008T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-84381852a32ffca6@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261008T133000
+DTEND;TZID=Europe/Rome:20261008T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-9f710527055a4358@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261009T083000
+DTEND;TZID=Europe/Rome:20261009T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 2 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b07c8f120b23752d@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261012T083000
+DTEND;TZID=Europe/Rome:20261012T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 4 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1df4eccb434f0bd6@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261013T083000
+DTEND;TZID=Europe/Rome:20261013T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f65b8e2c8821f288@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261013T133000
+DTEND;TZID=Europe/Rome:20261013T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-edc07ee2fd17e91f@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261014T133000
+DTEND;TZID=Europe/Rome:20261014T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-52f3904e7b7dc7e3@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261015T083000
+DTEND;TZID=Europe/Rome:20261015T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-99c76a624dd2e897@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261015T133000
+DTEND;TZID=Europe/Rome:20261015T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fd0f855523e40c57@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261020T153000
+DTEND;TZID=Europe/Rome:20261020T173000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA201
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-91cb6964fcbf4d4b@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261021T133000
+DTEND;TZID=Europe/Rome:20261021T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b38feaf0e65ce18d@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261022T083000
+DTEND;TZID=Europe/Rome:20261022T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b30753d0eeb00958@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261026T083000
+DTEND;TZID=Europe/Rome:20261026T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-9b82f545129f4f19@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261027T103000
+DTEND;TZID=Europe/Rome:20261027T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6e7dd1d2ef3646cf@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261028T133000
+DTEND;TZID=Europe/Rome:20261028T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d4a0096a3885c966@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261029T083000
+DTEND;TZID=Europe/Rome:20261029T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-bbd6e8c54747d97e@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261102T103000
+DTEND;TZID=Europe/Rome:20261102T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3abaa0153b42cac3@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261103T103000
+DTEND;TZID=Europe/Rome:20261103T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-09618d4c0bec9c48@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261104T083000
+DTEND;TZID=Europe/Rome:20261104T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA201
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 2 LS (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-102b4a23d6c794e2@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261104T133000
+DTEND;TZID=Europe/Rome:20261104T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-96eea6d1b41a9e0c@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261109T133000
+DTEND;TZID=Europe/Rome:20261109T173000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 3 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8b52994c6c461136@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261110T133000
+DTEND;TZID=Europe/Rome:20261110T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 3 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1a2dd87a61036306@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261110T153000
+DTEND;TZID=Europe/Rome:20261110T173000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 3 LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d90509acad26d342@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261116T083000
+DTEND;TZID=Europe/Rome:20261116T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8f6b010b9d7acd33@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261117T103000
+DTEND;TZID=Europe/Rome:20261117T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA302
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2d94af1f7fab3def@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261118T083000
+DTEND;TZID=Europe/Rome:20261118T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA302
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-258df2723dba4190@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261118T133000
+DTEND;TZID=Europe/Rome:20261118T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO301
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-dd5f437390571ee2@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261119T103000
+DTEND;TZID=Europe/Rome:20261119T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA401
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LS (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA401\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-126ad18765778b4d@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261123T083000
+DTEND;TZID=Europe/Rome:20261123T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO201
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-654a23d91073afc0@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261124T103000
+DTEND;TZID=Europe/Rome:20261124T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f20598d80e8d5f4c@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261125T083000
+DTEND;TZID=Europe/Rome:20261125T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f6b79728399286ff@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261126T133000
+DTEND;TZID=Europe/Rome:20261126T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-842096349e8c124d@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261130T083000
+DTEND;TZID=Europe/Rome:20261130T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8b10bff8937cee5b@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261201T103000
+DTEND;TZID=Europe/Rome:20261201T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fdf6a0f27641f554@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261209T103000
+DTEND;TZID=Europe/Rome:20261209T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-01b16c78c3e58733@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261210T083000
+DTEND;TZID=Europe/Rome:20261210T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-55464ed1e09ed53f@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261210T103000
+DTEND;TZID=Europe/Rome:20261210T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d42c6a058e718c44@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261211T133000
+DTEND;TZID=Europe/Rome:20261211T173000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 13:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a251d7f8749a2cde@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261214T083000
+DTEND;TZID=Europe/Rome:20261214T103000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-53d3742ffdcb34ea@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261215T153000
+DTEND;TZID=Europe/Rome:20261215T173000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO401
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 4 LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fcb989c7ca92c52c@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261221T133000
+DTEND;TZID=Europe/Rome:20261221T153000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA201
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 4 LS (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA201\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fd36b3f75ef1ebe6@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20261222T083000
+DTEND;TZID=Europe/Rome:20261222T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-212b74a701555e8a@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20270107T083000
+DTEND;TZID=Europe/Rome:20270107T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Patologia [C0019] - Patologia 1 LU (LINEA ROSSA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-9687d5c539599d82@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20270108T133000
+DTEND;TZID=Europe/Rome:20270108T173000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO202
+DESCRIPTION:Insegnamento: Patologia [B0019] - Patologia 1 LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 13:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-451b7be4e9139fc7@easycourse.unisr.it
+DTSTAMP:20260930T201748Z
+DTSTART;TZID=Europe/Rome:20270111T083000
+DTEND;TZID=Europe/Rome:20270111T123000
+SUMMARY:Patologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO301
+DESCRIPTION:Insegnamento: Patologia [B0019] - Patologia 1 LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

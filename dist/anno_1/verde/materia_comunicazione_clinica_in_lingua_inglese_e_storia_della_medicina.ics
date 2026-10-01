@@ -1,0 +1,258 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Comunicazione Clinica in Lingua Inglese e Storia della Medicina
+X-WR-CALDESC:Corso: Comunicazione Clinica in Lingua Inglese e Storia della Medicina
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-1275fe7718f4a5b6@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261006T093000
+DTEND;TZID=Europe/Rome:20261006T113000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE201
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LU (LINEA VERDE) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-421875e7e7dd3e5a@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261009T143000
+DTEND;TZID=Europe/Rome:20261009T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VASARI\, Aula VA401
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LS (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA401\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e9522b1e79db5097@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261013T143000
+DTEND;TZID=Europe/Rome:20261013T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LS (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d64938607ed4172b@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261020T143000
+DTEND;TZID=Europe/Rome:20261020T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LS (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-03a2544c0abdcdf2@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261022T163000
+DTEND;TZID=Europe/Rome:20261022T183000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE102
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LU (LINEA VERDE) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8ad3c66e2ff37af7@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261027T143000
+DTEND;TZID=Europe/Rome:20261027T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LS (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e81eacc5e62bf592@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261029T143000
+DTEND;TZID=Europe/Rome:20261029T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE201
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 1 LU (LINEA VERDE) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-00df3015350c875e@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261103T143000
+DTEND;TZID=Europe/Rome:20261103T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LS (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ffffce6e92983165@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261105T143000
+DTEND;TZID=Europe/Rome:20261105T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE102
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 1 LU (LINEA VERDE) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c3f29c3c68df3d32@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261105T163000
+DTEND;TZID=Europe/Rome:20261105T183000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE102
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LU (LINEA VERDE) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a0539865d13d7a2d@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261110T143000
+DTEND;TZID=Europe/Rome:20261110T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LS (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5b0b2bc8aa2282ae@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261112T143000
+DTEND;TZID=Europe/Rome:20261112T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE101
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 1 LU (LINEA VERDE) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7cfb402feee9f504@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261117T143000
+DTEND;TZID=Europe/Rome:20261117T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LS (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8e9b101b22b043a2@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261119T163000
+DTEND;TZID=Europe/Rome:20261119T183000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE102
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LU (LINEA VERDE) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-21b77971b317cb31@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261124T143000
+DTEND;TZID=Europe/Rome:20261124T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LS (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4c5703c4992bc169@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261125T163000
+DTEND;TZID=Europe/Rome:20261125T183000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO301
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LS (LINEA VERDE) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ac8852f7efa444a4@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261201T143000
+DTEND;TZID=Europe/Rome:20261201T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LS (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1fdea6d8a9d5f8fc@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261203T163000
+DTEND;TZID=Europe/Rome:20261203T183000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE102
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LU (LINEA VERDE) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8f681c840ff09b24@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261215T143000
+DTEND;TZID=Europe/Rome:20261215T163000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VASARI\, Aula VA401
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LS (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA401\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f943e9026c2f0f90@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261217T163000
+DTEND;TZID=Europe/Rome:20261217T183000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VASARI\, Aula VA401
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LS (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA401\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-efc9c806ad635077@easycourse.unisr.it
+DTSTAMP:20260930T201424Z
+DTSTART;TZID=Europe/Rome:20261221T113000
+DTEND;TZID=Europe/Rome:20261221T133000
+SUMMARY:Comunicazione Clinica in Lingua Inglese e Storia della Medicina [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE102
+DESCRIPTION:Insegnamento: Comunicazione Clinica in Lingua Inglese e Storia della Medicina [B0005] - Comunicazione Clinica in Lingua Inglese e Storia della Medicina 2 LU (LINEA VERDE) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

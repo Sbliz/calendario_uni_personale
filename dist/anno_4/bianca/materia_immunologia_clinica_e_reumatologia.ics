@@ -1,0 +1,192 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Immunologia clinica e reumatologia
+X-WR-CALDESC:Corso: Immunologia clinica e reumatologia
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-272c9d80f771fdc5@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20260923T083000
+DTEND;TZID=Europe/Rome:20260923T103000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LU (LINEA BIANCA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-89aaa216a35f3496@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20260928T133000
+DTEND;TZID=Europe/Rome:20260928T153000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA301
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LU (LINEA BIANCA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5548fae3a6a02d76@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261005T133000
+DTEND;TZID=Europe/Rome:20261005T153000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA301
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LU (LINEA BIANCA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-baf58657310438ea@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261019T133000
+DTEND;TZID=Europe/Rome:20261019T153000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA301
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LU (LINEA BIANCA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5e9bf42010c23dbd@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261023T133000
+DTEND;TZID=Europe/Rome:20261023T153000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO202
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LS (LINEA BIANCA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-67ad9199c3ef5c64@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261026T133000
+DTEND;TZID=Europe/Rome:20261026T153000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA301
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LU (LINEA BIANCA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2f79bb1784f64db5@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261028T103000
+DTEND;TZID=Europe/Rome:20261028T123000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA302
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LU (LINEA BIANCA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-93a2d03878cfe0a1@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261030T133000
+DTEND;TZID=Europe/Rome:20261030T153000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO202
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LS (LINEA BIANCA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-dd337e0e85454d91@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261102T133000
+DTEND;TZID=Europe/Rome:20261102T153000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA301
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LU (LINEA BIANCA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-61c3e2fdd13f47ec@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261112T083000
+DTEND;TZID=Europe/Rome:20261112T103000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA301
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LU (LINEA BIANCA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6833159df5cbc9dd@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261113T103000
+DTEND;TZID=Europe/Rome:20261113T123000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LU (LINEA BIANCA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7bcdf5074191e505@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261209T133000
+DTEND;TZID=Europe/Rome:20261209T153000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LU (LINEA BIANCA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-45e01aff17ce7c8a@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261210T153000
+DTEND;TZID=Europe/Rome:20261210T173000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA301
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LU (LINEA BIANCA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-04565f2f124be48f@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261211T083000
+DTEND;TZID=Europe/Rome:20261211T103000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO201
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LS (LINEA BIANCA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4d5199fc5283e615@easycourse.unisr.it
+DTSTAMP:20260930T203104Z
+DTSTART;TZID=Europe/Rome:20261214T133000
+DTEND;TZID=Europe/Rome:20261214T153000
+SUMMARY:Immunologia clinica e reumatologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA301
+DESCRIPTION:Insegnamento: Immunologia clinica e reumatologia [1187] - Immunologia clinica e reumatologia LU (LINEA BIANCA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

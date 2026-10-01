@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche
+X-WR-CALDESC:Corso: Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-01c8455fcd07fda7@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20260925T083000
+DTEND;TZID=Europe/Rome:20260925T123000
+SUMMARY:Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche [Attività Pratica]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche [1034] - Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche 1 (LINEA VERDE) - APRO\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fdcc7564f925e25d@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261002T083000
+DTEND;TZID=Europe/Rome:20261002T123000
+SUMMARY:Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche [Attività Pratica]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche [1034] - Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche 1 (LINEA VERDE) - APRO\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4cb24f4239fafc9d@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261023T083000
+DTEND;TZID=Europe/Rome:20261023T123000
+SUMMARY:Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche [Attività Pratica]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche [1034] - Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche 1 (LINEA VERDE) - APRO\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d9dfeced56db758b@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261106T083000
+DTEND;TZID=Europe/Rome:20261106T123000
+SUMMARY:Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche [Attività Pratica]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche [1034] - Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche 1 (LINEA VERDE) - APRO\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a66616a44e3b9e67@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261113T083000
+DTEND;TZID=Europe/Rome:20261113T123000
+SUMMARY:Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche [Attività Pratica]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche [1034] - Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche 1 (LINEA VERDE) - APRO\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico
+X-WR-CALDESC:Corso Elettivo: Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-8a5fe044cfc4b523@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261005T163000
+DTEND;TZID=Europe/Rome:20261005T183000
+SUMMARY:Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1097df6d4013e894@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261012T163000
+DTEND;TZID=Europe/Rome:20261012T183000
+SUMMARY:Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2ae52b25abe51c8b@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261019T163000
+DTEND;TZID=Europe/Rome:20261019T183000
+SUMMARY:Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fa318f54e831aa88@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261026T163000
+DTEND;TZID=Europe/Rome:20261026T183000
+SUMMARY:Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-005cf4e4eb992204@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261102T163000
+DTEND;TZID=Europe/Rome:20261102T183000
+SUMMARY:Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1cc20c1e584cd504@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261109T163000
+DTEND;TZID=Europe/Rome:20261109T183000
+SUMMARY:Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7665ecb40bfbabf7@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261116T163000
+DTEND;TZID=Europe/Rome:20261116T183000
+SUMMARY:Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-beb0733cfa09e8cf@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261123T163000
+DTEND;TZID=Europe/Rome:20261123T183000
+SUMMARY:Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Introduzione all&#039\;intelligenza artificiale nell&#039\;imaging medico - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

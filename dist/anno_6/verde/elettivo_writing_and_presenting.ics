@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Writing and presenting
+X-WR-CALDESC:Corso Elettivo: Writing and presenting
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-77da290d5c71f18f@easycourse.unisr.it
+DTSTAMP:20260930T204156Z
+DTSTART;TZID=Europe/Rome:20261009T163000
+DTEND;TZID=Europe/Rome:20261009T193000
+SUMMARY:Writing and presenting [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO201
+DESCRIPTION:Insegnamento: Writing and presenting - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 16:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0c8c1a663cea754e@easycourse.unisr.it
+DTSTAMP:20260930T204156Z
+DTSTART;TZID=Europe/Rome:20261016T163000
+DTEND;TZID=Europe/Rome:20261016T193000
+SUMMARY:Writing and presenting [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO201
+DESCRIPTION:Insegnamento: Writing and presenting - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 16:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-544e7d5364028de1@easycourse.unisr.it
+DTSTAMP:20260930T204156Z
+DTSTART;TZID=Europe/Rome:20261023T163000
+DTEND;TZID=Europe/Rome:20261023T193000
+SUMMARY:Writing and presenting [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO201
+DESCRIPTION:Insegnamento: Writing and presenting - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 16:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-35d0fbc932ec0336@easycourse.unisr.it
+DTSTAMP:20260930T204156Z
+DTSTART;TZID=Europe/Rome:20261106T163000
+DTEND;TZID=Europe/Rome:20261106T193000
+SUMMARY:Writing and presenting [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO201
+DESCRIPTION:Insegnamento: Writing and presenting - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 16:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7182baf7fe615071@easycourse.unisr.it
+DTSTAMP:20260930T204156Z
+DTSTART;TZID=Europe/Rome:20261113T163000
+DTEND;TZID=Europe/Rome:20261113T183000
+SUMMARY:Writing and presenting [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO201
+DESCRIPTION:Insegnamento: Writing and presenting - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6e0ea911dadfbd38@easycourse.unisr.it
+DTSTAMP:20260930T204156Z
+DTSTART;TZID=Europe/Rome:20261120T163000
+DTEND;TZID=Europe/Rome:20261120T183000
+SUMMARY:Writing and presenting [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO201
+DESCRIPTION:Insegnamento: Writing and presenting - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

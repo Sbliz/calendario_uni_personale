@@ -1,0 +1,346 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Biologia
+X-WR-CALDESC:Corso: Biologia
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-d0d99c03ae38e202@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261019T143000
+DTEND;TZID=Europe/Rome:20261019T163000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE102
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ab7c04ec12028af9@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261023T113000
+DTEND;TZID=Europe/Rome:20261023T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE201
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8f4de6c72176a393@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261026T113000
+DTEND;TZID=Europe/Rome:20261026T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE101
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3cbe293eb21e9c3b@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261026T163000
+DTEND;TZID=Europe/Rome:20261026T183000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO401
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-28b844a7ce37c2df@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261028T163000
+DTEND;TZID=Europe/Rome:20261028T183000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE102
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7730654a6709e5f6@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261030T093000
+DTEND;TZID=Europe/Rome:20261030T113000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE201
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-17c56bc05a21ff48@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261105T163000
+DTEND;TZID=Europe/Rome:20261105T183000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE201
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-49b5e67a3bf8bdd8@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261106T093000
+DTEND;TZID=Europe/Rome:20261106T113000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE201
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c0e55e7a5378cf2b@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261111T113000
+DTEND;TZID=Europe/Rome:20261111T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO101
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-72918c8f1eca41d2@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261112T143000
+DTEND;TZID=Europe/Rome:20261112T163000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE102
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-56871aa639ddcad5@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261113T093000
+DTEND;TZID=Europe/Rome:20261113T113000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE201
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-87c9e2f28d9977ea@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261116T113000
+DTEND;TZID=Europe/Rome:20261116T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE101
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a663cd80687cd7be@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261119T093000
+DTEND;TZID=Europe/Rome:20261119T113000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE102
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3bad31d6836f32d4@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261120T113000
+DTEND;TZID=Europe/Rome:20261120T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE201
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b589770d96819994@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261123T113000
+DTEND;TZID=Europe/Rome:20261123T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE101
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-80fdf5bf096287bb@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261130T113000
+DTEND;TZID=Europe/Rome:20261130T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE101
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a345b85169519d18@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261201T113000
+DTEND;TZID=Europe/Rome:20261201T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE101
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c6c4271ff8ebbd7d@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261203T093000
+DTEND;TZID=Europe/Rome:20261203T113000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE201
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7835f66c5fe107c4@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261204T113000
+DTEND;TZID=Europe/Rome:20261204T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO202
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-465bbb7b1ace17d7@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261209T163000
+DTEND;TZID=Europe/Rome:20261209T183000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE101
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4726a1e36ccd9cd0@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261210T093000
+DTEND;TZID=Europe/Rome:20261210T113000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE101
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-06e3426d1433dae9@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261214T113000
+DTEND;TZID=Europe/Rome:20261214T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE101
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e569c364b8e8164a@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261218T093000
+DTEND;TZID=Europe/Rome:20261218T113000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE201
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e8e22406165c3913@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261221T113000
+DTEND;TZID=Europe/Rome:20261221T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE101
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c9ca1c6f3ccb2b72@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20261222T113000
+DTEND;TZID=Europe/Rome:20261222T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-cfd1e74b8d9eeca7@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20270108T093000
+DTEND;TZID=Europe/Rome:20270108T113000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio VERROCCHIO\, Aula VE201
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LU (LINEA ROSSA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0687993d337ca76b@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20270111T143000
+DTEND;TZID=Europe/Rome:20270111T163000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO201
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-54830c61b0aca441@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20270112T113000
+DTEND;TZID=Europe/Rome:20270112T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO102
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-aeef15bd32baa396@easycourse.unisr.it
+DTSTAMP:20260930T201947Z
+DTSTART;TZID=Europe/Rome:20270118T113000
+DTEND;TZID=Europe/Rome:20270118T133000
+SUMMARY:Biologia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO101
+DESCRIPTION:Insegnamento: Biologia [C0057] - Biologia LS (LINEA ROSSA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

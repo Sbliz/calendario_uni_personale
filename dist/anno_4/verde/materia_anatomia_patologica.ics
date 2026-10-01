@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Anatomia Patologica
+X-WR-CALDESC:Corso: Anatomia Patologica
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-b74f353a596186ce@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20260923T153000
+DTEND;TZID=Europe/Rome:20260923T173000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VERDE) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2ceda12ed36cb0ef@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20260929T083000
+DTEND;TZID=Europe/Rome:20260929T103000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VERDE) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-86f08f0a051bc9fc@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20260930T153000
+DTEND;TZID=Europe/Rome:20260930T173000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VERDE) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-46123ba6d270269e@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261019T153000
+DTEND;TZID=Europe/Rome:20261019T173000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-36eb2cdc0f0e193e@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261021T133000
+DTEND;TZID=Europe/Rome:20261021T153000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VERDE) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-93fa0739dd097058@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261026T153000
+DTEND;TZID=Europe/Rome:20261026T173000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-de1585d0b1b86f91@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261028T133000
+DTEND;TZID=Europe/Rome:20261028T153000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VERDE) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6a7facc296da48a2@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261102T153000
+DTEND;TZID=Europe/Rome:20261102T173000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VERDE) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8e68830cdce0d1e1@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261104T153000
+DTEND;TZID=Europe/Rome:20261104T173000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VERDE) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3da095075cba3f33@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261109T153000
+DTEND;TZID=Europe/Rome:20261109T173000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VERDE) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8fa558d2b9b3f5ef@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261116T103000
+DTEND;TZID=Europe/Rome:20261116T123000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA201
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LS (LINEA VERDE) - LEZ\nLuogo: Edificio CANOVA\, Aula CA201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-270644a67137de06@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261130T103000
+DTEND;TZID=Europe/Rome:20261130T123000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA201
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LS (LINEA VERDE) - LEZ\nLuogo: Edificio CANOVA\, Aula CA201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-be364a4e1ae9ce65@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261210T103000
+DTEND;TZID=Europe/Rome:20261210T123000
+SUMMARY:Anatomia Patologica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO301
+DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LS (LINEA VERDE) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

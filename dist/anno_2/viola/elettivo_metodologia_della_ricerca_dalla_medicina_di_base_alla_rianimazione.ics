@@ -1,0 +1,137 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Metodologia della ricerca: dalla medicina di base alla rianimazione
+X-WR-CALDESC:Corso Elettivo: Metodologia della ricerca: dalla medicina di base alla rianimazione
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-3d15d06e6dcf6360@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261006T173000
+DTEND;TZID=Europe/Rome:20261006T193000
+SUMMARY:Metodologia della ricerca: dalla medicina di base alla rianimazione [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Metodologia della ricerca: dalla medicina di base alla rianimazione - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1cbeee16a6cd9023@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261015T173000
+DTEND;TZID=Europe/Rome:20261015T193000
+SUMMARY:Metodologia della ricerca: dalla medicina di base alla rianimazione [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Metodologia della ricerca: dalla medicina di base alla rianimazione - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6b8d3215d8322662@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261027T173000
+DTEND;TZID=Europe/Rome:20261027T193000
+SUMMARY:Metodologia della ricerca: dalla medicina di base alla rianimazione [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Metodologia della ricerca: dalla medicina di base alla rianimazione - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2a0d3ec37fc6b4e7@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261110T173000
+DTEND;TZID=Europe/Rome:20261110T193000
+SUMMARY:Metodologia della ricerca: dalla medicina di base alla rianimazione [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Metodologia della ricerca: dalla medicina di base alla rianimazione - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-dd96bb75860eb195@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261117T173000
+DTEND;TZID=Europe/Rome:20261117T193000
+SUMMARY:Metodologia della ricerca: dalla medicina di base alla rianimazione [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Metodologia della ricerca: dalla medicina di base alla rianimazione - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-163287b66a7154e5@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261119T173000
+DTEND;TZID=Europe/Rome:20261119T193000
+SUMMARY:Metodologia della ricerca: dalla medicina di base alla rianimazione [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Metodologia della ricerca: dalla medicina di base alla rianimazione - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-31b501b6ee155225@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261124T173000
+DTEND;TZID=Europe/Rome:20261124T193000
+SUMMARY:Metodologia della ricerca: dalla medicina di base alla rianimazione [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Metodologia della ricerca: dalla medicina di base alla rianimazione - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-9b4e580710d5f531@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261126T173000
+DTEND;TZID=Europe/Rome:20261126T193000
+SUMMARY:Metodologia della ricerca: dalla medicina di base alla rianimazione [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Metodologia della ricerca: dalla medicina di base alla rianimazione - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-9126192569bdbbbc@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261215T173000
+DTEND;TZID=Europe/Rome:20261215T193000
+SUMMARY:Metodologia della ricerca: dalla medicina di base alla rianimazione [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Metodologia della ricerca: dalla medicina di base alla rianimazione - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-80195fc69030754b@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261217T173000
+DTEND;TZID=Europe/Rome:20261217T193000
+SUMMARY:Metodologia della ricerca: dalla medicina di base alla rianimazione [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Metodologia della ricerca: dalla medicina di base alla rianimazione - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

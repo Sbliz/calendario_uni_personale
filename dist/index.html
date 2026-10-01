@@ -3,410 +3,268 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sincronizzazione Calendario UniSR - Medicina 3</title>
+    <title>Calendari UniSR - Medicina e Chirurgia</title>
     <style>
         :root {
-            --bg: #0f172a;
-            --surface: #1e293b;
-            --surface-hover: #334155;
-            --text: #f8fafc;
-            --text-muted: #94a3b8;
-            --primary: #38bdf8;
-            --border: #334155;
-            --orange: #fb923c;
+            --bg: #0f172a; --surface: #1e293b; --surface-hover: #334155;
+            --text: #f8fafc; --text-muted: #94a3b8; --primary: #38bdf8;
+            --border: #334155; --orange: #fb923c;
+            --apple: #0284c7; --google: #1a73e8; --outlook: #0078d4;
         }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: var(--bg);
-            color: var(--text);
-            padding: 2rem 1rem;
-            line-height: 1.5;
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        body { background: var(--bg); color: var(--text); padding: 2rem 1rem; line-height: 1.5; }
+        .container { max-width: 980px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 2rem; }
+        h1 { font-size: 2.1rem; margin-bottom: 0.5rem; color: #fff; }
+        .subtitle { color: var(--text-muted); font-size: 1.15rem; }
+        
+        .selector-box {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 14px; padding: 1.5rem; margin-bottom: 2rem;
+            display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; align-items: center;
         }
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
+        select {
+            padding: 0.7rem 1.2rem; border-radius: 10px; border: 1px solid #475569;
+            background: #0f172a; color: #fff; font-size: 1rem; cursor: pointer;
+            outline: none; min-width: 220px;
         }
-        header {
-            text-align: center;
-            margin-bottom: 2.5rem;
-        }
-        h1 {
-            font-size: 2.1rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            color: #fff;
-        }
-        .subtitle {
-            color: var(--text-muted);
-            font-size: 1.15rem;
-        }
-        .last-update {
-            display: inline-block;
-            margin-top: 0.75rem;
-            font-size: 0.85rem;
-            background: #0ea5e922;
-            color: #38bdf8;
-            padding: 0.25rem 0.75rem;
-            border-radius: 9999px;
-        }
-        .section-title {
-            font-size: 1.4rem;
-            font-weight: 600;
-            margin: 2rem 0 1rem 0;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.25rem;
-            margin-bottom: 2.5rem;
-        }
+        select:focus { border-color: var(--primary); }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem; }
         .card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 1.25rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 14px; padding: 1.35rem; display: flex; flex-direction: column; justify-content: space-between;
             transition: transform 0.2s ease, border-color 0.2s ease;
         }
-        .card:hover {
-            transform: translateY(-2px);
-            border-color: #475569;
-        }
-        .card-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 0.75rem;
-            gap: 0.5rem;
-        }
-        .card-header h3 {
-            font-size: 1.1rem;
-            font-weight: 600;
-            flex-grow: 1;
-        }
-        .badge {
-            font-size: 0.75rem;
-            font-weight: 700;
-            padding: 0.2rem 0.5rem;
-            border-radius: 6px;
-            text-transform: uppercase;
-            white-space: nowrap;
-        }
-        .card-desc {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            margin-bottom: 0.75rem;
-        }
-        .card-meta {
-            font-size: 0.85rem;
-            color: #cbd5e1;
-            margin-bottom: 1rem;
-        }
-        .actions {
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-        }
+        .card:hover { transform: translateY(-2px); border-color: #475569; }
+        .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; gap: 0.5rem; }
+        .card-header h3 { font-size: 1.1rem; font-weight: 600; flex-grow: 1; }
+        .badge { font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px; text-transform: uppercase; white-space: nowrap; }
+        .card-meta { font-size: 0.85rem; color: #cbd5e1; margin-bottom: 1rem; }
+        .actions { display: flex; flex-direction: column; gap: 0.5rem; }
+        .actions-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+        
         .btn {
-            display: block;
-            text-align: center;
-            padding: 0.6rem 0.75rem;
-            border-radius: 8px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            text-decoration: none;
-            cursor: pointer;
-            border: none;
-            transition: opacity 0.2s;
+            display: flex; align-items: center; justify-content: center; gap: 0.4rem;
+            text-align: center; padding: 0.6rem 0.8rem; border-radius: 8px;
+            font-size: 0.82rem; font-weight: 600; text-decoration: none; cursor: pointer;
+            border: none; transition: opacity 0.2s;
         }
         .btn:hover { opacity: 0.9; }
-        .btn-ios {
-            background: #0284c7;
-            color: white;
+        .btn-apple { background: #0284c7; color: white; }
+        .btn-gcal { background: #2563eb; color: white; }
+        .btn-outlook { background: #0284c7; color: white; }
+        .btn-copy { background: var(--surface-hover); color: #e2e8f0; border: 1px solid var(--border); width: 100%; }
+        
+        .hidden { display: none !important; }
+        .section-title { font-size: 1.35rem; margin: 2.2rem 0 1rem; color: #fff; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
+        
+        /* Guide multi-dispositivo */
+        .guide-box {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 14px; padding: 1.75rem; margin-top: 3rem;
         }
-        .btn-copy {
-            background: var(--surface-hover);
-            color: #e2e8f0;
-            border: 1px solid var(--border);
+        .guide-box h2 { font-size: 1.3rem; margin-bottom: 1rem; color: #fff; }
+        .platforms-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin-top: 1rem;
         }
-        .instructions {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 1.5rem;
+        .platform-card {
+            background: #0f172a; border: 1px solid var(--border); border-radius: 10px; padding: 1rem;
         }
-        .instructions h2 {
-            font-size: 1.25rem;
-            margin-bottom: 1rem;
-            color: #fff;
-        }
-        .instructions ol {
-            padding-left: 1.25rem;
-            color: var(--text-muted);
-        }
-        .instructions li {
-            margin-bottom: 0.5rem;
-        }
-        .instructions ul {
-            margin-top: 0.5rem;
-            padding-left: 1.25rem;
-        }
+        .platform-card h4 { font-size: 0.98rem; margin-bottom: 0.4rem; color: var(--primary); display: flex; align-items: center; gap: 0.4rem; }
+        .platform-card p, .platform-card li { font-size: 0.85rem; color: var(--text-muted); line-height: 1.4; }
+        .platform-card ul { padding-left: 1.2rem; margin-top: 0.3rem; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Calendario Medicina e Chirurgia 3</h1>
-            <p class="subtitle">UniSR - Canale [CLMMC-C] Linea Viola (S1)</p>
-            <span class="last-update">Ultimo aggiornamento automatico: 18/09/2026 14:50</span>
+            <h1>Sincronizzazione Calendario UniSR</h1>
+            <p class="subtitle">CdLM Medicina e Chirurgia - Tutti gli Anni e Canali</p>
         </header>
 
-        <h2 class="section-title">📚 Corsi Obbligatori Curricolari</h2>
-        <div class="grid">
-            
-            <div class="card">
-                <div class="card-header">
-                    <span class="badge" style="background-color: #38bdf822; color: #38bdf8; border: 1px solid #38bdf8;">iOS Completo</span>
-                    <h3>UniSR Medicina 3 [Completo]</h3>
-                </div>
-                <p class="card-desc">Calendario accademico completo Medicina 3 (CLMMC-C Linea Viola) per iOS</p>
-                <p class="card-meta"><b>126</b> sessioni in calendario</p>
-                <div class="actions">
-                    <a href="webcal://{HOST_PATH}/medicina3_ios.ics" class="btn btn-ios">
-                         Sottoscrivi su iOS
-                    </a>
-                    <button onclick="copyFeedUrl('medicina3_ios.ics', this)" class="btn btn-copy">
-                        📋 Copia Link Google Calendar
-                    </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="badge" style="background-color: #fef08a22; color: #facc15; border: 1px solid #facc15;">GCal: Banana</span>
-                    <h3>Patologia</h3>
-                </div>
-                <p class="card-desc">Patologia [C0019] - Canale Viola</p>
-                <p class="card-meta"><b>53</b> sessioni in calendario</p>
-                <div class="actions">
-                    <a href="webcal://{HOST_PATH}/medicina3_patologia.ics" class="btn btn-ios">
-                         Sottoscrivi su iOS
-                    </a>
-                    <button onclick="copyFeedUrl('medicina3_patologia.ics', this)" class="btn btn-copy">
-                        📋 Copia Link Google Calendar
-                    </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="badge" style="background-color: #c084fc22; color: #c084fc; border: 1px solid #c084fc;">GCal: Amethyst</span>
-                    <h3>Medicina di Laboratorio</h3>
-                </div>
-                <p class="card-desc">Medicina di Laboratorio [C0020] e Attività Professionalizzanti [C0055]</p>
-                <p class="card-meta"><b>28</b> sessioni in calendario</p>
-                <div class="actions">
-                    <a href="webcal://{HOST_PATH}/medicina3_med_laboratorio.ics" class="btn btn-ios">
-                         Sottoscrivi su iOS
-                    </a>
-                    <button onclick="copyFeedUrl('medicina3_med_laboratorio.ics', this)" class="btn btn-copy">
-                        📋 Copia Link Google Calendar
-                    </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="badge" style="background-color: #f472b622; color: #f472b6; border: 1px solid #f472b6;">GCal: Cherry Blossom</span>
-                    <h3>Preparedness</h3>
-                </div>
-                <p class="card-desc">Preparedness in Medicina: dal Quotidiano allo Straordinario [C0025]</p>
-                <p class="card-meta"><b>10</b> sessioni in calendario</p>
-                <div class="actions">
-                    <a href="webcal://{HOST_PATH}/medicina3_preparedness.ics" class="btn btn-ios">
-                         Sottoscrivi su iOS
-                    </a>
-                    <button onclick="copyFeedUrl('medicina3_preparedness.ics', this)" class="btn btn-copy">
-                        📋 Copia Link Google Calendar
-                    </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="badge" style="background-color: #4ade8022; color: #4ade80; border: 1px solid #4ade80;">GCal: Eucalyptus</span>
-                    <h3>Microbiologia Clinica</h3>
-                </div>
-                <p class="card-desc">Microbiologia e Microbiologia Clinica [C0016]</p>
-                <p class="card-meta"><b>35</b> sessioni in calendario</p>
-                <div class="actions">
-                    <a href="webcal://{HOST_PATH}/medicina3_microbiologia.ics" class="btn btn-ios">
-                         Sottoscrivi su iOS
-                    </a>
-                    <button onclick="copyFeedUrl('medicina3_microbiologia.ics', this)" class="btn btn-copy">
-                        📋 Copia Link Google Calendar
-                    </button>
-                </div>
-            </div>
+        <div class="selector-box">
+            <select id="anno-select" onchange="updateLinee()">
+                <option value="">-- Seleziona Anno --</option>
+                <option value="1">1° Anno</option>
+                <option value="2">2° Anno</option>
+                <option value="3">3° Anno</option>
+                <option value="4">4° Anno</option>
+                <option value="5">5° Anno</option>
+                <option value="6">6° Anno</option>
+            </select>
+            <select id="linea-select" onchange="renderFeeds()" disabled>
+                <option value="">-- Prima seleziona l'Anno --</option>
+            </select>
         </div>
 
-        <h2 class="section-title">🎯 Corsi Elettivi (A scelta dello studente - Colore: Arancione)</h2>
-        <p style="color:var(--text-muted); margin-top:-0.5rem; margin-bottom:1rem; font-size:0.95rem;">
-            Sottoscrivi solo i corsi elettivi che hai effettivamente scelto di frequentare.
-        </p>
-        <div class="grid">
-            
-            <div class="card">
+        <div id="content-area" class="hidden">
+            <!-- Box Calendario Completo Curricolare -->
+            <div class="card" style="border-color: var(--primary); background: #0b1329; margin-bottom: 2rem;">
                 <div class="card-header">
-                    <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">GCal: Arancione</span>
-                    <h3>Elettivo: Cyber-Humanities</h3>
+                    <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf8;">FEED UNICO COMPLETO</span>
+                    <h3 id="full-card-title">Tutti i Corsi Curricolari Obbligatori</h3>
                 </div>
-                <p class="card-desc">Corso Elettivo: Cyber-Humanities - Medicina 3</p>
-                <p class="card-meta"><b>4</b> sessioni in calendario</p>
+                <p class="card-meta" id="ios-meta"></p>
                 <div class="actions">
-                    <a href="webcal://{HOST_PATH}/elettivo_cyber_humanities.ics" class="btn btn-ios">
-                         Sottoscrivi su iOS
-                    </a>
-                    <button onclick="copyFeedUrl('elettivo_cyber_humanities.ics', this)" class="btn btn-copy">
-                        📋 Copia Link Google Calendar
-                    </button>
+                    <div class="actions-row">
+                        <a id="apple-full-btn" href="#" class="btn btn-apple">🍏 Apple Calendar (iOS/Mac)</a>
+                        <a id="gcal-full-btn" href="#" target="_blank" class="btn btn-gcal">📅 Google Calendar</a>
+                    </div>
+                    <div class="actions-row">
+                        <a id="outlook-full-btn" href="#" target="_blank" class="btn btn-outlook">📧 Outlook / 365</a>
+                        <button id="copy-full-btn" onclick="" class="btn btn-copy">📋 Copia Link Universale (ICS)</button>
+                    </div>
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-header">
-                    <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">GCal: Arancione</span>
-                    <h3>Elettivo: Imaging morfologico e funzionale del sistema nervoso</h3>
-                </div>
-                <p class="card-desc">Corso Elettivo: Imaging morfologico e funzionale del sistema nervoso - Medicina 3</p>
-                <p class="card-meta"><b>5</b> sessioni in calendario</p>
-                <div class="actions">
-                    <a href="webcal://{HOST_PATH}/elettivo_imaging_sistema_nervoso.ics" class="btn btn-ios">
-                         Sottoscrivi su iOS
-                    </a>
-                    <button onclick="copyFeedUrl('elettivo_imaging_sistema_nervoso.ics', this)" class="btn btn-copy">
-                        📋 Copia Link Google Calendar
-                    </button>
-                </div>
-            </div>
+            <!-- Moduli Obbligatori per Materia -->
+            <h2 class="section-title">📚 Corsi per Materia (Google Calendar / Outlook / Multi-Colore)</h2>
+            <p style="color:var(--text-muted); font-size:0.9rem; margin-top:-0.5rem; margin-bottom:1.25rem;">
+                Sottoscrivi le singole materie per visualizzarle con colori dedicati nel tuo calendario.
+            </p>
+            <div class="grid" id="materie-grid"></div>
 
-            <div class="card">
-                <div class="card-header">
-                    <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">GCal: Arancione</span>
-                    <h3>Elettivo: Ricerche bibliografiche</h3>
-                </div>
-                <p class="card-desc">Corso Elettivo: Ricerche bibliografiche - Medicina 3</p>
-                <p class="card-meta"><b>12</b> sessioni in calendario</p>
-                <div class="actions">
-                    <a href="webcal://{HOST_PATH}/elettivo_ricerche_bibliografiche.ics" class="btn btn-ios">
-                         Sottoscrivi su iOS
-                    </a>
-                    <button onclick="copyFeedUrl('elettivo_ricerche_bibliografiche.ics', this)" class="btn btn-copy">
-                        📋 Copia Link Google Calendar
-                    </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">GCal: Arancione</span>
-                    <h3>Elettivo: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria</h3>
-                </div>
-                <p class="card-desc">Corso Elettivo: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria - Medicina 3</p>
-                <p class="card-meta"><b>9</b> sessioni in calendario</p>
-                <div class="actions">
-                    <a href="webcal://{HOST_PATH}/elettivo_semeiotica_chirurgia.ics" class="btn btn-ios">
-                         Sottoscrivi su iOS
-                    </a>
-                    <button onclick="copyFeedUrl('elettivo_semeiotica_chirurgia.ics', this)" class="btn btn-copy">
-                        📋 Copia Link Google Calendar
-                    </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">GCal: Arancione</span>
-                    <h3>Elettivo: Tele-neuro fisiologia, neuromodulazione e tecnologie digitali</h3>
-                </div>
-                <p class="card-desc">Corso Elettivo: Tele-neuro fisiologia, neuromodulazione e tecnologie digitali - Medicina 3</p>
-                <p class="card-meta"><b>4</b> sessioni in calendario</p>
-                <div class="actions">
-                    <a href="webcal://{HOST_PATH}/elettivo_teleneurofisiologia.ics" class="btn btn-ios">
-                         Sottoscrivi su iOS
-                    </a>
-                    <button onclick="copyFeedUrl('elettivo_teleneurofisiologia.ics', this)" class="btn btn-copy">
-                        📋 Copia Link Google Calendar
-                    </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="badge" style="background-color: #fb923c22; color: #fb923c; border: 1px solid #fb923c;">GCal: Arancione</span>
-                    <h3>Elettivo: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra</h3>
-                </div>
-                <p class="card-desc">Corso Elettivo: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra - Medicina 3</p>
-                <p class="card-meta"><b>3</b> sessioni in calendario</p>
-                <div class="actions">
-                    <a href="webcal://{HOST_PATH}/elettivo_urgenze_chirurgia_vascolare.ics" class="btn btn-ios">
-                         Sottoscrivi su iOS
-                    </a>
-                    <button onclick="copyFeedUrl('elettivo_urgenze_chirurgia_vascolare.ics', this)" class="btn btn-copy">
-                        📋 Copia Link Google Calendar
-                    </button>
-                </div>
-            </div>
+            <!-- Corsi Elettivi -->
+            <h2 class="section-title">🎯 Corsi Elettivi (A scelta dello studente - Arancione)</h2>
+            <p style="color:var(--text-muted); font-size:0.9rem; margin-top:-0.5rem; margin-bottom:1.25rem;">
+                Sottoscrivi unicamente i corsi opzionali che hai inserito nel piano di studi.
+            </p>
+            <div class="grid" id="elettivi-grid"></div>
         </div>
 
-        <div class="instructions">
-            <h2>📱 Guida Rapida alla Sottoscrizione</h2>
-            <ol>
-                <li><b>Su iPhone / iPad (iOS):</b> Clicca sul pulsante azzurro <i>"Sottoscrivi su iOS"</i> del calendario che desideri aggiungere. iOS aprirà l'app Calendario e completerà l'iscrizione.</li>
-                <li><b>Su Google Calendar:</b>
-                    <ul>
-                        <li>Clicca su <i>"Copia Link Google Calendar"</i> accanto alla materia desiderata.</li>
-                        <li>Apri <a href="https://calendar.google.com" target="_blank" style="color:var(--primary);">Google Calendar</a> da browser.</li>
-                        <li>Nella barra laterale a sinistra, accanto ad <b>"Altri calendari"</b>, clicca su <b>+</b> &gt; <b>Da URL</b>.</li>
-                        <li>Incolla l'URL e clicca su <i>"Aggiungi calendario"</i>.</li>
-                        <li>Dal menu a tre puntini (⋮) del calendario aggiunto, assegna il colore corrispondente:
-                            <b>Banana</b> (Patologia), <b>Amethyst</b> (Med Lab), <b>Cherry Blossom</b> (Preparedness), <b>Eucalyptus</b> (Microbiologia), <b>Tangerine / Arancione</b> (Corsi Elettivi).</li>
-                    </ul>
-                </li>
-            </ol>
+        <!-- Guida Multi-Piattaforma -->
+        <div class="guide-box">
+            <h2>📱 Istruzioni Rapide per Dispositivo</h2>
+            <div class="platforms-grid">
+                <div class="platform-card">
+                    <h4>🍏 Apple (iPhone, iPad, Mac)</h4>
+                    <p>Clicca sul pulsante azzurro <b>"Apple Calendar"</b>. Il sistema aprirà automaticamente l'app Calendario. Sincronizzandosi con iCloud, apparirà su tutti i tuoi dispositivi e Apple Watch.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>📅 Google Calendar (Android / PC)</h4>
+                    <p>Clicca su <b>"Google Calendar"</b> per aggiungerlo direttamente con 1 clic. Da smartphone Android, assicurati che la sincronizzazione sia attiva nell'app Google Calendar.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>📧 Microsoft Outlook (Windows / Mac / Web)</h4>
+                    <p>Clicca su <b>"Outlook / 365"</b> per aprire la sottoscrizione web, oppure copia il link ICS e incollalo in Outlook in <i>"Aggiungi calendario" ➔ "Iscriviti dal Web"</i>.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>📲 Samsung Calendar / Android Nativo</h4>
+                    <p>Copia il link universale ICS e incollalo nell'app Calendario sotto <i>"Gestisci calendari" ➔ "Aggiungi da URL"</i>, oppure sottoscrivi tramite Google Calendar.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>📝 Notion Calendar (ex Cron)</h4>
+                    <p>Aggiungi i calendari al tuo account Google Calendar: Notion Calendar li mostrerà automaticamente mantenendo colori e orari aggiornati.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>🦅 Mozilla Thunderbird & Altri</h4>
+                    <p>In Thunderbird seleziona <i>Nuovo Calendario ➔ Sulla rete ➔ Formato iCalendar (ICS)</i> e incolla il link universale copiato dal pulsante.</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <script>
-        const hostPath = window.location.href.replace(/\/index\.html$/, '').replace(/\/$/, '');
-        document.querySelectorAll('a.btn-ios').forEach(a => {
-            const currentHref = a.getAttribute('href');
-            a.setAttribute('href', currentHref.replace('{HOST_PATH}', hostPath.replace(/^https?:\/\//, '')));
-        });
+        const uiData = [{"anno": 3, "linea_name": "PERCORSO COMUNE LINEA GIALLA", "slug_linea": "gialla", "ios_link": "anno_3/gialla/completo_ios.ics", "ios_count": 126, "materie": [{"name": "Attività professionalizzanti di medicina di laboratorio", "file": "anno_3/gialla/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics", "count": 8, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "file": "anno_3/gialla/materia_evento_generico.ics", "count": 2, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Medicina di Laboratorio", "file": "anno_3/gialla/materia_medicina_di_laboratorio.ics", "count": 20, "color_name": "Amethyst", "color_hex": "#c084fc", "bg_hex": "#c084fc22"}, {"name": "Microbiologia e Microbiologia Clinica", "file": "anno_3/gialla/materia_microbiologia_e_microbiologia_clinica.ics", "count": 35, "color_name": "Eucalyptus", "color_hex": "#4ade80", "bg_hex": "#4ade8022"}, {"name": "Patologia", "file": "anno_3/gialla/materia_patologia.ics", "count": 51, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Preparedness in Medicina: dal Quotidiano allo Straordinario", "file": "anno_3/gialla/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}], "elettivi": [{"name": "Cyber", "file": "anno_3/gialla/elettivo_cyber.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Imaging morfologico e funzionale del sistema nervoso", "file": "anno_3/gialla/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ricerche bibliografiche", "file": "anno_3/gialla/elettivo_ricerche_bibliografiche.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria", "file": "anno_3/gialla/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics", "count": 9, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tele", "file": "anno_3/gialla/elettivo_tele.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra", "file": "anno_3/gialla/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics", "count": 3, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 3, "linea_name": "PERCORSO COMUNE LINEA VERDE", "slug_linea": "verde", "ios_link": "anno_3/verde/completo_ios.ics", "ios_count": 125, "materie": [{"name": "Attività professionalizzanti di medicina di laboratorio", "file": "anno_3/verde/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics", "count": 8, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "file": "anno_3/verde/materia_evento_generico.ics", "count": 2, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Medicina di Laboratorio", "file": "anno_3/verde/materia_medicina_di_laboratorio.ics", "count": 20, "color_name": "Amethyst", "color_hex": "#c084fc", "bg_hex": "#c084fc22"}, {"name": "Microbiologia e Microbiologia Clinica", "file": "anno_3/verde/materia_microbiologia_e_microbiologia_clinica.ics", "count": 35, "color_name": "Eucalyptus", "color_hex": "#4ade80", "bg_hex": "#4ade8022"}, {"name": "Patologia", "file": "anno_3/verde/materia_patologia.ics", "count": 50, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Preparedness in Medicina: dal Quotidiano allo Straordinario", "file": "anno_3/verde/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}], "elettivi": [{"name": "Cyber", "file": "anno_3/verde/elettivo_cyber.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Imaging morfologico e funzionale del sistema nervoso", "file": "anno_3/verde/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ricerche bibliografiche", "file": "anno_3/verde/elettivo_ricerche_bibliografiche.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria", "file": "anno_3/verde/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics", "count": 9, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tele", "file": "anno_3/verde/elettivo_tele.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra", "file": "anno_3/verde/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics", "count": 3, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 1, "linea_name": "PERCORSO COMUNE LINEA GIALLA", "slug_linea": "gialla", "ios_link": "anno_1/gialla/completo_ios.ics", "ios_count": 142, "materie": [{"name": "Autovalutazione e Aggiornamento delle Conoscenze Medico", "file": "anno_1/gialla/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica", "file": "anno_1/gialla/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics", "count": 9, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Biochimica", "file": "anno_1/gialla/materia_biochimica.ics", "count": 15, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Biologia", "file": "anno_1/gialla/materia_biologia.ics", "count": 30, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}, {"name": "Chimica e propedeutica biochimica", "file": "anno_1/gialla/materia_chimica_e_propedeutica_biochimica.ics", "count": 30, "color_name": "Peacock", "color_hex": "#60a5fa", "bg_hex": "#60a5fa22"}, {"name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina", "file": "anno_1/gialla/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics", "count": 21, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "file": "anno_1/gialla/materia_evento_generico.ics", "count": 2, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Statistica", "file": "anno_1/gialla/materia_statistica.ics", "count": 25, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}], "elettivi": []}, {"anno": 1, "linea_name": "PERCORSO COMUNE LINEA VERDE", "slug_linea": "verde", "ios_link": "anno_1/verde/completo_ios.ics", "ios_count": 142, "materie": [{"name": "Autovalutazione e Aggiornamento delle Conoscenze Medico", "file": "anno_1/verde/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica", "file": "anno_1/verde/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics", "count": 9, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Biochimica", "file": "anno_1/verde/materia_biochimica.ics", "count": 15, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Biologia", "file": "anno_1/verde/materia_biologia.ics", "count": 30, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}, {"name": "Chimica e propedeutica biochimica", "file": "anno_1/verde/materia_chimica_e_propedeutica_biochimica.ics", "count": 30, "color_name": "Peacock", "color_hex": "#60a5fa", "bg_hex": "#60a5fa22"}, {"name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina", "file": "anno_1/verde/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics", "count": 21, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "file": "anno_1/verde/materia_evento_generico.ics", "count": 2, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Statistica", "file": "anno_1/verde/materia_statistica.ics", "count": 25, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}], "elettivi": []}, {"anno": 2, "linea_name": "PERCORSO COMUNE LINEA GIALLA", "slug_linea": "gialla", "ios_link": "anno_2/gialla/completo_ios.ics", "ios_count": 158, "materie": [{"name": "Fisiologia", "file": "anno_2/gialla/materia_fisiologia.ics", "count": 36, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Genetica Medica", "file": "anno_2/gialla/materia_genetica_medica.ics", "count": 35, "color_name": "Grape", "color_hex": "#a78bfa", "bg_hex": "#a78bfa22"}, {"name": "Istologia", "file": "anno_2/gialla/materia_istologia.ics", "count": 34, "color_name": "Sage", "color_hex": "#2dd4bf", "bg_hex": "#2dd4bf22"}, {"name": "Morfologia Umana", "file": "anno_2/gialla/materia_morfologia_umana.ics", "count": 44, "color_name": "Mango", "color_hex": "#fbbf24", "bg_hex": "#fbbf2422"}, {"name": "Semeiotica", "file": "anno_2/gialla/materia_semeiotica.ics", "count": 9, "color_name": "Blueberry", "color_hex": "#818cf8", "bg_hex": "#818cf822"}], "elettivi": [{"name": "Burnout e stress lavoro correlato nella professione medica", "file": "anno_2/gialla/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina", "file": "anno_2/gialla/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Metodologia della ricerca: dalla medicina di base alla rianimazione", "file": "anno_2/gialla/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 2, "linea_name": "PERCORSO COMUNE LINEA VERDE", "slug_linea": "verde", "ios_link": "anno_2/verde/completo_ios.ics", "ios_count": 158, "materie": [{"name": "Fisiologia", "file": "anno_2/verde/materia_fisiologia.ics", "count": 36, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Genetica Medica", "file": "anno_2/verde/materia_genetica_medica.ics", "count": 35, "color_name": "Grape", "color_hex": "#a78bfa", "bg_hex": "#a78bfa22"}, {"name": "Istologia", "file": "anno_2/verde/materia_istologia.ics", "count": 34, "color_name": "Sage", "color_hex": "#2dd4bf", "bg_hex": "#2dd4bf22"}, {"name": "Morfologia Umana", "file": "anno_2/verde/materia_morfologia_umana.ics", "count": 44, "color_name": "Mango", "color_hex": "#fbbf24", "bg_hex": "#fbbf2422"}, {"name": "Semeiotica", "file": "anno_2/verde/materia_semeiotica.ics", "count": 9, "color_name": "Blueberry", "color_hex": "#818cf8", "bg_hex": "#818cf822"}], "elettivi": [{"name": "Burnout e stress lavoro correlato nella professione medica", "file": "anno_2/verde/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina", "file": "anno_2/verde/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Metodologia della ricerca: dalla medicina di base alla rianimazione", "file": "anno_2/verde/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 3, "linea_name": "PERCORSO COMUNE LINEA ROSSA", "slug_linea": "rossa", "ios_link": "anno_3/rossa/completo_ios.ics", "ios_count": 129, "materie": [{"name": "Attività professionalizzanti di medicina di laboratorio", "file": "anno_3/rossa/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics", "count": 8, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "file": "anno_3/rossa/materia_evento_generico.ics", "count": 2, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Medicina di Laboratorio", "file": "anno_3/rossa/materia_medicina_di_laboratorio.ics", "count": 20, "color_name": "Amethyst", "color_hex": "#c084fc", "bg_hex": "#c084fc22"}, {"name": "Microbiologia e Microbiologia Clinica", "file": "anno_3/rossa/materia_microbiologia_e_microbiologia_clinica.ics", "count": 35, "color_name": "Eucalyptus", "color_hex": "#4ade80", "bg_hex": "#4ade8022"}, {"name": "Patologia", "file": "anno_3/rossa/materia_patologia.ics", "count": 54, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Preparedness in Medicina: dal Quotidiano allo Straordinario", "file": "anno_3/rossa/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}], "elettivi": [{"name": "Cyber", "file": "anno_3/rossa/elettivo_cyber.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Imaging morfologico e funzionale del sistema nervoso", "file": "anno_3/rossa/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ricerche bibliografiche", "file": "anno_3/rossa/elettivo_ricerche_bibliografiche.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria", "file": "anno_3/rossa/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics", "count": 9, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tele", "file": "anno_3/rossa/elettivo_tele.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra", "file": "anno_3/rossa/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics", "count": 3, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 3, "linea_name": "PERCORSO COMUNE LINEA VIOLA", "slug_linea": "viola", "ios_link": "anno_3/viola/completo_ios.ics", "ios_count": 129, "materie": [{"name": "Attività professionalizzanti di medicina di laboratorio", "file": "anno_3/viola/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics", "count": 8, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "file": "anno_3/viola/materia_evento_generico.ics", "count": 2, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Medicina di Laboratorio", "file": "anno_3/viola/materia_medicina_di_laboratorio.ics", "count": 20, "color_name": "Amethyst", "color_hex": "#c084fc", "bg_hex": "#c084fc22"}, {"name": "Microbiologia e Microbiologia Clinica", "file": "anno_3/viola/materia_microbiologia_e_microbiologia_clinica.ics", "count": 35, "color_name": "Eucalyptus", "color_hex": "#4ade80", "bg_hex": "#4ade8022"}, {"name": "Patologia", "file": "anno_3/viola/materia_patologia.ics", "count": 54, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Preparedness in Medicina: dal Quotidiano allo Straordinario", "file": "anno_3/viola/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}], "elettivi": [{"name": "Cyber", "file": "anno_3/viola/elettivo_cyber.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Imaging morfologico e funzionale del sistema nervoso", "file": "anno_3/viola/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ricerche bibliografiche", "file": "anno_3/viola/elettivo_ricerche_bibliografiche.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria", "file": "anno_3/viola/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics", "count": 9, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tele", "file": "anno_3/viola/elettivo_tele.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra", "file": "anno_3/viola/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics", "count": 3, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 1, "linea_name": "PERCORSO COMUNE LINEA ROSSA", "slug_linea": "rossa", "ios_link": "anno_1/rossa/completo_ios.ics", "ios_count": 140, "materie": [{"name": "Autovalutazione e Aggiornamento delle Conoscenze Medico", "file": "anno_1/rossa/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica", "file": "anno_1/rossa/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Biochimica", "file": "anno_1/rossa/materia_biochimica.ics", "count": 15, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Biologia", "file": "anno_1/rossa/materia_biologia.ics", "count": 29, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}, {"name": "Chimica e propedeutica biochimica", "file": "anno_1/rossa/materia_chimica_e_propedeutica_biochimica.ics", "count": 30, "color_name": "Peacock", "color_hex": "#60a5fa", "bg_hex": "#60a5fa22"}, {"name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina", "file": "anno_1/rossa/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics", "count": 21, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "file": "anno_1/rossa/materia_evento_generico.ics", "count": 1, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Statistica", "file": "anno_1/rossa/materia_statistica.ics", "count": 24, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}], "elettivi": []}, {"anno": 1, "linea_name": "PERCORSO COMUNE LINEA VIOLA", "slug_linea": "viola", "ios_link": "anno_1/viola/completo_ios.ics", "ios_count": 140, "materie": [{"name": "Autovalutazione e Aggiornamento delle Conoscenze Medico", "file": "anno_1/viola/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica", "file": "anno_1/viola/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Biochimica", "file": "anno_1/viola/materia_biochimica.ics", "count": 15, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Biologia", "file": "anno_1/viola/materia_biologia.ics", "count": 29, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}, {"name": "Chimica e propedeutica biochimica", "file": "anno_1/viola/materia_chimica_e_propedeutica_biochimica.ics", "count": 30, "color_name": "Peacock", "color_hex": "#60a5fa", "bg_hex": "#60a5fa22"}, {"name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina", "file": "anno_1/viola/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics", "count": 21, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "file": "anno_1/viola/materia_evento_generico.ics", "count": 1, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Statistica", "file": "anno_1/viola/materia_statistica.ics", "count": 24, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}], "elettivi": []}, {"anno": 2, "linea_name": "PERCORSO COMUNE LINEA ROSSA", "slug_linea": "rossa", "ios_link": "anno_2/rossa/completo_ios.ics", "ios_count": 158, "materie": [{"name": "Fisiologia", "file": "anno_2/rossa/materia_fisiologia.ics", "count": 38, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Genetica Medica", "file": "anno_2/rossa/materia_genetica_medica.ics", "count": 35, "color_name": "Grape", "color_hex": "#a78bfa", "bg_hex": "#a78bfa22"}, {"name": "Istologia", "file": "anno_2/rossa/materia_istologia.ics", "count": 34, "color_name": "Sage", "color_hex": "#2dd4bf", "bg_hex": "#2dd4bf22"}, {"name": "Morfologia Umana", "file": "anno_2/rossa/materia_morfologia_umana.ics", "count": 42, "color_name": "Mango", "color_hex": "#fbbf24", "bg_hex": "#fbbf2422"}, {"name": "Semeiotica", "file": "anno_2/rossa/materia_semeiotica.ics", "count": 9, "color_name": "Blueberry", "color_hex": "#818cf8", "bg_hex": "#818cf822"}], "elettivi": [{"name": "Burnout e stress lavoro correlato nella professione medica", "file": "anno_2/rossa/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina", "file": "anno_2/rossa/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Metodologia della ricerca: dalla medicina di base alla rianimazione", "file": "anno_2/rossa/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 2, "linea_name": "PERCORSO COMUNE LINEA VIOLA", "slug_linea": "viola", "ios_link": "anno_2/viola/completo_ios.ics", "ios_count": 158, "materie": [{"name": "Fisiologia", "file": "anno_2/viola/materia_fisiologia.ics", "count": 38, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Genetica Medica", "file": "anno_2/viola/materia_genetica_medica.ics", "count": 35, "color_name": "Grape", "color_hex": "#a78bfa", "bg_hex": "#a78bfa22"}, {"name": "Istologia", "file": "anno_2/viola/materia_istologia.ics", "count": 34, "color_name": "Sage", "color_hex": "#2dd4bf", "bg_hex": "#2dd4bf22"}, {"name": "Morfologia Umana", "file": "anno_2/viola/materia_morfologia_umana.ics", "count": 42, "color_name": "Mango", "color_hex": "#fbbf24", "bg_hex": "#fbbf2422"}, {"name": "Semeiotica", "file": "anno_2/viola/materia_semeiotica.ics", "count": 9, "color_name": "Blueberry", "color_hex": "#818cf8", "bg_hex": "#818cf822"}], "elettivi": [{"name": "Burnout e stress lavoro correlato nella professione medica", "file": "anno_2/viola/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina", "file": "anno_2/viola/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Metodologia della ricerca: dalla medicina di base alla rianimazione", "file": "anno_2/viola/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 1, "linea_name": "PERCORSO COMUNE LINEA AZZURRA", "slug_linea": "azzurra", "ios_link": "anno_1/azzurra/completo_ios.ics", "ios_count": 141, "materie": [{"name": "Autovalutazione e Aggiornamento delle Conoscenze Medico", "file": "anno_1/azzurra/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica", "file": "anno_1/azzurra/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Biochimica", "file": "anno_1/azzurra/materia_biochimica.ics", "count": 15, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Biologia", "file": "anno_1/azzurra/materia_biologia.ics", "count": 28, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}, {"name": "Chimica e propedeutica biochimica", "file": "anno_1/azzurra/materia_chimica_e_propedeutica_biochimica.ics", "count": 30, "color_name": "Peacock", "color_hex": "#60a5fa", "bg_hex": "#60a5fa22"}, {"name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina", "file": "anno_1/azzurra/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics", "count": 21, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "file": "anno_1/azzurra/materia_evento_generico.ics", "count": 3, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Statistica", "file": "anno_1/azzurra/materia_statistica.ics", "count": 24, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}], "elettivi": []}, {"anno": 1, "linea_name": "PERCORSO COMUNE LINEA BIANCA", "slug_linea": "bianca", "ios_link": "anno_1/bianca/completo_ios.ics", "ios_count": 141, "materie": [{"name": "Autovalutazione e Aggiornamento delle Conoscenze Medico", "file": "anno_1/bianca/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica", "file": "anno_1/bianca/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Biochimica", "file": "anno_1/bianca/materia_biochimica.ics", "count": 15, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Biologia", "file": "anno_1/bianca/materia_biologia.ics", "count": 28, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}, {"name": "Chimica e propedeutica biochimica", "file": "anno_1/bianca/materia_chimica_e_propedeutica_biochimica.ics", "count": 30, "color_name": "Peacock", "color_hex": "#60a5fa", "bg_hex": "#60a5fa22"}, {"name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina", "file": "anno_1/bianca/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics", "count": 21, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "file": "anno_1/bianca/materia_evento_generico.ics", "count": 3, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Statistica", "file": "anno_1/bianca/materia_statistica.ics", "count": 24, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}], "elettivi": []}, {"anno": 2, "linea_name": "PERCORSO COMUNE LINEA AZZURRA", "slug_linea": "azzurra", "ios_link": "anno_2/azzurra/completo_ios.ics", "ios_count": 159, "materie": [{"name": "Fisiologia", "file": "anno_2/azzurra/materia_fisiologia.ics", "count": 37, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Genetica Medica", "file": "anno_2/azzurra/materia_genetica_medica.ics", "count": 34, "color_name": "Grape", "color_hex": "#a78bfa", "bg_hex": "#a78bfa22"}, {"name": "Istologia", "file": "anno_2/azzurra/materia_istologia.ics", "count": 34, "color_name": "Sage", "color_hex": "#2dd4bf", "bg_hex": "#2dd4bf22"}, {"name": "Morfologia Umana", "file": "anno_2/azzurra/materia_morfologia_umana.ics", "count": 44, "color_name": "Mango", "color_hex": "#fbbf24", "bg_hex": "#fbbf2422"}, {"name": "Semeiotica", "file": "anno_2/azzurra/materia_semeiotica.ics", "count": 10, "color_name": "Blueberry", "color_hex": "#818cf8", "bg_hex": "#818cf822"}], "elettivi": [{"name": "Burnout e stress lavoro correlato nella professione medica", "file": "anno_2/azzurra/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina", "file": "anno_2/azzurra/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Metodologia della ricerca: dalla medicina di base alla rianimazione", "file": "anno_2/azzurra/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 2, "linea_name": "PERCORSO COMUNE LINEA BIANCA", "slug_linea": "bianca", "ios_link": "anno_2/bianca/completo_ios.ics", "ios_count": 159, "materie": [{"name": "Fisiologia", "file": "anno_2/bianca/materia_fisiologia.ics", "count": 37, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Genetica Medica", "file": "anno_2/bianca/materia_genetica_medica.ics", "count": 34, "color_name": "Grape", "color_hex": "#a78bfa", "bg_hex": "#a78bfa22"}, {"name": "Istologia", "file": "anno_2/bianca/materia_istologia.ics", "count": 34, "color_name": "Sage", "color_hex": "#2dd4bf", "bg_hex": "#2dd4bf22"}, {"name": "Morfologia Umana", "file": "anno_2/bianca/materia_morfologia_umana.ics", "count": 44, "color_name": "Mango", "color_hex": "#fbbf24", "bg_hex": "#fbbf2422"}, {"name": "Semeiotica", "file": "anno_2/bianca/materia_semeiotica.ics", "count": 10, "color_name": "Blueberry", "color_hex": "#818cf8", "bg_hex": "#818cf822"}], "elettivi": [{"name": "Burnout e stress lavoro correlato nella professione medica", "file": "anno_2/bianca/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina", "file": "anno_2/bianca/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Metodologia della ricerca: dalla medicina di base alla rianimazione", "file": "anno_2/bianca/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 3, "linea_name": "PERCORSO COMUNE LINEA AZZURRA", "slug_linea": "azzurra", "ios_link": "anno_3/azzurra/completo_ios.ics", "ios_count": 128, "materie": [{"name": "Attività professionalizzanti di medicina di laboratorio", "file": "anno_3/azzurra/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics", "count": 8, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "file": "anno_3/azzurra/materia_evento_generico.ics", "count": 2, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Medicina di Laboratorio", "file": "anno_3/azzurra/materia_medicina_di_laboratorio.ics", "count": 20, "color_name": "Amethyst", "color_hex": "#c084fc", "bg_hex": "#c084fc22"}, {"name": "Microbiologia e Microbiologia Clinica", "file": "anno_3/azzurra/materia_microbiologia_e_microbiologia_clinica.ics", "count": 35, "color_name": "Eucalyptus", "color_hex": "#4ade80", "bg_hex": "#4ade8022"}, {"name": "Patologia", "file": "anno_3/azzurra/materia_patologia.ics", "count": 53, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Preparedness in Medicina: dal Quotidiano allo Straordinario", "file": "anno_3/azzurra/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}], "elettivi": [{"name": "Cyber", "file": "anno_3/azzurra/elettivo_cyber.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Imaging morfologico e funzionale del sistema nervoso", "file": "anno_3/azzurra/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ricerche bibliografiche", "file": "anno_3/azzurra/elettivo_ricerche_bibliografiche.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria", "file": "anno_3/azzurra/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics", "count": 9, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tele", "file": "anno_3/azzurra/elettivo_tele.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra", "file": "anno_3/azzurra/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics", "count": 3, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 3, "linea_name": "PERCORSO COMUNE LINEA BIANCA", "slug_linea": "bianca", "ios_link": "anno_3/bianca/completo_ios.ics", "ios_count": 135, "materie": [{"name": "Attività professionalizzanti di medicina di laboratorio", "file": "anno_3/bianca/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics", "count": 8, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "file": "anno_3/bianca/materia_evento_generico.ics", "count": 2, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Medicina di Laboratorio", "file": "anno_3/bianca/materia_medicina_di_laboratorio.ics", "count": 20, "color_name": "Amethyst", "color_hex": "#c084fc", "bg_hex": "#c084fc22"}, {"name": "Microbiologia e Microbiologia Clinica", "file": "anno_3/bianca/materia_microbiologia_e_microbiologia_clinica.ics", "count": 42, "color_name": "Eucalyptus", "color_hex": "#4ade80", "bg_hex": "#4ade8022"}, {"name": "Patologia", "file": "anno_3/bianca/materia_patologia.ics", "count": 53, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Preparedness in Medicina: dal Quotidiano allo Straordinario", "file": "anno_3/bianca/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}], "elettivi": [{"name": "Cyber", "file": "anno_3/bianca/elettivo_cyber.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Imaging morfologico e funzionale del sistema nervoso", "file": "anno_3/bianca/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ricerche bibliografiche", "file": "anno_3/bianca/elettivo_ricerche_bibliografiche.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria", "file": "anno_3/bianca/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics", "count": 9, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tele", "file": "anno_3/bianca/elettivo_tele.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra", "file": "anno_3/bianca/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics", "count": 3, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 4, "linea_name": "PERCORSO COMUNE LINEA AZZURRA", "slug_linea": "azzurra", "ios_link": "anno_4/azzurra/completo_ios.ics", "ios_count": 96, "materie": [{"name": "Anatomia Patologica", "file": "anno_4/azzurra/materia_anatomia_patologica.ics", "count": 13, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche", "file": "anno_4/azzurra/materia_attivita_professionalizzanti_internato_in_chirurgia_e_specializzazioni_chirurgiche.ics", "count": 5, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Gastroenterologia", "file": "anno_4/azzurra/materia_gastroenterologia.ics", "count": 29, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}, {"name": "Immunologia clinica e reumatologia", "file": "anno_4/azzurra/materia_immunologia_clinica_e_reumatologia.ics", "count": 15, "color_name": "Mango", "color_hex": "#fbbf24", "bg_hex": "#fbbf2422"}, {"name": "Malattie Infettive", "file": "anno_4/azzurra/materia_malattie_infettive.ics", "count": 34, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}], "elettivi": [{"name": "Anatomia e tecniche della chirurgia tradizionale e mini", "file": "anno_4/azzurra/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini.ics", "count": 7, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Cardiologia Interventistica: dalla teoria ai casi live", "file": "anno_4/azzurra/elettivo_cardiologia_interventistica_dalla_teoria_ai_casi_live.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Immunopatogenesi di patologie emergenti", "file": "anno_4/azzurra/elettivo_immunopatogenesi_di_patologie_emergenti.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso", "file": "anno_4/azzurra/elettivo_innovazioni_tecniche_per_il_trattamento_delle_patologie_del_sistema_venoso.ics", "count": 2, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Malattie sistemiche e infiammazione oculare", "file": "anno_4/azzurra/elettivo_malattie_sistemiche_e_infiammazione_oculare.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Nuove frontiere della chirurgia oncologica del fegato", "file": "anno_4/azzurra/elettivo_nuove_frontiere_della_chirurgia_oncologica_del_fegato.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tumori ereditari dell&#039;apparato digerente: patogenesi. diagnosi e terapia", "file": "anno_4/azzurra/elettivo_tumori_ereditari_dell039apparato_digerente_patogenesi_diagnosi_e_terapia.ics", "count": 2, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 4, "linea_name": "PERCORSO COMUNE LINEA BIANCA", "slug_linea": "bianca", "ios_link": "anno_4/bianca/completo_ios.ics", "ios_count": 96, "materie": [{"name": "Anatomia Patologica", "file": "anno_4/bianca/materia_anatomia_patologica.ics", "count": 13, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche", "file": "anno_4/bianca/materia_attivita_professionalizzanti_internato_in_chirurgia_e_specializzazioni_chirurgiche.ics", "count": 5, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Gastroenterologia", "file": "anno_4/bianca/materia_gastroenterologia.ics", "count": 29, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}, {"name": "Immunologia clinica e reumatologia", "file": "anno_4/bianca/materia_immunologia_clinica_e_reumatologia.ics", "count": 15, "color_name": "Mango", "color_hex": "#fbbf24", "bg_hex": "#fbbf2422"}, {"name": "Malattie Infettive", "file": "anno_4/bianca/materia_malattie_infettive.ics", "count": 34, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}], "elettivi": [{"name": "Anatomia e tecniche della chirurgia tradizionale e mini", "file": "anno_4/bianca/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini.ics", "count": 7, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Cardiologia Interventistica: dalla teoria ai casi live", "file": "anno_4/bianca/elettivo_cardiologia_interventistica_dalla_teoria_ai_casi_live.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Immunopatogenesi di patologie emergenti", "file": "anno_4/bianca/elettivo_immunopatogenesi_di_patologie_emergenti.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso", "file": "anno_4/bianca/elettivo_innovazioni_tecniche_per_il_trattamento_delle_patologie_del_sistema_venoso.ics", "count": 2, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Malattie sistemiche e infiammazione oculare", "file": "anno_4/bianca/elettivo_malattie_sistemiche_e_infiammazione_oculare.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Nuove frontiere della chirurgia oncologica del fegato", "file": "anno_4/bianca/elettivo_nuove_frontiere_della_chirurgia_oncologica_del_fegato.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tumori ereditari dell&#039;apparato digerente: patogenesi. diagnosi e terapia", "file": "anno_4/bianca/elettivo_tumori_ereditari_dell039apparato_digerente_patogenesi_diagnosi_e_terapia.ics", "count": 2, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 4, "linea_name": "PERCORSO COMUNE LINEA GIALLA", "slug_linea": "gialla", "ios_link": "anno_4/gialla/completo_ios.ics", "ios_count": 97, "materie": [{"name": "Anatomia Patologica", "file": "anno_4/gialla/materia_anatomia_patologica.ics", "count": 13, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche", "file": "anno_4/gialla/materia_attivita_professionalizzanti_internato_in_chirurgia_e_specializzazioni_chirurgiche.ics", "count": 5, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Gastroenterologia", "file": "anno_4/gialla/materia_gastroenterologia.ics", "count": 30, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}, {"name": "Immunologia clinica e reumatologia", "file": "anno_4/gialla/materia_immunologia_clinica_e_reumatologia.ics", "count": 15, "color_name": "Mango", "color_hex": "#fbbf24", "bg_hex": "#fbbf2422"}, {"name": "Malattie Infettive", "file": "anno_4/gialla/materia_malattie_infettive.ics", "count": 34, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}], "elettivi": [{"name": "Anatomia e tecniche della chirurgia tradizionale e mini", "file": "anno_4/gialla/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini.ics", "count": 7, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Cardiologia Interventistica: dalla teoria ai casi live", "file": "anno_4/gialla/elettivo_cardiologia_interventistica_dalla_teoria_ai_casi_live.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Immunopatogenesi di patologie emergenti", "file": "anno_4/gialla/elettivo_immunopatogenesi_di_patologie_emergenti.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso", "file": "anno_4/gialla/elettivo_innovazioni_tecniche_per_il_trattamento_delle_patologie_del_sistema_venoso.ics", "count": 2, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Malattie sistemiche e infiammazione oculare", "file": "anno_4/gialla/elettivo_malattie_sistemiche_e_infiammazione_oculare.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Nuove frontiere della chirurgia oncologica del fegato", "file": "anno_4/gialla/elettivo_nuove_frontiere_della_chirurgia_oncologica_del_fegato.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tumori ereditari dell&#039;apparato digerente: patogenesi. diagnosi e terapia", "file": "anno_4/gialla/elettivo_tumori_ereditari_dell039apparato_digerente_patogenesi_diagnosi_e_terapia.ics", "count": 2, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 4, "linea_name": "PERCORSO COMUNE LINEA ROSSA", "slug_linea": "rossa", "ios_link": "anno_4/rossa/completo_ios.ics", "ios_count": 97, "materie": [{"name": "Anatomia Patologica", "file": "anno_4/rossa/materia_anatomia_patologica.ics", "count": 13, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche", "file": "anno_4/rossa/materia_attivita_professionalizzanti_internato_in_chirurgia_e_specializzazioni_chirurgiche.ics", "count": 5, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Gastroenterologia", "file": "anno_4/rossa/materia_gastroenterologia.ics", "count": 29, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}, {"name": "Immunologia clinica e reumatologia", "file": "anno_4/rossa/materia_immunologia_clinica_e_reumatologia.ics", "count": 15, "color_name": "Mango", "color_hex": "#fbbf24", "bg_hex": "#fbbf2422"}, {"name": "Malattie Infettive", "file": "anno_4/rossa/materia_malattie_infettive.ics", "count": 35, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}], "elettivi": [{"name": "Anatomia e tecniche della chirurgia tradizionale e mini", "file": "anno_4/rossa/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini.ics", "count": 7, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Cardiologia Interventistica: dalla teoria ai casi live", "file": "anno_4/rossa/elettivo_cardiologia_interventistica_dalla_teoria_ai_casi_live.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Immunopatogenesi di patologie emergenti", "file": "anno_4/rossa/elettivo_immunopatogenesi_di_patologie_emergenti.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso", "file": "anno_4/rossa/elettivo_innovazioni_tecniche_per_il_trattamento_delle_patologie_del_sistema_venoso.ics", "count": 2, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Malattie sistemiche e infiammazione oculare", "file": "anno_4/rossa/elettivo_malattie_sistemiche_e_infiammazione_oculare.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Nuove frontiere della chirurgia oncologica del fegato", "file": "anno_4/rossa/elettivo_nuove_frontiere_della_chirurgia_oncologica_del_fegato.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tumori ereditari dell&#039;apparato digerente: patogenesi. diagnosi e terapia", "file": "anno_4/rossa/elettivo_tumori_ereditari_dell039apparato_digerente_patogenesi_diagnosi_e_terapia.ics", "count": 2, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 4, "linea_name": "PERCORSO COMUNE LINEA VERDE", "slug_linea": "verde", "ios_link": "anno_4/verde/completo_ios.ics", "ios_count": 97, "materie": [{"name": "Anatomia Patologica", "file": "anno_4/verde/materia_anatomia_patologica.ics", "count": 13, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche", "file": "anno_4/verde/materia_attivita_professionalizzanti_internato_in_chirurgia_e_specializzazioni_chirurgiche.ics", "count": 5, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Gastroenterologia", "file": "anno_4/verde/materia_gastroenterologia.ics", "count": 30, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}, {"name": "Immunologia clinica e reumatologia", "file": "anno_4/verde/materia_immunologia_clinica_e_reumatologia.ics", "count": 15, "color_name": "Mango", "color_hex": "#fbbf24", "bg_hex": "#fbbf2422"}, {"name": "Malattie Infettive", "file": "anno_4/verde/materia_malattie_infettive.ics", "count": 34, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}], "elettivi": [{"name": "Anatomia e tecniche della chirurgia tradizionale e mini", "file": "anno_4/verde/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini.ics", "count": 7, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Cardiologia Interventistica: dalla teoria ai casi live", "file": "anno_4/verde/elettivo_cardiologia_interventistica_dalla_teoria_ai_casi_live.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Immunopatogenesi di patologie emergenti", "file": "anno_4/verde/elettivo_immunopatogenesi_di_patologie_emergenti.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso", "file": "anno_4/verde/elettivo_innovazioni_tecniche_per_il_trattamento_delle_patologie_del_sistema_venoso.ics", "count": 2, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Malattie sistemiche e infiammazione oculare", "file": "anno_4/verde/elettivo_malattie_sistemiche_e_infiammazione_oculare.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Nuove frontiere della chirurgia oncologica del fegato", "file": "anno_4/verde/elettivo_nuove_frontiere_della_chirurgia_oncologica_del_fegato.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tumori ereditari dell&#039;apparato digerente: patogenesi. diagnosi e terapia", "file": "anno_4/verde/elettivo_tumori_ereditari_dell039apparato_digerente_patogenesi_diagnosi_e_terapia.ics", "count": 2, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 4, "linea_name": "PERCORSO COMUNE LINEA VIOLA", "slug_linea": "viola", "ios_link": "anno_4/viola/completo_ios.ics", "ios_count": 97, "materie": [{"name": "Anatomia Patologica", "file": "anno_4/viola/materia_anatomia_patologica.ics", "count": 13, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche", "file": "anno_4/viola/materia_attivita_professionalizzanti_internato_in_chirurgia_e_specializzazioni_chirurgiche.ics", "count": 5, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Gastroenterologia", "file": "anno_4/viola/materia_gastroenterologia.ics", "count": 29, "color_name": "Tomato", "color_hex": "#f87171", "bg_hex": "#f8717122"}, {"name": "Immunologia clinica e reumatologia", "file": "anno_4/viola/materia_immunologia_clinica_e_reumatologia.ics", "count": 15, "color_name": "Mango", "color_hex": "#fbbf24", "bg_hex": "#fbbf2422"}, {"name": "Malattie Infettive", "file": "anno_4/viola/materia_malattie_infettive.ics", "count": 35, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}], "elettivi": [{"name": "Anatomia e tecniche della chirurgia tradizionale e mini", "file": "anno_4/viola/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini.ics", "count": 7, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Cardiologia Interventistica: dalla teoria ai casi live", "file": "anno_4/viola/elettivo_cardiologia_interventistica_dalla_teoria_ai_casi_live.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Immunopatogenesi di patologie emergenti", "file": "anno_4/viola/elettivo_immunopatogenesi_di_patologie_emergenti.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso", "file": "anno_4/viola/elettivo_innovazioni_tecniche_per_il_trattamento_delle_patologie_del_sistema_venoso.ics", "count": 2, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Malattie sistemiche e infiammazione oculare", "file": "anno_4/viola/elettivo_malattie_sistemiche_e_infiammazione_oculare.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Nuove frontiere della chirurgia oncologica del fegato", "file": "anno_4/viola/elettivo_nuove_frontiere_della_chirurgia_oncologica_del_fegato.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tumori ereditari dell&#039;apparato digerente: patogenesi. diagnosi e terapia", "file": "anno_4/viola/elettivo_tumori_ereditari_dell039apparato_digerente_patogenesi_diagnosi_e_terapia.ics", "count": 2, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 5, "linea_name": "PERCORSO COMUNE LINEA AZZURRA", "slug_linea": "azzurra", "ios_link": "anno_5/azzurra/completo_ios.ics", "ios_count": 103, "materie": [{"name": "Neurologia", "file": "anno_5/azzurra/materia_neurologia.ics", "count": 55, "color_name": "Blueberry", "color_hex": "#818cf8", "bg_hex": "#818cf822"}, {"name": "Specialità medico", "file": "anno_5/azzurra/materia_specialita_medico.ics", "count": 48, "color_name": "Eucalyptus", "color_hex": "#4ade80", "bg_hex": "#4ade8022"}], "elettivi": [{"name": "Anatomia topografica e chirurgica della pelvi femminile", "file": "anno_5/azzurra/elettivo_anatomia_topografica_e_chirurgica_della_pelvi_femminile.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Cardiologia di Precisione: l&#039;Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse", "file": "anno_5/azzurra/elettivo_cardiologia_di_precisione_l039integrazione_tra_ecg_avanzato_e_ricerca_traslazionale_nel_management_delle_cardiomiopatie_complesse.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Diagnosi e trattamento delle maculopatie", "file": "anno_5/azzurra/elettivo_diagnosi_e_trattamento_delle_maculopatie.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "ERAS e medicina peri", "file": "anno_5/azzurra/elettivo_eras_e_medicina_peri.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ecoendoscopia terapeutica : le nuove frontiere dell&#039;interventistica mininvasiva avanzata nel trattamento delle patologie epato", "file": "anno_5/azzurra/elettivo_ecoendoscopia_terapeutica_le_nuove_frontiere_dell039interventistica_mininvasiva_avanzata_nel_trattamento_delle_patologie_epato.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche, Applicazione Clinica e Prospettive Traslazionali", "file": "anno_5/azzurra/elettivo_il_trapianto_di_cellule_staminali_ematopoietiche_basi_biologiche_applicazione_clinica_e_prospettive_traslazionali.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "L&#039;utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche", "file": "anno_5/azzurra/elettivo_l039utilizzo_delle_radiazioni_per_la_cura_personalizzata_delle_malattie_oncologiche.ics", "count": 7, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Laser medicali, estetici e chirurgici in dermatologia", "file": "anno_5/azzurra/elettivo_laser_medicali_estetici_e_chirurgici_in_dermatologia.ics", "count": 1, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Meccanismi fisiopatologici, diagnosi e monitoraggio delle demenze", "file": "anno_5/azzurra/elettivo_meccanismi_fisiopatologici_diagnosi_e_monitoraggio_delle_demenze.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Occhio ed emergenze", "file": "anno_5/azzurra/elettivo_occhio_ed_emergenze.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere", "file": "anno_5/azzurra/elettivo_specialisti_ed_otorinolaringoiatria_le_10_cose_che_tutti_i_medici_devono_sapere.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 5, "linea_name": "PERCORSO COMUNE LINEA BIANCA", "slug_linea": "bianca", "ios_link": "anno_5/bianca/completo_ios.ics", "ios_count": 105, "materie": [{"name": "Neurologia", "file": "anno_5/bianca/materia_neurologia.ics", "count": 57, "color_name": "Blueberry", "color_hex": "#818cf8", "bg_hex": "#818cf822"}, {"name": "Specialità medico", "file": "anno_5/bianca/materia_specialita_medico.ics", "count": 48, "color_name": "Eucalyptus", "color_hex": "#4ade80", "bg_hex": "#4ade8022"}], "elettivi": [{"name": "Anatomia topografica e chirurgica della pelvi femminile", "file": "anno_5/bianca/elettivo_anatomia_topografica_e_chirurgica_della_pelvi_femminile.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Cardiologia di Precisione: l&#039;Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse", "file": "anno_5/bianca/elettivo_cardiologia_di_precisione_l039integrazione_tra_ecg_avanzato_e_ricerca_traslazionale_nel_management_delle_cardiomiopatie_complesse.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Diagnosi e trattamento delle maculopatie", "file": "anno_5/bianca/elettivo_diagnosi_e_trattamento_delle_maculopatie.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "ERAS e medicina peri", "file": "anno_5/bianca/elettivo_eras_e_medicina_peri.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ecoendoscopia terapeutica : le nuove frontiere dell&#039;interventistica mininvasiva avanzata nel trattamento delle patologie epato", "file": "anno_5/bianca/elettivo_ecoendoscopia_terapeutica_le_nuove_frontiere_dell039interventistica_mininvasiva_avanzata_nel_trattamento_delle_patologie_epato.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche, Applicazione Clinica e Prospettive Traslazionali", "file": "anno_5/bianca/elettivo_il_trapianto_di_cellule_staminali_ematopoietiche_basi_biologiche_applicazione_clinica_e_prospettive_traslazionali.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "L&#039;utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche", "file": "anno_5/bianca/elettivo_l039utilizzo_delle_radiazioni_per_la_cura_personalizzata_delle_malattie_oncologiche.ics", "count": 7, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Laser medicali, estetici e chirurgici in dermatologia", "file": "anno_5/bianca/elettivo_laser_medicali_estetici_e_chirurgici_in_dermatologia.ics", "count": 1, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Meccanismi fisiopatologici, diagnosi e monitoraggio delle demenze", "file": "anno_5/bianca/elettivo_meccanismi_fisiopatologici_diagnosi_e_monitoraggio_delle_demenze.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Occhio ed emergenze", "file": "anno_5/bianca/elettivo_occhio_ed_emergenze.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere", "file": "anno_5/bianca/elettivo_specialisti_ed_otorinolaringoiatria_le_10_cose_che_tutti_i_medici_devono_sapere.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 5, "linea_name": "PERCORSO COMUNE LINEA GIALLA", "slug_linea": "gialla", "ios_link": "anno_5/gialla/completo_ios.ics", "ios_count": 104, "materie": [{"name": "Neurologia", "file": "anno_5/gialla/materia_neurologia.ics", "count": 54, "color_name": "Blueberry", "color_hex": "#818cf8", "bg_hex": "#818cf822"}, {"name": "Specialità medico", "file": "anno_5/gialla/materia_specialita_medico.ics", "count": 50, "color_name": "Eucalyptus", "color_hex": "#4ade80", "bg_hex": "#4ade8022"}], "elettivi": [{"name": "Anatomia topografica e chirurgica della pelvi femminile", "file": "anno_5/gialla/elettivo_anatomia_topografica_e_chirurgica_della_pelvi_femminile.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Cardiologia di Precisione: l&#039;Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse", "file": "anno_5/gialla/elettivo_cardiologia_di_precisione_l039integrazione_tra_ecg_avanzato_e_ricerca_traslazionale_nel_management_delle_cardiomiopatie_complesse.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Diagnosi e trattamento delle maculopatie", "file": "anno_5/gialla/elettivo_diagnosi_e_trattamento_delle_maculopatie.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "ERAS e medicina peri", "file": "anno_5/gialla/elettivo_eras_e_medicina_peri.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ecoendoscopia terapeutica : le nuove frontiere dell&#039;interventistica mininvasiva avanzata nel trattamento delle patologie epato", "file": "anno_5/gialla/elettivo_ecoendoscopia_terapeutica_le_nuove_frontiere_dell039interventistica_mininvasiva_avanzata_nel_trattamento_delle_patologie_epato.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche, Applicazione Clinica e Prospettive Traslazionali", "file": "anno_5/gialla/elettivo_il_trapianto_di_cellule_staminali_ematopoietiche_basi_biologiche_applicazione_clinica_e_prospettive_traslazionali.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "L&#039;utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche", "file": "anno_5/gialla/elettivo_l039utilizzo_delle_radiazioni_per_la_cura_personalizzata_delle_malattie_oncologiche.ics", "count": 7, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Laser medicali, estetici e chirurgici in dermatologia", "file": "anno_5/gialla/elettivo_laser_medicali_estetici_e_chirurgici_in_dermatologia.ics", "count": 1, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Meccanismi fisiopatologici, diagnosi e monitoraggio delle demenze", "file": "anno_5/gialla/elettivo_meccanismi_fisiopatologici_diagnosi_e_monitoraggio_delle_demenze.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Occhio ed emergenze", "file": "anno_5/gialla/elettivo_occhio_ed_emergenze.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere", "file": "anno_5/gialla/elettivo_specialisti_ed_otorinolaringoiatria_le_10_cose_che_tutti_i_medici_devono_sapere.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 5, "linea_name": "PERCORSO COMUNE LINEA VERDE", "slug_linea": "verde", "ios_link": "anno_5/verde/completo_ios.ics", "ios_count": 104, "materie": [{"name": "Neurologia", "file": "anno_5/verde/materia_neurologia.ics", "count": 54, "color_name": "Blueberry", "color_hex": "#818cf8", "bg_hex": "#818cf822"}, {"name": "Specialità medico", "file": "anno_5/verde/materia_specialita_medico.ics", "count": 50, "color_name": "Eucalyptus", "color_hex": "#4ade80", "bg_hex": "#4ade8022"}], "elettivi": [{"name": "Anatomia topografica e chirurgica della pelvi femminile", "file": "anno_5/verde/elettivo_anatomia_topografica_e_chirurgica_della_pelvi_femminile.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Cardiologia di Precisione: l&#039;Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse", "file": "anno_5/verde/elettivo_cardiologia_di_precisione_l039integrazione_tra_ecg_avanzato_e_ricerca_traslazionale_nel_management_delle_cardiomiopatie_complesse.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Diagnosi e trattamento delle maculopatie", "file": "anno_5/verde/elettivo_diagnosi_e_trattamento_delle_maculopatie.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "ERAS e medicina peri", "file": "anno_5/verde/elettivo_eras_e_medicina_peri.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ecoendoscopia terapeutica : le nuove frontiere dell&#039;interventistica mininvasiva avanzata nel trattamento delle patologie epato", "file": "anno_5/verde/elettivo_ecoendoscopia_terapeutica_le_nuove_frontiere_dell039interventistica_mininvasiva_avanzata_nel_trattamento_delle_patologie_epato.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche, Applicazione Clinica e Prospettive Traslazionali", "file": "anno_5/verde/elettivo_il_trapianto_di_cellule_staminali_ematopoietiche_basi_biologiche_applicazione_clinica_e_prospettive_traslazionali.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "L&#039;utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche", "file": "anno_5/verde/elettivo_l039utilizzo_delle_radiazioni_per_la_cura_personalizzata_delle_malattie_oncologiche.ics", "count": 7, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Laser medicali, estetici e chirurgici in dermatologia", "file": "anno_5/verde/elettivo_laser_medicali_estetici_e_chirurgici_in_dermatologia.ics", "count": 1, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Meccanismi fisiopatologici, diagnosi e monitoraggio delle demenze", "file": "anno_5/verde/elettivo_meccanismi_fisiopatologici_diagnosi_e_monitoraggio_delle_demenze.ics", "count": 10, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Occhio ed emergenze", "file": "anno_5/verde/elettivo_occhio_ed_emergenze.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere", "file": "anno_5/verde/elettivo_specialisti_ed_otorinolaringoiatria_le_10_cose_che_tutti_i_medici_devono_sapere.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 6, "linea_name": "PERCORSO COMUNE LINEA AZZURRA", "slug_linea": "azzurra", "ios_link": "anno_6/azzurra/completo_ios.ics", "ios_count": 65, "materie": [{"name": "Clinica Chirurgica", "file": "anno_6/azzurra/materia_clinica_chirurgica.ics", "count": 25, "color_name": "Peacock", "color_hex": "#60a5fa", "bg_hex": "#60a5fa22"}, {"name": "Ginecologia ed Ostetricia", "file": "anno_6/azzurra/materia_ginecologia_ed_ostetricia.ics", "count": 20, "color_name": "Basil", "color_hex": "#34d399", "bg_hex": "#34d39922"}, {"name": "Pediatria", "file": "anno_6/azzurra/materia_pediatria.ics", "count": 20, "color_name": "Basil", "color_hex": "#34d399", "bg_hex": "#34d39922"}], "elettivi": [{"name": "Data science in chirurgia generale", "file": "anno_6/azzurra/elettivo_data_science_in_chirurgia_generale.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ecografia Diagnostica ed Interventistica in Ginecologia ed Ostetricia", "file": "anno_6/azzurra/elettivo_ecografia_diagnostica_ed_interventistica_in_ginecologia_ed_ostetricia.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Introduzione all&#039;intelligenza artificiale nell&#039;imaging medico", "file": "anno_6/azzurra/elettivo_introduzione_all039intelligenza_artificiale_nell039imaging_medico.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Neonatologia e Patologia Neonatale", "file": "anno_6/azzurra/elettivo_neonatologia_e_patologia_neonatale.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Neuroradiologia Pediatrica: dalla RM fetale all&#039;infanzia", "file": "anno_6/azzurra/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_all039infanzia.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Writing and presenting", "file": "anno_6/azzurra/elettivo_writing_and_presenting.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 6, "linea_name": "PERCORSO COMUNE LINEA BIANCA", "slug_linea": "bianca", "ios_link": "anno_6/bianca/completo_ios.ics", "ios_count": 65, "materie": [{"name": "Clinica Chirurgica", "file": "anno_6/bianca/materia_clinica_chirurgica.ics", "count": 25, "color_name": "Peacock", "color_hex": "#60a5fa", "bg_hex": "#60a5fa22"}, {"name": "Ginecologia ed Ostetricia", "file": "anno_6/bianca/materia_ginecologia_ed_ostetricia.ics", "count": 20, "color_name": "Basil", "color_hex": "#34d399", "bg_hex": "#34d39922"}, {"name": "Pediatria", "file": "anno_6/bianca/materia_pediatria.ics", "count": 20, "color_name": "Basil", "color_hex": "#34d399", "bg_hex": "#34d39922"}], "elettivi": [{"name": "Data science in chirurgia generale", "file": "anno_6/bianca/elettivo_data_science_in_chirurgia_generale.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ecografia Diagnostica ed Interventistica in Ginecologia ed Ostetricia", "file": "anno_6/bianca/elettivo_ecografia_diagnostica_ed_interventistica_in_ginecologia_ed_ostetricia.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Introduzione all&#039;intelligenza artificiale nell&#039;imaging medico", "file": "anno_6/bianca/elettivo_introduzione_all039intelligenza_artificiale_nell039imaging_medico.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Neonatologia e Patologia Neonatale", "file": "anno_6/bianca/elettivo_neonatologia_e_patologia_neonatale.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Neuroradiologia Pediatrica: dalla RM fetale all&#039;infanzia", "file": "anno_6/bianca/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_all039infanzia.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Writing and presenting", "file": "anno_6/bianca/elettivo_writing_and_presenting.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 6, "linea_name": "PERCORSO COMUNE LINEA GIALLA", "slug_linea": "gialla", "ios_link": "anno_6/gialla/completo_ios.ics", "ios_count": 66, "materie": [{"name": "Clinica Chirurgica", "file": "anno_6/gialla/materia_clinica_chirurgica.ics", "count": 25, "color_name": "Peacock", "color_hex": "#60a5fa", "bg_hex": "#60a5fa22"}, {"name": "Ginecologia ed Ostetricia", "file": "anno_6/gialla/materia_ginecologia_ed_ostetricia.ics", "count": 21, "color_name": "Basil", "color_hex": "#34d399", "bg_hex": "#34d39922"}, {"name": "Pediatria", "file": "anno_6/gialla/materia_pediatria.ics", "count": 20, "color_name": "Basil", "color_hex": "#34d399", "bg_hex": "#34d39922"}], "elettivi": [{"name": "Data science in chirurgia generale", "file": "anno_6/gialla/elettivo_data_science_in_chirurgia_generale.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ecografia Diagnostica ed Interventistica in Ginecologia ed Ostetricia", "file": "anno_6/gialla/elettivo_ecografia_diagnostica_ed_interventistica_in_ginecologia_ed_ostetricia.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Introduzione all&#039;intelligenza artificiale nell&#039;imaging medico", "file": "anno_6/gialla/elettivo_introduzione_all039intelligenza_artificiale_nell039imaging_medico.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Neonatologia e Patologia Neonatale", "file": "anno_6/gialla/elettivo_neonatologia_e_patologia_neonatale.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Neuroradiologia Pediatrica: dalla RM fetale all&#039;infanzia", "file": "anno_6/gialla/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_all039infanzia.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Writing and presenting", "file": "anno_6/gialla/elettivo_writing_and_presenting.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}, {"anno": 6, "linea_name": "PERCORSO COMUNE LINEA VERDE", "slug_linea": "verde", "ios_link": "anno_6/verde/completo_ios.ics", "ios_count": 66, "materie": [{"name": "Clinica Chirurgica", "file": "anno_6/verde/materia_clinica_chirurgica.ics", "count": 25, "color_name": "Peacock", "color_hex": "#60a5fa", "bg_hex": "#60a5fa22"}, {"name": "Ginecologia ed Ostetricia", "file": "anno_6/verde/materia_ginecologia_ed_ostetricia.ics", "count": 21, "color_name": "Basil", "color_hex": "#34d399", "bg_hex": "#34d39922"}, {"name": "Pediatria", "file": "anno_6/verde/materia_pediatria.ics", "count": 20, "color_name": "Basil", "color_hex": "#34d399", "bg_hex": "#34d39922"}], "elettivi": [{"name": "Data science in chirurgia generale", "file": "anno_6/verde/elettivo_data_science_in_chirurgia_generale.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ecografia Diagnostica ed Interventistica in Ginecologia ed Ostetricia", "file": "anno_6/verde/elettivo_ecografia_diagnostica_ed_interventistica_in_ginecologia_ed_ostetricia.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Introduzione all&#039;intelligenza artificiale nell&#039;imaging medico", "file": "anno_6/verde/elettivo_introduzione_all039intelligenza_artificiale_nell039imaging_medico.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Neonatologia e Patologia Neonatale", "file": "anno_6/verde/elettivo_neonatologia_e_patologia_neonatale.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Neuroradiologia Pediatrica: dalla RM fetale all&#039;infanzia", "file": "anno_6/verde/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_all039infanzia.ics", "count": 8, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Writing and presenting", "file": "anno_6/verde/elettivo_writing_and_presenting.ics", "count": 6, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}]}];
+        const hostPath = window.location.href.replace(/[/]index[.]html$/, '').replace(/[/]$/, '');
+        
+        const annoSelect = document.getElementById('anno-select');
+        const lineaSelect = document.getElementById('linea-select');
+        const contentArea = document.getElementById('content-area');
+        const materieGrid = document.getElementById('materie-grid');
+        const elettiviGrid = document.getElementById('elettivi-grid');
+        
+        function updateLinee() {
+            const anno = parseInt(annoSelect.value);
+            lineaSelect.innerHTML = '<option value="">-- Seleziona Linea --</option>';
+            if (!anno) {
+                lineaSelect.disabled = true;
+                contentArea.classList.add('hidden');
+                return;
+            }
+            
+            lineaSelect.disabled = false;
+            contentArea.classList.add('hidden');
+            
+            const comboDisponibili = uiData.filter(d => d.anno === anno);
+            comboDisponibili.forEach(c => {
+                const opt = document.createElement('option');
+                opt.value = c.slug_linea;
+                opt.textContent = c.linea_name.replace('PERCORSO COMUNE', '').trim() || 'Linea Comune';
+                lineaSelect.appendChild(opt);
+            });
+        }
+        
+        function renderFeeds() {
+            const anno = parseInt(annoSelect.value);
+            const slug = lineaSelect.value;
+            if (!anno || !slug) {
+                contentArea.classList.add('hidden');
+                return;
+            }
+            
+            const config = uiData.find(d => d.anno === anno && d.slug_linea === slug);
+            if (!config) return;
+            
+            // URLs per il feed completo
+            const fullIcsUrl = hostPath + '/' + config.ios_link + '?v=2';
+            const cleanWebcal = fullIcsUrl.replace(/^https?:[/][/]/, 'webcal://');
+            const gcalFullUrl = 'https://calendar.google.com/calendar/render?cid=' + encodeURIComponent(cleanWebcal);
+            const outlookFullUrl = 'https://outlook.live.com/calendar/0/addfromweb?url=' + encodeURIComponent(fullIcsUrl) + '&name=' + encodeURIComponent('UniSR ' + config.linea_name);
 
-        function copyFeedUrl(filename, btn) {
+            document.getElementById('ios-meta').textContent = `${config.ios_count} eventi curricolari obbligatori nel semestre`;
+            document.getElementById('apple-full-btn').href = cleanWebcal;
+            document.getElementById('gcal-full-btn').href = gcalFullUrl;
+            document.getElementById('outlook-full-btn').href = outlookFullUrl;
+            document.getElementById('copy-full-btn').setAttribute('onclick', `copyFeedUrl('${config.ios_link}', this)`);
+            
+            function buildCard(item) {
+                const itemIcsUrl = hostPath + '/' + item.file + '?v=2';
+                const itemWebcal = itemIcsUrl.replace(/^https?:[/][/]/, 'webcal://');
+                const gcalItemUrl = 'https://calendar.google.com/calendar/render?cid=' + encodeURIComponent(itemWebcal);
+                const outlookItemUrl = 'https://outlook.live.com/calendar/0/addfromweb?url=' + encodeURIComponent(itemIcsUrl) + '&name=' + encodeURIComponent(item.name);
+                
+                return `
+                <div class="card">
+                    <div class="card-header">
+                        <span class="badge" style="background: ${item.bg_hex}; color: ${item.color_hex}; border: 1px solid ${item.color_hex};">${item.color_name}</span>
+                        <h3>${item.name}</h3>
+                    </div>
+                    <p class="card-meta"><b>${item.count}</b> sessioni in calendario</p>
+                    <div class="actions">
+                        <div class="actions-row">
+                            <a href="${gcalItemUrl}" target="_blank" class="btn btn-gcal">📅 Google</a>
+                            <a href="${itemWebcal}" class="btn btn-apple">🍏 Apple</a>
+                        </div>
+                        <div class="actions-row">
+                            <a href="${outlookItemUrl}" target="_blank" class="btn btn-outlook">📧 Outlook</a>
+                            <button onclick="copyFeedUrl('${item.file}', this)" class="btn btn-copy">📋 Copia ICS</button>
+                        </div>
+                    </div>
+                </div>`;
+            }
+            
+            materieGrid.innerHTML = config.materie.map(buildCard).join('');
+            elettiviGrid.innerHTML = config.elettivi.map(buildCard).join('');
+            if(config.elettivi.length === 0) {
+                elettiviGrid.innerHTML = '<p style="color:var(--text-muted); font-size:0.95rem;">Nessun corso elettivo rilevato per questo anno/linea.</p>';
+            }
+            
+            contentArea.classList.remove('hidden');
+        }
+
+        window.copyFeedUrl = function(filename, btn) {
             const url = hostPath + '/' + filename + '?v=2';
             navigator.clipboard.writeText(url).then(() => {
                 const orig = btn.innerText;
-                btn.innerText = '✅ Link Copiato!';
-                btn.style.borderColor = '#22c55e';
-                btn.style.color = '#22c55e';
-                setTimeout(() => {
-                    btn.innerText = orig;
-                    btn.style.borderColor = '';
-                    btn.style.color = '';
-                }, 2000);
+                btn.innerText = '✅ Copiato!';
+                btn.style.borderColor = '#22c55e'; btn.style.color = '#22c55e';
+                setTimeout(() => { btn.innerText = orig; btn.style.borderColor = ''; btn.style.color = ''; }, 2000);
             }).catch(() => {
                 prompt('Copia questo link:', url);
             });
-        }
+        };
     </script>
 </body>
 </html>

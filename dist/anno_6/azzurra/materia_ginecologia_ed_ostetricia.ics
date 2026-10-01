@@ -1,0 +1,247 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ginecologia ed Ostetricia
+X-WR-CALDESC:Corso: Ginecologia ed Ostetricia
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-6e6bf61073b590fc@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20260922T143000
+DTEND;TZID=Europe/Rome:20260922T163000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0ca5f516ba906a81@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20260923T093000
+DTEND;TZID=Europe/Rome:20260923T113000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA302
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a0d26b16fc40d9a9@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20260929T143000
+DTEND;TZID=Europe/Rome:20260929T163000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f08ae8eef66f37ad@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20260930T093000
+DTEND;TZID=Europe/Rome:20260930T113000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-82d943e680c77656@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261006T143000
+DTEND;TZID=Europe/Rome:20261006T163000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-88152191a1d01f78@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261007T093000
+DTEND;TZID=Europe/Rome:20261007T113000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2e9dbfb45de111a2@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261008T143000
+DTEND;TZID=Europe/Rome:20261008T163000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA301
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-df2f92fc2bcc25b5@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261013T143000
+DTEND;TZID=Europe/Rome:20261013T163000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO201
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e4dcdff252b23154@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261014T093000
+DTEND;TZID=Europe/Rome:20261014T113000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-34b8837177b01456@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261020T143000
+DTEND;TZID=Europe/Rome:20261020T163000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ce0c6e67b48039ed@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261021T093000
+DTEND;TZID=Europe/Rome:20261021T113000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO401
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-36e75bf18fa241ad@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261022T143000
+DTEND;TZID=Europe/Rome:20261022T163000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio VASARI\, Aula VA102
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2a578e1bc4ea5744@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261027T143000
+DTEND;TZID=Europe/Rome:20261027T163000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO302
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7060486e468dd15e@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261028T093000
+DTEND;TZID=Europe/Rome:20261028T113000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-858c97c548248c8b@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261029T143000
+DTEND;TZID=Europe/Rome:20261029T163000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b46f66ecb7c8fee5@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261103T143000
+DTEND;TZID=Europe/Rome:20261103T163000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA202
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-697cfe3f3d4b5d40@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261104T093000
+DTEND;TZID=Europe/Rome:20261104T113000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-235f66f3f4fe5911@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261105T143000
+DTEND;TZID=Europe/Rome:20261105T163000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-cd00e230e9368a28@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261109T093000
+DTEND;TZID=Europe/Rome:20261109T113000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO401
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b998b61bd60da49d@easycourse.unisr.it
+DTSTAMP:20260930T203950Z
+DTSTART;TZID=Europe/Rome:20261111T093000
+DTEND;TZID=Europe/Rome:20261111T113000
+SUMMARY:Ginecologia ed Ostetricia [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA101
+DESCRIPTION:Insegnamento: Ginecologia ed Ostetricia [1050] - Ginecologia ed Ostetricia LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

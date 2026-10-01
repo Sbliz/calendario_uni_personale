@@ -2,13 +2,15 @@ name: Sincronizza Calendari UniSR
 
 on:
   schedule:
+    # Esegue automaticamente ogni giorno alle 05:00 e alle 17:00 UTC (07:00 e 19:00 ora italiana)
     - cron: '0 5,17 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Permette di avviare la sincronizzazione manualmente con un clic su GitHub
   push:
     branches:
       - main
       - master
 
+# Permessi necessari per il deploy automatico su GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -35,7 +37,7 @@ jobs:
 
       - name: Esegui Scraper e genera feed .ics
         run: |
-          python scraper.py
+          python src/scraper.py
 
       - name: Configura GitHub Pages
         uses: actions/configure-pages@v5

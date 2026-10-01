@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Attività professionalizzanti di medicina di laboratorio
+X-WR-CALDESC:Corso: Attività professionalizzanti di medicina di laboratorio
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-1d47c1e7c9c6d280@easycourse.unisr.it
+DTSTAMP:20260930T202918Z
+DTSTART;TZID=Europe/Rome:20261022T133000
+DTEND;TZID=Europe/Rome:20261022T173000
+SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
+LOCATION:Edificio BORROMINI\, Aula BO301
+DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 1 (LINEA BIANCA) - APR_S\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 13:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-72848810e9d82c99@easycourse.unisr.it
+DTSTAMP:20260930T202918Z
+DTSTART;TZID=Europe/Rome:20261126T083000
+DTEND;TZID=Europe/Rome:20261126T123000
+SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
+LOCATION:Edificio CANOVA\, Aula CA302B
+DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 1 (LINEA BIANCA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA302B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2723e1c621384994@easycourse.unisr.it
+DTSTAMP:20260930T202918Z
+DTSTART;TZID=Europe/Rome:20261201T083000
+DTEND;TZID=Europe/Rome:20261201T123000
+SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
+LOCATION:Edificio CANOVA\, Aula CA102B
+DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 2 (LINEA BIANCA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7b0949cc220763b5@easycourse.unisr.it
+DTSTAMP:20260930T202918Z
+DTSTART;TZID=Europe/Rome:20261210T083000
+DTEND;TZID=Europe/Rome:20261210T123000
+SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
+LOCATION:Edificio CANOVA\, Aula CA102B
+DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 1 (LINEA BIANCA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-47777606f8789ce3@easycourse.unisr.it
+DTSTAMP:20260930T202918Z
+DTSTART;TZID=Europe/Rome:20261217T083000
+DTEND;TZID=Europe/Rome:20261217T123000
+SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
+LOCATION:Edificio CANOVA\, Aula CA102B
+DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 2 (LINEA BIANCA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7ef7c493c003007d@easycourse.unisr.it
+DTSTAMP:20260930T202918Z
+DTSTART;TZID=Europe/Rome:20261222T083000
+DTEND;TZID=Europe/Rome:20261222T123000
+SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
+LOCATION:Edificio CANOVA\, Aula CA102B
+DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 2 (LINEA BIANCA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8ac304daa6132f94@easycourse.unisr.it
+DTSTAMP:20260930T202918Z
+DTSTART;TZID=Europe/Rome:20270114T083000
+DTEND;TZID=Europe/Rome:20270114T123000
+SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
+LOCATION:Edificio CANOVA\, Aula CA102B
+DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 1 (LINEA BIANCA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-af395ab6e967c960@easycourse.unisr.it
+DTSTAMP:20260930T202918Z
+DTSTART;TZID=Europe/Rome:20270115T083000
+DTEND;TZID=Europe/Rome:20270115T123000
+SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
+LOCATION:Edificio CANOVA\, Aula CA102B
+DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 2 (LINEA BIANCA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102B\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

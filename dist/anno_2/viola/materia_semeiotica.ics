@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Semeiotica
+X-WR-CALDESC:Corso: Semeiotica
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-d9cddbee252a3024@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20260930T133000
+DTEND;TZID=Europe/Rome:20260930T153000
+SUMMARY:Semeiotica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Semeiotica [C0013] - Semeiotica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0c653eaf7df8a7dd@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261002T153000
+DTEND;TZID=Europe/Rome:20261002T173000
+SUMMARY:Semeiotica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA201
+DESCRIPTION:Insegnamento: Semeiotica [C0013] - Semeiotica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3d35f82f5f6fdbdc@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261008T133000
+DTEND;TZID=Europe/Rome:20261008T153000
+SUMMARY:Semeiotica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA201
+DESCRIPTION:Insegnamento: Semeiotica [C0013] - Semeiotica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-39ec4ff5ac8f8aae@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261016T083000
+DTEND;TZID=Europe/Rome:20261016T103000
+SUMMARY:Semeiotica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA201
+DESCRIPTION:Insegnamento: Semeiotica [C0013] - Semeiotica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1c10b22a24a0d064@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261021T103000
+DTEND;TZID=Europe/Rome:20261021T123000
+SUMMARY:Semeiotica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA201
+DESCRIPTION:Insegnamento: Semeiotica [C0013] - Semeiotica 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ca419c8cbf4b48dc@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261027T103000
+DTEND;TZID=Europe/Rome:20261027T123000
+SUMMARY:Semeiotica [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO401
+DESCRIPTION:Insegnamento: Semeiotica [C0013] - Semeiotica 1 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-807a63c397124239@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261028T083000
+DTEND;TZID=Europe/Rome:20261028T123000
+SUMMARY:Semeiotica [Lezione]
+LOCATION:Edificio VASARI\, Aula VA101
+DESCRIPTION:Insegnamento: Semeiotica [C0013] - Semeiotica 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-cf91efc5a0ee73d4@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261116T083000
+DTEND;TZID=Europe/Rome:20261116T103000
+SUMMARY:Semeiotica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA102
+DESCRIPTION:Insegnamento: Semeiotica [C0013] - Semeiotica 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-34522a3816db243e@easycourse.unisr.it
+DTSTAMP:20260930T202258Z
+DTSTART;TZID=Europe/Rome:20261124T083000
+DTEND;TZID=Europe/Rome:20261124T103000
+SUMMARY:Semeiotica [Lezione]
+LOCATION:Edificio CANOVA\, Aula CA201
+DESCRIPTION:Insegnamento: Semeiotica [C0013] - Semeiotica 2 LS (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

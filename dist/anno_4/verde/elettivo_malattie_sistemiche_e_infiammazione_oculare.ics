@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Malattie sistemiche e infiammazione oculare
+X-WR-CALDESC:Corso Elettivo: Malattie sistemiche e infiammazione oculare
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-27ab4462bd5756de@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261005T173000
+DTEND;TZID=Europe/Rome:20261005T193000
+SUMMARY:Malattie sistemiche e infiammazione oculare [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO102
+DESCRIPTION:Insegnamento: Malattie sistemiche e infiammazione oculare - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d9b786ab168dc3a8@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261012T173000
+DTEND;TZID=Europe/Rome:20261012T193000
+SUMMARY:Malattie sistemiche e infiammazione oculare [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO102
+DESCRIPTION:Insegnamento: Malattie sistemiche e infiammazione oculare - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-21c77a51dece36fe@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261019T173000
+DTEND;TZID=Europe/Rome:20261019T193000
+SUMMARY:Malattie sistemiche e infiammazione oculare [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO102
+DESCRIPTION:Insegnamento: Malattie sistemiche e infiammazione oculare - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-65275d60abaed260@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261026T173000
+DTEND;TZID=Europe/Rome:20261026T193000
+SUMMARY:Malattie sistemiche e infiammazione oculare [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO102
+DESCRIPTION:Insegnamento: Malattie sistemiche e infiammazione oculare - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ce0f203015917f13@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261102T173000
+DTEND;TZID=Europe/Rome:20261102T193000
+SUMMARY:Malattie sistemiche e infiammazione oculare [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO102
+DESCRIPTION:Insegnamento: Malattie sistemiche e infiammazione oculare - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5957f9a10b32fbc0@easycourse.unisr.it
+DTSTAMP:20260930T203342Z
+DTSTART;TZID=Europe/Rome:20261109T173000
+DTEND;TZID=Europe/Rome:20261109T193000
+SUMMARY:Malattie sistemiche e infiammazione oculare [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO102
+DESCRIPTION:Insegnamento: Malattie sistemiche e infiammazione oculare - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Neonatologia e Patologia Neonatale
+X-WR-CALDESC:Corso Elettivo: Neonatologia e Patologia Neonatale
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-fe9a921b520f274d@easycourse.unisr.it
+DTSTAMP:20260930T204032Z
+DTSTART;TZID=Europe/Rome:20261013T163000
+DTEND;TZID=Europe/Rome:20261013T183000
+SUMMARY:Neonatologia e Patologia Neonatale [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO401
+DESCRIPTION:Insegnamento: Neonatologia e Patologia Neonatale - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2dea2068b6d62487@easycourse.unisr.it
+DTSTAMP:20260930T204032Z
+DTSTART;TZID=Europe/Rome:20261020T163000
+DTEND;TZID=Europe/Rome:20261020T183000
+SUMMARY:Neonatologia e Patologia Neonatale [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO401
+DESCRIPTION:Insegnamento: Neonatologia e Patologia Neonatale - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-444e6606080555b3@easycourse.unisr.it
+DTSTAMP:20260930T204032Z
+DTSTART;TZID=Europe/Rome:20261103T163000
+DTEND;TZID=Europe/Rome:20261103T183000
+SUMMARY:Neonatologia e Patologia Neonatale [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO401
+DESCRIPTION:Insegnamento: Neonatologia e Patologia Neonatale - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7eb75000cdd2ff81@easycourse.unisr.it
+DTSTAMP:20260930T204032Z
+DTSTART;TZID=Europe/Rome:20261117T163000
+DTEND;TZID=Europe/Rome:20261117T183000
+SUMMARY:Neonatologia e Patologia Neonatale [Lezione]
+LOCATION:Edificio BORROMINI\, Aula BO401
+DESCRIPTION:Insegnamento: Neonatologia e Patologia Neonatale - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

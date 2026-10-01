@@ -1,12 +1,35 @@
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Privacy: Chat transcripts, session logs, Antigravity internal memories
+docs/
+MEMORY.md
+workflow_log.md
+antigravity_data/
+*.log
+*.jsonl
+*.db
+*.sqlite
+.system_generated/
+scratch/
+GUIDA_MIGRAZIONE_PC.md
+restore_antigravity_data.*
+
+# Large test/sample dumps
+*.html
+!dist/index.html
+src/week2_raw.html
 semester_full.html
 easycourse_w1.html
 orario_home.html
 scratch_sample_grid.html
-scratch/
-.system_generated/
+
+# Environment / secrets
+.env*
