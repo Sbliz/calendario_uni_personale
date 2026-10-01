@@ -524,6 +524,27 @@ def extract_lessons_from_html(html):
     return all_lessons
 
 
+def get_abbreviation(name):
+    name_upper = name.upper()
+    if "PATOLOGIA" in name_upper: return "PATO"
+    if "CHIRURGIA VASCOLARE" in name_upper: return "CHIRVAS"
+    if "ATTIVITÀ PROFESSIONALIZZANTI" in name_upper or ("ATTIVITA" in name_upper and "PROFESSIONALIZZANTI" in name_upper): return "APRO"
+    if "MEDICINA DI LABORATORIO" in name_upper: return "MEDLAB"
+    if "EVENTI GENERICI" in name_upper: return "EVENTI"
+    
+    words = re.findall(r'[A-ZÀ-ÖØ-Þ]+', name_upper)
+    stopwords = {"DI", "E", "IN", "DEL", "DELLA", "DELLO", "DEI", "DELLE", "DA", "A", "I", "II", "III", "IV", "V", "VI", "PER", "CON"}
+    words = [w for w in words if w not in stopwords]
+    
+    if not words:
+        return name[:4].upper()
+        
+    if len(words) == 1:
+        return words[0][:4]
+    else:
+        return words[0][:4] + words[1][:3]
+
+
 def clean_title(raw_title):
     tipo = ""
     if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
@@ -533,8 +554,14 @@ def clean_title(raw_title):
     elif " - APR" in raw_title or " - TIR" in raw_title:
         tipo = "Attività Pratica"
     
-    base_match = re.match(r'^(.*?)(?:\s*\[|\s*-)', raw_title)
-    base_name = base_match.group(1).strip() if base_match else raw_title
+    # Rimuove i suffissi noti invece di tagliare al primo trattino
+    base_name = re.sub(r'\s*-\s*(LEZ(_D)?|ESE|APR|TIR).*$', '', raw_title, flags=re.IGNORECASE)
+    # Rimuove l'eventuale [TIPO] o altro tra parentesi quadre
+    base_name = re.sub(r'\s*\[.*?\]', '', base_name).strip()
+    
+    if base_name.lower() == "evento generico":
+        base_name = "Eventi generici"
+        
     if tipo:
         return f"{base_name} [{tipo}]"
     return base_name
@@ -610,13 +637,20 @@ def build_ics_calendar(calendar_name, lessons, description=""):
         dtend = format_ical_dt(l['date'], l['ora_fine'])
         uid = generate_uid(l)
         summary = clean_title(l['titolo'])
+        
+        base_subj = get_base_subject_name(summary)
+        abbr = get_abbreviation(base_subj)
+        summary_with_abbr = f"[{abbr}] {summary}"
 
         loc_parts = []
         if l['sede']: loc_parts.append(f"Edificio {l['sede']}")
         if l['aula']: loc_parts.append(f"Aula {l['aula']}")
         location = ", ".join(loc_parts)
 
-        desc_lines = [f"Insegnamento: {l['titolo']}"]
+        desc_lines = [f"Materia: {base_subj}", f"Dettaglio: {l['titolo']}"]
+        if "Eventi generici" in base_subj:
+            desc_lines.append("Nota: Attività extra, assemblee, benvenuto matricole o altri eventi generici.")
+            
         if l['docenti']: desc_lines.append(f"Docenti: {', '.join(l['docenti'])}")
         if location: desc_lines.append(f"Luogo: {location}")
         desc_lines.append(f"Orario: {l['ora_inizio']} - {l['ora_fine']}")
@@ -628,7 +662,7 @@ def build_ics_calendar(calendar_name, lessons, description=""):
             f"DTSTAMP:{now_utc}",
             f"DTSTART;TZID=Europe/Rome:{dtstart}",
             f"DTEND;TZID=Europe/Rome:{dtend}",
-            f"SUMMARY:{escape_ical_text(summary)}",
+            f"SUMMARY:{escape_ical_text(summary_with_abbr)}",
             f"LOCATION:{escape_ical_text(location)}",
             f"DESCRIPTION:{escape_ical_text(chr(10).join(desc_lines))}",
             "STATUS:CONFIRMED",
@@ -764,6 +798,16 @@ def generate_dynamic_index(ui_data, dist_dir):
                 </div>
             </div>
 
+            <!-- Legenda -->
+            <div class="card" style="margin-bottom: 2.5rem;">
+                <h3 style="font-size: 1.15rem; margin-bottom: 0.5rem; color: #fff;">Legenda Corsi ed Eventi</h3>
+                <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem;">
+                    I corsi nel feed completo sono identificati da un codice breve per facilitarne la lettura sui dispositivi mobili:
+                </p>
+                <div id="legend-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.5rem; font-size: 0.85rem;">
+                </div>
+            </div>
+
             <!-- Moduli Obbligatori per Materia -->
             <h2 class="section-title">📚 Corsi per Materia (Google Calendar / Outlook / Multi-Colore)</h2>
             <p style="color:var(--text-muted); font-size:0.9rem; margin-top:-0.5rem; margin-bottom:1.25rem;">
@@ -864,6 +908,17 @@ def generate_dynamic_index(ui_data, dist_dir):
             document.getElementById('gcal-full-btn').href = gcalFullUrl;
             document.getElementById('outlook-full-btn').href = outlookFullUrl;
             document.getElementById('copy-full-btn').setAttribute('onclick', `copyFeedUrl('${config.ios_link}', this)`);
+            
+            // Popolamento Legenda
+            const legendGrid = document.getElementById('legend-grid');
+            let legendHtml = config.materie.map(m => {
+                let extraDesc = (m.name.toLowerCase() === 'eventi generici') ? 
+                    '<br><span style="color:var(--text-muted);font-size:0.75rem;">(Attività extra, assemblee, benvenuto matricole, ecc.)</span>' : '';
+                return `<div style="background:var(--surface-hover); padding: 0.5rem; border-radius: 6px;">
+                    <strong style="color:var(--primary);">[${m.abbr || '---'}]</strong> ${m.name}${extraDesc}
+                </div>`;
+            }).join('');
+            legendGrid.innerHTML = legendHtml;
             
             function buildCard(item) {
                 const itemIcsUrl = hostPath + '/' + item.file + '?v=2';
@@ -993,6 +1048,7 @@ def main():
             
             combo_ui["materie"].append({
                 "name": subj_name,
+                "abbr": get_abbreviation(subj_name),
                 "file": f"anno_{cfg['anno']}/{cfg['slug_linea']}/{filename}",
                 "count": len(subj_lessons),
                 "color_name": color_name,
@@ -1013,6 +1069,7 @@ def main():
             
             combo_ui["elettivi"].append({
                 "name": subj_name,
+                "abbr": get_abbreviation(subj_name),
                 "file": f"anno_{cfg['anno']}/{cfg['slug_linea']}/{filename}",
                 "count": len(subj_lessons),
                 "color_name": color_name,
