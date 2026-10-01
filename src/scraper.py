@@ -482,9 +482,9 @@ def extract_lessons_from_html(html_content):
 
             ora_ini = get_attr("ora-inizio")
             ora_fine = get_attr("ora-fine")
-            titolo = html_lib.unescape(get_attr("titolo"))
-            aula = get_attr("aula")
-            sede = get_attr("sede")
+            titolo = html_lib.unescape(get_attr("titolo")) # Sanificazione delegata a clean_title e build_ics_calendar
+            aula = sanitize_input(get_attr("aula"), max_length=100)
+            sede = sanitize_input(get_attr("sede"), max_length=100)
             docenti_json = get_attr("docenti")
             lesson_id = get_attr("id")
 
@@ -494,6 +494,7 @@ def extract_lessons_from_html(html_content):
                     doc_data = json.loads(docenti_json)
                     for d in doc_data:
                         nome = f"{d.get('Nome', '')} {d.get('Cognome', '')}".strip()
+                        nome = sanitize_input(nome, max_length=100)
                         if nome:
                             nomi_docenti.append(nome)
                 except Exception:
@@ -560,6 +561,16 @@ def load_acronyms_map(md_file=ACRONIMI_FILE):
     return mapping
 
 
+def sanitize_input(text, max_length=150):
+    if not text:
+        return ""
+    # Rimuove eventuali URL (http/https) per evitare link malevoli cliccabili
+    text = re.sub(r'https?://\S+|www\.\S+', '[LINK RIMOSSO]', text, flags=re.IGNORECASE)
+    # Rimuove tag HTML residui
+    text = re.sub(r'<[^>]*>', '', text)
+    # Tronca la lunghezza per prevenire abusi o DoS
+    return text[:max_length].strip()
+
 def get_abbreviation(name):
     """
     Restituisce l'acronimo per la materia specificata.
@@ -602,6 +613,8 @@ def get_abbreviation(name):
 
 def clean_title(raw_title):
     raw_title = html_lib.unescape(raw_title)
+    raw_title = sanitize_input(raw_title, max_length=200)
+    
     tipo = ""
     if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
         tipo = "Lezione"
