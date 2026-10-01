@@ -13,7 +13,7 @@ import json
 import hashlib
 import unicodedata
 import urllib.request
-import html
+import html as html_lib
 from datetime import datetime, timezone
 from collections import defaultdict
 
@@ -452,10 +452,10 @@ def fetch_schedule_html(cdl_id, anno_id, curr_id):
             time.sleep(2)
 
 
-def extract_lessons_from_html(html):
+def extract_lessons_from_html(html_content):
     giorno_blocks = re.findall(
         r'<div[^>]*class="giorno-container\s*([^"]*)"[^>]*>(.*?)(?=<div[^>]*class="giorno-container|<div[^>]*class="easy-ph|<!-- ================= DESKTOP|$)',
-        html,
+        html_content,
         re.DOTALL
     )
     
@@ -482,7 +482,7 @@ def extract_lessons_from_html(html):
 
             ora_ini = get_attr("ora-inizio")
             ora_fine = get_attr("ora-fine")
-            titolo = html.unescape(get_attr("titolo"))
+            titolo = html_lib.unescape(get_attr("titolo"))
             aula = get_attr("aula")
             sede = get_attr("sede")
             docenti_json = get_attr("docenti")
@@ -550,7 +550,7 @@ def load_acronyms_map(md_file=ACRONIMI_FILE):
                     subject, abbr = cols[0], cols[1]
                     if not subject or not abbr or "---" in subject or "materia" in subject.lower():
                         continue
-                    clean_subj = html.unescape(subject).strip()
+                    clean_subj = html_lib.unescape(subject).strip()
                     mapping[clean_subj.lower()] = abbr.strip().upper()
         print(f"[Acronimi] Caricati {len(mapping)} acronimi dal file {os.path.basename(md_file)}")
     except Exception as e:
@@ -574,7 +574,7 @@ def get_abbreviation(name):
     if not ACRONYMS_MAP:
         load_acronyms_map()
         
-    norm = html.unescape(name).strip().lower()
+    norm = html_lib.unescape(name).strip().lower()
     
     # 1. Corrispondenza esatta nella tabella ACRONIMI.md
     if norm in ACRONYMS_MAP:
@@ -586,7 +586,7 @@ def get_abbreviation(name):
             return v
             
     # 3. Fallback dinamico
-    name_upper = html.unescape(name).upper()
+    name_upper = html_lib.unescape(name).upper()
     words = re.findall(r'[A-ZÀ-ÖØ-Þ]+', name_upper)
     stopwords = {"DI", "E", "IN", "DEL", "DELLA", "DELLO", "DEI", "DELLE", "DA", "A", "I", "II", "III", "IV", "V", "VI", "PER", "CON"}
     words = [w for w in words if w not in stopwords]
@@ -601,7 +601,7 @@ def get_abbreviation(name):
 
 
 def clean_title(raw_title):
-    raw_title = html.unescape(raw_title)
+    raw_title = html_lib.unescape(raw_title)
     tipo = ""
     if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
         tipo = "Lezione"
