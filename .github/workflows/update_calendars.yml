@@ -10,9 +10,9 @@ on:
       - main
       - master
 
-# Permessi necessari per il deploy automatico su GitHub Pages
+# Permessi necessari per il deploy automatico su GitHub Pages e salvataggio modifiche
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -36,8 +36,18 @@ jobs:
           python-version: '3.11'
 
       - name: Esegui Scraper e genera feed .ics
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python src/scraper.py
+
+      - name: Salva aggiornamenti e stato su GitHub
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/ src/watched_state.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: sincronizzazione automatica calendari e stato corsi [skip ci]" && git push)
 
       - name: Configura GitHub Pages
         uses: actions/configure-pages@v5

@@ -452,6 +452,24 @@ def fetch_schedule_html(cdl_id, anno_id, curr_id):
             time.sleep(2)
 
 
+def format_docente_name(nome, cognome):
+    nome = (nome or "").strip()
+    cognome = (cognome or "").strip()
+    if not cognome:
+        return nome.title()
+    
+    # Prima lettera del nome (punto)
+    iniziale = f"{nome[0].upper()}." if nome else ""
+    
+    # Cognome in formato leggibile (gestione di spazi ed apostrofi, es. D'Alessandro, De Rossi)
+    cognome_fmt = " ".join([w.capitalize() for w in cognome.split()])
+    cognome_fmt = re.sub(r"([a-zA-Z]')([a-zA-Z])", lambda m: m.group(1) + m.group(2).upper(), cognome_fmt)
+    
+    if iniziale:
+        return f"{iniziale} {cognome_fmt}"
+    return cognome_fmt
+
+
 def extract_lessons_from_html(html_content):
     giorno_blocks = re.findall(
         r'<div[^>]*class="giorno-container\s*([^"]*)"[^>]*>(.*?)(?=<div[^>]*class="giorno-container|<div[^>]*class="easy-ph|<!-- ================= DESKTOP|$)',
@@ -474,11 +492,11 @@ def extract_lessons_from_html(html_content):
         if not lez_wrap:
             continue
 
-        lezioni_tags = re.findall(r'<div[^>]*class="lezione"[^>]*>', lez_wrap.group(1))
+        lezioni_tags = re.findall(r'<div\s+class="lezione"(.*?)>', lez_wrap.group(1), re.DOTALL)
         for l in lezioni_tags:
             def get_attr(name):
-                m = re.search(rf'data-{name}="([^"]*)"', l)
-                return m.group(1).strip() if m else ""
+                m = re.search(rf'data-{name}=([\'"])(.*?)\1', l, re.DOTALL)
+                return m.group(2).strip() if m else ""
 
             ora_ini = get_attr("ora-inizio")
             ora_fine = get_attr("ora-fine")
@@ -491,12 +509,14 @@ def extract_lessons_from_html(html_content):
             nomi_docenti = []
             if docenti_json:
                 try:
-                    doc_data = json.loads(docenti_json)
+                    doc_data = json.loads(html_lib.unescape(docenti_json))
                     for d in doc_data:
-                        nome = f"{d.get('Nome', '')} {d.get('Cognome', '')}".strip()
-                        nome = sanitize_input(nome, max_length=100)
-                        if nome:
-                            nomi_docenti.append(nome)
+                        nome = d.get('Nome', '').strip()
+                        cognome = d.get('Cognome', '').strip()
+                        doc_str = format_docente_name(nome, cognome)
+                        doc_str = sanitize_input(doc_str, max_length=100)
+                        if doc_str:
+                            nomi_docenti.append(doc_str)
                 except Exception:
                     pass
 
@@ -611,17 +631,22 @@ def get_abbreviation(name):
         return words[0][:4] + words[1][:3]
 
 
+def get_activity_type_info(raw_title):
+    raw_title = html_lib.unescape(raw_title)
+    if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
+        return "Lezione", "LEZ"
+    elif " - ESE" in raw_title:
+        return "Esercitazione", "ESE"
+    elif " - APR" in raw_title or " - APRO" in raw_title:
+        return "Attività Pratica", "APR"
+    elif " - TIR" in raw_title:
+        return "Tirocinio", "TIR"
+    return "", ""
+
+
 def clean_title(raw_title):
     raw_title = html_lib.unescape(raw_title)
     raw_title = sanitize_input(raw_title, max_length=200)
-    
-    tipo = ""
-    if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
-        tipo = "Lezione"
-    elif " - ESE" in raw_title:
-        tipo = "Esercitazione"
-    elif " - APR" in raw_title or " - TIR" in raw_title or " - APRO" in raw_title:
-        tipo = "Attività Pratica"
     
     clean = re.sub(r'\s*-\s*Corso Elettivo.*$', '', raw_title, flags=re.IGNORECASE)
     clean = re.sub(r'\s*-\s*(LEZ(_D)?|ESE|APR(_[A-Z0-9]+)?|TIR|APRO).*$', '', clean, flags=re.IGNORECASE)
@@ -635,8 +660,6 @@ def clean_title(raw_title):
     if base_name.lower() in ("evento generico", "eventi generici"):
         base_name = "Eventi generici"
         
-    if tipo:
-        return f"{base_name} [{tipo}]"
     return base_name
 
 
@@ -712,22 +735,31 @@ def build_ics_calendar(calendar_name, lessons, description=""):
         summary = clean_title(l['titolo'])
         
         base_subj = get_base_subject_name(summary)
-        abbr = get_abbreviation(base_subj)
-        summary_with_abbr = f"[{abbr}] {summary}"
+        tipo_nome, tipo_tag = get_activity_type_info(l['titolo'])
+        if tipo_tag:
+            summary_with_tag = f"[{tipo_tag}] {summary}"
+        else:
+            summary_with_tag = summary
 
-        loc_parts = []
-        if l['sede']: loc_parts.append(f"Edificio {l['sede']}")
-        if l['aula']: loc_parts.append(f"Aula {l['aula']}")
-        location = ", ".join(loc_parts)
+        location = ""
+        if l.get('aula'):
+            raw_aula = l['aula'].strip()
+            if raw_aula.lower().startswith("aula"):
+                location = raw_aula
+            else:
+                location = f"Aula {raw_aula}"
 
-        desc_lines = [f"Materia: {base_subj}", f"Dettaglio: {l['titolo']}"]
+        desc_lines = [f"Materia: {base_subj}"]
+        if tipo_nome:
+            desc_lines.append(f"Tipo: {tipo_nome}")
+        if l.get('docenti'):
+            doc_label = "Docente" if len(l['docenti']) == 1 else "Docenti"
+            desc_lines.append(f"{doc_label}: {', '.join(l['docenti'])}")
+        if location:
+            desc_lines.append(f"Luogo: {location}")
+        desc_lines.append(f"Orario: {l['ora_inizio']} - {l['ora_fine']}")
         if "Eventi generici" in base_subj:
             desc_lines.append("Nota: Attività extra, assemblee, benvenuto matricole o altri eventi generici.")
-            
-        if l['docenti']: desc_lines.append(f"Docenti: {', '.join(l['docenti'])}")
-        if location: desc_lines.append(f"Luogo: {location}")
-        desc_lines.append(f"Orario: {l['ora_inizio']} - {l['ora_fine']}")
-        desc_lines.append("Fonte: EasyCourse UniSR (Sincronizzato)")
 
         lines.extend([
             "BEGIN:VEVENT",
@@ -735,7 +767,7 @@ def build_ics_calendar(calendar_name, lessons, description=""):
             f"DTSTAMP:{now_utc}",
             f"DTSTART;TZID=Europe/Rome:{dtstart}",
             f"DTEND;TZID=Europe/Rome:{dtend}",
-            f"SUMMARY:{escape_ical_text(summary_with_abbr)}",
+            f"SUMMARY:{escape_ical_text(summary_with_tag)}",
             f"LOCATION:{escape_ical_text(location)}",
             f"DESCRIPTION:{escape_ical_text(chr(10).join(desc_lines))}",
             "STATUS:CONFIRMED",
@@ -1058,6 +1090,7 @@ def main():
     total_lezioni_estratte = 0
     total_feed_generati = 0
     ui_data = []
+    all_lessons_collected = []
 
     for cfg in MEDICINA_CONFIG:
         if cfg['is_imd']: 
@@ -1071,6 +1104,7 @@ def main():
         lessons = extract_lessons_from_html(html)
         print(f" -> Trovate {len(lessons)} lezioni")
         total_lezioni_estratte += len(lessons)
+        all_lessons_collected.extend(lessons)
         
         if not lessons:
             continue
@@ -1162,6 +1196,13 @@ def main():
         json.dump(ui_data, f, ensure_ascii=False, indent=2)
 
     generate_dynamic_index(ui_data, DIST_DIR)
+
+    try:
+        from notifications import check_and_notify_watched_courses
+        print("\n=== Verifica Corsi Monitorati (Notifiche Telegram) ===")
+        check_and_notify_watched_courses(all_lessons_collected)
+    except Exception as e:
+        print(f"[Warning] Controllo notifiche fallito: {e}")
 
 
 if __name__ == "__main__":

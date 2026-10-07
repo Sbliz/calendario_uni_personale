@@ -68,6 +68,36 @@ Puoi modificare o aggiungere nuovi acronimi direttamente modificando la tabella 
 
 ---
 
+## 🔔 Notifiche Push Telegram (Monitoraggio Corsi Elettivi)
+
+Il sistema include un modulo di monitoraggio attivo per i corsi con ore parziali o in attesa di calendarizzazione (es. il corso elettivo di **Chirurgia Vascolare** con 12h previste). Quando l'università pubblica nuove date o modifiche su EasyCourse, viene inviata istantaneamente una notifica push su Telegram con l'elenco delle nuove date e il conteggio ore aggiornato.
+
+### ⚙️ Configurazione dei Secret su GitHub (Cloud 24/7)
+1. **Crea un Bot Telegram:**
+   - Cerca `@BotFather` su Telegram e invia il comando `/newbot`.
+   - Segui i passaggi e copia il **Bot Token** (es. `123456789:ABCdefGhI...`).
+   - Avvia la chat con il tuo bot premendo **Avvia** (`/start`).
+2. **Ottieni il tuo Chat ID:**
+   - Cerca `@userinfobot` su Telegram e premi Avvia: ti restituirà il tuo **Id** numerico.
+3. **Aggiungi i Secret su GitHub:**
+   - Nel tuo repository GitHub, vai su **Settings** ➔ **Secrets and variables** ➔ **Actions** ➔ **New repository secret**.
+   - Aggiungi `TELEGRAM_BOT_TOKEN` con il token del bot.
+   - Aggiungi `TELEGRAM_CHAT_ID` con il tuo ID numerico.
+
+### 🧪 Test Locale
+Puoi testare la connessione o eseguire la verifica manualmente da terminale:
+```bash
+# Test connessione e invio messaggio di prova
+export TELEGRAM_BOT_TOKEN="il_tuo_token"
+export TELEGRAM_CHAT_ID="il_tuo_chat_id"
+python src/notifications.py --test-telegram
+
+# Verifica immediata dello stato del corso su EasyCourse
+python src/notifications.py --check-now
+```
+
+---
+
 ## 🛠️ Esecuzione Locale (Opzionale)
 
 Puoi avviare lo scraper in locale in qualsiasi momento senza installare pacchetti esterni (utilizza solo moduli nativi della standard library di Python):
