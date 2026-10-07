@@ -1,1435 +1,1435 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UniSR//Calendari Medicina//IT
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:UniSR Anno 3 - PERCORSO COMUNE LINEA AZZURRA
-X-WR-CALDESC:Feed completo iOS
-X-WR-TIMEZONE:Europe/Rome
-BEGIN:VTIMEZONE
-TZID:Europe/Rome
-X-LIC-LOCATION:Europe/Rome
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:unisr-med-86d508dc63116e0a@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20260922T083000
-DTEND;TZID=Europe/Rome:20260922T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e7b93d8d10f50d19@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20260923T083000
-DTEND;TZID=Europe/Rome:20260923T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2de48892b0d8f144@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20260923T103000
-DTEND;TZID=Europe/Rome:20260923T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-0681761d4cdcc591@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20260925T083000
-DTEND;TZID=Europe/Rome:20260925T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [A0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-baa504e0852c1654@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20260928T083000
-DTEND;TZID=Europe/Rome:20260928T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-17cd7183d435dc24@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20260928T103000
-DTEND;TZID=Europe/Rome:20260928T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-dcb566afc0ab0baf@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20260929T083000
-DTEND;TZID=Europe/Rome:20260929T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3887d1ea3aff266f@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20260929T103000
-DTEND;TZID=Europe/Rome:20260929T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5bceacaec7cd8dec@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20260930T103000
-DTEND;TZID=Europe/Rome:20260930T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8dad30f64c0fb40e@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261001T103000
-DTEND;TZID=Europe/Rome:20261001T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-78b1bbe3da9bad9e@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261002T083000
-DTEND;TZID=Europe/Rome:20261002T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [A0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-22df7d5bc0e11f21@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261002T133000
-DTEND;TZID=Europe/Rome:20261002T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d54e09221354076b@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261005T083000
-DTEND;TZID=Europe/Rome:20261005T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d0ffe9f954b59708@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261005T103000
-DTEND;TZID=Europe/Rome:20261005T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f7e19b3b100a6332@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261006T083000
-DTEND;TZID=Europe/Rome:20261006T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-831394b57534aeb2@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261006T103000
-DTEND;TZID=Europe/Rome:20261006T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f27be68a69885549@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261007T083000
-DTEND;TZID=Europe/Rome:20261007T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-731e0ca5eaf20e88@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261007T103000
-DTEND;TZID=Europe/Rome:20261007T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2a7d97cb6580ad00@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261008T083000
-DTEND;TZID=Europe/Rome:20261008T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2ed1dd685fa82b60@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261008T133000
-DTEND;TZID=Europe/Rome:20261008T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e9a0fdcfd32aca0f@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261009T083000
-DTEND;TZID=Europe/Rome:20261009T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [A0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-7468d1570a6175ca@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261009T133000
-DTEND;TZID=Europe/Rome:20261009T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e19bcef0de16ce4c@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261012T083000
-DTEND;TZID=Europe/Rome:20261012T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ccfe20cbef0e18b2@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261012T103000
-DTEND;TZID=Europe/Rome:20261012T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e9bab6d9e1f39871@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261013T083000
-DTEND;TZID=Europe/Rome:20261013T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d95a51ee2af4f3ea@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261013T103000
-DTEND;TZID=Europe/Rome:20261013T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8d8e8d875567b6c4@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261013T133000
-DTEND;TZID=Europe/Rome:20261013T153000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA201
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [A0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA201\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d2cb93da1d6516dd@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261014T103000
-DTEND;TZID=Europe/Rome:20261014T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 3 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6d00c6c6f1356b55@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261014T133000
-DTEND;TZID=Europe/Rome:20261014T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-fba75132caf5e01f@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261015T133000
-DTEND;TZID=Europe/Rome:20261015T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-7e21941798192602@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261016T083000
-DTEND;TZID=Europe/Rome:20261016T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [A0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1e50be5a77035a8c@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261016T103000
-DTEND;TZID=Europe/Rome:20261016T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6457ed3cf6ebda2f@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261016T133000
-DTEND;TZID=Europe/Rome:20261016T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8e0f163d2090dd84@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261019T083000
-DTEND;TZID=Europe/Rome:20261019T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8b104709d8f6ec62@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261019T103000
-DTEND;TZID=Europe/Rome:20261019T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ceb4436a79154f42@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261019T133000
-DTEND;TZID=Europe/Rome:20261019T153000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [A0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-dc92ec5f2da54602@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261019T153000
-DTEND;TZID=Europe/Rome:20261019T173000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d7e642e2ce0f9756@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261020T083000
-DTEND;TZID=Europe/Rome:20261020T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-652e3796dbce8456@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261020T133000
-DTEND;TZID=Europe/Rome:20261020T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3f38e9b80cd941d2@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261020T153000
-DTEND;TZID=Europe/Rome:20261020T173000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-4d3f1370ed84dfae@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261021T083000
-DTEND;TZID=Europe/Rome:20261021T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6a7ef11f86d4f6ae@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261021T103000
-DTEND;TZID=Europe/Rome:20261021T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 4 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-fba8b2730916842a@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261021T133000
-DTEND;TZID=Europe/Rome:20261021T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3533a982cdf1df03@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261021T153000
-DTEND;TZID=Europe/Rome:20261021T173000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1a5e0f4b540435cd@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261022T083000
-DTEND;TZID=Europe/Rome:20261022T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-714bcf16ddbaee59@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261022T133000
-DTEND;TZID=Europe/Rome:20261022T173000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio BORROMINI\, Aula BO302
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 1 (LINEA AZZURRA) - APR_S\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 13:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c91a350c9140633a@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261023T083000
-DTEND;TZID=Europe/Rome:20261023T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [A0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 3 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-18a7044c5931bac1@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261023T133000
-DTEND;TZID=Europe/Rome:20261023T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f294718811933304@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261026T083000
-DTEND;TZID=Europe/Rome:20261026T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 3 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-4e1f7f1d79172210@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261026T103000
-DTEND;TZID=Europe/Rome:20261026T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-b0416b6c2186c119@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261026T133000
-DTEND;TZID=Europe/Rome:20261026T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c787bbe55666c3fb@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261028T083000
-DTEND;TZID=Europe/Rome:20261028T103000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA402
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA402\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-264844c4807584f9@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261028T103000
-DTEND;TZID=Europe/Rome:20261028T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ddfd24ffc0f59834@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261029T153000
-DTEND;TZID=Europe/Rome:20261029T170000
-SUMMARY:Evento generico
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Evento generico - CLMMC - 3 - PDS0-2024A\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:00\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5c0a7bdceb86ee2a@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261030T083000
-DTEND;TZID=Europe/Rome:20261030T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 3 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f24cfa6fd0f17259@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261030T103000
-DTEND;TZID=Europe/Rome:20261030T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2af7739d11be0f40@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261102T083000
-DTEND;TZID=Europe/Rome:20261102T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [A0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 3 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e346e2065e091033@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261102T103000
-DTEND;TZID=Europe/Rome:20261102T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-da4f4879444d5cf4@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261102T153000
-DTEND;TZID=Europe/Rome:20261102T173000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [A0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-0a427326bd0a6b89@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261103T083000
-DTEND;TZID=Europe/Rome:20261103T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 4 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-af545771b59aff8e@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261103T133000
-DTEND;TZID=Europe/Rome:20261103T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE201
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e238b30e0c9870c3@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261103T153000
-DTEND;TZID=Europe/Rome:20261103T170000
-SUMMARY:Evento generico
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Evento generico - CLMMC - 3 - PDS0-2024A\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 15:30 - 17:00\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-68eb1d7afb6ea88d@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261104T083000
-DTEND;TZID=Europe/Rome:20261104T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 4 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-9c7e9e6e7363fbdf@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261104T103000
-DTEND;TZID=Europe/Rome:20261104T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 3 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6a73ec0252b3a640@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261104T133000
-DTEND;TZID=Europe/Rome:20261104T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-320caec1e78a1089@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261106T103000
-DTEND;TZID=Europe/Rome:20261106T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-b23f60284aae6399@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261106T133000
-DTEND;TZID=Europe/Rome:20261106T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 4 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-aad4071fb851dad6@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261109T083000
-DTEND;TZID=Europe/Rome:20261109T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 4 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-08f149813b9ad8c9@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261109T103000
-DTEND;TZID=Europe/Rome:20261109T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 4 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-87b5f7b37e62fca4@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261109T133000
-DTEND;TZID=Europe/Rome:20261109T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6355ab32ceac307c@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261110T083000
-DTEND;TZID=Europe/Rome:20261110T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-47d56859bb2a5da3@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261110T133000
-DTEND;TZID=Europe/Rome:20261110T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-beafd8a7feef4d8a@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261111T083000
-DTEND;TZID=Europe/Rome:20261111T103000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a31205bae7ca2985@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261111T103000
-DTEND;TZID=Europe/Rome:20261111T123000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 4 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c837ec310587483d@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261113T103000
-DTEND;TZID=Europe/Rome:20261113T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-344a2f684916c2a8@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261113T133000
-DTEND;TZID=Europe/Rome:20261113T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-29b133461f25fcf0@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261116T083000
-DTEND;TZID=Europe/Rome:20261116T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 4 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d80c43190c4dd72c@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261116T103000
-DTEND;TZID=Europe/Rome:20261116T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-eab7de89eec479f7@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261116T133000
-DTEND;TZID=Europe/Rome:20261116T153000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [A0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 2 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-beb1c2cc2ec9d110@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261117T083000
-DTEND;TZID=Europe/Rome:20261117T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-91ecda43a7f196c6@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261117T103000
-DTEND;TZID=Europe/Rome:20261117T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f7c459400b40811f@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261118T083000
-DTEND;TZID=Europe/Rome:20261118T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO402
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO402\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-06a94c129668df30@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261118T103000
-DTEND;TZID=Europe/Rome:20261118T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO402
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO402\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5fe247f7f8c22026@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261119T103000
-DTEND;TZID=Europe/Rome:20261119T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d5fa16357b438cd4@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261119T133000
-DTEND;TZID=Europe/Rome:20261119T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO302
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 2 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-264525f4553d817a@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261120T083000
-DTEND;TZID=Europe/Rome:20261120T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 3 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-09516512a7da3a38@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261123T083000
-DTEND;TZID=Europe/Rome:20261123T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO302
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 2 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-45652af733c7d3bb@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261123T103000
-DTEND;TZID=Europe/Rome:20261123T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA201
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 3 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2f903cec0aa10248@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261123T133000
-DTEND;TZID=Europe/Rome:20261123T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 3 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-fde742f2ede2937d@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261124T083000
-DTEND;TZID=Europe/Rome:20261124T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 3 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-98282dcf788499c3@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261125T133000
-DTEND;TZID=Europe/Rome:20261125T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d3952dad43bea34e@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261126T083000
-DTEND;TZID=Europe/Rome:20261126T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 1 (LINEA AZZURRA) - APR_S\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ab275f3e4d53e3f0@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261126T133000
-DTEND;TZID=Europe/Rome:20261126T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-aeb35dfeb9b67248@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261126T153000
-DTEND;TZID=Europe/Rome:20261126T173000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 3 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1ea942f7789171b4@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261130T083000
-DTEND;TZID=Europe/Rome:20261130T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 3 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2f82f23c92aecc06@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261130T103000
-DTEND;TZID=Europe/Rome:20261130T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1c6f506808810ed0@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261130T133000
-DTEND;TZID=Europe/Rome:20261130T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO401
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-b9251570eb3d48e5@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261201T083000
-DTEND;TZID=Europe/Rome:20261201T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio CANOVA\, Aula CA102A
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 2 (LINEA AZZURRA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102A\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-779c51c19d01a4e1@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261201T133000
-DTEND;TZID=Europe/Rome:20261201T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c8cd1950b31e26dc@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261202T103000
-DTEND;TZID=Europe/Rome:20261202T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ef2908fb82641fe0@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261202T133000
-DTEND;TZID=Europe/Rome:20261202T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO401
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 4 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f95b75e79367fea7@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261203T083000
-DTEND;TZID=Europe/Rome:20261203T103000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO302
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 3 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-df5c31f2e7923993@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261203T103000
-DTEND;TZID=Europe/Rome:20261203T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1448f18482fc83ff@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261203T133000
-DTEND;TZID=Europe/Rome:20261203T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-300d3916e4af5b64@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261204T083000
-DTEND;TZID=Europe/Rome:20261204T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d25ab1c00e4d5be3@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261204T133000
-DTEND;TZID=Europe/Rome:20261204T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-50b4eb8068455243@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261209T103000
-DTEND;TZID=Europe/Rome:20261209T123000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 2 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-4d34e59019ff0200@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261209T133000
-DTEND;TZID=Europe/Rome:20261209T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-dc71acc55efd43a8@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261210T083000
-DTEND;TZID=Europe/Rome:20261210T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio CANOVA\, Aula CA102A
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 1 (LINEA AZZURRA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102A\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1077a2cc90e580db@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261210T133000
-DTEND;TZID=Europe/Rome:20261210T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-05f6fb563cab6f92@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261210T153000
-DTEND;TZID=Europe/Rome:20261210T173000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 4 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1fe5a3778bc1ec7c@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261214T083000
-DTEND;TZID=Europe/Rome:20261214T103000
-SUMMARY:Medicina di Laboratorio [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Medicina di Laboratorio [A0020] - Medicina di laboratorio 4 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-427b7dd74f25d557@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261214T103000
-DTEND;TZID=Europe/Rome:20261214T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-455172f5fb897fee@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261215T083000
-DTEND;TZID=Europe/Rome:20261215T103000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6d84bfd176d3200a@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261215T133000
-DTEND;TZID=Europe/Rome:20261215T153000
-SUMMARY:Microbiologia e Microbiologia Clinica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Microbiologia e Microbiologia Clinica [A0016] - Microbiologia e Microbiologia Clinica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-4012d329d76c57a8@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261215T153000
-DTEND;TZID=Europe/Rome:20261215T173000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA402
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA402\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ae140184af828242@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261216T083000
-DTEND;TZID=Europe/Rome:20261216T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA201
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA201\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d39f3d9a27b92875@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261217T083000
-DTEND;TZID=Europe/Rome:20261217T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio CANOVA\, Aula CA102A
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 2 (LINEA AZZURRA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102A\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a9c17f050ee897c1@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261221T083000
-DTEND;TZID=Europe/Rome:20261221T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3b4050e6059454e5@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20261222T083000
-DTEND;TZID=Europe/Rome:20261222T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio CANOVA\, Aula CA102A
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 2 (LINEA AZZURRA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102A\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f5c6bbb107ee6475@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20270108T083000
-DTEND;TZID=Europe/Rome:20270108T103000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-0ddeef187e01fe52@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20270108T103000
-DTEND;TZID=Europe/Rome:20270108T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8e7b762ab0388a66@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20270108T133000
-DTEND;TZID=Europe/Rome:20270108T153000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a60fbc7121921fce@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20270111T083000
-DTEND;TZID=Europe/Rome:20270111T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-348244503248c7ba@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20270112T083000
-DTEND;TZID=Europe/Rome:20270112T123000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1fd7f9befdc27c99@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20270114T083000
-DTEND;TZID=Europe/Rome:20270114T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio CANOVA\, Aula CA102A
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 1 (LINEA AZZURRA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102A\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f2ee028763aafcf7@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20270114T133000
-DTEND;TZID=Europe/Rome:20270114T173000
-SUMMARY:Patologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO301
-DESCRIPTION:Insegnamento: Patologia [A0019] - Patologia 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 13:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-215b8e285e34d909@easycourse.unisr.it
-DTSTAMP:20260930T202809Z
-DTSTART;TZID=Europe/Rome:20270115T083000
-DTEND;TZID=Europe/Rome:20270115T123000
-SUMMARY:Attività professionalizzanti di medicina di laboratorio [Attività Pratica]
-LOCATION:Edificio CANOVA\, Aula CA102A
-DESCRIPTION:Insegnamento: Attività professionalizzanti di medicina di laboratorio [A0055] - Attività professionalizzanti di medicina di laboratorio 2 (LINEA AZZURRA) - APR_S\nLuogo: Edificio CANOVA\, Aula CA102A\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UniSR Anno 3 - PERCORSO COMUNE LINEA AZZURRA
+X-WR-CALDESC:Feed completo iOS
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-86d508dc63116e0a@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20260922T083000
+DTEND;TZID=Europe/Rome:20260922T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e7b93d8d10f50d19@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20260923T083000
+DTEND;TZID=Europe/Rome:20260923T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2de48892b0d8f144@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20260923T103000
+DTEND;TZID=Europe/Rome:20260923T123000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: G. Banfi\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0681761d4cdcc591@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20260925T083000
+DTEND;TZID=Europe/Rome:20260925T103000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: G. Monti\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-baa504e0852c1654@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20260928T083000
+DTEND;TZID=Europe/Rome:20260928T103000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: G. Banfi\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-17cd7183d435dc24@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20260928T103000
+DTEND;TZID=Europe/Rome:20260928T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-dcb566afc0ab0baf@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20260929T083000
+DTEND;TZID=Europe/Rome:20260929T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3887d1ea3aff266f@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20260929T103000
+DTEND;TZID=Europe/Rome:20260929T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: R. Burioni\nLuogo: Aula VA202\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5bceacaec7cd8dec@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20260930T103000
+DTEND;TZID=Europe/Rome:20260930T123000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: G. Banfi\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8dad30f64c0fb40e@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261001T103000
+DTEND;TZID=Europe/Rome:20261001T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: R. Burioni\nLuogo: Aula VA201\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-78b1bbe3da9bad9e@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261002T083000
+DTEND;TZID=Europe/Rome:20261002T103000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: G. Monti\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-22df7d5bc0e11f21@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261002T133000
+DTEND;TZID=Europe/Rome:20261002T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula VA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d54e09221354076b@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261005T083000
+DTEND;TZID=Europe/Rome:20261005T103000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: G. Banfi\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d0ffe9f954b59708@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261005T103000
+DTEND;TZID=Europe/Rome:20261005T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f7e19b3b100a6332@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261006T083000
+DTEND;TZID=Europe/Rome:20261006T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-831394b57534aeb2@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261006T103000
+DTEND;TZID=Europe/Rome:20261006T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: R. Burioni\nLuogo: Aula VA202\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f27be68a69885549@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261007T083000
+DTEND;TZID=Europe/Rome:20261007T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-731e0ca5eaf20e88@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261007T103000
+DTEND;TZID=Europe/Rome:20261007T123000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: C. Di Resta\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2a7d97cb6580ad00@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261008T083000
+DTEND;TZID=Europe/Rome:20261008T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula CA302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2ed1dd685fa82b60@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261008T133000
+DTEND;TZID=Europe/Rome:20261008T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: R. Burioni\nLuogo: Aula CA302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e9a0fdcfd32aca0f@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261009T083000
+DTEND;TZID=Europe/Rome:20261009T103000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: M. Pieri\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7468d1570a6175ca@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261009T133000
+DTEND;TZID=Europe/Rome:20261009T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula VA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e19bcef0de16ce4c@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261012T083000
+DTEND;TZID=Europe/Rome:20261012T103000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: C. Di Resta\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ccfe20cbef0e18b2@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261012T103000
+DTEND;TZID=Europe/Rome:20261012T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Kuka\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e9bab6d9e1f39871@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261013T083000
+DTEND;TZID=Europe/Rome:20261013T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Iannacone\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d95a51ee2af4f3ea@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261013T103000
+DTEND;TZID=Europe/Rome:20261013T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: R. Burioni\nLuogo: Aula VA202\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8d8e8d875567b6c4@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261013T133000
+DTEND;TZID=Europe/Rome:20261013T153000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula CA201
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: M. Mazzetti\nLuogo: Aula CA201\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d2cb93da1d6516dd@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261014T103000
+DTEND;TZID=Europe/Rome:20261014T123000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: R. Tomaiuolo\nLuogo: Aula VA102\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6d00c6c6f1356b55@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261014T133000
+DTEND;TZID=Europe/Rome:20261014T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: R. Burioni\nLuogo: Aula VA302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fba75132caf5e01f@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261015T133000
+DTEND;TZID=Europe/Rome:20261015T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: L. Silvestrini\nLuogo: Aula CA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7e21941798192602@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261016T083000
+DTEND;TZID=Europe/Rome:20261016T103000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: M. Pieri\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1e50be5a77035a8c@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261016T103000
+DTEND;TZID=Europe/Rome:20261016T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: L. Silvestrini\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6457ed3cf6ebda2f@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261016T133000
+DTEND;TZID=Europe/Rome:20261016T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: L. Silvestrini\nLuogo: Aula VA301\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8e0f163d2090dd84@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261019T083000
+DTEND;TZID=Europe/Rome:20261019T103000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: C. Di Resta\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8b104709d8f6ec62@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261019T103000
+DTEND;TZID=Europe/Rome:20261019T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Kuka\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ceb4436a79154f42@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261019T133000
+DTEND;TZID=Europe/Rome:20261019T153000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula BO102
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: G. Monti\nLuogo: Aula BO102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-dc92ec5f2da54602@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261019T153000
+DTEND;TZID=Europe/Rome:20261019T173000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: L. Silvestrini\nLuogo: Aula CA202\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d7e642e2ce0f9756@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261020T083000
+DTEND;TZID=Europe/Rome:20261020T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Kuka\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-652e3796dbce8456@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261020T133000
+DTEND;TZID=Europe/Rome:20261020T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Kuka\nLuogo: Aula VA201\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3f38e9b80cd941d2@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261020T153000
+DTEND;TZID=Europe/Rome:20261020T173000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: L. Silvestrini\nLuogo: Aula VA302\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4d3f1370ed84dfae@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261021T083000
+DTEND;TZID=Europe/Rome:20261021T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Iannacone\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6a7ef11f86d4f6ae@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261021T103000
+DTEND;TZID=Europe/Rome:20261021T123000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: G. Banfi\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fba8b2730916842a@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261021T133000
+DTEND;TZID=Europe/Rome:20261021T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: L. Silvestrini\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3533a982cdf1df03@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261021T153000
+DTEND;TZID=Europe/Rome:20261021T173000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Iannacone\nLuogo: Aula CA102\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1a5e0f4b540435cd@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261022T083000
+DTEND;TZID=Europe/Rome:20261022T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Iannacone\nLuogo: Aula CA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-714bcf16ddbaee59@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261022T133000
+DTEND;TZID=Europe/Rome:20261022T173000
+SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
+LOCATION:Aula BO302
+DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocenti: G. Doddato\, A. Naclerio\, G. Pipitone\, E. Sabetta\, S. Pasqualetti\nLuogo: Aula BO302\nOrario: 13:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c91a350c9140633a@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261023T083000
+DTEND;TZID=Europe/Rome:20261023T103000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: S. Nozza\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8baa3918a4ec084d@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261023T133000
+DTEND;TZID=Europe/Rome:20261023T173000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Iannacone\nLuogo: Aula VA202\nOrario: 13:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f294718811933304@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261026T083000
+DTEND;TZID=Europe/Rome:20261026T103000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: R. Tomaiuolo\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4e1f7f1d79172210@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261026T103000
+DTEND;TZID=Europe/Rome:20261026T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: L. Silvestrini\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b0416b6c2186c119@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261026T133000
+DTEND;TZID=Europe/Rome:20261026T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: L. Silvestrini\nLuogo: Aula VA101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c787bbe55666c3fb@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261028T083000
+DTEND;TZID=Europe/Rome:20261028T103000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA402
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: M. Castelli\nLuogo: Aula VA402\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-264844c4807584f9@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261028T103000
+DTEND;TZID=Europe/Rome:20261028T123000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: C. Di Resta\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ddfd24ffc0f59834@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261029T153000
+DTEND;TZID=Europe/Rome:20261029T170000
+SUMMARY:Eventi generici
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Eventi generici\nLuogo: Aula VA101\nOrario: 15:30 - 17:00\nNota: Attività extra\, assemblee\, benvenuto matricole o altri eventi generici.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5c0a7bdceb86ee2a@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261030T083000
+DTEND;TZID=Europe/Rome:20261030T103000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: R. Tomaiuolo\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f24cfa6fd0f17259@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261030T103000
+DTEND;TZID=Europe/Rome:20261030T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: S. Carletti\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2af7739d11be0f40@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261102T083000
+DTEND;TZID=Europe/Rome:20261102T103000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: S. Nozza\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e346e2065e091033@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261102T103000
+DTEND;TZID=Europe/Rome:20261102T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: V. Fumagalli\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-da4f4879444d5cf4@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261102T153000
+DTEND;TZID=Europe/Rome:20261102T173000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: M. Mazzetti\nLuogo: Aula VA301\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0a427326bd0a6b89@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261103T083000
+DTEND;TZID=Europe/Rome:20261103T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Kuka\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-af545771b59aff8e@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261103T133000
+DTEND;TZID=Europe/Rome:20261103T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VE201
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: S. Carletti\nLuogo: Aula VE201\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e238b30e0c9870c3@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261103T153000
+DTEND;TZID=Europe/Rome:20261103T170000
+SUMMARY:Eventi generici
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Eventi generici\nLuogo: Aula VA102\nOrario: 15:30 - 17:00\nNota: Attività extra\, assemblee\, benvenuto matricole o altri eventi generici.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-68eb1d7afb6ea88d@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261104T083000
+DTEND;TZID=Europe/Rome:20261104T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Kuka\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-9c7e9e6e7363fbdf@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261104T103000
+DTEND;TZID=Europe/Rome:20261104T123000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: R. Tomaiuolo\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6a73ec0252b3a640@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261104T133000
+DTEND;TZID=Europe/Rome:20261104T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: L. Silvestrini\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-320caec1e78a1089@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261106T103000
+DTEND;TZID=Europe/Rome:20261106T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: S. Carletti\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b23f60284aae6399@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261106T133000
+DTEND;TZID=Europe/Rome:20261106T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Kuka\nLuogo: Aula VA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-aad4071fb851dad6@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261109T083000
+DTEND;TZID=Europe/Rome:20261109T103000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: G. Banfi\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-08f149813b9ad8c9@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261109T103000
+DTEND;TZID=Europe/Rome:20261109T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: V. Fumagalli\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-87b5f7b37e62fca4@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261109T133000
+DTEND;TZID=Europe/Rome:20261109T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: L. Silvestrini\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6355ab32ceac307c@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261110T083000
+DTEND;TZID=Europe/Rome:20261110T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: R. Furlan\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-47d56859bb2a5da3@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261110T133000
+DTEND;TZID=Europe/Rome:20261110T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: M. Castelli\nLuogo: Aula BO201\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-beafd8a7feef4d8a@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261111T083000
+DTEND;TZID=Europe/Rome:20261111T103000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: S. Carletti\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a31205bae7ca2985@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261111T103000
+DTEND;TZID=Europe/Rome:20261111T123000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: G. Banfi\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c837ec310587483d@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261113T103000
+DTEND;TZID=Europe/Rome:20261113T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: S. Carletti\nLuogo: Aula VA201\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-344a2f684916c2a8@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261113T133000
+DTEND;TZID=Europe/Rome:20261113T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: R. Furlan\nLuogo: Aula VA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-29b133461f25fcf0@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261116T083000
+DTEND;TZID=Europe/Rome:20261116T103000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: G. Banfi\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d80c43190c4dd72c@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261116T103000
+DTEND;TZID=Europe/Rome:20261116T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: R. Furlan\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-eab7de89eec479f7@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261116T133000
+DTEND;TZID=Europe/Rome:20261116T153000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula BO102
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: M. Mazzetti\nLuogo: Aula BO102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-beb1c2cc2ec9d110@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261117T083000
+DTEND;TZID=Europe/Rome:20261117T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: R. Furlan\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-91ecda43a7f196c6@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261117T103000
+DTEND;TZID=Europe/Rome:20261117T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: S. Carletti\nLuogo: Aula VA202\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f7c459400b40811f@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261118T083000
+DTEND;TZID=Europe/Rome:20261118T103000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula BO402
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: G. Banfi\nLuogo: Aula BO402\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-06a94c129668df30@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261118T103000
+DTEND;TZID=Europe/Rome:20261118T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula BO402
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: E. Criscuolo\nLuogo: Aula BO402\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5fe247f7f8c22026@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261119T103000
+DTEND;TZID=Europe/Rome:20261119T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: S. Carletti\nLuogo: Aula CA102\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d5fa16357b438cd4@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261119T133000
+DTEND;TZID=Europe/Rome:20261119T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula BO302
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula BO302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-264525f4553d817a@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261120T083000
+DTEND;TZID=Europe/Rome:20261120T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula BO301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: A. Cantore\nLuogo: Aula BO301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7984cdddac5bc5a9@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261120T103000
+DTEND;TZID=Europe/Rome:20261120T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula BO301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: V. Fumagalli\nLuogo: Aula BO301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-08d903d5302572db@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261120T133000
+DTEND;TZID=Europe/Rome:20261120T173000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Kuka\nLuogo: Aula VA101\nOrario: 13:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-09516512a7da3a38@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261123T083000
+DTEND;TZID=Europe/Rome:20261123T103000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula BO302
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: C. Di Resta\nLuogo: Aula BO302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-45652af733c7d3bb@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261123T103000
+DTEND;TZID=Europe/Rome:20261123T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula CA201
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: L. Silvestrini\nLuogo: Aula CA201\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2f903cec0aa10248@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261123T133000
+DTEND;TZID=Europe/Rome:20261123T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: A. Lombardo\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fde742f2ede2937d@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261124T083000
+DTEND;TZID=Europe/Rome:20261124T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: R. Ostuni\nLuogo: Aula CA101\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-98282dcf788499c3@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261125T133000
+DTEND;TZID=Europe/Rome:20261125T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: D. Inverso\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d3952dad43bea34e@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261126T083000
+DTEND;TZID=Europe/Rome:20261126T123000
+SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocenti: G. Doddato\, A. Naclerio\, G. Pipitone\, E. Sabetta\, S. Pasqualetti\nLuogo: Aula BO201\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ab275f3e4d53e3f0@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261126T133000
+DTEND;TZID=Europe/Rome:20261126T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: D. Inverso\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-aeb35dfeb9b67248@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261126T153000
+DTEND;TZID=Europe/Rome:20261126T173000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: M. Castelli\nLuogo: Aula CA102\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ad7417987897e138@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261127T093000
+DTEND;TZID=Europe/Rome:20261127T113000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: M. Iannacone\nLuogo: Aula CA102\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1ea942f7789171b4@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261130T083000
+DTEND;TZID=Europe/Rome:20261130T103000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula BO102
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: R. Tomaiuolo\nLuogo: Aula BO102\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2f82f23c92aecc06@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261130T103000
+DTEND;TZID=Europe/Rome:20261130T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: D. Inverso\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1c6f506808810ed0@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261130T133000
+DTEND;TZID=Europe/Rome:20261130T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula BO401
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: R. Furlan\nLuogo: Aula BO401\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b9251570eb3d48e5@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261201T083000
+DTEND;TZID=Europe/Rome:20261201T123000
+SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
+LOCATION:Aula CA102A
+DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocente: F. Saluzzo\nLuogo: Aula CA102A\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-94840b7c679d2a50@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261201T133000
+DTEND;TZID=Europe/Rome:20261201T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula BO101
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: M. Castelli\nLuogo: Aula BO101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4c90ce98d68d4654@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261201T153000
+DTEND;TZID=Europe/Rome:20261201T173000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula BO101
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: V. Fumagalli\nLuogo: Aula BO101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c8cd1950b31e26dc@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261202T103000
+DTEND;TZID=Europe/Rome:20261202T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: R. Furlan\nLuogo: Aula BO202\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ef2908fb82641fe0@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261202T133000
+DTEND;TZID=Europe/Rome:20261202T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula BO401
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: D. Inverso\nLuogo: Aula BO401\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f95b75e79367fea7@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261203T083000
+DTEND;TZID=Europe/Rome:20261203T103000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula BO302
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: M. Castelli\nLuogo: Aula BO302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-df5c31f2e7923993@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261203T103000
+DTEND;TZID=Europe/Rome:20261203T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: E. Criscuolo\nLuogo: Aula CA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1448f18482fc83ff@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261203T133000
+DTEND;TZID=Europe/Rome:20261203T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: G. Tonon\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-300d3916e4af5b64@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261204T083000
+DTEND;TZID=Europe/Rome:20261204T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: V. Russo\nLuogo: Aula CA202\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d25ab1c00e4d5be3@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261204T133000
+DTEND;TZID=Europe/Rome:20261204T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: E. Criscuolo\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-50b4eb8068455243@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261209T103000
+DTEND;TZID=Europe/Rome:20261209T123000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: E. Criscuolo\nLuogo: Aula BO201\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4d34e59019ff0200@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261209T133000
+DTEND;TZID=Europe/Rome:20261209T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: G. Tonon\nLuogo: Aula CA302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-dc71acc55efd43a8@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261210T083000
+DTEND;TZID=Europe/Rome:20261210T123000
+SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
+LOCATION:Aula CA102A
+DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocenti: G. Doddato\, A. Naclerio\, G. Pipitone\, E. Sabetta\, S. Pasqualetti\nLuogo: Aula CA102A\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1077a2cc90e580db@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261210T133000
+DTEND;TZID=Europe/Rome:20261210T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: G. Tonon\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-05f6fb563cab6f92@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261210T153000
+DTEND;TZID=Europe/Rome:20261210T173000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: V. Russo\nLuogo: Aula CA102\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-920cb4b82faf0236@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261211T133000
+DTEND;TZID=Europe/Rome:20261211T153000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula BO101
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: V. Russo\nLuogo: Aula BO101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1fe5a3778bc1ec7c@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261214T083000
+DTEND;TZID=Europe/Rome:20261214T103000
+SUMMARY:[LEZ] Medicina di Laboratorio
+LOCATION:Aula BO102
+DESCRIPTION:Materia: Medicina di Laboratorio\nTipo: Lezione\nDocente: G. Banfi\nLuogo: Aula BO102\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-427b7dd74f25d557@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261214T103000
+DTEND;TZID=Europe/Rome:20261214T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: G. Tonon\nLuogo: Aula CA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-455172f5fb897fee@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261215T083000
+DTEND;TZID=Europe/Rome:20261215T103000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: E. Criscuolo\nLuogo: Aula BO201\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6d84bfd176d3200a@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261215T133000
+DTEND;TZID=Europe/Rome:20261215T153000
+SUMMARY:[LEZ] Microbiologia e Microbiologia Clinica
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Microbiologia e Microbiologia Clinica\nTipo: Lezione\nDocente: R. Burioni\nLuogo: Aula CA101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4012d329d76c57a8@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261215T153000
+DTEND;TZID=Europe/Rome:20261215T173000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA402
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: G. Tonon\nLuogo: Aula VA402\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ae140184af828242@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261216T083000
+DTEND;TZID=Europe/Rome:20261216T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula CA201
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: V. Russo\nLuogo: Aula CA201\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d39f3d9a27b92875@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261217T083000
+DTEND;TZID=Europe/Rome:20261217T123000
+SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
+LOCATION:Aula CA102A
+DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocente: F. Saluzzo\nLuogo: Aula CA102A\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a9c17f050ee897c1@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261221T083000
+DTEND;TZID=Europe/Rome:20261221T123000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula VA301\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3b4050e6059454e5@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20261222T083000
+DTEND;TZID=Europe/Rome:20261222T123000
+SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
+LOCATION:Aula CA102A
+DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocente: F. Saluzzo\nLuogo: Aula CA102A\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f5c6bbb107ee6475@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20270108T083000
+DTEND;TZID=Europe/Rome:20270108T103000
+SUMMARY:[LEZ] Patologia
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Patologia\nTipo: Lezione\nDocente: L. Guidotti\nLuogo: Aula VA101\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1fd7f9befdc27c99@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20270114T083000
+DTEND;TZID=Europe/Rome:20270114T123000
+SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
+LOCATION:Aula CA102A
+DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocenti: G. Doddato\, A. Naclerio\, G. Pipitone\, E. Sabetta\, S. Pasqualetti\nLuogo: Aula CA102A\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-215b8e285e34d909@easycourse.unisr.it
+DTSTAMP:20261007T085607Z
+DTSTART;TZID=Europe/Rome:20270115T083000
+DTEND;TZID=Europe/Rome:20270115T123000
+SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
+LOCATION:Aula CA102A
+DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocente: F. Saluzzo\nLuogo: Aula CA102A\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

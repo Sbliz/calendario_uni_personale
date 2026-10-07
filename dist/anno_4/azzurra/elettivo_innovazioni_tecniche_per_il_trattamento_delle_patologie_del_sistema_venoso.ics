@@ -1,49 +1,49 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UniSR//Calendari Medicina//IT
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Elettivo: Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso
-X-WR-CALDESC:Corso Elettivo: Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso
-X-WR-TIMEZONE:Europe/Rome
-BEGIN:VTIMEZONE
-TZID:Europe/Rome
-X-LIC-LOCATION:Europe/Rome
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:unisr-med-d12e17ed17df2722@easycourse.unisr.it
-DTSTAMP:20260930T203011Z
-DTSTART;TZID=Europe/Rome:20261105T173000
-DTEND;TZID=Europe/Rome:20261105T193000
-SUMMARY:Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-df5802e84c994a36@easycourse.unisr.it
-DTSTAMP:20260930T203011Z
-DTSTART;TZID=Europe/Rome:20261119T173000
-DTEND;TZID=Europe/Rome:20261119T193000
-SUMMARY:Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso
+X-WR-CALDESC:Corso Elettivo: Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-d12e17ed17df2722@easycourse.unisr.it
+DTSTAMP:20261007T085657Z
+DTSTART;TZID=Europe/Rome:20261105T173000
+DTEND;TZID=Europe/Rome:20261105T193000
+SUMMARY:[LEZ] Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso\nTipo: Lezione\nDocente: D. Baccellieri\nLuogo: Aula BO201\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-df5802e84c994a36@easycourse.unisr.it
+DTSTAMP:20261007T085657Z
+DTSTART;TZID=Europe/Rome:20261119T173000
+DTEND;TZID=Europe/Rome:20261119T193000
+SUMMARY:[LEZ] Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso\nTipo: Lezione\nDocente: D. Baccellieri\nLuogo: Aula BO201\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

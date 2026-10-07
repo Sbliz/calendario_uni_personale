@@ -1,137 +1,137 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UniSR//Calendari Medicina//IT
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Elettivo: Burnout e stress lavoro correlato nella professione medica
-X-WR-CALDESC:Corso Elettivo: Burnout e stress lavoro correlato nella professione medica
-X-WR-TIMEZONE:Europe/Rome
-BEGIN:VTIMEZONE
-TZID:Europe/Rome
-X-LIC-LOCATION:Europe/Rome
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:unisr-med-2c4c9698d28fda37@easycourse.unisr.it
-DTSTAMP:20260930T201641Z
-DTSTART;TZID=Europe/Rome:20261007T173000
-DTEND;TZID=Europe/Rome:20261007T193000
-SUMMARY:Burnout e stress lavoro correlato nella professione medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Burnout e stress lavoro correlato nella professione medica - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-01e58280ac8e3be2@easycourse.unisr.it
-DTSTAMP:20260930T201641Z
-DTSTART;TZID=Europe/Rome:20261014T173000
-DTEND;TZID=Europe/Rome:20261014T193000
-SUMMARY:Burnout e stress lavoro correlato nella professione medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Burnout e stress lavoro correlato nella professione medica - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d65655ecffa9b65a@easycourse.unisr.it
-DTSTAMP:20260930T201641Z
-DTSTART;TZID=Europe/Rome:20261021T173000
-DTEND;TZID=Europe/Rome:20261021T193000
-SUMMARY:Burnout e stress lavoro correlato nella professione medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Burnout e stress lavoro correlato nella professione medica - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d71e5f7525336d96@easycourse.unisr.it
-DTSTAMP:20260930T201641Z
-DTSTART;TZID=Europe/Rome:20261028T173000
-DTEND;TZID=Europe/Rome:20261028T193000
-SUMMARY:Burnout e stress lavoro correlato nella professione medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Burnout e stress lavoro correlato nella professione medica - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-cf391a0de6861986@easycourse.unisr.it
-DTSTAMP:20260930T201641Z
-DTSTART;TZID=Europe/Rome:20261104T173000
-DTEND;TZID=Europe/Rome:20261104T193000
-SUMMARY:Burnout e stress lavoro correlato nella professione medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Burnout e stress lavoro correlato nella professione medica - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-bde7831142fdab69@easycourse.unisr.it
-DTSTAMP:20260930T201641Z
-DTSTART;TZID=Europe/Rome:20261111T173000
-DTEND;TZID=Europe/Rome:20261111T193000
-SUMMARY:Burnout e stress lavoro correlato nella professione medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Burnout e stress lavoro correlato nella professione medica - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-0443edccc4620cd1@easycourse.unisr.it
-DTSTAMP:20260930T201641Z
-DTSTART;TZID=Europe/Rome:20261118T173000
-DTEND;TZID=Europe/Rome:20261118T193000
-SUMMARY:Burnout e stress lavoro correlato nella professione medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Burnout e stress lavoro correlato nella professione medica - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6f0976be770fedf5@easycourse.unisr.it
-DTSTAMP:20260930T201641Z
-DTSTART;TZID=Europe/Rome:20261125T173000
-DTEND;TZID=Europe/Rome:20261125T193000
-SUMMARY:Burnout e stress lavoro correlato nella professione medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Burnout e stress lavoro correlato nella professione medica - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-43255c0b4c361c4b@easycourse.unisr.it
-DTSTAMP:20260930T201641Z
-DTSTART;TZID=Europe/Rome:20261202T173000
-DTEND;TZID=Europe/Rome:20261202T193000
-SUMMARY:Burnout e stress lavoro correlato nella professione medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Burnout e stress lavoro correlato nella professione medica - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1cce6f780139d1db@easycourse.unisr.it
-DTSTAMP:20260930T201641Z
-DTSTART;TZID=Europe/Rome:20261209T173000
-DTEND;TZID=Europe/Rome:20261209T193000
-SUMMARY:Burnout e stress lavoro correlato nella professione medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Burnout e stress lavoro correlato nella professione medica - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Burnout e stress lavoro correlato nella professione medica
+X-WR-CALDESC:Corso Elettivo: Burnout e stress lavoro correlato nella professione medica
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-2c4c9698d28fda37@easycourse.unisr.it
+DTSTAMP:20261007T085117Z
+DTSTART;TZID=Europe/Rome:20261007T173000
+DTEND;TZID=Europe/Rome:20261007T193000
+SUMMARY:[LEZ] Burnout e stress lavoro correlato nella professione medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Burnout e stress lavoro correlato nella professione medica\nTipo: Lezione\nDocente: M. Ratti\nLuogo: Aula CA102\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-01e58280ac8e3be2@easycourse.unisr.it
+DTSTAMP:20261007T085117Z
+DTSTART;TZID=Europe/Rome:20261014T173000
+DTEND;TZID=Europe/Rome:20261014T193000
+SUMMARY:[LEZ] Burnout e stress lavoro correlato nella professione medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Burnout e stress lavoro correlato nella professione medica\nTipo: Lezione\nDocente: M. Ratti\nLuogo: Aula CA102\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d65655ecffa9b65a@easycourse.unisr.it
+DTSTAMP:20261007T085117Z
+DTSTART;TZID=Europe/Rome:20261021T173000
+DTEND;TZID=Europe/Rome:20261021T193000
+SUMMARY:[LEZ] Burnout e stress lavoro correlato nella professione medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Burnout e stress lavoro correlato nella professione medica\nTipo: Lezione\nDocente: M. Ratti\nLuogo: Aula CA102\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d71e5f7525336d96@easycourse.unisr.it
+DTSTAMP:20261007T085117Z
+DTSTART;TZID=Europe/Rome:20261028T173000
+DTEND;TZID=Europe/Rome:20261028T193000
+SUMMARY:[LEZ] Burnout e stress lavoro correlato nella professione medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Burnout e stress lavoro correlato nella professione medica\nTipo: Lezione\nDocente: M. Ratti\nLuogo: Aula CA102\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-cf391a0de6861986@easycourse.unisr.it
+DTSTAMP:20261007T085117Z
+DTSTART;TZID=Europe/Rome:20261104T173000
+DTEND;TZID=Europe/Rome:20261104T193000
+SUMMARY:[LEZ] Burnout e stress lavoro correlato nella professione medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Burnout e stress lavoro correlato nella professione medica\nTipo: Lezione\nDocente: M. Ratti\nLuogo: Aula CA102\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-bde7831142fdab69@easycourse.unisr.it
+DTSTAMP:20261007T085117Z
+DTSTART;TZID=Europe/Rome:20261111T173000
+DTEND;TZID=Europe/Rome:20261111T193000
+SUMMARY:[LEZ] Burnout e stress lavoro correlato nella professione medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Burnout e stress lavoro correlato nella professione medica\nTipo: Lezione\nDocente: M. Ratti\nLuogo: Aula CA102\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0443edccc4620cd1@easycourse.unisr.it
+DTSTAMP:20261007T085117Z
+DTSTART;TZID=Europe/Rome:20261118T173000
+DTEND;TZID=Europe/Rome:20261118T193000
+SUMMARY:[LEZ] Burnout e stress lavoro correlato nella professione medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Burnout e stress lavoro correlato nella professione medica\nTipo: Lezione\nDocente: M. Ratti\nLuogo: Aula CA102\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6f0976be770fedf5@easycourse.unisr.it
+DTSTAMP:20261007T085117Z
+DTSTART;TZID=Europe/Rome:20261125T173000
+DTEND;TZID=Europe/Rome:20261125T193000
+SUMMARY:[LEZ] Burnout e stress lavoro correlato nella professione medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Burnout e stress lavoro correlato nella professione medica\nTipo: Lezione\nDocente: M. Ratti\nLuogo: Aula CA102\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-43255c0b4c361c4b@easycourse.unisr.it
+DTSTAMP:20261007T085117Z
+DTSTART;TZID=Europe/Rome:20261202T173000
+DTEND;TZID=Europe/Rome:20261202T193000
+SUMMARY:[LEZ] Burnout e stress lavoro correlato nella professione medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Burnout e stress lavoro correlato nella professione medica\nTipo: Lezione\nDocente: M. Ratti\nLuogo: Aula CA102\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1cce6f780139d1db@easycourse.unisr.it
+DTSTAMP:20261007T085117Z
+DTSTART;TZID=Europe/Rome:20261209T173000
+DTEND;TZID=Europe/Rome:20261209T193000
+SUMMARY:[LEZ] Burnout e stress lavoro correlato nella professione medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Burnout e stress lavoro correlato nella professione medica\nTipo: Lezione\nDocente: M. Ratti\nLuogo: Aula CA102\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

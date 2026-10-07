@@ -1,115 +1,115 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UniSR//Calendari Medicina//IT
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Elettivo: Data science in chirurgia generale
-X-WR-CALDESC:Corso Elettivo: Data science in chirurgia generale
-X-WR-TIMEZONE:Europe/Rome
-BEGIN:VTIMEZONE
-TZID:Europe/Rome
-X-LIC-LOCATION:Europe/Rome
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:unisr-med-71adf9cff41c2006@easycourse.unisr.it
-DTSTAMP:20260930T204156Z
-DTSTART;TZID=Europe/Rome:20261008T163000
-DTEND;TZID=Europe/Rome:20261008T183000
-SUMMARY:Data science in chirurgia generale [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO402
-DESCRIPTION:Insegnamento: Data science in chirurgia generale - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO402\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1d775c0001b41005@easycourse.unisr.it
-DTSTAMP:20260930T204156Z
-DTSTART;TZID=Europe/Rome:20261015T163000
-DTEND;TZID=Europe/Rome:20261015T183000
-SUMMARY:Data science in chirurgia generale [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO402
-DESCRIPTION:Insegnamento: Data science in chirurgia generale - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO402\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-fcdb497065931a9b@easycourse.unisr.it
-DTSTAMP:20260930T204156Z
-DTSTART;TZID=Europe/Rome:20261022T163000
-DTEND;TZID=Europe/Rome:20261022T183000
-SUMMARY:Data science in chirurgia generale [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO402
-DESCRIPTION:Insegnamento: Data science in chirurgia generale - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO402\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-4070b20f5c1f2f26@easycourse.unisr.it
-DTSTAMP:20260930T204156Z
-DTSTART;TZID=Europe/Rome:20261105T163000
-DTEND;TZID=Europe/Rome:20261105T183000
-SUMMARY:Data science in chirurgia generale [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Data science in chirurgia generale - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-676a8ef0c11d79a0@easycourse.unisr.it
-DTSTAMP:20260930T204156Z
-DTSTART;TZID=Europe/Rome:20261112T163000
-DTEND;TZID=Europe/Rome:20261112T183000
-SUMMARY:Data science in chirurgia generale [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO101
-DESCRIPTION:Insegnamento: Data science in chirurgia generale - ESE - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-09eb6da8b2361b73@easycourse.unisr.it
-DTSTAMP:20260930T204156Z
-DTSTART;TZID=Europe/Rome:20261119T163000
-DTEND;TZID=Europe/Rome:20261119T183000
-SUMMARY:Data science in chirurgia generale [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO301
-DESCRIPTION:Insegnamento: Data science in chirurgia generale - ESE - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a6c48e735e0beba4@easycourse.unisr.it
-DTSTAMP:20260930T204156Z
-DTSTART;TZID=Europe/Rome:20261126T163000
-DTEND;TZID=Europe/Rome:20261126T183000
-SUMMARY:Data science in chirurgia generale [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Data science in chirurgia generale - ESE - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1008b91d786dfd62@easycourse.unisr.it
-DTSTAMP:20260930T204156Z
-DTSTART;TZID=Europe/Rome:20261204T163000
-DTEND;TZID=Europe/Rome:20261204T183000
-SUMMARY:Data science in chirurgia generale [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Data science in chirurgia generale - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Data science in chirurgia generale
+X-WR-CALDESC:Corso Elettivo: Data science in chirurgia generale
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-71adf9cff41c2006@easycourse.unisr.it
+DTSTAMP:20261007T090215Z
+DTSTART;TZID=Europe/Rome:20261008T163000
+DTEND;TZID=Europe/Rome:20261008T183000
+SUMMARY:[LEZ] Data science in chirurgia generale
+LOCATION:Aula BO402
+DESCRIPTION:Materia: Data science in chirurgia generale\nTipo: Lezione\nDocente: F. Puccetti\nLuogo: Aula BO402\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1d775c0001b41005@easycourse.unisr.it
+DTSTAMP:20261007T090215Z
+DTSTART;TZID=Europe/Rome:20261015T163000
+DTEND;TZID=Europe/Rome:20261015T183000
+SUMMARY:[LEZ] Data science in chirurgia generale
+LOCATION:Aula BO402
+DESCRIPTION:Materia: Data science in chirurgia generale\nTipo: Lezione\nDocente: F. Puccetti\nLuogo: Aula BO402\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fcdb497065931a9b@easycourse.unisr.it
+DTSTAMP:20261007T090215Z
+DTSTART;TZID=Europe/Rome:20261022T163000
+DTEND;TZID=Europe/Rome:20261022T183000
+SUMMARY:[LEZ] Data science in chirurgia generale
+LOCATION:Aula BO402
+DESCRIPTION:Materia: Data science in chirurgia generale\nTipo: Lezione\nDocente: F. Puccetti\nLuogo: Aula BO402\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4070b20f5c1f2f26@easycourse.unisr.it
+DTSTAMP:20261007T090215Z
+DTSTART;TZID=Europe/Rome:20261105T163000
+DTEND;TZID=Europe/Rome:20261105T183000
+SUMMARY:[LEZ] Data science in chirurgia generale
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Data science in chirurgia generale\nTipo: Lezione\nDocente: U. Elmore\nLuogo: Aula BO202\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-676a8ef0c11d79a0@easycourse.unisr.it
+DTSTAMP:20261007T090215Z
+DTSTART;TZID=Europe/Rome:20261112T163000
+DTEND;TZID=Europe/Rome:20261112T183000
+SUMMARY:[ESE] Data science in chirurgia generale
+LOCATION:Aula BO101
+DESCRIPTION:Materia: Data science in chirurgia generale\nTipo: Esercitazione\nDocente: F. Puccetti\nLuogo: Aula BO101\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-09eb6da8b2361b73@easycourse.unisr.it
+DTSTAMP:20261007T090215Z
+DTSTART;TZID=Europe/Rome:20261119T163000
+DTEND;TZID=Europe/Rome:20261119T183000
+SUMMARY:[ESE] Data science in chirurgia generale
+LOCATION:Aula BO301
+DESCRIPTION:Materia: Data science in chirurgia generale\nTipo: Esercitazione\nDocente: F. Puccetti\nLuogo: Aula BO301\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a6c48e735e0beba4@easycourse.unisr.it
+DTSTAMP:20261007T090215Z
+DTSTART;TZID=Europe/Rome:20261126T163000
+DTEND;TZID=Europe/Rome:20261126T183000
+SUMMARY:[ESE] Data science in chirurgia generale
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Data science in chirurgia generale\nTipo: Esercitazione\nDocente: F. Puccetti\nLuogo: Aula BO201\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1008b91d786dfd62@easycourse.unisr.it
+DTSTAMP:20261007T090215Z
+DTSTART;TZID=Europe/Rome:20261204T163000
+DTEND;TZID=Europe/Rome:20261204T183000
+SUMMARY:[LEZ] Data science in chirurgia generale
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Data science in chirurgia generale\nTipo: Lezione\nDocente: U. Elmore\nLuogo: Aula BO202\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

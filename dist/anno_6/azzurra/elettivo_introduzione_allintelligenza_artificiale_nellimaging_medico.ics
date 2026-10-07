@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Introduzione all'intelligenza artificiale nell'imaging medico
+X-WR-CALDESC:Corso Elettivo: Introduzione all'intelligenza artificiale nell'imaging medico
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-e5eb1598b62a2f18@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261005T163000
+DTEND;TZID=Europe/Rome:20261005T183000
+SUMMARY:[LEZ] Introduzione all'intelligenza artificiale nell'imaging medico
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Introduzione all'intelligenza artificiale nell'imaging medico\nTipo: Lezione\nDocente: M. Picchio\nLuogo: Aula CA102\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-239c3518171dc587@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261012T163000
+DTEND;TZID=Europe/Rome:20261012T183000
+SUMMARY:[LEZ] Introduzione all'intelligenza artificiale nell'imaging medico
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Introduzione all'intelligenza artificiale nell'imaging medico\nTipo: Lezione\nDocente: M. Picchio\nLuogo: Aula CA102\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7793ea81c06eddf5@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261019T163000
+DTEND;TZID=Europe/Rome:20261019T183000
+SUMMARY:[LEZ] Introduzione all'intelligenza artificiale nell'imaging medico
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Introduzione all'intelligenza artificiale nell'imaging medico\nTipo: Lezione\nDocente: M. Picchio\nLuogo: Aula CA102\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d18674e49aa07bed@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261026T163000
+DTEND;TZID=Europe/Rome:20261026T183000
+SUMMARY:[LEZ] Introduzione all'intelligenza artificiale nell'imaging medico
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Introduzione all'intelligenza artificiale nell'imaging medico\nTipo: Lezione\nDocente: M. Picchio\nLuogo: Aula CA102\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-933706be88cb5b83@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261102T163000
+DTEND;TZID=Europe/Rome:20261102T183000
+SUMMARY:[LEZ] Introduzione all'intelligenza artificiale nell'imaging medico
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Introduzione all'intelligenza artificiale nell'imaging medico\nTipo: Lezione\nDocente: M. Picchio\nLuogo: Aula CA102\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0f33b25608ef4c94@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261109T163000
+DTEND;TZID=Europe/Rome:20261109T183000
+SUMMARY:[LEZ] Introduzione all'intelligenza artificiale nell'imaging medico
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Introduzione all'intelligenza artificiale nell'imaging medico\nTipo: Lezione\nDocente: M. Picchio\nLuogo: Aula CA102\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3e1570798ebfbc1b@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261116T163000
+DTEND;TZID=Europe/Rome:20261116T183000
+SUMMARY:[LEZ] Introduzione all'intelligenza artificiale nell'imaging medico
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Introduzione all'intelligenza artificiale nell'imaging medico\nTipo: Lezione\nDocente: C. Bezzi\nLuogo: Aula CA102\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c7829353ac2564ec@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261123T163000
+DTEND;TZID=Europe/Rome:20261123T183000
+SUMMARY:[LEZ] Introduzione all'intelligenza artificiale nell'imaging medico
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Introduzione all'intelligenza artificiale nell'imaging medico\nTipo: Lezione\nDocente: C. Bezzi\nLuogo: Aula CA102\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

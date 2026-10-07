@@ -1,357 +1,357 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UniSR//Calendari Medicina//IT
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Chimica e propedeutica biochimica
-X-WR-CALDESC:Corso: Chimica e propedeutica biochimica
-X-WR-TIMEZONE:Europe/Rome
-BEGIN:VTIMEZONE
-TZID:Europe/Rome
-X-LIC-LOCATION:Europe/Rome
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:unisr-med-a8c9998e35c5c12e@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261012T093000
-DTEND;TZID=Europe/Rome:20261012T113000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE102
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-157d7b96ec277a23@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261014T113000
-DTEND;TZID=Europe/Rome:20261014T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ba2f43edb32063f5@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261015T093000
-DTEND;TZID=Europe/Rome:20261015T113000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE201
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-44d8f957f74881ac@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261016T113000
-DTEND;TZID=Europe/Rome:20261016T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1b0e80be907bff32@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261019T093000
-DTEND;TZID=Europe/Rome:20261019T113000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE102
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-104a04e10f2a71d0@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261021T113000
-DTEND;TZID=Europe/Rome:20261021T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2722bca0578b70ae@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261022T093000
-DTEND;TZID=Europe/Rome:20261022T113000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE201
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-00a4307612304cab@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261023T113000
-DTEND;TZID=Europe/Rome:20261023T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3721d6bd257f4b9d@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261026T093000
-DTEND;TZID=Europe/Rome:20261026T113000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE102
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-897988d033fddf51@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261028T113000
-DTEND;TZID=Europe/Rome:20261028T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-4e21d96308f1f3eb@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261029T093000
-DTEND;TZID=Europe/Rome:20261029T113000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE201
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-69922f9dab72d181@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261030T113000
-DTEND;TZID=Europe/Rome:20261030T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e041968dd9f7f77b@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261102T093000
-DTEND;TZID=Europe/Rome:20261102T113000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE102
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-bd14fa9075508753@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261104T113000
-DTEND;TZID=Europe/Rome:20261104T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-739c4d32c5bb8103@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261105T093000
-DTEND;TZID=Europe/Rome:20261105T113000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE201
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-df85c31ac1f3d0de@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261106T113000
-DTEND;TZID=Europe/Rome:20261106T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-df28db5cd5ec7fe3@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261109T143000
-DTEND;TZID=Europe/Rome:20261109T163000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE102
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1ed5d9f76c7b34ee@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261111T113000
-DTEND;TZID=Europe/Rome:20261111T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5757edc7f02ffa9f@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261112T093000
-DTEND;TZID=Europe/Rome:20261112T113000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE201
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6e283ef611296cb3@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261113T113000
-DTEND;TZID=Europe/Rome:20261113T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8b9d4c1bed020d62@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261117T113000
-DTEND;TZID=Europe/Rome:20261117T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5a5786b19006a631@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261118T113000
-DTEND;TZID=Europe/Rome:20261118T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-158d5e995924646c@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261119T093000
-DTEND;TZID=Europe/Rome:20261119T113000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE201
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-7710c7fd4b26b92b@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261119T143000
-DTEND;TZID=Europe/Rome:20261119T163000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA401
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica LS (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA401\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-49644cd389e56706@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261120T113000
-DTEND;TZID=Europe/Rome:20261120T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica  LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5c636e51656159cb@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261124T113000
-DTEND;TZID=Europe/Rome:20261124T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA401
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica LS (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA401\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-476dc0cde71ce8a9@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261126T093000
-DTEND;TZID=Europe/Rome:20261126T113000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO301
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 09:30 - 11:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-133f75cb5e8952f5@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261201T113000
-DTEND;TZID=Europe/Rome:20261201T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO101
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f9f0a7ae94e375ee@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261202T143000
-DTEND;TZID=Europe/Rome:20261202T163000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO301
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e397afa2ce5cdfe7@easycourse.unisr.it
-DTSTAMP:20260930T201332Z
-DTSTART;TZID=Europe/Rome:20261203T113000
-DTEND;TZID=Europe/Rome:20261203T133000
-SUMMARY:Chimica e propedeutica biochimica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Chimica e propedeutica biochimica [B0058] - Chimica e propedeutica biochimica LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Chimica e propedeutica biochimica
+X-WR-CALDESC:Corso: Chimica e propedeutica biochimica
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-a8c9998e35c5c12e@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261012T093000
+DTEND;TZID=Europe/Rome:20261012T113000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE102
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE102\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-157d7b96ec277a23@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261014T113000
+DTEND;TZID=Europe/Rome:20261014T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ba2f43edb32063f5@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261015T093000
+DTEND;TZID=Europe/Rome:20261015T113000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE201
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE201\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-44d8f957f74881ac@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261016T113000
+DTEND;TZID=Europe/Rome:20261016T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1b0e80be907bff32@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261019T093000
+DTEND;TZID=Europe/Rome:20261019T113000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE102
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE102\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-104a04e10f2a71d0@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261021T113000
+DTEND;TZID=Europe/Rome:20261021T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2722bca0578b70ae@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261022T093000
+DTEND;TZID=Europe/Rome:20261022T113000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE201
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE201\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-00a4307612304cab@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261023T113000
+DTEND;TZID=Europe/Rome:20261023T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3721d6bd257f4b9d@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261026T093000
+DTEND;TZID=Europe/Rome:20261026T113000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE102
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE102\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-897988d033fddf51@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261028T113000
+DTEND;TZID=Europe/Rome:20261028T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4e21d96308f1f3eb@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261029T093000
+DTEND;TZID=Europe/Rome:20261029T113000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE201
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE201\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-69922f9dab72d181@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261030T113000
+DTEND;TZID=Europe/Rome:20261030T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e041968dd9f7f77b@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261102T093000
+DTEND;TZID=Europe/Rome:20261102T113000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE102
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE102\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-bd14fa9075508753@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261104T113000
+DTEND;TZID=Europe/Rome:20261104T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-739c4d32c5bb8103@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261105T093000
+DTEND;TZID=Europe/Rome:20261105T113000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE201
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE201\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-df85c31ac1f3d0de@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261106T113000
+DTEND;TZID=Europe/Rome:20261106T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: M. Piccoli\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-df28db5cd5ec7fe3@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261109T143000
+DTEND;TZID=Europe/Rome:20261109T163000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE102
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: M. Piccoli\nLuogo: Aula VE102\nOrario: 14:30 - 16:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1ed5d9f76c7b34ee@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261111T113000
+DTEND;TZID=Europe/Rome:20261111T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: M. Piccoli\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5757edc7f02ffa9f@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261112T093000
+DTEND;TZID=Europe/Rome:20261112T113000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE201
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: M. Piccoli\nLuogo: Aula VE201\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6e283ef611296cb3@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261113T113000
+DTEND;TZID=Europe/Rome:20261113T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: M. Piccoli\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8b9d4c1bed020d62@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261117T113000
+DTEND;TZID=Europe/Rome:20261117T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: M. Piccoli\nLuogo: Aula VA101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5a5786b19006a631@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261118T113000
+DTEND;TZID=Europe/Rome:20261118T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: M. Piccoli\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-158d5e995924646c@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261119T093000
+DTEND;TZID=Europe/Rome:20261119T113000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE201
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: M. Piccoli\nLuogo: Aula VE201\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7710c7fd4b26b92b@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261119T143000
+DTEND;TZID=Europe/Rome:20261119T163000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VA401
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: M. Piccoli\nLuogo: Aula VA401\nOrario: 14:30 - 16:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-49644cd389e56706@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261120T113000
+DTEND;TZID=Europe/Rome:20261120T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: L. Anastasia\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5c636e51656159cb@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261124T113000
+DTEND;TZID=Europe/Rome:20261124T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula VA401
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: M. Piccoli\nLuogo: Aula VA401\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-476dc0cde71ce8a9@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261126T093000
+DTEND;TZID=Europe/Rome:20261126T113000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula BO301
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: M. Piccoli\nLuogo: Aula BO301\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-133f75cb5e8952f5@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261201T113000
+DTEND;TZID=Europe/Rome:20261201T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula BO101
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: F. Cirillo\nLuogo: Aula BO101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f9f0a7ae94e375ee@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261202T143000
+DTEND;TZID=Europe/Rome:20261202T163000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula BO301
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: F. Cirillo\nLuogo: Aula BO301\nOrario: 14:30 - 16:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e397afa2ce5cdfe7@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261203T113000
+DTEND;TZID=Europe/Rome:20261203T133000
+SUMMARY:[LEZ] Chimica e propedeutica biochimica
+LOCATION:Aula BO102
+DESCRIPTION:Materia: Chimica e propedeutica biochimica\nTipo: Lezione\nDocente: F. Cirillo\nLuogo: Aula BO102\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

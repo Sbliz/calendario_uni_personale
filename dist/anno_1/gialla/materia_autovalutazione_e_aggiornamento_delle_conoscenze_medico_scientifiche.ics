@@ -1,0 +1,137 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche
+X-WR-CALDESC:Corso: Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-6ae3912e415cf959@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261006T143000
+DTEND;TZID=Europe/Rome:20261006T163000
+SUMMARY:[LEZ] Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche\nTipo: Lezione\nDocente: L. Tei\nLuogo: Aula VE101\nOrario: 14:30 - 16:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3a92acac54318394@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261014T163000
+DTEND;TZID=Europe/Rome:20261014T183000
+SUMMARY:[LEZ] Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche
+LOCATION:Aula VE102
+DESCRIPTION:Materia: Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche\nTipo: Lezione\nDocente: L. Tei\nLuogo: Aula VE102\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5269e1f85482018a@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261022T113000
+DTEND;TZID=Europe/Rome:20261022T133000
+SUMMARY:[LEZ] Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche
+LOCATION:Aula VE201
+DESCRIPTION:Materia: Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche\nTipo: Lezione\nDocente: L. Tei\nLuogo: Aula VE201\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-db950aa11a0e5371@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261027T163000
+DTEND;TZID=Europe/Rome:20261027T183000
+SUMMARY:[LEZ] Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche\nTipo: Lezione\nDocente: L. Tei\nLuogo: Aula VE101\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-74f581a9d73d0db3@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261104T143000
+DTEND;TZID=Europe/Rome:20261104T163000
+SUMMARY:[LEZ] Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche\nTipo: Lezione\nDocente: L. Scarfo'\nLuogo: Aula VE101\nOrario: 14:30 - 16:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a6c9aa30ce826abc@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261111T143000
+DTEND;TZID=Europe/Rome:20261111T163000
+SUMMARY:[LEZ] Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche\nTipo: Lezione\nDocente: L. Scarfo'\nLuogo: Aula VE101\nOrario: 14:30 - 16:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4843fe144549a615@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261118T143000
+DTEND;TZID=Europe/Rome:20261118T163000
+SUMMARY:[LEZ] Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche\nTipo: Lezione\nDocente: L. Scarfo'\nLuogo: Aula VE101\nOrario: 14:30 - 16:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d3c369921d0cb845@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261125T113000
+DTEND;TZID=Europe/Rome:20261125T133000
+SUMMARY:[LEZ] Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche\nTipo: Lezione\nDocente: R. Tomaiuolo\nLuogo: Aula VE101\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-9e64491d55973637@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261201T143000
+DTEND;TZID=Europe/Rome:20261201T163000
+SUMMARY:[LEZ] Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche\nTipo: Lezione\nDocente: L. Scarfo'\nLuogo: Aula BO201\nOrario: 14:30 - 16:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4e5ed137cdb8f791@easycourse.unisr.it
+DTSTAMP:20261007T084956Z
+DTSTART;TZID=Europe/Rome:20261216T093000
+DTEND;TZID=Europe/Rome:20261216T113000
+SUMMARY:[LEZ] Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche
+LOCATION:Aula BO102
+DESCRIPTION:Materia: Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche\nTipo: Lezione\nDocente: S. Punzi\nLuogo: Aula BO102\nOrario: 09:30 - 11:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -1,137 +1,137 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UniSR//Calendari Medicina//IT
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Preparedness in Medicina: dal Quotidiano allo Straordinario
-X-WR-CALDESC:Corso: Preparedness in Medicina: dal Quotidiano allo Straordinario
-X-WR-TIMEZONE:Europe/Rome
-BEGIN:VTIMEZONE
-TZID:Europe/Rome
-X-LIC-LOCATION:Europe/Rome
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:unisr-med-affe7a567b8b1499@easycourse.unisr.it
-DTSTAMP:20260930T201133Z
-DTSTART;TZID=Europe/Rome:20260925T103000
-DTEND;TZID=Europe/Rome:20260925T123000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [B0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-720249a0470fc02e@easycourse.unisr.it
-DTSTAMP:20260930T201133Z
-DTSTART;TZID=Europe/Rome:20261002T103000
-DTEND;TZID=Europe/Rome:20261002T123000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [B0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f370d26fbddcd568@easycourse.unisr.it
-DTSTAMP:20260930T201133Z
-DTSTART;TZID=Europe/Rome:20261009T103000
-DTEND;TZID=Europe/Rome:20261009T123000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [B0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-98ccea36e13c746f@easycourse.unisr.it
-DTSTAMP:20260930T201133Z
-DTSTART;TZID=Europe/Rome:20261013T153000
-DTEND;TZID=Europe/Rome:20261013T173000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [B0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-330212c6742fc813@easycourse.unisr.it
-DTSTAMP:20260930T201133Z
-DTSTART;TZID=Europe/Rome:20261014T103000
-DTEND;TZID=Europe/Rome:20261014T123000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [B0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-b939cb5a1a007328@easycourse.unisr.it
-DTSTAMP:20260930T201133Z
-DTSTART;TZID=Europe/Rome:20261020T083000
-DTEND;TZID=Europe/Rome:20261020T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [B0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 1 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5864b3897462eb0a@easycourse.unisr.it
-DTSTAMP:20260930T201133Z
-DTSTART;TZID=Europe/Rome:20261102T133000
-DTEND;TZID=Europe/Rome:20261102T153000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [B0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-55f9261a019f7db6@easycourse.unisr.it
-DTSTAMP:20260930T201133Z
-DTSTART;TZID=Europe/Rome:20261106T103000
-DTEND;TZID=Europe/Rome:20261106T123000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [B0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a12696d308d9e962@easycourse.unisr.it
-DTSTAMP:20260930T201133Z
-DTSTART;TZID=Europe/Rome:20261117T083000
-DTEND;TZID=Europe/Rome:20261117T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [B0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-57365ec811cae064@easycourse.unisr.it
-DTSTAMP:20260930T201133Z
-DTSTART;TZID=Europe/Rome:20261130T083000
-DTEND;TZID=Europe/Rome:20261130T103000
-SUMMARY:Preparedness in Medicina: dal Quotidiano allo Straordinario [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO301
-DESCRIPTION:Insegnamento: Preparedness in Medicina: dal Quotidiano allo Straordinario [B0025] - Preparedness in Medicina: dal Quotidiano allo Straordinario 2 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Preparedness in Medicina: dal Quotidiano allo Straordinario
+X-WR-CALDESC:Corso: Preparedness in Medicina: dal Quotidiano allo Straordinario
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-affe7a567b8b1499@easycourse.unisr.it
+DTSTAMP:20261007T084906Z
+DTSTART;TZID=Europe/Rome:20260925T103000
+DTEND;TZID=Europe/Rome:20260925T123000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: G. Monti\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-720249a0470fc02e@easycourse.unisr.it
+DTSTAMP:20261007T084906Z
+DTSTART;TZID=Europe/Rome:20261002T103000
+DTEND;TZID=Europe/Rome:20261002T123000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: G. Monti\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f370d26fbddcd568@easycourse.unisr.it
+DTSTAMP:20261007T084906Z
+DTSTART;TZID=Europe/Rome:20261009T103000
+DTEND;TZID=Europe/Rome:20261009T123000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: M. Pieri\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-98ccea36e13c746f@easycourse.unisr.it
+DTSTAMP:20261007T084906Z
+DTSTART;TZID=Europe/Rome:20261013T153000
+DTEND;TZID=Europe/Rome:20261013T173000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: M. Mazzetti\nLuogo: Aula CA101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-330212c6742fc813@easycourse.unisr.it
+DTSTAMP:20261007T084906Z
+DTSTART;TZID=Europe/Rome:20261014T103000
+DTEND;TZID=Europe/Rome:20261014T123000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: M. Pieri\nLuogo: Aula CA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b939cb5a1a007328@easycourse.unisr.it
+DTSTAMP:20261007T084906Z
+DTSTART;TZID=Europe/Rome:20261020T083000
+DTEND;TZID=Europe/Rome:20261020T103000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: G. Monti\nLuogo: Aula BO201\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5864b3897462eb0a@easycourse.unisr.it
+DTSTAMP:20261007T084906Z
+DTSTART;TZID=Europe/Rome:20261102T133000
+DTEND;TZID=Europe/Rome:20261102T153000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: M. Mazzetti\nLuogo: Aula VA302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-55f9261a019f7db6@easycourse.unisr.it
+DTSTAMP:20261007T084906Z
+DTSTART;TZID=Europe/Rome:20261106T103000
+DTEND;TZID=Europe/Rome:20261106T123000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: S. Partelli\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a12696d308d9e962@easycourse.unisr.it
+DTSTAMP:20261007T084906Z
+DTSTART;TZID=Europe/Rome:20261117T083000
+DTEND;TZID=Europe/Rome:20261117T103000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: S. Partelli\nLuogo: Aula VA101\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-57365ec811cae064@easycourse.unisr.it
+DTSTAMP:20261007T084906Z
+DTSTART;TZID=Europe/Rome:20261130T083000
+DTEND;TZID=Europe/Rome:20261130T103000
+SUMMARY:[LEZ] Preparedness in Medicina: dal Quotidiano allo Straordinario
+LOCATION:Aula BO301
+DESCRIPTION:Materia: Preparedness in Medicina: dal Quotidiano allo Straordinario\nTipo: Lezione\nDocente: M. Mazzetti\nLuogo: Aula BO301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

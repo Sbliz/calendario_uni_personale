@@ -1,137 +1,137 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UniSR//Calendari Medicina//IT
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
-X-WR-CALDESC:Corso: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
-X-WR-TIMEZONE:Europe/Rome
-BEGIN:VTIMEZONE
-TZID:Europe/Rome
-X-LIC-LOCATION:Europe/Rome
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:unisr-med-73d2107bce7bca85@easycourse.unisr.it
-DTSTAMP:20260930T202351Z
-DTSTART;TZID=Europe/Rome:20261007T113000
-DTEND;TZID=Europe/Rome:20261007T133000
-SUMMARY:Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE201
-DESCRIPTION:Insegnamento: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [A0008] - Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-42db1b842ada275f@easycourse.unisr.it
-DTSTAMP:20260930T202351Z
-DTSTART;TZID=Europe/Rome:20261009T113000
-DTEND;TZID=Europe/Rome:20261009T133000
-SUMMARY:Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE102
-DESCRIPTION:Insegnamento: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [A0008] - Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-7463899238ada5ee@easycourse.unisr.it
-DTSTAMP:20260930T202351Z
-DTSTART;TZID=Europe/Rome:20261009T143000
-DTEND;TZID=Europe/Rome:20261009T163000
-SUMMARY:Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE102
-DESCRIPTION:Insegnamento: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [A0008] - Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ed04063ed95af707@easycourse.unisr.it
-DTSTAMP:20260930T202351Z
-DTSTART;TZID=Europe/Rome:20261015T163000
-DTEND;TZID=Europe/Rome:20261015T183000
-SUMMARY:Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [A0008] - Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a32586d753398944@easycourse.unisr.it
-DTSTAMP:20260930T202351Z
-DTSTART;TZID=Europe/Rome:20261016T113000
-DTEND;TZID=Europe/Rome:20261016T133000
-SUMMARY:Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE102
-DESCRIPTION:Insegnamento: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [A0008] - Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica 1 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE102\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-af6a6a9b8b6e47e0@easycourse.unisr.it
-DTSTAMP:20260930T202351Z
-DTSTART;TZID=Europe/Rome:20261026T163000
-DTEND;TZID=Europe/Rome:20261026T183000
-SUMMARY:Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA301
-DESCRIPTION:Insegnamento: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [A0008] - Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica 2 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA301\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-0a737e446eee965c@easycourse.unisr.it
-DTSTAMP:20260930T202351Z
-DTSTART;TZID=Europe/Rome:20261104T163000
-DTEND;TZID=Europe/Rome:20261104T183000
-SUMMARY:Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE201
-DESCRIPTION:Insegnamento: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [A0008] - Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE201\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-bb42e02e44b8a30f@easycourse.unisr.it
-DTSTAMP:20260930T202351Z
-DTSTART;TZID=Europe/Rome:20261105T163000
-DTEND;TZID=Europe/Rome:20261105T183000
-SUMMARY:Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [A0008] - Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 16:30 - 18:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-32a2e380d5cde027@easycourse.unisr.it
-DTSTAMP:20260930T202351Z
-DTSTART;TZID=Europe/Rome:20261120T113000
-DTEND;TZID=Europe/Rome:20261120T133000
-SUMMARY:Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [A0008] - Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica 1 LS (LINEA AZZURRA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 11:30 - 13:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-cdd352249d74b468@easycourse.unisr.it
-DTSTAMP:20260930T202351Z
-DTSTART;TZID=Europe/Rome:20261120T143000
-DTEND;TZID=Europe/Rome:20261120T163000
-SUMMARY:Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [Lezione]
-LOCATION:Edificio VERROCCHIO\, Aula VE101
-DESCRIPTION:Insegnamento: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica [A0008] - Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica 2 LU (LINEA AZZURRA) - LEZ\nLuogo: Edificio VERROCCHIO\, Aula VE101\nOrario: 14:30 - 16:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
+X-WR-CALDESC:Corso: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-73d2107bce7bca85@easycourse.unisr.it
+DTSTAMP:20261007T085416Z
+DTSTART;TZID=Europe/Rome:20261007T113000
+DTEND;TZID=Europe/Rome:20261007T133000
+SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
+LOCATION:Aula VE201
+DESCRIPTION:Materia: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica\nTipo: Lezione\nDocente: M. Bosia\nLuogo: Aula VE201\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-42db1b842ada275f@easycourse.unisr.it
+DTSTAMP:20261007T085416Z
+DTSTART;TZID=Europe/Rome:20261009T113000
+DTEND;TZID=Europe/Rome:20261009T133000
+SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
+LOCATION:Aula VE102
+DESCRIPTION:Materia: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica\nTipo: Lezione\nDocente: F. Fava\nLuogo: Aula VE102\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7463899238ada5ee@easycourse.unisr.it
+DTSTAMP:20261007T085416Z
+DTSTART;TZID=Europe/Rome:20261009T143000
+DTEND;TZID=Europe/Rome:20261009T163000
+SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
+LOCATION:Aula VE102
+DESCRIPTION:Materia: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica\nTipo: Lezione\nDocente: F. Fava\nLuogo: Aula VE102\nOrario: 14:30 - 16:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ed04063ed95af707@easycourse.unisr.it
+DTSTAMP:20261007T085416Z
+DTSTART;TZID=Europe/Rome:20261015T163000
+DTEND;TZID=Europe/Rome:20261015T183000
+SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica\nTipo: Lezione\nDocente: F. Fava\nLuogo: Aula VE101\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a32586d753398944@easycourse.unisr.it
+DTSTAMP:20261007T085416Z
+DTSTART;TZID=Europe/Rome:20261016T113000
+DTEND;TZID=Europe/Rome:20261016T133000
+SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
+LOCATION:Aula VE102
+DESCRIPTION:Materia: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica\nTipo: Lezione\nDocente: F. Fava\nLuogo: Aula VE102\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-af6a6a9b8b6e47e0@easycourse.unisr.it
+DTSTAMP:20261007T085416Z
+DTSTART;TZID=Europe/Rome:20261026T163000
+DTEND;TZID=Europe/Rome:20261026T183000
+SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
+LOCATION:Aula CA301
+DESCRIPTION:Materia: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica\nTipo: Lezione\nDocente: M. Bosia\nLuogo: Aula CA301\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0a737e446eee965c@easycourse.unisr.it
+DTSTAMP:20261007T085416Z
+DTSTART;TZID=Europe/Rome:20261104T163000
+DTEND;TZID=Europe/Rome:20261104T183000
+SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
+LOCATION:Aula VE201
+DESCRIPTION:Materia: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica\nTipo: Lezione\nDocente: A. Grignolio Corsini\nLuogo: Aula VE201\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-bb42e02e44b8a30f@easycourse.unisr.it
+DTSTAMP:20261007T085416Z
+DTSTART;TZID=Europe/Rome:20261105T163000
+DTEND;TZID=Europe/Rome:20261105T183000
+SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica\nTipo: Lezione\nDocente: A. Grignolio Corsini\nLuogo: Aula VE101\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-32a2e380d5cde027@easycourse.unisr.it
+DTSTAMP:20261007T085416Z
+DTSTART;TZID=Europe/Rome:20261120T113000
+DTEND;TZID=Europe/Rome:20261120T133000
+SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica\nTipo: Lezione\nDocente: F. Fava\nLuogo: Aula BO201\nOrario: 11:30 - 13:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-cdd352249d74b468@easycourse.unisr.it
+DTSTAMP:20261007T085416Z
+DTSTART;TZID=Europe/Rome:20261120T143000
+DTEND;TZID=Europe/Rome:20261120T163000
+SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
+LOCATION:Aula VE101
+DESCRIPTION:Materia: Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica\nTipo: Lezione\nDocente: M. Bosia\nLuogo: Aula VE101\nOrario: 14:30 - 16:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

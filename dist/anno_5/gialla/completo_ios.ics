@@ -1,1171 +1,1171 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UniSR//Calendari Medicina//IT
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:UniSR Anno 5 - PERCORSO COMUNE LINEA GIALLA
-X-WR-CALDESC:Feed completo iOS
-X-WR-TIMEZONE:Europe/Rome
-BEGIN:VTIMEZONE
-TZID:Europe/Rome
-X-LIC-LOCATION:Europe/Rome
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:unisr-med-acdbc2e35480eb9c@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20260923T103000
-DTEND;TZID=Europe/Rome:20260923T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 7 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f9f3836e57092953@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20260923T133000
-DTEND;TZID=Europe/Rome:20260923T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 4 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5a3aa3499e7d3a51@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20260923T153000
-DTEND;TZID=Europe/Rome:20260923T173000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f6c80e7d06f85a7d@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20260924T083000
-DTEND;TZID=Europe/Rome:20260924T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-4d1a1fc763551e4f@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20260928T083000
-DTEND;TZID=Europe/Rome:20260928T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA201
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 1 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-56bdd859aa76fba9@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20260928T103000
-DTEND;TZID=Europe/Rome:20260928T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-59a0a13f61d35eec@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20260928T133000
-DTEND;TZID=Europe/Rome:20260928T153000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6b198818f667a5b3@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20260928T153000
-DTEND;TZID=Europe/Rome:20260928T173000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 6 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5d4058e51b25a3c3@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20260929T133000
-DTEND;TZID=Europe/Rome:20260929T153000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-64c1d4e1a990e83c@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20260930T083000
-DTEND;TZID=Europe/Rome:20260930T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-b3920eb4d868ac52@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261001T103000
-DTEND;TZID=Europe/Rome:20261001T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ad481d9b58d90b64@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261002T103000
-DTEND;TZID=Europe/Rome:20261002T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 4 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3612205548b786f4@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261005T083000
-DTEND;TZID=Europe/Rome:20261005T103000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-99efcea951afedd3@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261005T103000
-DTEND;TZID=Europe/Rome:20261005T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-fdc42f48eea86e55@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261005T133000
-DTEND;TZID=Europe/Rome:20261005T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-527a105ae5f42006@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261005T153000
-DTEND;TZID=Europe/Rome:20261005T173000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c08cd2069e950066@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261006T083000
-DTEND;TZID=Europe/Rome:20261006T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f896f5e08de4c53d@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261006T103000
-DTEND;TZID=Europe/Rome:20261006T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-057ff2a59e79b02b@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261006T133000
-DTEND;TZID=Europe/Rome:20261006T153000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-46024b5df180680b@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261006T153000
-DTEND;TZID=Europe/Rome:20261006T173000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-84f9ce4b930beb5f@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261007T083000
-DTEND;TZID=Europe/Rome:20261007T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-496586e83ce554cf@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261007T133000
-DTEND;TZID=Europe/Rome:20261007T173000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f7fb4f9386f348f8@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261008T083000
-DTEND;TZID=Europe/Rome:20261008T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-39b25b5e2fe537ce@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261008T133000
-DTEND;TZID=Europe/Rome:20261008T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 7 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8ac2fb440f1375fd@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261008T153000
-DTEND;TZID=Europe/Rome:20261008T173000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ad9b5a21ad5dc65b@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261009T083000
-DTEND;TZID=Europe/Rome:20261009T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2a5d22a215889372@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261009T133000
-DTEND;TZID=Europe/Rome:20261009T153000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-efce3e254f9f0222@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261116T103000
-DTEND;TZID=Europe/Rome:20261116T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5c783489c49abacd@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261116T133000
-DTEND;TZID=Europe/Rome:20261116T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 8 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-50d0f0fd371905c2@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261116T153000
-DTEND;TZID=Europe/Rome:20261116T173000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-4f980b7b39bc1665@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261117T153000
-DTEND;TZID=Europe/Rome:20261117T173000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2c2f1683e5ec9f10@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261118T083000
-DTEND;TZID=Europe/Rome:20261118T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3d41f365a314d950@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261118T103000
-DTEND;TZID=Europe/Rome:20261118T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 5 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8cc0e9346602f1be@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261118T133000
-DTEND;TZID=Europe/Rome:20261118T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-4c27edc3f902ddfd@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261119T103000
-DTEND;TZID=Europe/Rome:20261119T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 5 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a0dd0a9d2483c19d@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261119T133000
-DTEND;TZID=Europe/Rome:20261119T153000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-709ae9a8f68ee5ae@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261120T133000
-DTEND;TZID=Europe/Rome:20261120T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-b0d6a26877e21d91@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261123T103000
-DTEND;TZID=Europe/Rome:20261123T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 7 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-7435fa367047ca3e@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261123T133000
-DTEND;TZID=Europe/Rome:20261123T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO402
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 3 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO402\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-9ff1f09d4886b488@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261123T153000
-DTEND;TZID=Europe/Rome:20261123T173000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO402
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO402\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d2cde1d3f10d5ccd@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261124T083000
-DTEND;TZID=Europe/Rome:20261124T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO301
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 4 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c1c8583e7a70a341@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261124T103000
-DTEND;TZID=Europe/Rome:20261124T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8ce5fe47e57fe778@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261124T133000
-DTEND;TZID=Europe/Rome:20261124T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 3 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-9bb5bd7f73ce4742@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261125T083000
-DTEND;TZID=Europe/Rome:20261125T103000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 7 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e694c9e89498b5da@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261125T103000
-DTEND;TZID=Europe/Rome:20261125T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3bf3b5c12d225cac@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261125T133000
-DTEND;TZID=Europe/Rome:20261125T153000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f8d9518af9449913@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261126T083000
-DTEND;TZID=Europe/Rome:20261126T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-415498336af493f1@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261126T103000
-DTEND;TZID=Europe/Rome:20261126T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA301
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-daa3386fef71cb84@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261127T083000
-DTEND;TZID=Europe/Rome:20261127T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 5 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-22c4c76bdfef9557@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261127T103000
-DTEND;TZID=Europe/Rome:20261127T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 5 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a06291b5f6a42c93@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261127T133000
-DTEND;TZID=Europe/Rome:20261127T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA401
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 7 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA401\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a69a01a7b665e8ea@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261130T083000
-DTEND;TZID=Europe/Rome:20261130T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 4 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-64f87309dc20babc@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261130T133000
-DTEND;TZID=Europe/Rome:20261130T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 4 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ea64194bec3f5fa0@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261130T153000
-DTEND;TZID=Europe/Rome:20261130T173000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 6 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-7d5c23878af160ce@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261201T083000
-DTEND;TZID=Europe/Rome:20261201T103000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 2 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5df248edbf7931ce@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261201T103000
-DTEND;TZID=Europe/Rome:20261201T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 4 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-70914d7dfd869050@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261202T103000
-DTEND;TZID=Europe/Rome:20261202T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 8 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a5bd9f758b9e4b59@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261202T133000
-DTEND;TZID=Europe/Rome:20261202T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA401
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 5 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA401\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-302c4a91a18db1c3@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261203T133000
-DTEND;TZID=Europe/Rome:20261203T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 6 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f24b2321c416247c@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261203T153000
-DTEND;TZID=Europe/Rome:20261203T173000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-50f330bb09596161@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261204T083000
-DTEND;TZID=Europe/Rome:20261204T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 4 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3bff95d1ca7172fe@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261204T133000
-DTEND;TZID=Europe/Rome:20261204T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 5 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-88293dc8fc9aa6e4@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261209T083000
-DTEND;TZID=Europe/Rome:20261209T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-eda5eec9a8c2886c@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261209T103000
-DTEND;TZID=Europe/Rome:20261209T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-4800c159a1ae976b@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261209T133000
-DTEND;TZID=Europe/Rome:20261209T153000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO301
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ec2f4571e3f7fbf6@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261210T083000
-DTEND;TZID=Europe/Rome:20261210T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-51718b693bc21133@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261210T133000
-DTEND;TZID=Europe/Rome:20261210T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 5 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e68d4b0af4e172c3@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261211T103000
-DTEND;TZID=Europe/Rome:20261211T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 4 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-eec2d1b2ca5b9940@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261211T133000
-DTEND;TZID=Europe/Rome:20261211T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 8 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f355f3975ca607f4@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261214T083000
-DTEND;TZID=Europe/Rome:20261214T103000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 5 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d73b401d702d1ba5@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261214T103000
-DTEND;TZID=Europe/Rome:20261214T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 5 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2a825935c0a7497d@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261214T133000
-DTEND;TZID=Europe/Rome:20261214T153000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8b213a1fa2a22cfd@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261215T083000
-DTEND;TZID=Europe/Rome:20261215T103000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c6784817053db4a4@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261215T103000
-DTEND;TZID=Europe/Rome:20261215T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8463996f4cf03f77@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261215T133000
-DTEND;TZID=Europe/Rome:20261215T153000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ccc9aa4b8c4e22c1@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261215T153000
-DTEND;TZID=Europe/Rome:20261215T173000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 6 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3e04526a10fd9feb@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261216T083000
-DTEND;TZID=Europe/Rome:20261216T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-bf903674664c4599@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261216T103000
-DTEND;TZID=Europe/Rome:20261216T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 5 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-22a39c396c77f186@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261216T133000
-DTEND;TZID=Europe/Rome:20261216T153000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-58117b7d230673bb@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261216T153000
-DTEND;TZID=Europe/Rome:20261216T173000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 8 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3055cdb594ddbd44@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261217T083000
-DTEND;TZID=Europe/Rome:20261217T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2b53d97264b022dc@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261217T103000
-DTEND;TZID=Europe/Rome:20261217T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-796f294814933f06@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261217T133000
-DTEND;TZID=Europe/Rome:20261217T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 5 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ee2b036fd246de91@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261218T083000
-DTEND;TZID=Europe/Rome:20261218T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8989b7538cbc0b3b@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261218T103000
-DTEND;TZID=Europe/Rome:20261218T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 5 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-fb01e3bda7de5dbf@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20261218T133000
-DTEND;TZID=Europe/Rome:20261218T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 8 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6942de218a2742da@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270107T133000
-DTEND;TZID=Europe/Rome:20270107T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1ebb625f8953f475@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270107T153000
-DTEND;TZID=Europe/Rome:20270107T173000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 5 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c65265cb74413d48@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270108T083000
-DTEND;TZID=Europe/Rome:20270108T103000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-57a2b7402b22cd23@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270108T133000
-DTEND;TZID=Europe/Rome:20270108T153000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-0907e6392020b8d7@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270108T153000
-DTEND;TZID=Europe/Rome:20270108T173000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 5 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2b9ae9ebf4d67f13@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270111T083000
-DTEND;TZID=Europe/Rome:20270111T123000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 08:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-16760b0baf852934@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270111T133000
-DTEND;TZID=Europe/Rome:20270111T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-337a160ae02a0fff@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270111T153000
-DTEND;TZID=Europe/Rome:20270111T173000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-46811ac215477c6e@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270112T083000
-DTEND;TZID=Europe/Rome:20270112T103000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-cfc36da2563f65b1@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270112T103000
-DTEND;TZID=Europe/Rome:20270112T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a24ff32179e27aa8@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270113T103000
-DTEND;TZID=Europe/Rome:20270113T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-71e9e70c58c07cb7@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270113T133000
-DTEND;TZID=Europe/Rome:20270113T153000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 5 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-322592409fd2a10b@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270113T153000
-DTEND;TZID=Europe/Rome:20270113T173000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-9f6f374933c3462b@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270114T103000
-DTEND;TZID=Europe/Rome:20270114T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 1 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ca661d84d732676e@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270114T153000
-DTEND;TZID=Europe/Rome:20270114T173000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ce919bd85b781baf@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270115T103000
-DTEND;TZID=Europe/Rome:20270115T123000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c088f57738a756e1@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270115T133000
-DTEND;TZID=Europe/Rome:20270115T153000
-SUMMARY:Specialità medico [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Specialità medico-Chirurgiche Testa-Collo [1330] - Specialità medico-Chirurgiche Testa-Collo 6 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3499f04ce35c7413@easycourse.unisr.it
-DTSTAMP:20260930T203800Z
-DTSTART;TZID=Europe/Rome:20270115T153000
-DTEND;TZID=Europe/Rome:20270115T173000
-SUMMARY:Neurologia [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Neurologia [1329] - Neurologia 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UniSR Anno 5 - PERCORSO COMUNE LINEA GIALLA
+X-WR-CALDESC:Feed completo iOS
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-acdbc2e35480eb9c@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20260923T103000
+DTEND;TZID=Europe/Rome:20260923T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Karligkiotis\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f9f3836e57092953@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20260923T133000
+DTEND;TZID=Europe/Rome:20260923T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: F. Bandello\nLuogo: Aula CA302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5a3aa3499e7d3a51@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20260923T153000
+DTEND;TZID=Europe/Rome:20260923T173000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Filippi\nLuogo: Aula CA101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f6c80e7d06f85a7d@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20260924T083000
+DTEND;TZID=Europe/Rome:20260924T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: N. Anzalone\nLuogo: Aula VA101\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4d1a1fc763551e4f@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20260928T083000
+DTEND;TZID=Europe/Rome:20260928T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA201
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: N. Anzalone\nLuogo: Aula CA201\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-56bdd859aa76fba9@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20260928T103000
+DTEND;TZID=Europe/Rome:20260928T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: N. Anzalone\nLuogo: Aula CA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-59a0a13f61d35eec@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20260928T133000
+DTEND;TZID=Europe/Rome:20260928T153000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: A. Leocani\nLuogo: Aula CA101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6b198818f667a5b3@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20260928T153000
+DTEND;TZID=Europe/Rome:20260928T173000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: P. Mortini\nLuogo: Aula CA101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5d4058e51b25a3c3@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20260929T133000
+DTEND;TZID=Europe/Rome:20260929T153000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: N. Anzalone\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-64c1d4e1a990e83c@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20260930T083000
+DTEND;TZID=Europe/Rome:20260930T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: A. Leocani\nLuogo: Aula VA302\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b3920eb4d868ac52@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261001T103000
+DTEND;TZID=Europe/Rome:20261001T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: A. Leocani\nLuogo: Aula VA102\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ad481d9b58d90b64@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261002T103000
+DTEND;TZID=Europe/Rome:20261002T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: F. Bandello\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3612205548b786f4@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261005T083000
+DTEND;TZID=Europe/Rome:20261005T103000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: E. Miserocchi\nLuogo: Aula CA302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-99efcea951afedd3@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261005T103000
+DTEND;TZID=Europe/Rome:20261005T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Filippi\nLuogo: Aula CA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fdc42f48eea86e55@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261005T133000
+DTEND;TZID=Europe/Rome:20261005T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: M. Battaglia Parodi\nLuogo: Aula CA101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-527a105ae5f42006@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261005T153000
+DTEND;TZID=Europe/Rome:20261005T173000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Filippi\nLuogo: Aula CA101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c08cd2069e950066@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261006T083000
+DTEND;TZID=Europe/Rome:20261006T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: F. Agosta\nLuogo: Aula VA102\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f896f5e08de4c53d@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261006T103000
+DTEND;TZID=Europe/Rome:20261006T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: M. Battaglia Parodi\nLuogo: Aula VA102\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-057ff2a59e79b02b@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261006T133000
+DTEND;TZID=Europe/Rome:20261006T153000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: P. Preziosa\nLuogo: Aula VA101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-46024b5df180680b@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261006T153000
+DTEND;TZID=Europe/Rome:20261006T173000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Filippi\nLuogo: Aula VA101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-84f9ce4b930beb5f@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261007T083000
+DTEND;TZID=Europe/Rome:20261007T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: E. Spinelli\nLuogo: Aula VA302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-496586e83ce554cf@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261007T133000
+DTEND;TZID=Europe/Rome:20261007T173000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: P. Preziosa\nLuogo: Aula CA101\nOrario: 13:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f7fb4f9386f348f8@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261008T083000
+DTEND;TZID=Europe/Rome:20261008T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Salsone\nLuogo: Aula BO201\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-39b25b5e2fe537ce@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261008T133000
+DTEND;TZID=Europe/Rome:20261008T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Karligkiotis\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8ac2fb440f1375fd@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261008T153000
+DTEND;TZID=Europe/Rome:20261008T173000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: E. Miserocchi\nLuogo: Aula CA102\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ad9b5a21ad5dc65b@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261009T083000
+DTEND;TZID=Europe/Rome:20261009T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Filippi\nLuogo: Aula CA302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2a5d22a215889372@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261009T133000
+DTEND;TZID=Europe/Rome:20261009T153000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula BO102
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: A. Bombaci\nLuogo: Aula BO102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-efce3e254f9f0222@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261116T103000
+DTEND;TZID=Europe/Rome:20261116T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Filippi\nLuogo: Aula CA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5c783489c49abacd@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261116T133000
+DTEND;TZID=Europe/Rome:20261116T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: P. Panni\nLuogo: Aula BO202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-50d0f0fd371905c2@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261116T153000
+DTEND;TZID=Europe/Rome:20261116T173000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Filippi\nLuogo: Aula CA101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4f980b7b39bc1665@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261117T153000
+DTEND;TZID=Europe/Rome:20261117T173000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: F. Bandello\nLuogo: Aula CA202\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2c2f1683e5ec9f10@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261118T083000
+DTEND;TZID=Europe/Rome:20261118T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Rocca\nLuogo: Aula VA301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3d41f365a314d950@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261118T103000
+DTEND;TZID=Europe/Rome:20261118T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Karligkiotis\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8cc0e9346602f1be@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261118T133000
+DTEND;TZID=Europe/Rome:20261118T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: F. Bandello\nLuogo: Aula CA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4c27edc3f902ddfd@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261119T103000
+DTEND;TZID=Europe/Rome:20261119T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Galli\nLuogo: Aula BO202\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a0dd0a9d2483c19d@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261119T133000
+DTEND;TZID=Europe/Rome:20261119T153000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula BO101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: R. Messina\nLuogo: Aula BO101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-709ae9a8f68ee5ae@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261120T133000
+DTEND;TZID=Europe/Rome:20261120T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: F. Bandello\nLuogo: Aula CA302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b0d6a26877e21d91@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261123T103000
+DTEND;TZID=Europe/Rome:20261123T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Galli\nLuogo: Aula CA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7435fa367047ca3e@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261123T133000
+DTEND;TZID=Europe/Rome:20261123T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula BO402
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: M. Battaglia Parodi\nLuogo: Aula BO402\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-9ff1f09d4886b488@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261123T153000
+DTEND;TZID=Europe/Rome:20261123T173000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula BO402
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: R. Messina\nLuogo: Aula BO402\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d2cde1d3f10d5ccd@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261124T083000
+DTEND;TZID=Europe/Rome:20261124T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula BO301
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: F. Pedica\nLuogo: Aula BO301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c1c8583e7a70a341@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261124T103000
+DTEND;TZID=Europe/Rome:20261124T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: R. Messina\nLuogo: Aula CA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8ce5fe47e57fe778@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261124T133000
+DTEND;TZID=Europe/Rome:20261124T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: G. Ferrari\nLuogo: Aula BO202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-9bb5bd7f73ce4742@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261125T083000
+DTEND;TZID=Europe/Rome:20261125T103000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Galli\nLuogo: Aula VA302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e694c9e89498b5da@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261125T103000
+DTEND;TZID=Europe/Rome:20261125T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: F. Bandello\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3bf3b5c12d225cac@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261125T133000
+DTEND;TZID=Europe/Rome:20261125T153000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula BO102
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: S. Mazzeo\nLuogo: Aula BO102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f8d9518af9449913@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261126T083000
+DTEND;TZID=Europe/Rome:20261126T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Rocca\nLuogo: Aula VA101\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-415498336af493f1@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261126T103000
+DTEND;TZID=Europe/Rome:20261126T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA301
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: S. Mazzeo\nLuogo: Aula CA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-daa3386fef71cb84@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261127T083000
+DTEND;TZID=Europe/Rome:20261127T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: F. Valtorta\nLuogo: Aula CA302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-22c4c76bdfef9557@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261127T103000
+DTEND;TZID=Europe/Rome:20261127T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Karligkiotis\nLuogo: Aula CA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a06291b5f6a42c93@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261127T133000
+DTEND;TZID=Europe/Rome:20261127T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA401
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Galli\nLuogo: Aula VA401\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a69a01a7b665e8ea@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261130T083000
+DTEND;TZID=Europe/Rome:20261130T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: F. Pedica\nLuogo: Aula CA101\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-64f87309dc20babc@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261130T133000
+DTEND;TZID=Europe/Rome:20261130T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: M. Cicinelli\nLuogo: Aula CA302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ea64194bec3f5fa0@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261130T153000
+DTEND;TZID=Europe/Rome:20261130T173000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: M. Losa\nLuogo: Aula BO202\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7d5c23878af160ce@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261201T083000
+DTEND;TZID=Europe/Rome:20261201T103000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: R. Vinci\nLuogo: Aula BO202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5df248edbf7931ce@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261201T103000
+DTEND;TZID=Europe/Rome:20261201T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: M. Cicinelli\nLuogo: Aula BO202\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-70914d7dfd869050@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261202T103000
+DTEND;TZID=Europe/Rome:20261202T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Falini\nLuogo: Aula VA102\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a5bd9f758b9e4b59@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261202T133000
+DTEND;TZID=Europe/Rome:20261202T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA401
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Karligkiotis\nLuogo: Aula VA401\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-302c4a91a18db1c3@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261203T133000
+DTEND;TZID=Europe/Rome:20261203T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: P. Mortini\nLuogo: Aula CA302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f24b2321c416247c@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261203T153000
+DTEND;TZID=Europe/Rome:20261203T173000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: A. Giordano\nLuogo: Aula BO202\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-50f330bb09596161@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261204T083000
+DTEND;TZID=Europe/Rome:20261204T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Ponzoni\nLuogo: Aula CA302\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3bff95d1ca7172fe@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261204T133000
+DTEND;TZID=Europe/Rome:20261204T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Galli\nLuogo: Aula CA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-88293dc8fc9aa6e4@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261209T083000
+DTEND;TZID=Europe/Rome:20261209T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Rocca\nLuogo: Aula VA302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-eda5eec9a8c2886c@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261209T103000
+DTEND;TZID=Europe/Rome:20261209T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: F. Agosta\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4800c159a1ae976b@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261209T133000
+DTEND;TZID=Europe/Rome:20261209T153000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula BO301
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: A. Giordano\nLuogo: Aula BO301\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ec2f4571e3f7fbf6@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261210T083000
+DTEND;TZID=Europe/Rome:20261210T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: A. Giordano\nLuogo: Aula BO202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-51718b693bc21133@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261210T133000
+DTEND;TZID=Europe/Rome:20261210T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Galli\nLuogo: Aula VA201\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e68d4b0af4e172c3@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261211T103000
+DTEND;TZID=Europe/Rome:20261211T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Arrigo\nLuogo: Aula CA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-eec2d1b2ca5b9940@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261211T133000
+DTEND;TZID=Europe/Rome:20261211T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Falini\nLuogo: Aula CA302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f355f3975ca607f4@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261214T083000
+DTEND;TZID=Europe/Rome:20261214T103000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: L. Giordano\nLuogo: Aula CA302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d73b401d702d1ba5@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261214T103000
+DTEND;TZID=Europe/Rome:20261214T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: F. Valtorta\nLuogo: Aula CA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2a825935c0a7497d@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261214T133000
+DTEND;TZID=Europe/Rome:20261214T153000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Filippi\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8b213a1fa2a22cfd@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261215T083000
+DTEND;TZID=Europe/Rome:20261215T103000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: R. Vinci\nLuogo: Aula CA102\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c6784817053db4a4@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261215T103000
+DTEND;TZID=Europe/Rome:20261215T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: F. Agosta\nLuogo: Aula CA102\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8463996f4cf03f77@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261215T133000
+DTEND;TZID=Europe/Rome:20261215T153000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Salsone\nLuogo: Aula VA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ccc9aa4b8c4e22c1@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261215T153000
+DTEND;TZID=Europe/Rome:20261215T173000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: P. Mortini\nLuogo: Aula VA102\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3e04526a10fd9feb@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261216T083000
+DTEND;TZID=Europe/Rome:20261216T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: M. Salsone\nLuogo: Aula VA302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-bf903674664c4599@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261216T103000
+DTEND;TZID=Europe/Rome:20261216T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Galli\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-22a39c396c77f186@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261216T133000
+DTEND;TZID=Europe/Rome:20261216T153000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: E. Spinelli\nLuogo: Aula CA101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-58117b7d230673bb@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261216T153000
+DTEND;TZID=Europe/Rome:20261216T173000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Falini\nLuogo: Aula CA102\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3055cdb594ddbd44@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261217T083000
+DTEND;TZID=Europe/Rome:20261217T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: S. Previtali\nLuogo: Aula VA201\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2b53d97264b022dc@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261217T103000
+DTEND;TZID=Europe/Rome:20261217T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: E. Spinelli\nLuogo: Aula VA201\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-796f294814933f06@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261217T133000
+DTEND;TZID=Europe/Rome:20261217T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: L. Giordano\nLuogo: Aula VA201\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ee2b036fd246de91@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261218T083000
+DTEND;TZID=Europe/Rome:20261218T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: F. Agosta\nLuogo: Aula CA302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8989b7538cbc0b3b@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261218T103000
+DTEND;TZID=Europe/Rome:20261218T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: L. Giordano\nLuogo: Aula CA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fb01e3bda7de5dbf@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20261218T133000
+DTEND;TZID=Europe/Rome:20261218T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Falini\nLuogo: Aula CA302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6942de218a2742da@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270107T133000
+DTEND;TZID=Europe/Rome:20270107T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: S. Abati\nLuogo: Aula VA201\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1ebb625f8953f475@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270107T153000
+DTEND;TZID=Europe/Rome:20270107T173000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: F. Valtorta\nLuogo: Aula VA201\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c65265cb74413d48@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270108T083000
+DTEND;TZID=Europe/Rome:20270108T103000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Boggio\nLuogo: Aula CA302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-57a2b7402b22cd23@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270108T133000
+DTEND;TZID=Europe/Rome:20270108T153000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: S. Previtali\nLuogo: Aula CA302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0907e6392020b8d7@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270108T153000
+DTEND;TZID=Europe/Rome:20270108T173000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula BO101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: F. Valtorta\nLuogo: Aula BO101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2b9ae9ebf4d67f13@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270111T083000
+DTEND;TZID=Europe/Rome:20270111T123000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: S. Previtali\nLuogo: Aula CA202\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-16760b0baf852934@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270111T133000
+DTEND;TZID=Europe/Rome:20270111T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: S. Abati\nLuogo: Aula VA101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-337a160ae02a0fff@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270111T153000
+DTEND;TZID=Europe/Rome:20270111T173000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: F. Agosta\nLuogo: Aula VA101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-46811ac215477c6e@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270112T083000
+DTEND;TZID=Europe/Rome:20270112T103000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: S. Previtali\nLuogo: Aula VA102\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-cfc36da2563f65b1@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270112T103000
+DTEND;TZID=Europe/Rome:20270112T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: R. Vinci\nLuogo: Aula VA102\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a24ff32179e27aa8@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270113T103000
+DTEND;TZID=Europe/Rome:20270113T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Nota\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-71e9e70c58c07cb7@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270113T133000
+DTEND;TZID=Europe/Rome:20270113T153000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: F. Valtorta\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-322592409fd2a10b@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270113T153000
+DTEND;TZID=Europe/Rome:20270113T173000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Boggio\nLuogo: Aula CA202\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-9f6f374933c3462b@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270114T103000
+DTEND;TZID=Europe/Rome:20270114T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Nota\nLuogo: Aula BO202\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ca661d84d732676e@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270114T153000
+DTEND;TZID=Europe/Rome:20270114T173000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: S. Previtali\nLuogo: Aula VA201\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ce919bd85b781baf@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270115T103000
+DTEND;TZID=Europe/Rome:20270115T123000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: A. Nota\nLuogo: Aula CA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c088f57738a756e1@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270115T133000
+DTEND;TZID=Europe/Rome:20270115T153000
+SUMMARY:[LEZ] Specialità medico-Chirurgiche Testa-Collo
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Specialità medico-Chirurgiche Testa-Collo\nTipo: Lezione\nDocente: P. Mortini\nLuogo: Aula VA101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3499f04ce35c7413@easycourse.unisr.it
+DTSTAMP:20261007T090031Z
+DTSTART;TZID=Europe/Rome:20270115T153000
+DTEND;TZID=Europe/Rome:20270115T173000
+SUMMARY:[LEZ] Neurologia
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Neurologia\nTipo: Lezione\nDocente: S. Previtali\nLuogo: Aula VA101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

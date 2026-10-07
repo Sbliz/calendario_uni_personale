@@ -4,10 +4,11 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_3/gialla/completo_ios.ics",
-    "ios_count": 126,
+    "ios_count": 129,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
+        "abbr": "APRO",
         "file": "anno_3/gialla/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics",
         "count": 8,
         "color_name": "Graphite",
@@ -15,15 +16,17 @@
         "bg_hex": "#94a3b822"
       },
       {
-        "name": "Evento generico",
-        "file": "anno_3/gialla/materia_evento_generico.ics",
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_3/gialla/materia_eventi_generici.ics",
         "count": 2,
-        "color_name": "Cherry Blossom",
-        "color_hex": "#f472b6",
-        "bg_hex": "#f472b622"
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Medicina di Laboratorio",
+        "abbr": "MEDLAB",
         "file": "anno_3/gialla/materia_medicina_di_laboratorio.ics",
         "count": 20,
         "color_name": "Amethyst",
@@ -32,6 +35,7 @@
       },
       {
         "name": "Microbiologia e Microbiologia Clinica",
+        "abbr": "MICRO",
         "file": "anno_3/gialla/materia_microbiologia_e_microbiologia_clinica.ics",
         "count": 35,
         "color_name": "Eucalyptus",
@@ -40,14 +44,16 @@
       },
       {
         "name": "Patologia",
+        "abbr": "PATO",
         "file": "anno_3/gialla/materia_patologia.ics",
-        "count": 51,
+        "count": 54,
         "color_name": "Banana",
         "color_hex": "#facc15",
         "bg_hex": "#fef08a22"
       },
       {
         "name": "Preparedness in Medicina: dal Quotidiano allo Straordinario",
+        "abbr": "PREP",
         "file": "anno_3/gialla/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics",
         "count": 10,
         "color_name": "Graphite",
@@ -57,15 +63,17 @@
     ],
     "elettivi": [
       {
-        "name": "Cyber",
-        "file": "anno_3/gialla/elettivo_cyber.ics",
-        "count": 4,
+        "name": "Cyber-Humanities",
+        "abbr": "CYBER",
+        "file": "anno_3/gialla/elettivo_cyber_humanities.ics",
+        "count": 3,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
       },
       {
         "name": "Imaging morfologico e funzionale del sistema nervoso",
+        "abbr": "IMAGNEURO",
         "file": "anno_3/gialla/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -74,6 +82,7 @@
       },
       {
         "name": "Ricerche bibliografiche",
+        "abbr": "RICBIBL",
         "file": "anno_3/gialla/elettivo_ricerche_bibliografiche.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -82,6 +91,7 @@
       },
       {
         "name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria",
+        "abbr": "SEMEIOCHIR",
         "file": "anno_3/gialla/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics",
         "count": 9,
         "color_name": "Tangerine",
@@ -89,8 +99,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Tele",
-        "file": "anno_3/gialla/elettivo_tele.ics",
+        "name": "Tele-neuro fisiologia, neuromodulazione e tecnologie digitali",
+        "abbr": "TELENEURO",
+        "file": "anno_3/gialla/elettivo_tele_neuro_fisiologia_neuromodulazione_e_tecnologie_digitali.ics",
         "count": 4,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -98,6 +109,7 @@
       },
       {
         "name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra",
+        "abbr": "CHIRVAS",
         "file": "anno_3/gialla/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics",
         "count": 3,
         "color_name": "Tangerine",
@@ -111,10 +123,11 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_3/verde/completo_ios.ics",
-    "ios_count": 125,
+    "ios_count": 127,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
+        "abbr": "APRO",
         "file": "anno_3/verde/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics",
         "count": 8,
         "color_name": "Graphite",
@@ -122,15 +135,17 @@
         "bg_hex": "#94a3b822"
       },
       {
-        "name": "Evento generico",
-        "file": "anno_3/verde/materia_evento_generico.ics",
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_3/verde/materia_eventi_generici.ics",
         "count": 2,
-        "color_name": "Cherry Blossom",
-        "color_hex": "#f472b6",
-        "bg_hex": "#f472b622"
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Medicina di Laboratorio",
+        "abbr": "MEDLAB",
         "file": "anno_3/verde/materia_medicina_di_laboratorio.ics",
         "count": 20,
         "color_name": "Amethyst",
@@ -139,6 +154,7 @@
       },
       {
         "name": "Microbiologia e Microbiologia Clinica",
+        "abbr": "MICRO",
         "file": "anno_3/verde/materia_microbiologia_e_microbiologia_clinica.ics",
         "count": 35,
         "color_name": "Eucalyptus",
@@ -147,14 +163,16 @@
       },
       {
         "name": "Patologia",
+        "abbr": "PATO",
         "file": "anno_3/verde/materia_patologia.ics",
-        "count": 50,
+        "count": 52,
         "color_name": "Banana",
         "color_hex": "#facc15",
         "bg_hex": "#fef08a22"
       },
       {
         "name": "Preparedness in Medicina: dal Quotidiano allo Straordinario",
+        "abbr": "PREP",
         "file": "anno_3/verde/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics",
         "count": 10,
         "color_name": "Graphite",
@@ -164,15 +182,17 @@
     ],
     "elettivi": [
       {
-        "name": "Cyber",
-        "file": "anno_3/verde/elettivo_cyber.ics",
-        "count": 4,
+        "name": "Cyber-Humanities",
+        "abbr": "CYBER",
+        "file": "anno_3/verde/elettivo_cyber_humanities.ics",
+        "count": 3,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
       },
       {
         "name": "Imaging morfologico e funzionale del sistema nervoso",
+        "abbr": "IMAGNEURO",
         "file": "anno_3/verde/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -181,6 +201,7 @@
       },
       {
         "name": "Ricerche bibliografiche",
+        "abbr": "RICBIBL",
         "file": "anno_3/verde/elettivo_ricerche_bibliografiche.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -189,6 +210,7 @@
       },
       {
         "name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria",
+        "abbr": "SEMEIOCHIR",
         "file": "anno_3/verde/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics",
         "count": 9,
         "color_name": "Tangerine",
@@ -196,8 +218,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Tele",
-        "file": "anno_3/verde/elettivo_tele.ics",
+        "name": "Tele-neuro fisiologia, neuromodulazione e tecnologie digitali",
+        "abbr": "TELENEURO",
+        "file": "anno_3/verde/elettivo_tele_neuro_fisiologia_neuromodulazione_e_tecnologie_digitali.ics",
         "count": 4,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -205,6 +228,7 @@
       },
       {
         "name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra",
+        "abbr": "CHIRVAS",
         "file": "anno_3/verde/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics",
         "count": 3,
         "color_name": "Tangerine",
@@ -221,15 +245,17 @@
     "ios_count": 142,
     "materie": [
       {
-        "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico",
-        "file": "anno_1/gialla/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico.ics",
+        "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
+        "abbr": "AUTOVAL",
+        "file": "anno_1/gialla/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico_scientifiche.ics",
         "count": 10,
-        "color_name": "Graphite",
-        "color_hex": "#94a3b8",
-        "bg_hex": "#94a3b822"
+        "color_name": "Blueberry",
+        "color_hex": "#818cf8",
+        "bg_hex": "#818cf822"
       },
       {
         "name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica",
+        "abbr": "BASIPSIC",
         "file": "anno_1/gialla/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics",
         "count": 9,
         "color_name": "Graphite",
@@ -238,6 +264,7 @@
       },
       {
         "name": "Biochimica",
+        "abbr": "BIOCHIM",
         "file": "anno_1/gialla/materia_biochimica.ics",
         "count": 15,
         "color_name": "Banana",
@@ -246,6 +273,7 @@
       },
       {
         "name": "Biologia",
+        "abbr": "BIOL",
         "file": "anno_1/gialla/materia_biologia.ics",
         "count": 30,
         "color_name": "Tomato",
@@ -254,6 +282,7 @@
       },
       {
         "name": "Chimica e propedeutica biochimica",
+        "abbr": "CHIM",
         "file": "anno_1/gialla/materia_chimica_e_propedeutica_biochimica.ics",
         "count": 30,
         "color_name": "Peacock",
@@ -262,6 +291,7 @@
       },
       {
         "name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina",
+        "abbr": "COMCLIN",
         "file": "anno_1/gialla/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics",
         "count": 21,
         "color_name": "Graphite",
@@ -269,15 +299,17 @@
         "bg_hex": "#94a3b822"
       },
       {
-        "name": "Evento generico",
-        "file": "anno_1/gialla/materia_evento_generico.ics",
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_1/gialla/materia_eventi_generici.ics",
         "count": 2,
-        "color_name": "Cherry Blossom",
-        "color_hex": "#f472b6",
-        "bg_hex": "#f472b622"
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Statistica",
+        "abbr": "STAT",
         "file": "anno_1/gialla/materia_statistica.ics",
         "count": 25,
         "color_name": "Tomato",
@@ -295,15 +327,17 @@
     "ios_count": 142,
     "materie": [
       {
-        "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico",
-        "file": "anno_1/verde/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico.ics",
+        "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
+        "abbr": "AUTOVAL",
+        "file": "anno_1/verde/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico_scientifiche.ics",
         "count": 10,
-        "color_name": "Graphite",
-        "color_hex": "#94a3b8",
-        "bg_hex": "#94a3b822"
+        "color_name": "Blueberry",
+        "color_hex": "#818cf8",
+        "bg_hex": "#818cf822"
       },
       {
         "name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica",
+        "abbr": "BASIPSIC",
         "file": "anno_1/verde/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics",
         "count": 9,
         "color_name": "Graphite",
@@ -312,6 +346,7 @@
       },
       {
         "name": "Biochimica",
+        "abbr": "BIOCHIM",
         "file": "anno_1/verde/materia_biochimica.ics",
         "count": 15,
         "color_name": "Banana",
@@ -320,6 +355,7 @@
       },
       {
         "name": "Biologia",
+        "abbr": "BIOL",
         "file": "anno_1/verde/materia_biologia.ics",
         "count": 30,
         "color_name": "Tomato",
@@ -328,6 +364,7 @@
       },
       {
         "name": "Chimica e propedeutica biochimica",
+        "abbr": "CHIM",
         "file": "anno_1/verde/materia_chimica_e_propedeutica_biochimica.ics",
         "count": 30,
         "color_name": "Peacock",
@@ -336,6 +373,7 @@
       },
       {
         "name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina",
+        "abbr": "COMCLIN",
         "file": "anno_1/verde/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics",
         "count": 21,
         "color_name": "Graphite",
@@ -343,15 +381,17 @@
         "bg_hex": "#94a3b822"
       },
       {
-        "name": "Evento generico",
-        "file": "anno_1/verde/materia_evento_generico.ics",
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_1/verde/materia_eventi_generici.ics",
         "count": 2,
-        "color_name": "Cherry Blossom",
-        "color_hex": "#f472b6",
-        "bg_hex": "#f472b622"
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Statistica",
+        "abbr": "STAT",
         "file": "anno_1/verde/materia_statistica.ics",
         "count": 25,
         "color_name": "Tomato",
@@ -366,10 +406,11 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_2/gialla/completo_ios.ics",
-    "ios_count": 158,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Fisiologia",
+        "abbr": "FISIO",
         "file": "anno_2/gialla/materia_fisiologia.ics",
         "count": 36,
         "color_name": "Cherry Blossom",
@@ -378,6 +419,7 @@
       },
       {
         "name": "Genetica Medica",
+        "abbr": "GENET",
         "file": "anno_2/gialla/materia_genetica_medica.ics",
         "count": 35,
         "color_name": "Grape",
@@ -386,6 +428,7 @@
       },
       {
         "name": "Istologia",
+        "abbr": "ISTO",
         "file": "anno_2/gialla/materia_istologia.ics",
         "count": 34,
         "color_name": "Sage",
@@ -394,14 +437,16 @@
       },
       {
         "name": "Morfologia Umana",
+        "abbr": "MORFUM",
         "file": "anno_2/gialla/materia_morfologia_umana.ics",
-        "count": 44,
+        "count": 43,
         "color_name": "Mango",
         "color_hex": "#fbbf24",
         "bg_hex": "#fbbf2422"
       },
       {
         "name": "Semeiotica",
+        "abbr": "SEMEIO",
         "file": "anno_2/gialla/materia_semeiotica.ics",
         "count": 9,
         "color_name": "Blueberry",
@@ -412,6 +457,7 @@
     "elettivi": [
       {
         "name": "Burnout e stress lavoro correlato nella professione medica",
+        "abbr": "BURNOUT",
         "file": "anno_2/gialla/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -420,6 +466,7 @@
       },
       {
         "name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina",
+        "abbr": "AIMED",
         "file": "anno_2/gialla/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -428,6 +475,7 @@
       },
       {
         "name": "Metodologia della ricerca: dalla medicina di base alla rianimazione",
+        "abbr": "METRIC",
         "file": "anno_2/gialla/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -441,10 +489,11 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_2/verde/completo_ios.ics",
-    "ios_count": 158,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Fisiologia",
+        "abbr": "FISIO",
         "file": "anno_2/verde/materia_fisiologia.ics",
         "count": 36,
         "color_name": "Cherry Blossom",
@@ -453,6 +502,7 @@
       },
       {
         "name": "Genetica Medica",
+        "abbr": "GENET",
         "file": "anno_2/verde/materia_genetica_medica.ics",
         "count": 35,
         "color_name": "Grape",
@@ -461,6 +511,7 @@
       },
       {
         "name": "Istologia",
+        "abbr": "ISTO",
         "file": "anno_2/verde/materia_istologia.ics",
         "count": 34,
         "color_name": "Sage",
@@ -469,14 +520,16 @@
       },
       {
         "name": "Morfologia Umana",
+        "abbr": "MORFUM",
         "file": "anno_2/verde/materia_morfologia_umana.ics",
-        "count": 44,
+        "count": 43,
         "color_name": "Mango",
         "color_hex": "#fbbf24",
         "bg_hex": "#fbbf2422"
       },
       {
         "name": "Semeiotica",
+        "abbr": "SEMEIO",
         "file": "anno_2/verde/materia_semeiotica.ics",
         "count": 9,
         "color_name": "Blueberry",
@@ -487,6 +540,7 @@
     "elettivi": [
       {
         "name": "Burnout e stress lavoro correlato nella professione medica",
+        "abbr": "BURNOUT",
         "file": "anno_2/verde/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -495,6 +549,7 @@
       },
       {
         "name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina",
+        "abbr": "AIMED",
         "file": "anno_2/verde/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -503,6 +558,7 @@
       },
       {
         "name": "Metodologia della ricerca: dalla medicina di base alla rianimazione",
+        "abbr": "METRIC",
         "file": "anno_2/verde/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -516,10 +572,11 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_3/rossa/completo_ios.ics",
-    "ios_count": 129,
+    "ios_count": 132,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
+        "abbr": "APRO",
         "file": "anno_3/rossa/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics",
         "count": 8,
         "color_name": "Graphite",
@@ -527,15 +584,17 @@
         "bg_hex": "#94a3b822"
       },
       {
-        "name": "Evento generico",
-        "file": "anno_3/rossa/materia_evento_generico.ics",
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_3/rossa/materia_eventi_generici.ics",
         "count": 2,
-        "color_name": "Cherry Blossom",
-        "color_hex": "#f472b6",
-        "bg_hex": "#f472b622"
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Medicina di Laboratorio",
+        "abbr": "MEDLAB",
         "file": "anno_3/rossa/materia_medicina_di_laboratorio.ics",
         "count": 20,
         "color_name": "Amethyst",
@@ -544,6 +603,7 @@
       },
       {
         "name": "Microbiologia e Microbiologia Clinica",
+        "abbr": "MICRO",
         "file": "anno_3/rossa/materia_microbiologia_e_microbiologia_clinica.ics",
         "count": 35,
         "color_name": "Eucalyptus",
@@ -552,14 +612,16 @@
       },
       {
         "name": "Patologia",
+        "abbr": "PATO",
         "file": "anno_3/rossa/materia_patologia.ics",
-        "count": 54,
+        "count": 57,
         "color_name": "Banana",
         "color_hex": "#facc15",
         "bg_hex": "#fef08a22"
       },
       {
         "name": "Preparedness in Medicina: dal Quotidiano allo Straordinario",
+        "abbr": "PREP",
         "file": "anno_3/rossa/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics",
         "count": 10,
         "color_name": "Graphite",
@@ -569,15 +631,17 @@
     ],
     "elettivi": [
       {
-        "name": "Cyber",
-        "file": "anno_3/rossa/elettivo_cyber.ics",
-        "count": 4,
+        "name": "Cyber-Humanities",
+        "abbr": "CYBER",
+        "file": "anno_3/rossa/elettivo_cyber_humanities.ics",
+        "count": 3,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
       },
       {
         "name": "Imaging morfologico e funzionale del sistema nervoso",
+        "abbr": "IMAGNEURO",
         "file": "anno_3/rossa/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -586,6 +650,7 @@
       },
       {
         "name": "Ricerche bibliografiche",
+        "abbr": "RICBIBL",
         "file": "anno_3/rossa/elettivo_ricerche_bibliografiche.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -594,6 +659,7 @@
       },
       {
         "name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria",
+        "abbr": "SEMEIOCHIR",
         "file": "anno_3/rossa/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics",
         "count": 9,
         "color_name": "Tangerine",
@@ -601,8 +667,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Tele",
-        "file": "anno_3/rossa/elettivo_tele.ics",
+        "name": "Tele-neuro fisiologia, neuromodulazione e tecnologie digitali",
+        "abbr": "TELENEURO",
+        "file": "anno_3/rossa/elettivo_tele_neuro_fisiologia_neuromodulazione_e_tecnologie_digitali.ics",
         "count": 4,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -610,6 +677,7 @@
       },
       {
         "name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra",
+        "abbr": "CHIRVAS",
         "file": "anno_3/rossa/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics",
         "count": 3,
         "color_name": "Tangerine",
@@ -623,10 +691,11 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_3/viola/completo_ios.ics",
-    "ios_count": 129,
+    "ios_count": 132,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
+        "abbr": "APRO",
         "file": "anno_3/viola/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics",
         "count": 8,
         "color_name": "Graphite",
@@ -634,15 +703,17 @@
         "bg_hex": "#94a3b822"
       },
       {
-        "name": "Evento generico",
-        "file": "anno_3/viola/materia_evento_generico.ics",
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_3/viola/materia_eventi_generici.ics",
         "count": 2,
-        "color_name": "Cherry Blossom",
-        "color_hex": "#f472b6",
-        "bg_hex": "#f472b622"
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Medicina di Laboratorio",
+        "abbr": "MEDLAB",
         "file": "anno_3/viola/materia_medicina_di_laboratorio.ics",
         "count": 20,
         "color_name": "Amethyst",
@@ -651,6 +722,7 @@
       },
       {
         "name": "Microbiologia e Microbiologia Clinica",
+        "abbr": "MICRO",
         "file": "anno_3/viola/materia_microbiologia_e_microbiologia_clinica.ics",
         "count": 35,
         "color_name": "Eucalyptus",
@@ -659,14 +731,16 @@
       },
       {
         "name": "Patologia",
+        "abbr": "PATO",
         "file": "anno_3/viola/materia_patologia.ics",
-        "count": 54,
+        "count": 57,
         "color_name": "Banana",
         "color_hex": "#facc15",
         "bg_hex": "#fef08a22"
       },
       {
         "name": "Preparedness in Medicina: dal Quotidiano allo Straordinario",
+        "abbr": "PREP",
         "file": "anno_3/viola/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics",
         "count": 10,
         "color_name": "Graphite",
@@ -676,15 +750,17 @@
     ],
     "elettivi": [
       {
-        "name": "Cyber",
-        "file": "anno_3/viola/elettivo_cyber.ics",
-        "count": 4,
+        "name": "Cyber-Humanities",
+        "abbr": "CYBER",
+        "file": "anno_3/viola/elettivo_cyber_humanities.ics",
+        "count": 3,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
       },
       {
         "name": "Imaging morfologico e funzionale del sistema nervoso",
+        "abbr": "IMAGNEURO",
         "file": "anno_3/viola/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -693,6 +769,7 @@
       },
       {
         "name": "Ricerche bibliografiche",
+        "abbr": "RICBIBL",
         "file": "anno_3/viola/elettivo_ricerche_bibliografiche.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -701,6 +778,7 @@
       },
       {
         "name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria",
+        "abbr": "SEMEIOCHIR",
         "file": "anno_3/viola/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics",
         "count": 9,
         "color_name": "Tangerine",
@@ -708,8 +786,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Tele",
-        "file": "anno_3/viola/elettivo_tele.ics",
+        "name": "Tele-neuro fisiologia, neuromodulazione e tecnologie digitali",
+        "abbr": "TELENEURO",
+        "file": "anno_3/viola/elettivo_tele_neuro_fisiologia_neuromodulazione_e_tecnologie_digitali.ics",
         "count": 4,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -717,6 +796,7 @@
       },
       {
         "name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra",
+        "abbr": "CHIRVAS",
         "file": "anno_3/viola/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics",
         "count": 3,
         "color_name": "Tangerine",
@@ -733,15 +813,17 @@
     "ios_count": 140,
     "materie": [
       {
-        "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico",
-        "file": "anno_1/rossa/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico.ics",
+        "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
+        "abbr": "AUTOVAL",
+        "file": "anno_1/rossa/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico_scientifiche.ics",
         "count": 10,
-        "color_name": "Graphite",
-        "color_hex": "#94a3b8",
-        "bg_hex": "#94a3b822"
+        "color_name": "Blueberry",
+        "color_hex": "#818cf8",
+        "bg_hex": "#818cf822"
       },
       {
         "name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica",
+        "abbr": "BASIPSIC",
         "file": "anno_1/rossa/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics",
         "count": 10,
         "color_name": "Graphite",
@@ -750,6 +832,7 @@
       },
       {
         "name": "Biochimica",
+        "abbr": "BIOCHIM",
         "file": "anno_1/rossa/materia_biochimica.ics",
         "count": 15,
         "color_name": "Banana",
@@ -758,6 +841,7 @@
       },
       {
         "name": "Biologia",
+        "abbr": "BIOL",
         "file": "anno_1/rossa/materia_biologia.ics",
         "count": 29,
         "color_name": "Tomato",
@@ -766,6 +850,7 @@
       },
       {
         "name": "Chimica e propedeutica biochimica",
+        "abbr": "CHIM",
         "file": "anno_1/rossa/materia_chimica_e_propedeutica_biochimica.ics",
         "count": 30,
         "color_name": "Peacock",
@@ -774,6 +859,7 @@
       },
       {
         "name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina",
+        "abbr": "COMCLIN",
         "file": "anno_1/rossa/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics",
         "count": 21,
         "color_name": "Graphite",
@@ -781,15 +867,17 @@
         "bg_hex": "#94a3b822"
       },
       {
-        "name": "Evento generico",
-        "file": "anno_1/rossa/materia_evento_generico.ics",
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_1/rossa/materia_eventi_generici.ics",
         "count": 1,
-        "color_name": "Cherry Blossom",
-        "color_hex": "#f472b6",
-        "bg_hex": "#f472b622"
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Statistica",
+        "abbr": "STAT",
         "file": "anno_1/rossa/materia_statistica.ics",
         "count": 24,
         "color_name": "Tomato",
@@ -807,15 +895,17 @@
     "ios_count": 140,
     "materie": [
       {
-        "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico",
-        "file": "anno_1/viola/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico.ics",
+        "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
+        "abbr": "AUTOVAL",
+        "file": "anno_1/viola/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico_scientifiche.ics",
         "count": 10,
-        "color_name": "Graphite",
-        "color_hex": "#94a3b8",
-        "bg_hex": "#94a3b822"
+        "color_name": "Blueberry",
+        "color_hex": "#818cf8",
+        "bg_hex": "#818cf822"
       },
       {
         "name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica",
+        "abbr": "BASIPSIC",
         "file": "anno_1/viola/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics",
         "count": 10,
         "color_name": "Graphite",
@@ -824,6 +914,7 @@
       },
       {
         "name": "Biochimica",
+        "abbr": "BIOCHIM",
         "file": "anno_1/viola/materia_biochimica.ics",
         "count": 15,
         "color_name": "Banana",
@@ -832,6 +923,7 @@
       },
       {
         "name": "Biologia",
+        "abbr": "BIOL",
         "file": "anno_1/viola/materia_biologia.ics",
         "count": 29,
         "color_name": "Tomato",
@@ -840,6 +932,7 @@
       },
       {
         "name": "Chimica e propedeutica biochimica",
+        "abbr": "CHIM",
         "file": "anno_1/viola/materia_chimica_e_propedeutica_biochimica.ics",
         "count": 30,
         "color_name": "Peacock",
@@ -848,6 +941,7 @@
       },
       {
         "name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina",
+        "abbr": "COMCLIN",
         "file": "anno_1/viola/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics",
         "count": 21,
         "color_name": "Graphite",
@@ -855,15 +949,17 @@
         "bg_hex": "#94a3b822"
       },
       {
-        "name": "Evento generico",
-        "file": "anno_1/viola/materia_evento_generico.ics",
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_1/viola/materia_eventi_generici.ics",
         "count": 1,
-        "color_name": "Cherry Blossom",
-        "color_hex": "#f472b6",
-        "bg_hex": "#f472b622"
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Statistica",
+        "abbr": "STAT",
         "file": "anno_1/viola/materia_statistica.ics",
         "count": 24,
         "color_name": "Tomato",
@@ -878,18 +974,20 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_2/rossa/completo_ios.ics",
-    "ios_count": 158,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Fisiologia",
+        "abbr": "FISIO",
         "file": "anno_2/rossa/materia_fisiologia.ics",
-        "count": 38,
+        "count": 37,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
       },
       {
         "name": "Genetica Medica",
+        "abbr": "GENET",
         "file": "anno_2/rossa/materia_genetica_medica.ics",
         "count": 35,
         "color_name": "Grape",
@@ -898,6 +996,7 @@
       },
       {
         "name": "Istologia",
+        "abbr": "ISTO",
         "file": "anno_2/rossa/materia_istologia.ics",
         "count": 34,
         "color_name": "Sage",
@@ -906,6 +1005,7 @@
       },
       {
         "name": "Morfologia Umana",
+        "abbr": "MORFUM",
         "file": "anno_2/rossa/materia_morfologia_umana.ics",
         "count": 42,
         "color_name": "Mango",
@@ -914,6 +1014,7 @@
       },
       {
         "name": "Semeiotica",
+        "abbr": "SEMEIO",
         "file": "anno_2/rossa/materia_semeiotica.ics",
         "count": 9,
         "color_name": "Blueberry",
@@ -924,6 +1025,7 @@
     "elettivi": [
       {
         "name": "Burnout e stress lavoro correlato nella professione medica",
+        "abbr": "BURNOUT",
         "file": "anno_2/rossa/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -932,6 +1034,7 @@
       },
       {
         "name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina",
+        "abbr": "AIMED",
         "file": "anno_2/rossa/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -940,6 +1043,7 @@
       },
       {
         "name": "Metodologia della ricerca: dalla medicina di base alla rianimazione",
+        "abbr": "METRIC",
         "file": "anno_2/rossa/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -953,18 +1057,20 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_2/viola/completo_ios.ics",
-    "ios_count": 158,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Fisiologia",
+        "abbr": "FISIO",
         "file": "anno_2/viola/materia_fisiologia.ics",
-        "count": 38,
+        "count": 37,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
       },
       {
         "name": "Genetica Medica",
+        "abbr": "GENET",
         "file": "anno_2/viola/materia_genetica_medica.ics",
         "count": 35,
         "color_name": "Grape",
@@ -973,6 +1079,7 @@
       },
       {
         "name": "Istologia",
+        "abbr": "ISTO",
         "file": "anno_2/viola/materia_istologia.ics",
         "count": 34,
         "color_name": "Sage",
@@ -981,6 +1088,7 @@
       },
       {
         "name": "Morfologia Umana",
+        "abbr": "MORFUM",
         "file": "anno_2/viola/materia_morfologia_umana.ics",
         "count": 42,
         "color_name": "Mango",
@@ -989,6 +1097,7 @@
       },
       {
         "name": "Semeiotica",
+        "abbr": "SEMEIO",
         "file": "anno_2/viola/materia_semeiotica.ics",
         "count": 9,
         "color_name": "Blueberry",
@@ -999,6 +1108,7 @@
     "elettivi": [
       {
         "name": "Burnout e stress lavoro correlato nella professione medica",
+        "abbr": "BURNOUT",
         "file": "anno_2/viola/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -1007,6 +1117,7 @@
       },
       {
         "name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina",
+        "abbr": "AIMED",
         "file": "anno_2/viola/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -1015,6 +1126,7 @@
       },
       {
         "name": "Metodologia della ricerca: dalla medicina di base alla rianimazione",
+        "abbr": "METRIC",
         "file": "anno_2/viola/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -1031,15 +1143,17 @@
     "ios_count": 141,
     "materie": [
       {
-        "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico",
-        "file": "anno_1/azzurra/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico.ics",
+        "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
+        "abbr": "AUTOVAL",
+        "file": "anno_1/azzurra/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico_scientifiche.ics",
         "count": 10,
-        "color_name": "Graphite",
-        "color_hex": "#94a3b8",
-        "bg_hex": "#94a3b822"
+        "color_name": "Blueberry",
+        "color_hex": "#818cf8",
+        "bg_hex": "#818cf822"
       },
       {
         "name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica",
+        "abbr": "BASIPSIC",
         "file": "anno_1/azzurra/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics",
         "count": 10,
         "color_name": "Graphite",
@@ -1048,6 +1162,7 @@
       },
       {
         "name": "Biochimica",
+        "abbr": "BIOCHIM",
         "file": "anno_1/azzurra/materia_biochimica.ics",
         "count": 15,
         "color_name": "Banana",
@@ -1056,6 +1171,7 @@
       },
       {
         "name": "Biologia",
+        "abbr": "BIOL",
         "file": "anno_1/azzurra/materia_biologia.ics",
         "count": 28,
         "color_name": "Tomato",
@@ -1064,6 +1180,7 @@
       },
       {
         "name": "Chimica e propedeutica biochimica",
+        "abbr": "CHIM",
         "file": "anno_1/azzurra/materia_chimica_e_propedeutica_biochimica.ics",
         "count": 30,
         "color_name": "Peacock",
@@ -1072,6 +1189,7 @@
       },
       {
         "name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina",
+        "abbr": "COMCLIN",
         "file": "anno_1/azzurra/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics",
         "count": 21,
         "color_name": "Graphite",
@@ -1079,15 +1197,17 @@
         "bg_hex": "#94a3b822"
       },
       {
-        "name": "Evento generico",
-        "file": "anno_1/azzurra/materia_evento_generico.ics",
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_1/azzurra/materia_eventi_generici.ics",
         "count": 3,
-        "color_name": "Cherry Blossom",
-        "color_hex": "#f472b6",
-        "bg_hex": "#f472b622"
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Statistica",
+        "abbr": "STAT",
         "file": "anno_1/azzurra/materia_statistica.ics",
         "count": 24,
         "color_name": "Tomato",
@@ -1105,15 +1225,17 @@
     "ios_count": 141,
     "materie": [
       {
-        "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico",
-        "file": "anno_1/bianca/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico.ics",
+        "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
+        "abbr": "AUTOVAL",
+        "file": "anno_1/bianca/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico_scientifiche.ics",
         "count": 10,
-        "color_name": "Graphite",
-        "color_hex": "#94a3b8",
-        "bg_hex": "#94a3b822"
+        "color_name": "Blueberry",
+        "color_hex": "#818cf8",
+        "bg_hex": "#818cf822"
       },
       {
         "name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica",
+        "abbr": "BASIPSIC",
         "file": "anno_1/bianca/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics",
         "count": 10,
         "color_name": "Graphite",
@@ -1122,6 +1244,7 @@
       },
       {
         "name": "Biochimica",
+        "abbr": "BIOCHIM",
         "file": "anno_1/bianca/materia_biochimica.ics",
         "count": 15,
         "color_name": "Banana",
@@ -1130,6 +1253,7 @@
       },
       {
         "name": "Biologia",
+        "abbr": "BIOL",
         "file": "anno_1/bianca/materia_biologia.ics",
         "count": 28,
         "color_name": "Tomato",
@@ -1138,6 +1262,7 @@
       },
       {
         "name": "Chimica e propedeutica biochimica",
+        "abbr": "CHIM",
         "file": "anno_1/bianca/materia_chimica_e_propedeutica_biochimica.ics",
         "count": 30,
         "color_name": "Peacock",
@@ -1146,6 +1271,7 @@
       },
       {
         "name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina",
+        "abbr": "COMCLIN",
         "file": "anno_1/bianca/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics",
         "count": 21,
         "color_name": "Graphite",
@@ -1153,15 +1279,17 @@
         "bg_hex": "#94a3b822"
       },
       {
-        "name": "Evento generico",
-        "file": "anno_1/bianca/materia_evento_generico.ics",
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_1/bianca/materia_eventi_generici.ics",
         "count": 3,
-        "color_name": "Cherry Blossom",
-        "color_hex": "#f472b6",
-        "bg_hex": "#f472b622"
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Statistica",
+        "abbr": "STAT",
         "file": "anno_1/bianca/materia_statistica.ics",
         "count": 24,
         "color_name": "Tomato",
@@ -1176,18 +1304,20 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_2/azzurra/completo_ios.ics",
-    "ios_count": 159,
+    "ios_count": 158,
     "materie": [
       {
         "name": "Fisiologia",
+        "abbr": "FISIO",
         "file": "anno_2/azzurra/materia_fisiologia.ics",
-        "count": 37,
+        "count": 36,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
       },
       {
         "name": "Genetica Medica",
+        "abbr": "GENET",
         "file": "anno_2/azzurra/materia_genetica_medica.ics",
         "count": 34,
         "color_name": "Grape",
@@ -1196,6 +1326,7 @@
       },
       {
         "name": "Istologia",
+        "abbr": "ISTO",
         "file": "anno_2/azzurra/materia_istologia.ics",
         "count": 34,
         "color_name": "Sage",
@@ -1204,6 +1335,7 @@
       },
       {
         "name": "Morfologia Umana",
+        "abbr": "MORFUM",
         "file": "anno_2/azzurra/materia_morfologia_umana.ics",
         "count": 44,
         "color_name": "Mango",
@@ -1212,6 +1344,7 @@
       },
       {
         "name": "Semeiotica",
+        "abbr": "SEMEIO",
         "file": "anno_2/azzurra/materia_semeiotica.ics",
         "count": 10,
         "color_name": "Blueberry",
@@ -1222,6 +1355,7 @@
     "elettivi": [
       {
         "name": "Burnout e stress lavoro correlato nella professione medica",
+        "abbr": "BURNOUT",
         "file": "anno_2/azzurra/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -1230,6 +1364,7 @@
       },
       {
         "name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina",
+        "abbr": "AIMED",
         "file": "anno_2/azzurra/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -1238,6 +1373,7 @@
       },
       {
         "name": "Metodologia della ricerca: dalla medicina di base alla rianimazione",
+        "abbr": "METRIC",
         "file": "anno_2/azzurra/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -1251,18 +1387,20 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_2/bianca/completo_ios.ics",
-    "ios_count": 159,
+    "ios_count": 158,
     "materie": [
       {
         "name": "Fisiologia",
+        "abbr": "FISIO",
         "file": "anno_2/bianca/materia_fisiologia.ics",
-        "count": 37,
+        "count": 36,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
       },
       {
         "name": "Genetica Medica",
+        "abbr": "GENET",
         "file": "anno_2/bianca/materia_genetica_medica.ics",
         "count": 34,
         "color_name": "Grape",
@@ -1271,6 +1409,7 @@
       },
       {
         "name": "Istologia",
+        "abbr": "ISTO",
         "file": "anno_2/bianca/materia_istologia.ics",
         "count": 34,
         "color_name": "Sage",
@@ -1279,6 +1418,7 @@
       },
       {
         "name": "Morfologia Umana",
+        "abbr": "MORFUM",
         "file": "anno_2/bianca/materia_morfologia_umana.ics",
         "count": 44,
         "color_name": "Mango",
@@ -1287,6 +1427,7 @@
       },
       {
         "name": "Semeiotica",
+        "abbr": "SEMEIO",
         "file": "anno_2/bianca/materia_semeiotica.ics",
         "count": 10,
         "color_name": "Blueberry",
@@ -1297,6 +1438,7 @@
     "elettivi": [
       {
         "name": "Burnout e stress lavoro correlato nella professione medica",
+        "abbr": "BURNOUT",
         "file": "anno_2/bianca/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -1305,6 +1447,7 @@
       },
       {
         "name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina",
+        "abbr": "AIMED",
         "file": "anno_2/bianca/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -1313,6 +1456,7 @@
       },
       {
         "name": "Metodologia della ricerca: dalla medicina di base alla rianimazione",
+        "abbr": "METRIC",
         "file": "anno_2/bianca/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -1330,6 +1474,7 @@
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
+        "abbr": "APRO",
         "file": "anno_3/azzurra/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics",
         "count": 8,
         "color_name": "Graphite",
@@ -1337,15 +1482,17 @@
         "bg_hex": "#94a3b822"
       },
       {
-        "name": "Evento generico",
-        "file": "anno_3/azzurra/materia_evento_generico.ics",
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_3/azzurra/materia_eventi_generici.ics",
         "count": 2,
-        "color_name": "Cherry Blossom",
-        "color_hex": "#f472b6",
-        "bg_hex": "#f472b622"
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Medicina di Laboratorio",
+        "abbr": "MEDLAB",
         "file": "anno_3/azzurra/materia_medicina_di_laboratorio.ics",
         "count": 20,
         "color_name": "Amethyst",
@@ -1354,6 +1501,7 @@
       },
       {
         "name": "Microbiologia e Microbiologia Clinica",
+        "abbr": "MICRO",
         "file": "anno_3/azzurra/materia_microbiologia_e_microbiologia_clinica.ics",
         "count": 35,
         "color_name": "Eucalyptus",
@@ -1362,6 +1510,7 @@
       },
       {
         "name": "Patologia",
+        "abbr": "PATO",
         "file": "anno_3/azzurra/materia_patologia.ics",
         "count": 53,
         "color_name": "Banana",
@@ -1370,6 +1519,7 @@
       },
       {
         "name": "Preparedness in Medicina: dal Quotidiano allo Straordinario",
+        "abbr": "PREP",
         "file": "anno_3/azzurra/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics",
         "count": 10,
         "color_name": "Graphite",
@@ -1379,15 +1529,17 @@
     ],
     "elettivi": [
       {
-        "name": "Cyber",
-        "file": "anno_3/azzurra/elettivo_cyber.ics",
-        "count": 4,
+        "name": "Cyber-Humanities",
+        "abbr": "CYBER",
+        "file": "anno_3/azzurra/elettivo_cyber_humanities.ics",
+        "count": 3,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
       },
       {
         "name": "Imaging morfologico e funzionale del sistema nervoso",
+        "abbr": "IMAGNEURO",
         "file": "anno_3/azzurra/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -1396,6 +1548,7 @@
       },
       {
         "name": "Ricerche bibliografiche",
+        "abbr": "RICBIBL",
         "file": "anno_3/azzurra/elettivo_ricerche_bibliografiche.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -1404,6 +1557,7 @@
       },
       {
         "name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria",
+        "abbr": "SEMEIOCHIR",
         "file": "anno_3/azzurra/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics",
         "count": 9,
         "color_name": "Tangerine",
@@ -1411,8 +1565,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Tele",
-        "file": "anno_3/azzurra/elettivo_tele.ics",
+        "name": "Tele-neuro fisiologia, neuromodulazione e tecnologie digitali",
+        "abbr": "TELENEURO",
+        "file": "anno_3/azzurra/elettivo_tele_neuro_fisiologia_neuromodulazione_e_tecnologie_digitali.ics",
         "count": 4,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -1420,6 +1575,7 @@
       },
       {
         "name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra",
+        "abbr": "CHIRVAS",
         "file": "anno_3/azzurra/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics",
         "count": 3,
         "color_name": "Tangerine",
@@ -1437,6 +1593,7 @@
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
+        "abbr": "APRO",
         "file": "anno_3/bianca/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics",
         "count": 8,
         "color_name": "Graphite",
@@ -1444,15 +1601,17 @@
         "bg_hex": "#94a3b822"
       },
       {
-        "name": "Evento generico",
-        "file": "anno_3/bianca/materia_evento_generico.ics",
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_3/bianca/materia_eventi_generici.ics",
         "count": 2,
-        "color_name": "Cherry Blossom",
-        "color_hex": "#f472b6",
-        "bg_hex": "#f472b622"
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Medicina di Laboratorio",
+        "abbr": "MEDLAB",
         "file": "anno_3/bianca/materia_medicina_di_laboratorio.ics",
         "count": 20,
         "color_name": "Amethyst",
@@ -1461,6 +1620,7 @@
       },
       {
         "name": "Microbiologia e Microbiologia Clinica",
+        "abbr": "MICRO",
         "file": "anno_3/bianca/materia_microbiologia_e_microbiologia_clinica.ics",
         "count": 42,
         "color_name": "Eucalyptus",
@@ -1469,6 +1629,7 @@
       },
       {
         "name": "Patologia",
+        "abbr": "PATO",
         "file": "anno_3/bianca/materia_patologia.ics",
         "count": 53,
         "color_name": "Banana",
@@ -1477,6 +1638,7 @@
       },
       {
         "name": "Preparedness in Medicina: dal Quotidiano allo Straordinario",
+        "abbr": "PREP",
         "file": "anno_3/bianca/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics",
         "count": 10,
         "color_name": "Graphite",
@@ -1486,15 +1648,17 @@
     ],
     "elettivi": [
       {
-        "name": "Cyber",
-        "file": "anno_3/bianca/elettivo_cyber.ics",
-        "count": 4,
+        "name": "Cyber-Humanities",
+        "abbr": "CYBER",
+        "file": "anno_3/bianca/elettivo_cyber_humanities.ics",
+        "count": 3,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
       },
       {
         "name": "Imaging morfologico e funzionale del sistema nervoso",
+        "abbr": "IMAGNEURO",
         "file": "anno_3/bianca/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -1503,6 +1667,7 @@
       },
       {
         "name": "Ricerche bibliografiche",
+        "abbr": "RICBIBL",
         "file": "anno_3/bianca/elettivo_ricerche_bibliografiche.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -1511,6 +1676,7 @@
       },
       {
         "name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria",
+        "abbr": "SEMEIOCHIR",
         "file": "anno_3/bianca/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics",
         "count": 9,
         "color_name": "Tangerine",
@@ -1518,8 +1684,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Tele",
-        "file": "anno_3/bianca/elettivo_tele.ics",
+        "name": "Tele-neuro fisiologia, neuromodulazione e tecnologie digitali",
+        "abbr": "TELENEURO",
+        "file": "anno_3/bianca/elettivo_tele_neuro_fisiologia_neuromodulazione_e_tecnologie_digitali.ics",
         "count": 4,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -1527,6 +1694,7 @@
       },
       {
         "name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra",
+        "abbr": "CHIRVAS",
         "file": "anno_3/bianca/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics",
         "count": 3,
         "color_name": "Tangerine",
@@ -1540,10 +1708,11 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_4/azzurra/completo_ios.ics",
-    "ios_count": 96,
+    "ios_count": 95,
     "materie": [
       {
         "name": "Anatomia Patologica",
+        "abbr": "ANATPAT",
         "file": "anno_4/azzurra/materia_anatomia_patologica.ics",
         "count": 13,
         "color_name": "Graphite",
@@ -1552,6 +1721,7 @@
       },
       {
         "name": "Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche",
+        "abbr": "APROCHIR",
         "file": "anno_4/azzurra/materia_attivita_professionalizzanti_internato_in_chirurgia_e_specializzazioni_chirurgiche.ics",
         "count": 5,
         "color_name": "Graphite",
@@ -1560,6 +1730,7 @@
       },
       {
         "name": "Gastroenterologia",
+        "abbr": "GASTRO",
         "file": "anno_4/azzurra/materia_gastroenterologia.ics",
         "count": 29,
         "color_name": "Tomato",
@@ -1568,6 +1739,7 @@
       },
       {
         "name": "Immunologia clinica e reumatologia",
+        "abbr": "IMMUNO",
         "file": "anno_4/azzurra/materia_immunologia_clinica_e_reumatologia.ics",
         "count": 15,
         "color_name": "Mango",
@@ -1576,8 +1748,9 @@
       },
       {
         "name": "Malattie Infettive",
+        "abbr": "INFETT",
         "file": "anno_4/azzurra/materia_malattie_infettive.ics",
-        "count": 34,
+        "count": 33,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -1585,8 +1758,9 @@
     ],
     "elettivi": [
       {
-        "name": "Anatomia e tecniche della chirurgia tradizionale e mini",
-        "file": "anno_4/azzurra/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini.ics",
+        "name": "Anatomia e tecniche della chirurgia tradizionale e mini-invasiva del fegato",
+        "abbr": "CHIRFEG",
+        "file": "anno_4/azzurra/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini_invasiva_del_fegato.ics",
         "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -1594,6 +1768,7 @@
       },
       {
         "name": "Cardiologia Interventistica: dalla teoria ai casi live",
+        "abbr": "CARDINT",
         "file": "anno_4/azzurra/elettivo_cardiologia_interventistica_dalla_teoria_ai_casi_live.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -1602,6 +1777,7 @@
       },
       {
         "name": "Immunopatogenesi di patologie emergenti",
+        "abbr": "IMMUNOPAT",
         "file": "anno_4/azzurra/elettivo_immunopatogenesi_di_patologie_emergenti.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -1610,6 +1786,7 @@
       },
       {
         "name": "Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso",
+        "abbr": "SISTVEN",
         "file": "anno_4/azzurra/elettivo_innovazioni_tecniche_per_il_trattamento_delle_patologie_del_sistema_venoso.ics",
         "count": 2,
         "color_name": "Tangerine",
@@ -1618,6 +1795,7 @@
       },
       {
         "name": "Malattie sistemiche e infiammazione oculare",
+        "abbr": "INFIAMMOC",
         "file": "anno_4/azzurra/elettivo_malattie_sistemiche_e_infiammazione_oculare.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -1626,6 +1804,7 @@
       },
       {
         "name": "Nuove frontiere della chirurgia oncologica del fegato",
+        "abbr": "ONCOFEG",
         "file": "anno_4/azzurra/elettivo_nuove_frontiere_della_chirurgia_oncologica_del_fegato.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -1633,8 +1812,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Tumori ereditari dell&#039;apparato digerente: patogenesi. diagnosi e terapia",
-        "file": "anno_4/azzurra/elettivo_tumori_ereditari_dell039apparato_digerente_patogenesi_diagnosi_e_terapia.ics",
+        "name": "Tumori ereditari dell'apparato digerente: patogenesi. diagnosi e terapia",
+        "abbr": "TUMDIG",
+        "file": "anno_4/azzurra/elettivo_tumori_ereditari_dellapparato_digerente_patogenesi_diagnosi_e_terapia.ics",
         "count": 2,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -1647,10 +1827,11 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_4/bianca/completo_ios.ics",
-    "ios_count": 96,
+    "ios_count": 95,
     "materie": [
       {
         "name": "Anatomia Patologica",
+        "abbr": "ANATPAT",
         "file": "anno_4/bianca/materia_anatomia_patologica.ics",
         "count": 13,
         "color_name": "Graphite",
@@ -1659,6 +1840,7 @@
       },
       {
         "name": "Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche",
+        "abbr": "APROCHIR",
         "file": "anno_4/bianca/materia_attivita_professionalizzanti_internato_in_chirurgia_e_specializzazioni_chirurgiche.ics",
         "count": 5,
         "color_name": "Graphite",
@@ -1667,6 +1849,7 @@
       },
       {
         "name": "Gastroenterologia",
+        "abbr": "GASTRO",
         "file": "anno_4/bianca/materia_gastroenterologia.ics",
         "count": 29,
         "color_name": "Tomato",
@@ -1675,6 +1858,7 @@
       },
       {
         "name": "Immunologia clinica e reumatologia",
+        "abbr": "IMMUNO",
         "file": "anno_4/bianca/materia_immunologia_clinica_e_reumatologia.ics",
         "count": 15,
         "color_name": "Mango",
@@ -1683,8 +1867,9 @@
       },
       {
         "name": "Malattie Infettive",
+        "abbr": "INFETT",
         "file": "anno_4/bianca/materia_malattie_infettive.ics",
-        "count": 34,
+        "count": 33,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -1692,8 +1877,9 @@
     ],
     "elettivi": [
       {
-        "name": "Anatomia e tecniche della chirurgia tradizionale e mini",
-        "file": "anno_4/bianca/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini.ics",
+        "name": "Anatomia e tecniche della chirurgia tradizionale e mini-invasiva del fegato",
+        "abbr": "CHIRFEG",
+        "file": "anno_4/bianca/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini_invasiva_del_fegato.ics",
         "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -1701,6 +1887,7 @@
       },
       {
         "name": "Cardiologia Interventistica: dalla teoria ai casi live",
+        "abbr": "CARDINT",
         "file": "anno_4/bianca/elettivo_cardiologia_interventistica_dalla_teoria_ai_casi_live.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -1709,6 +1896,7 @@
       },
       {
         "name": "Immunopatogenesi di patologie emergenti",
+        "abbr": "IMMUNOPAT",
         "file": "anno_4/bianca/elettivo_immunopatogenesi_di_patologie_emergenti.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -1717,6 +1905,7 @@
       },
       {
         "name": "Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso",
+        "abbr": "SISTVEN",
         "file": "anno_4/bianca/elettivo_innovazioni_tecniche_per_il_trattamento_delle_patologie_del_sistema_venoso.ics",
         "count": 2,
         "color_name": "Tangerine",
@@ -1725,6 +1914,7 @@
       },
       {
         "name": "Malattie sistemiche e infiammazione oculare",
+        "abbr": "INFIAMMOC",
         "file": "anno_4/bianca/elettivo_malattie_sistemiche_e_infiammazione_oculare.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -1733,6 +1923,7 @@
       },
       {
         "name": "Nuove frontiere della chirurgia oncologica del fegato",
+        "abbr": "ONCOFEG",
         "file": "anno_4/bianca/elettivo_nuove_frontiere_della_chirurgia_oncologica_del_fegato.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -1740,8 +1931,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Tumori ereditari dell&#039;apparato digerente: patogenesi. diagnosi e terapia",
-        "file": "anno_4/bianca/elettivo_tumori_ereditari_dell039apparato_digerente_patogenesi_diagnosi_e_terapia.ics",
+        "name": "Tumori ereditari dell'apparato digerente: patogenesi. diagnosi e terapia",
+        "abbr": "TUMDIG",
+        "file": "anno_4/bianca/elettivo_tumori_ereditari_dellapparato_digerente_patogenesi_diagnosi_e_terapia.ics",
         "count": 2,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -1758,6 +1950,7 @@
     "materie": [
       {
         "name": "Anatomia Patologica",
+        "abbr": "ANATPAT",
         "file": "anno_4/gialla/materia_anatomia_patologica.ics",
         "count": 13,
         "color_name": "Graphite",
@@ -1766,6 +1959,7 @@
       },
       {
         "name": "Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche",
+        "abbr": "APROCHIR",
         "file": "anno_4/gialla/materia_attivita_professionalizzanti_internato_in_chirurgia_e_specializzazioni_chirurgiche.ics",
         "count": 5,
         "color_name": "Graphite",
@@ -1774,6 +1968,7 @@
       },
       {
         "name": "Gastroenterologia",
+        "abbr": "GASTRO",
         "file": "anno_4/gialla/materia_gastroenterologia.ics",
         "count": 30,
         "color_name": "Tomato",
@@ -1782,6 +1977,7 @@
       },
       {
         "name": "Immunologia clinica e reumatologia",
+        "abbr": "IMMUNO",
         "file": "anno_4/gialla/materia_immunologia_clinica_e_reumatologia.ics",
         "count": 15,
         "color_name": "Mango",
@@ -1790,6 +1986,7 @@
       },
       {
         "name": "Malattie Infettive",
+        "abbr": "INFETT",
         "file": "anno_4/gialla/materia_malattie_infettive.ics",
         "count": 34,
         "color_name": "Cherry Blossom",
@@ -1799,8 +1996,9 @@
     ],
     "elettivi": [
       {
-        "name": "Anatomia e tecniche della chirurgia tradizionale e mini",
-        "file": "anno_4/gialla/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini.ics",
+        "name": "Anatomia e tecniche della chirurgia tradizionale e mini-invasiva del fegato",
+        "abbr": "CHIRFEG",
+        "file": "anno_4/gialla/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini_invasiva_del_fegato.ics",
         "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -1808,6 +2006,7 @@
       },
       {
         "name": "Cardiologia Interventistica: dalla teoria ai casi live",
+        "abbr": "CARDINT",
         "file": "anno_4/gialla/elettivo_cardiologia_interventistica_dalla_teoria_ai_casi_live.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -1816,6 +2015,7 @@
       },
       {
         "name": "Immunopatogenesi di patologie emergenti",
+        "abbr": "IMMUNOPAT",
         "file": "anno_4/gialla/elettivo_immunopatogenesi_di_patologie_emergenti.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -1824,6 +2024,7 @@
       },
       {
         "name": "Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso",
+        "abbr": "SISTVEN",
         "file": "anno_4/gialla/elettivo_innovazioni_tecniche_per_il_trattamento_delle_patologie_del_sistema_venoso.ics",
         "count": 2,
         "color_name": "Tangerine",
@@ -1832,6 +2033,7 @@
       },
       {
         "name": "Malattie sistemiche e infiammazione oculare",
+        "abbr": "INFIAMMOC",
         "file": "anno_4/gialla/elettivo_malattie_sistemiche_e_infiammazione_oculare.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -1840,6 +2042,7 @@
       },
       {
         "name": "Nuove frontiere della chirurgia oncologica del fegato",
+        "abbr": "ONCOFEG",
         "file": "anno_4/gialla/elettivo_nuove_frontiere_della_chirurgia_oncologica_del_fegato.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -1847,8 +2050,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Tumori ereditari dell&#039;apparato digerente: patogenesi. diagnosi e terapia",
-        "file": "anno_4/gialla/elettivo_tumori_ereditari_dell039apparato_digerente_patogenesi_diagnosi_e_terapia.ics",
+        "name": "Tumori ereditari dell'apparato digerente: patogenesi. diagnosi e terapia",
+        "abbr": "TUMDIG",
+        "file": "anno_4/gialla/elettivo_tumori_ereditari_dellapparato_digerente_patogenesi_diagnosi_e_terapia.ics",
         "count": 2,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -1861,10 +2065,11 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_4/rossa/completo_ios.ics",
-    "ios_count": 97,
+    "ios_count": 96,
     "materie": [
       {
         "name": "Anatomia Patologica",
+        "abbr": "ANATPAT",
         "file": "anno_4/rossa/materia_anatomia_patologica.ics",
         "count": 13,
         "color_name": "Graphite",
@@ -1873,6 +2078,7 @@
       },
       {
         "name": "Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche",
+        "abbr": "APROCHIR",
         "file": "anno_4/rossa/materia_attivita_professionalizzanti_internato_in_chirurgia_e_specializzazioni_chirurgiche.ics",
         "count": 5,
         "color_name": "Graphite",
@@ -1881,6 +2087,7 @@
       },
       {
         "name": "Gastroenterologia",
+        "abbr": "GASTRO",
         "file": "anno_4/rossa/materia_gastroenterologia.ics",
         "count": 29,
         "color_name": "Tomato",
@@ -1889,14 +2096,16 @@
       },
       {
         "name": "Immunologia clinica e reumatologia",
+        "abbr": "IMMUNO",
         "file": "anno_4/rossa/materia_immunologia_clinica_e_reumatologia.ics",
-        "count": 15,
+        "count": 14,
         "color_name": "Mango",
         "color_hex": "#fbbf24",
         "bg_hex": "#fbbf2422"
       },
       {
         "name": "Malattie Infettive",
+        "abbr": "INFETT",
         "file": "anno_4/rossa/materia_malattie_infettive.ics",
         "count": 35,
         "color_name": "Cherry Blossom",
@@ -1906,8 +2115,9 @@
     ],
     "elettivi": [
       {
-        "name": "Anatomia e tecniche della chirurgia tradizionale e mini",
-        "file": "anno_4/rossa/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini.ics",
+        "name": "Anatomia e tecniche della chirurgia tradizionale e mini-invasiva del fegato",
+        "abbr": "CHIRFEG",
+        "file": "anno_4/rossa/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini_invasiva_del_fegato.ics",
         "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -1915,6 +2125,7 @@
       },
       {
         "name": "Cardiologia Interventistica: dalla teoria ai casi live",
+        "abbr": "CARDINT",
         "file": "anno_4/rossa/elettivo_cardiologia_interventistica_dalla_teoria_ai_casi_live.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -1923,6 +2134,7 @@
       },
       {
         "name": "Immunopatogenesi di patologie emergenti",
+        "abbr": "IMMUNOPAT",
         "file": "anno_4/rossa/elettivo_immunopatogenesi_di_patologie_emergenti.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -1931,6 +2143,7 @@
       },
       {
         "name": "Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso",
+        "abbr": "SISTVEN",
         "file": "anno_4/rossa/elettivo_innovazioni_tecniche_per_il_trattamento_delle_patologie_del_sistema_venoso.ics",
         "count": 2,
         "color_name": "Tangerine",
@@ -1939,6 +2152,7 @@
       },
       {
         "name": "Malattie sistemiche e infiammazione oculare",
+        "abbr": "INFIAMMOC",
         "file": "anno_4/rossa/elettivo_malattie_sistemiche_e_infiammazione_oculare.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -1947,6 +2161,7 @@
       },
       {
         "name": "Nuove frontiere della chirurgia oncologica del fegato",
+        "abbr": "ONCOFEG",
         "file": "anno_4/rossa/elettivo_nuove_frontiere_della_chirurgia_oncologica_del_fegato.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -1954,8 +2169,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Tumori ereditari dell&#039;apparato digerente: patogenesi. diagnosi e terapia",
-        "file": "anno_4/rossa/elettivo_tumori_ereditari_dell039apparato_digerente_patogenesi_diagnosi_e_terapia.ics",
+        "name": "Tumori ereditari dell'apparato digerente: patogenesi. diagnosi e terapia",
+        "abbr": "TUMDIG",
+        "file": "anno_4/rossa/elettivo_tumori_ereditari_dellapparato_digerente_patogenesi_diagnosi_e_terapia.ics",
         "count": 2,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -1972,6 +2188,7 @@
     "materie": [
       {
         "name": "Anatomia Patologica",
+        "abbr": "ANATPAT",
         "file": "anno_4/verde/materia_anatomia_patologica.ics",
         "count": 13,
         "color_name": "Graphite",
@@ -1980,6 +2197,7 @@
       },
       {
         "name": "Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche",
+        "abbr": "APROCHIR",
         "file": "anno_4/verde/materia_attivita_professionalizzanti_internato_in_chirurgia_e_specializzazioni_chirurgiche.ics",
         "count": 5,
         "color_name": "Graphite",
@@ -1988,6 +2206,7 @@
       },
       {
         "name": "Gastroenterologia",
+        "abbr": "GASTRO",
         "file": "anno_4/verde/materia_gastroenterologia.ics",
         "count": 30,
         "color_name": "Tomato",
@@ -1996,6 +2215,7 @@
       },
       {
         "name": "Immunologia clinica e reumatologia",
+        "abbr": "IMMUNO",
         "file": "anno_4/verde/materia_immunologia_clinica_e_reumatologia.ics",
         "count": 15,
         "color_name": "Mango",
@@ -2004,6 +2224,7 @@
       },
       {
         "name": "Malattie Infettive",
+        "abbr": "INFETT",
         "file": "anno_4/verde/materia_malattie_infettive.ics",
         "count": 34,
         "color_name": "Cherry Blossom",
@@ -2013,8 +2234,9 @@
     ],
     "elettivi": [
       {
-        "name": "Anatomia e tecniche della chirurgia tradizionale e mini",
-        "file": "anno_4/verde/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini.ics",
+        "name": "Anatomia e tecniche della chirurgia tradizionale e mini-invasiva del fegato",
+        "abbr": "CHIRFEG",
+        "file": "anno_4/verde/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini_invasiva_del_fegato.ics",
         "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2022,6 +2244,7 @@
       },
       {
         "name": "Cardiologia Interventistica: dalla teoria ai casi live",
+        "abbr": "CARDINT",
         "file": "anno_4/verde/elettivo_cardiologia_interventistica_dalla_teoria_ai_casi_live.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -2030,6 +2253,7 @@
       },
       {
         "name": "Immunopatogenesi di patologie emergenti",
+        "abbr": "IMMUNOPAT",
         "file": "anno_4/verde/elettivo_immunopatogenesi_di_patologie_emergenti.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -2038,6 +2262,7 @@
       },
       {
         "name": "Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso",
+        "abbr": "SISTVEN",
         "file": "anno_4/verde/elettivo_innovazioni_tecniche_per_il_trattamento_delle_patologie_del_sistema_venoso.ics",
         "count": 2,
         "color_name": "Tangerine",
@@ -2046,6 +2271,7 @@
       },
       {
         "name": "Malattie sistemiche e infiammazione oculare",
+        "abbr": "INFIAMMOC",
         "file": "anno_4/verde/elettivo_malattie_sistemiche_e_infiammazione_oculare.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -2054,6 +2280,7 @@
       },
       {
         "name": "Nuove frontiere della chirurgia oncologica del fegato",
+        "abbr": "ONCOFEG",
         "file": "anno_4/verde/elettivo_nuove_frontiere_della_chirurgia_oncologica_del_fegato.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -2061,8 +2288,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Tumori ereditari dell&#039;apparato digerente: patogenesi. diagnosi e terapia",
-        "file": "anno_4/verde/elettivo_tumori_ereditari_dell039apparato_digerente_patogenesi_diagnosi_e_terapia.ics",
+        "name": "Tumori ereditari dell'apparato digerente: patogenesi. diagnosi e terapia",
+        "abbr": "TUMDIG",
+        "file": "anno_4/verde/elettivo_tumori_ereditari_dellapparato_digerente_patogenesi_diagnosi_e_terapia.ics",
         "count": 2,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2075,10 +2303,11 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_4/viola/completo_ios.ics",
-    "ios_count": 97,
+    "ios_count": 96,
     "materie": [
       {
         "name": "Anatomia Patologica",
+        "abbr": "ANATPAT",
         "file": "anno_4/viola/materia_anatomia_patologica.ics",
         "count": 13,
         "color_name": "Graphite",
@@ -2087,6 +2316,7 @@
       },
       {
         "name": "Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche",
+        "abbr": "APROCHIR",
         "file": "anno_4/viola/materia_attivita_professionalizzanti_internato_in_chirurgia_e_specializzazioni_chirurgiche.ics",
         "count": 5,
         "color_name": "Graphite",
@@ -2095,6 +2325,7 @@
       },
       {
         "name": "Gastroenterologia",
+        "abbr": "GASTRO",
         "file": "anno_4/viola/materia_gastroenterologia.ics",
         "count": 29,
         "color_name": "Tomato",
@@ -2103,14 +2334,16 @@
       },
       {
         "name": "Immunologia clinica e reumatologia",
+        "abbr": "IMMUNO",
         "file": "anno_4/viola/materia_immunologia_clinica_e_reumatologia.ics",
-        "count": 15,
+        "count": 14,
         "color_name": "Mango",
         "color_hex": "#fbbf24",
         "bg_hex": "#fbbf2422"
       },
       {
         "name": "Malattie Infettive",
+        "abbr": "INFETT",
         "file": "anno_4/viola/materia_malattie_infettive.ics",
         "count": 35,
         "color_name": "Cherry Blossom",
@@ -2120,8 +2353,9 @@
     ],
     "elettivi": [
       {
-        "name": "Anatomia e tecniche della chirurgia tradizionale e mini",
-        "file": "anno_4/viola/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini.ics",
+        "name": "Anatomia e tecniche della chirurgia tradizionale e mini-invasiva del fegato",
+        "abbr": "CHIRFEG",
+        "file": "anno_4/viola/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini_invasiva_del_fegato.ics",
         "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2129,6 +2363,7 @@
       },
       {
         "name": "Cardiologia Interventistica: dalla teoria ai casi live",
+        "abbr": "CARDINT",
         "file": "anno_4/viola/elettivo_cardiologia_interventistica_dalla_teoria_ai_casi_live.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -2137,6 +2372,7 @@
       },
       {
         "name": "Immunopatogenesi di patologie emergenti",
+        "abbr": "IMMUNOPAT",
         "file": "anno_4/viola/elettivo_immunopatogenesi_di_patologie_emergenti.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -2145,6 +2381,7 @@
       },
       {
         "name": "Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso",
+        "abbr": "SISTVEN",
         "file": "anno_4/viola/elettivo_innovazioni_tecniche_per_il_trattamento_delle_patologie_del_sistema_venoso.ics",
         "count": 2,
         "color_name": "Tangerine",
@@ -2153,6 +2390,7 @@
       },
       {
         "name": "Malattie sistemiche e infiammazione oculare",
+        "abbr": "INFIAMMOC",
         "file": "anno_4/viola/elettivo_malattie_sistemiche_e_infiammazione_oculare.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -2161,6 +2399,7 @@
       },
       {
         "name": "Nuove frontiere della chirurgia oncologica del fegato",
+        "abbr": "ONCOFEG",
         "file": "anno_4/viola/elettivo_nuove_frontiere_della_chirurgia_oncologica_del_fegato.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -2168,8 +2407,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Tumori ereditari dell&#039;apparato digerente: patogenesi. diagnosi e terapia",
-        "file": "anno_4/viola/elettivo_tumori_ereditari_dell039apparato_digerente_patogenesi_diagnosi_e_terapia.ics",
+        "name": "Tumori ereditari dell'apparato digerente: patogenesi. diagnosi e terapia",
+        "abbr": "TUMDIG",
+        "file": "anno_4/viola/elettivo_tumori_ereditari_dellapparato_digerente_patogenesi_diagnosi_e_terapia.ics",
         "count": 2,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2186,6 +2426,7 @@
     "materie": [
       {
         "name": "Neurologia",
+        "abbr": "NEURO",
         "file": "anno_5/azzurra/materia_neurologia.ics",
         "count": 55,
         "color_name": "Blueberry",
@@ -2193,17 +2434,19 @@
         "bg_hex": "#818cf822"
       },
       {
-        "name": "Specialità medico",
-        "file": "anno_5/azzurra/materia_specialita_medico.ics",
+        "name": "Specialità medico-Chirurgiche Testa-Collo",
+        "abbr": "TESTCOLL",
+        "file": "anno_5/azzurra/materia_specialita_medico_chirurgiche_testa_collo.ics",
         "count": 48,
-        "color_name": "Eucalyptus",
-        "color_hex": "#4ade80",
-        "bg_hex": "#4ade8022"
+        "color_name": "Basil",
+        "color_hex": "#34d399",
+        "bg_hex": "#34d39922"
       }
     ],
     "elettivi": [
       {
         "name": "Anatomia topografica e chirurgica della pelvi femminile",
+        "abbr": "PELVI",
         "file": "anno_5/azzurra/elettivo_anatomia_topografica_e_chirurgica_della_pelvi_femminile.ics",
         "count": 8,
         "color_name": "Tangerine",
@@ -2211,8 +2454,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Cardiologia di Precisione: l&#039;Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse",
-        "file": "anno_5/azzurra/elettivo_cardiologia_di_precisione_l039integrazione_tra_ecg_avanzato_e_ricerca_traslazionale_nel_management_delle_cardiomiopatie_complesse.ics",
+        "name": "Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse",
+        "abbr": "CARDPREC",
+        "file": "anno_5/azzurra/elettivo_cardiologia_di_precisione_lintegrazione_tra_ecg_avanzato_e_ricerca_traslazionale_nel_management_delle_cardiomiopatie_complesse.ics",
         "count": 10,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2220,6 +2464,7 @@
       },
       {
         "name": "Diagnosi e trattamento delle maculopatie",
+        "abbr": "MACULA",
         "file": "anno_5/azzurra/elettivo_diagnosi_e_trattamento_delle_maculopatie.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -2227,16 +2472,18 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "ERAS e medicina peri",
-        "file": "anno_5/azzurra/elettivo_eras_e_medicina_peri.ics",
+        "name": "ERAS e medicina peri-operatoria",
+        "abbr": "ERAS",
+        "file": "anno_5/azzurra/elettivo_eras_e_medicina_peri_operatoria.ics",
         "count": 8,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Ecoendoscopia terapeutica : le nuove frontiere dell&#039;interventistica mininvasiva avanzata nel trattamento delle patologie epato",
-        "file": "anno_5/azzurra/elettivo_ecoendoscopia_terapeutica_le_nuove_frontiere_dell039interventistica_mininvasiva_avanzata_nel_trattamento_delle_patologie_epato.ics",
+        "name": "Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche",
+        "abbr": "ECOENDO",
+        "file": "anno_5/azzurra/elettivo_ecoendoscopia_terapeutica_le_nuove_frontiere_dellinterventistica_mininvasiva_avanzata_nel_trattamento_delle_patologie_epato_bilio_pancreatiche.ics",
         "count": 4,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2244,6 +2491,7 @@
       },
       {
         "name": "Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche, Applicazione Clinica e Prospettive Traslazionali",
+        "abbr": "TRAPSTAM",
         "file": "anno_5/azzurra/elettivo_il_trapianto_di_cellule_staminali_ematopoietiche_basi_biologiche_applicazione_clinica_e_prospettive_traslazionali.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -2251,8 +2499,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "L&#039;utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche",
-        "file": "anno_5/azzurra/elettivo_l039utilizzo_delle_radiazioni_per_la_cura_personalizzata_delle_malattie_oncologiche.ics",
+        "name": "L'utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche",
+        "abbr": "RADONCO",
+        "file": "anno_5/azzurra/elettivo_lutilizzo_delle_radiazioni_per_la_cura_personalizzata_delle_malattie_oncologiche.ics",
         "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2260,6 +2509,7 @@
       },
       {
         "name": "Laser medicali, estetici e chirurgici in dermatologia",
+        "abbr": "LASER",
         "file": "anno_5/azzurra/elettivo_laser_medicali_estetici_e_chirurgici_in_dermatologia.ics",
         "count": 1,
         "color_name": "Tangerine",
@@ -2268,6 +2518,7 @@
       },
       {
         "name": "Meccanismi fisiopatologici, diagnosi e monitoraggio delle demenze",
+        "abbr": "DEMENZE",
         "file": "anno_5/azzurra/elettivo_meccanismi_fisiopatologici_diagnosi_e_monitoraggio_delle_demenze.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -2276,6 +2527,7 @@
       },
       {
         "name": "Occhio ed emergenze",
+        "abbr": "OCCHIO",
         "file": "anno_5/azzurra/elettivo_occhio_ed_emergenze.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -2284,6 +2536,7 @@
       },
       {
         "name": "Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere",
+        "abbr": "ORL",
         "file": "anno_5/azzurra/elettivo_specialisti_ed_otorinolaringoiatria_le_10_cose_che_tutti_i_medici_devono_sapere.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -2301,6 +2554,7 @@
     "materie": [
       {
         "name": "Neurologia",
+        "abbr": "NEURO",
         "file": "anno_5/bianca/materia_neurologia.ics",
         "count": 57,
         "color_name": "Blueberry",
@@ -2308,17 +2562,19 @@
         "bg_hex": "#818cf822"
       },
       {
-        "name": "Specialità medico",
-        "file": "anno_5/bianca/materia_specialita_medico.ics",
+        "name": "Specialità medico-Chirurgiche Testa-Collo",
+        "abbr": "TESTCOLL",
+        "file": "anno_5/bianca/materia_specialita_medico_chirurgiche_testa_collo.ics",
         "count": 48,
-        "color_name": "Eucalyptus",
-        "color_hex": "#4ade80",
-        "bg_hex": "#4ade8022"
+        "color_name": "Basil",
+        "color_hex": "#34d399",
+        "bg_hex": "#34d39922"
       }
     ],
     "elettivi": [
       {
         "name": "Anatomia topografica e chirurgica della pelvi femminile",
+        "abbr": "PELVI",
         "file": "anno_5/bianca/elettivo_anatomia_topografica_e_chirurgica_della_pelvi_femminile.ics",
         "count": 8,
         "color_name": "Tangerine",
@@ -2326,8 +2582,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Cardiologia di Precisione: l&#039;Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse",
-        "file": "anno_5/bianca/elettivo_cardiologia_di_precisione_l039integrazione_tra_ecg_avanzato_e_ricerca_traslazionale_nel_management_delle_cardiomiopatie_complesse.ics",
+        "name": "Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse",
+        "abbr": "CARDPREC",
+        "file": "anno_5/bianca/elettivo_cardiologia_di_precisione_lintegrazione_tra_ecg_avanzato_e_ricerca_traslazionale_nel_management_delle_cardiomiopatie_complesse.ics",
         "count": 10,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2335,6 +2592,7 @@
       },
       {
         "name": "Diagnosi e trattamento delle maculopatie",
+        "abbr": "MACULA",
         "file": "anno_5/bianca/elettivo_diagnosi_e_trattamento_delle_maculopatie.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -2342,16 +2600,18 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "ERAS e medicina peri",
-        "file": "anno_5/bianca/elettivo_eras_e_medicina_peri.ics",
+        "name": "ERAS e medicina peri-operatoria",
+        "abbr": "ERAS",
+        "file": "anno_5/bianca/elettivo_eras_e_medicina_peri_operatoria.ics",
         "count": 8,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Ecoendoscopia terapeutica : le nuove frontiere dell&#039;interventistica mininvasiva avanzata nel trattamento delle patologie epato",
-        "file": "anno_5/bianca/elettivo_ecoendoscopia_terapeutica_le_nuove_frontiere_dell039interventistica_mininvasiva_avanzata_nel_trattamento_delle_patologie_epato.ics",
+        "name": "Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche",
+        "abbr": "ECOENDO",
+        "file": "anno_5/bianca/elettivo_ecoendoscopia_terapeutica_le_nuove_frontiere_dellinterventistica_mininvasiva_avanzata_nel_trattamento_delle_patologie_epato_bilio_pancreatiche.ics",
         "count": 4,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2359,6 +2619,7 @@
       },
       {
         "name": "Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche, Applicazione Clinica e Prospettive Traslazionali",
+        "abbr": "TRAPSTAM",
         "file": "anno_5/bianca/elettivo_il_trapianto_di_cellule_staminali_ematopoietiche_basi_biologiche_applicazione_clinica_e_prospettive_traslazionali.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -2366,8 +2627,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "L&#039;utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche",
-        "file": "anno_5/bianca/elettivo_l039utilizzo_delle_radiazioni_per_la_cura_personalizzata_delle_malattie_oncologiche.ics",
+        "name": "L'utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche",
+        "abbr": "RADONCO",
+        "file": "anno_5/bianca/elettivo_lutilizzo_delle_radiazioni_per_la_cura_personalizzata_delle_malattie_oncologiche.ics",
         "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2375,6 +2637,7 @@
       },
       {
         "name": "Laser medicali, estetici e chirurgici in dermatologia",
+        "abbr": "LASER",
         "file": "anno_5/bianca/elettivo_laser_medicali_estetici_e_chirurgici_in_dermatologia.ics",
         "count": 1,
         "color_name": "Tangerine",
@@ -2383,6 +2646,7 @@
       },
       {
         "name": "Meccanismi fisiopatologici, diagnosi e monitoraggio delle demenze",
+        "abbr": "DEMENZE",
         "file": "anno_5/bianca/elettivo_meccanismi_fisiopatologici_diagnosi_e_monitoraggio_delle_demenze.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -2391,6 +2655,7 @@
       },
       {
         "name": "Occhio ed emergenze",
+        "abbr": "OCCHIO",
         "file": "anno_5/bianca/elettivo_occhio_ed_emergenze.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -2399,6 +2664,7 @@
       },
       {
         "name": "Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere",
+        "abbr": "ORL",
         "file": "anno_5/bianca/elettivo_specialisti_ed_otorinolaringoiatria_le_10_cose_che_tutti_i_medici_devono_sapere.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -2416,6 +2682,7 @@
     "materie": [
       {
         "name": "Neurologia",
+        "abbr": "NEURO",
         "file": "anno_5/gialla/materia_neurologia.ics",
         "count": 54,
         "color_name": "Blueberry",
@@ -2423,17 +2690,19 @@
         "bg_hex": "#818cf822"
       },
       {
-        "name": "Specialità medico",
-        "file": "anno_5/gialla/materia_specialita_medico.ics",
+        "name": "Specialità medico-Chirurgiche Testa-Collo",
+        "abbr": "TESTCOLL",
+        "file": "anno_5/gialla/materia_specialita_medico_chirurgiche_testa_collo.ics",
         "count": 50,
-        "color_name": "Eucalyptus",
-        "color_hex": "#4ade80",
-        "bg_hex": "#4ade8022"
+        "color_name": "Basil",
+        "color_hex": "#34d399",
+        "bg_hex": "#34d39922"
       }
     ],
     "elettivi": [
       {
         "name": "Anatomia topografica e chirurgica della pelvi femminile",
+        "abbr": "PELVI",
         "file": "anno_5/gialla/elettivo_anatomia_topografica_e_chirurgica_della_pelvi_femminile.ics",
         "count": 8,
         "color_name": "Tangerine",
@@ -2441,8 +2710,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Cardiologia di Precisione: l&#039;Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse",
-        "file": "anno_5/gialla/elettivo_cardiologia_di_precisione_l039integrazione_tra_ecg_avanzato_e_ricerca_traslazionale_nel_management_delle_cardiomiopatie_complesse.ics",
+        "name": "Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse",
+        "abbr": "CARDPREC",
+        "file": "anno_5/gialla/elettivo_cardiologia_di_precisione_lintegrazione_tra_ecg_avanzato_e_ricerca_traslazionale_nel_management_delle_cardiomiopatie_complesse.ics",
         "count": 10,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2450,6 +2720,7 @@
       },
       {
         "name": "Diagnosi e trattamento delle maculopatie",
+        "abbr": "MACULA",
         "file": "anno_5/gialla/elettivo_diagnosi_e_trattamento_delle_maculopatie.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -2457,16 +2728,18 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "ERAS e medicina peri",
-        "file": "anno_5/gialla/elettivo_eras_e_medicina_peri.ics",
+        "name": "ERAS e medicina peri-operatoria",
+        "abbr": "ERAS",
+        "file": "anno_5/gialla/elettivo_eras_e_medicina_peri_operatoria.ics",
         "count": 8,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Ecoendoscopia terapeutica : le nuove frontiere dell&#039;interventistica mininvasiva avanzata nel trattamento delle patologie epato",
-        "file": "anno_5/gialla/elettivo_ecoendoscopia_terapeutica_le_nuove_frontiere_dell039interventistica_mininvasiva_avanzata_nel_trattamento_delle_patologie_epato.ics",
+        "name": "Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche",
+        "abbr": "ECOENDO",
+        "file": "anno_5/gialla/elettivo_ecoendoscopia_terapeutica_le_nuove_frontiere_dellinterventistica_mininvasiva_avanzata_nel_trattamento_delle_patologie_epato_bilio_pancreatiche.ics",
         "count": 4,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2474,6 +2747,7 @@
       },
       {
         "name": "Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche, Applicazione Clinica e Prospettive Traslazionali",
+        "abbr": "TRAPSTAM",
         "file": "anno_5/gialla/elettivo_il_trapianto_di_cellule_staminali_ematopoietiche_basi_biologiche_applicazione_clinica_e_prospettive_traslazionali.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -2481,8 +2755,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "L&#039;utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche",
-        "file": "anno_5/gialla/elettivo_l039utilizzo_delle_radiazioni_per_la_cura_personalizzata_delle_malattie_oncologiche.ics",
+        "name": "L'utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche",
+        "abbr": "RADONCO",
+        "file": "anno_5/gialla/elettivo_lutilizzo_delle_radiazioni_per_la_cura_personalizzata_delle_malattie_oncologiche.ics",
         "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2490,6 +2765,7 @@
       },
       {
         "name": "Laser medicali, estetici e chirurgici in dermatologia",
+        "abbr": "LASER",
         "file": "anno_5/gialla/elettivo_laser_medicali_estetici_e_chirurgici_in_dermatologia.ics",
         "count": 1,
         "color_name": "Tangerine",
@@ -2498,6 +2774,7 @@
       },
       {
         "name": "Meccanismi fisiopatologici, diagnosi e monitoraggio delle demenze",
+        "abbr": "DEMENZE",
         "file": "anno_5/gialla/elettivo_meccanismi_fisiopatologici_diagnosi_e_monitoraggio_delle_demenze.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -2506,6 +2783,7 @@
       },
       {
         "name": "Occhio ed emergenze",
+        "abbr": "OCCHIO",
         "file": "anno_5/gialla/elettivo_occhio_ed_emergenze.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -2514,6 +2792,7 @@
       },
       {
         "name": "Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere",
+        "abbr": "ORL",
         "file": "anno_5/gialla/elettivo_specialisti_ed_otorinolaringoiatria_le_10_cose_che_tutti_i_medici_devono_sapere.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -2531,6 +2810,7 @@
     "materie": [
       {
         "name": "Neurologia",
+        "abbr": "NEURO",
         "file": "anno_5/verde/materia_neurologia.ics",
         "count": 54,
         "color_name": "Blueberry",
@@ -2538,17 +2818,19 @@
         "bg_hex": "#818cf822"
       },
       {
-        "name": "Specialità medico",
-        "file": "anno_5/verde/materia_specialita_medico.ics",
+        "name": "Specialità medico-Chirurgiche Testa-Collo",
+        "abbr": "TESTCOLL",
+        "file": "anno_5/verde/materia_specialita_medico_chirurgiche_testa_collo.ics",
         "count": 50,
-        "color_name": "Eucalyptus",
-        "color_hex": "#4ade80",
-        "bg_hex": "#4ade8022"
+        "color_name": "Basil",
+        "color_hex": "#34d399",
+        "bg_hex": "#34d39922"
       }
     ],
     "elettivi": [
       {
         "name": "Anatomia topografica e chirurgica della pelvi femminile",
+        "abbr": "PELVI",
         "file": "anno_5/verde/elettivo_anatomia_topografica_e_chirurgica_della_pelvi_femminile.ics",
         "count": 8,
         "color_name": "Tangerine",
@@ -2556,8 +2838,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Cardiologia di Precisione: l&#039;Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse",
-        "file": "anno_5/verde/elettivo_cardiologia_di_precisione_l039integrazione_tra_ecg_avanzato_e_ricerca_traslazionale_nel_management_delle_cardiomiopatie_complesse.ics",
+        "name": "Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse",
+        "abbr": "CARDPREC",
+        "file": "anno_5/verde/elettivo_cardiologia_di_precisione_lintegrazione_tra_ecg_avanzato_e_ricerca_traslazionale_nel_management_delle_cardiomiopatie_complesse.ics",
         "count": 10,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2565,6 +2848,7 @@
       },
       {
         "name": "Diagnosi e trattamento delle maculopatie",
+        "abbr": "MACULA",
         "file": "anno_5/verde/elettivo_diagnosi_e_trattamento_delle_maculopatie.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -2572,16 +2856,18 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "ERAS e medicina peri",
-        "file": "anno_5/verde/elettivo_eras_e_medicina_peri.ics",
+        "name": "ERAS e medicina peri-operatoria",
+        "abbr": "ERAS",
+        "file": "anno_5/verde/elettivo_eras_e_medicina_peri_operatoria.ics",
         "count": 8,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Ecoendoscopia terapeutica : le nuove frontiere dell&#039;interventistica mininvasiva avanzata nel trattamento delle patologie epato",
-        "file": "anno_5/verde/elettivo_ecoendoscopia_terapeutica_le_nuove_frontiere_dell039interventistica_mininvasiva_avanzata_nel_trattamento_delle_patologie_epato.ics",
+        "name": "Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche",
+        "abbr": "ECOENDO",
+        "file": "anno_5/verde/elettivo_ecoendoscopia_terapeutica_le_nuove_frontiere_dellinterventistica_mininvasiva_avanzata_nel_trattamento_delle_patologie_epato_bilio_pancreatiche.ics",
         "count": 4,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2589,6 +2875,7 @@
       },
       {
         "name": "Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche, Applicazione Clinica e Prospettive Traslazionali",
+        "abbr": "TRAPSTAM",
         "file": "anno_5/verde/elettivo_il_trapianto_di_cellule_staminali_ematopoietiche_basi_biologiche_applicazione_clinica_e_prospettive_traslazionali.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -2596,8 +2883,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "L&#039;utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche",
-        "file": "anno_5/verde/elettivo_l039utilizzo_delle_radiazioni_per_la_cura_personalizzata_delle_malattie_oncologiche.ics",
+        "name": "L'utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche",
+        "abbr": "RADONCO",
+        "file": "anno_5/verde/elettivo_lutilizzo_delle_radiazioni_per_la_cura_personalizzata_delle_malattie_oncologiche.ics",
         "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2605,6 +2893,7 @@
       },
       {
         "name": "Laser medicali, estetici e chirurgici in dermatologia",
+        "abbr": "LASER",
         "file": "anno_5/verde/elettivo_laser_medicali_estetici_e_chirurgici_in_dermatologia.ics",
         "count": 1,
         "color_name": "Tangerine",
@@ -2613,6 +2902,7 @@
       },
       {
         "name": "Meccanismi fisiopatologici, diagnosi e monitoraggio delle demenze",
+        "abbr": "DEMENZE",
         "file": "anno_5/verde/elettivo_meccanismi_fisiopatologici_diagnosi_e_monitoraggio_delle_demenze.ics",
         "count": 10,
         "color_name": "Tangerine",
@@ -2621,6 +2911,7 @@
       },
       {
         "name": "Occhio ed emergenze",
+        "abbr": "OCCHIO",
         "file": "anno_5/verde/elettivo_occhio_ed_emergenze.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -2629,6 +2920,7 @@
       },
       {
         "name": "Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere",
+        "abbr": "ORL",
         "file": "anno_5/verde/elettivo_specialisti_ed_otorinolaringoiatria_le_10_cose_che_tutti_i_medici_devono_sapere.ics",
         "count": 5,
         "color_name": "Tangerine",
@@ -2646,6 +2938,7 @@
     "materie": [
       {
         "name": "Clinica Chirurgica",
+        "abbr": "CLINCHIR",
         "file": "anno_6/azzurra/materia_clinica_chirurgica.ics",
         "count": 25,
         "color_name": "Peacock",
@@ -2654,6 +2947,7 @@
       },
       {
         "name": "Ginecologia ed Ostetricia",
+        "abbr": "GINOST",
         "file": "anno_6/azzurra/materia_ginecologia_ed_ostetricia.ics",
         "count": 20,
         "color_name": "Basil",
@@ -2662,6 +2956,7 @@
       },
       {
         "name": "Pediatria",
+        "abbr": "PEDIAT",
         "file": "anno_6/azzurra/materia_pediatria.ics",
         "count": 20,
         "color_name": "Basil",
@@ -2672,6 +2967,7 @@
     "elettivi": [
       {
         "name": "Data science in chirurgia generale",
+        "abbr": "DATASCICHIR",
         "file": "anno_6/azzurra/elettivo_data_science_in_chirurgia_generale.ics",
         "count": 8,
         "color_name": "Tangerine",
@@ -2680,6 +2976,7 @@
       },
       {
         "name": "Ecografia Diagnostica ed Interventistica in Ginecologia ed Ostetricia",
+        "abbr": "ECOGIN",
         "file": "anno_6/azzurra/elettivo_ecografia_diagnostica_ed_interventistica_in_ginecologia_ed_ostetricia.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -2687,8 +2984,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Introduzione all&#039;intelligenza artificiale nell&#039;imaging medico",
-        "file": "anno_6/azzurra/elettivo_introduzione_all039intelligenza_artificiale_nell039imaging_medico.ics",
+        "name": "Introduzione all'intelligenza artificiale nell'imaging medico",
+        "abbr": "AIIMAG",
+        "file": "anno_6/azzurra/elettivo_introduzione_allintelligenza_artificiale_nellimaging_medico.ics",
         "count": 8,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2696,6 +2994,7 @@
       },
       {
         "name": "Neonatologia e Patologia Neonatale",
+        "abbr": "NEONAT",
         "file": "anno_6/azzurra/elettivo_neonatologia_e_patologia_neonatale.ics",
         "count": 4,
         "color_name": "Tangerine",
@@ -2703,8 +3002,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Neuroradiologia Pediatrica: dalla RM fetale all&#039;infanzia",
-        "file": "anno_6/azzurra/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_all039infanzia.ics",
+        "name": "Neuroradiologia Pediatrica: dalla RM fetale all'infanzia",
+        "abbr": "NEURORAD",
+        "file": "anno_6/azzurra/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_allinfanzia.ics",
         "count": 8,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2712,6 +3012,7 @@
       },
       {
         "name": "Writing and presenting",
+        "abbr": "WRITING",
         "file": "anno_6/azzurra/elettivo_writing_and_presenting.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -2729,6 +3030,7 @@
     "materie": [
       {
         "name": "Clinica Chirurgica",
+        "abbr": "CLINCHIR",
         "file": "anno_6/bianca/materia_clinica_chirurgica.ics",
         "count": 25,
         "color_name": "Peacock",
@@ -2737,6 +3039,7 @@
       },
       {
         "name": "Ginecologia ed Ostetricia",
+        "abbr": "GINOST",
         "file": "anno_6/bianca/materia_ginecologia_ed_ostetricia.ics",
         "count": 20,
         "color_name": "Basil",
@@ -2745,6 +3048,7 @@
       },
       {
         "name": "Pediatria",
+        "abbr": "PEDIAT",
         "file": "anno_6/bianca/materia_pediatria.ics",
         "count": 20,
         "color_name": "Basil",
@@ -2755,6 +3059,7 @@
     "elettivi": [
       {
         "name": "Data science in chirurgia generale",
+        "abbr": "DATASCICHIR",
         "file": "anno_6/bianca/elettivo_data_science_in_chirurgia_generale.ics",
         "count": 8,
         "color_name": "Tangerine",
@@ -2763,6 +3068,7 @@
       },
       {
         "name": "Ecografia Diagnostica ed Interventistica in Ginecologia ed Ostetricia",
+        "abbr": "ECOGIN",
         "file": "anno_6/bianca/elettivo_ecografia_diagnostica_ed_interventistica_in_ginecologia_ed_ostetricia.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -2770,8 +3076,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Introduzione all&#039;intelligenza artificiale nell&#039;imaging medico",
-        "file": "anno_6/bianca/elettivo_introduzione_all039intelligenza_artificiale_nell039imaging_medico.ics",
+        "name": "Introduzione all'intelligenza artificiale nell'imaging medico",
+        "abbr": "AIIMAG",
+        "file": "anno_6/bianca/elettivo_introduzione_allintelligenza_artificiale_nellimaging_medico.ics",
         "count": 8,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2779,6 +3086,7 @@
       },
       {
         "name": "Neonatologia e Patologia Neonatale",
+        "abbr": "NEONAT",
         "file": "anno_6/bianca/elettivo_neonatologia_e_patologia_neonatale.ics",
         "count": 4,
         "color_name": "Tangerine",
@@ -2786,8 +3094,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Neuroradiologia Pediatrica: dalla RM fetale all&#039;infanzia",
-        "file": "anno_6/bianca/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_all039infanzia.ics",
+        "name": "Neuroradiologia Pediatrica: dalla RM fetale all'infanzia",
+        "abbr": "NEURORAD",
+        "file": "anno_6/bianca/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_allinfanzia.ics",
         "count": 8,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2795,6 +3104,7 @@
       },
       {
         "name": "Writing and presenting",
+        "abbr": "WRITING",
         "file": "anno_6/bianca/elettivo_writing_and_presenting.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -2812,6 +3122,7 @@
     "materie": [
       {
         "name": "Clinica Chirurgica",
+        "abbr": "CLINCHIR",
         "file": "anno_6/gialla/materia_clinica_chirurgica.ics",
         "count": 25,
         "color_name": "Peacock",
@@ -2820,6 +3131,7 @@
       },
       {
         "name": "Ginecologia ed Ostetricia",
+        "abbr": "GINOST",
         "file": "anno_6/gialla/materia_ginecologia_ed_ostetricia.ics",
         "count": 21,
         "color_name": "Basil",
@@ -2828,6 +3140,7 @@
       },
       {
         "name": "Pediatria",
+        "abbr": "PEDIAT",
         "file": "anno_6/gialla/materia_pediatria.ics",
         "count": 20,
         "color_name": "Basil",
@@ -2838,6 +3151,7 @@
     "elettivi": [
       {
         "name": "Data science in chirurgia generale",
+        "abbr": "DATASCICHIR",
         "file": "anno_6/gialla/elettivo_data_science_in_chirurgia_generale.ics",
         "count": 8,
         "color_name": "Tangerine",
@@ -2846,6 +3160,7 @@
       },
       {
         "name": "Ecografia Diagnostica ed Interventistica in Ginecologia ed Ostetricia",
+        "abbr": "ECOGIN",
         "file": "anno_6/gialla/elettivo_ecografia_diagnostica_ed_interventistica_in_ginecologia_ed_ostetricia.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -2853,8 +3168,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Introduzione all&#039;intelligenza artificiale nell&#039;imaging medico",
-        "file": "anno_6/gialla/elettivo_introduzione_all039intelligenza_artificiale_nell039imaging_medico.ics",
+        "name": "Introduzione all'intelligenza artificiale nell'imaging medico",
+        "abbr": "AIIMAG",
+        "file": "anno_6/gialla/elettivo_introduzione_allintelligenza_artificiale_nellimaging_medico.ics",
         "count": 8,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2862,6 +3178,7 @@
       },
       {
         "name": "Neonatologia e Patologia Neonatale",
+        "abbr": "NEONAT",
         "file": "anno_6/gialla/elettivo_neonatologia_e_patologia_neonatale.ics",
         "count": 4,
         "color_name": "Tangerine",
@@ -2869,8 +3186,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Neuroradiologia Pediatrica: dalla RM fetale all&#039;infanzia",
-        "file": "anno_6/gialla/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_all039infanzia.ics",
+        "name": "Neuroradiologia Pediatrica: dalla RM fetale all'infanzia",
+        "abbr": "NEURORAD",
+        "file": "anno_6/gialla/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_allinfanzia.ics",
         "count": 8,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2878,6 +3196,7 @@
       },
       {
         "name": "Writing and presenting",
+        "abbr": "WRITING",
         "file": "anno_6/gialla/elettivo_writing_and_presenting.ics",
         "count": 6,
         "color_name": "Tangerine",
@@ -2895,6 +3214,7 @@
     "materie": [
       {
         "name": "Clinica Chirurgica",
+        "abbr": "CLINCHIR",
         "file": "anno_6/verde/materia_clinica_chirurgica.ics",
         "count": 25,
         "color_name": "Peacock",
@@ -2903,6 +3223,7 @@
       },
       {
         "name": "Ginecologia ed Ostetricia",
+        "abbr": "GINOST",
         "file": "anno_6/verde/materia_ginecologia_ed_ostetricia.ics",
         "count": 21,
         "color_name": "Basil",
@@ -2911,6 +3232,7 @@
       },
       {
         "name": "Pediatria",
+        "abbr": "PEDIAT",
         "file": "anno_6/verde/materia_pediatria.ics",
         "count": 20,
         "color_name": "Basil",
@@ -2921,6 +3243,7 @@
     "elettivi": [
       {
         "name": "Data science in chirurgia generale",
+        "abbr": "DATASCICHIR",
         "file": "anno_6/verde/elettivo_data_science_in_chirurgia_generale.ics",
         "count": 8,
         "color_name": "Tangerine",
@@ -2929,6 +3252,7 @@
       },
       {
         "name": "Ecografia Diagnostica ed Interventistica in Ginecologia ed Ostetricia",
+        "abbr": "ECOGIN",
         "file": "anno_6/verde/elettivo_ecografia_diagnostica_ed_interventistica_in_ginecologia_ed_ostetricia.ics",
         "count": 12,
         "color_name": "Tangerine",
@@ -2936,8 +3260,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Introduzione all&#039;intelligenza artificiale nell&#039;imaging medico",
-        "file": "anno_6/verde/elettivo_introduzione_all039intelligenza_artificiale_nell039imaging_medico.ics",
+        "name": "Introduzione all'intelligenza artificiale nell'imaging medico",
+        "abbr": "AIIMAG",
+        "file": "anno_6/verde/elettivo_introduzione_allintelligenza_artificiale_nellimaging_medico.ics",
         "count": 8,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2945,6 +3270,7 @@
       },
       {
         "name": "Neonatologia e Patologia Neonatale",
+        "abbr": "NEONAT",
         "file": "anno_6/verde/elettivo_neonatologia_e_patologia_neonatale.ics",
         "count": 4,
         "color_name": "Tangerine",
@@ -2952,8 +3278,9 @@
         "bg_hex": "#fb923c22"
       },
       {
-        "name": "Neuroradiologia Pediatrica: dalla RM fetale all&#039;infanzia",
-        "file": "anno_6/verde/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_all039infanzia.ics",
+        "name": "Neuroradiologia Pediatrica: dalla RM fetale all'infanzia",
+        "abbr": "NEURORAD",
+        "file": "anno_6/verde/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_allinfanzia.ics",
         "count": 8,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
@@ -2961,6 +3288,7 @@
       },
       {
         "name": "Writing and presenting",
+        "abbr": "WRITING",
         "file": "anno_6/verde/elettivo_writing_and_presenting.ics",
         "count": 6,
         "color_name": "Tangerine",

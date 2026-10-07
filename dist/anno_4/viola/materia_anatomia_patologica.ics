@@ -1,170 +1,170 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UniSR//Calendari Medicina//IT
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Anatomia Patologica
-X-WR-CALDESC:Corso: Anatomia Patologica
-X-WR-TIMEZONE:Europe/Rome
-BEGIN:VTIMEZONE
-TZID:Europe/Rome
-X-LIC-LOCATION:Europe/Rome
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:unisr-med-2cbdba47fc37d3d8@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261008T153000
-DTEND;TZID=Europe/Rome:20261008T173000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a1aa3381571afe76@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261012T103000
-DTEND;TZID=Europe/Rome:20261012T123000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3b27efe4fa9779e2@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261013T153000
-DTEND;TZID=Europe/Rome:20261013T173000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-22667adc0418bac8@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261015T103000
-DTEND;TZID=Europe/Rome:20261015T123000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-12c838b246f0dca4@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261019T103000
-DTEND;TZID=Europe/Rome:20261019T123000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-bffd2f75d84d5edb@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261022T133000
-DTEND;TZID=Europe/Rome:20261022T153000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-096981f7358ddd65@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261026T103000
-DTEND;TZID=Europe/Rome:20261026T123000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-15ae2a14cabc50cf@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261029T103000
-DTEND;TZID=Europe/Rome:20261029T123000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6bd3d0de11efb385@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261102T103000
-DTEND;TZID=Europe/Rome:20261102T123000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-768a43e5130e9e20@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261104T083000
-DTEND;TZID=Europe/Rome:20261104T103000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-b27751c8accb2e01@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261113T083000
-DTEND;TZID=Europe/Rome:20261113T103000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO302
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-91d3ed1a2573aeec@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261118T083000
-DTEND;TZID=Europe/Rome:20261118T103000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO301
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LS (LINEA VIOLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3c3bf49e540540de@easycourse.unisr.it
-DTSTAMP:20260930T203435Z
-DTSTART;TZID=Europe/Rome:20261123T133000
-DTEND;TZID=Europe/Rome:20261123T153000
-SUMMARY:Anatomia Patologica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA201
-DESCRIPTION:Insegnamento: Anatomia Patologica [1171] - Anatomia Patologica LS (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA201\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Anatomia Patologica
+X-WR-CALDESC:Corso: Anatomia Patologica
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-90a1e30e15c44597@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261008T153000
+DTEND;TZID=Europe/Rome:20261008T173000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: F. Pedica\nLuogo: Aula CA101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a1aa3381571afe76@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261012T103000
+DTEND;TZID=Europe/Rome:20261012T123000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: F. Pedica\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3b27efe4fa9779e2@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261013T153000
+DTEND;TZID=Europe/Rome:20261013T173000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: F. Pedica\nLuogo: Aula CA202\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-22667adc0418bac8@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261015T103000
+DTEND;TZID=Europe/Rome:20261015T123000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: L. Bongiovanni\nLuogo: Aula VA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-12c838b246f0dca4@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261019T103000
+DTEND;TZID=Europe/Rome:20261019T123000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: M. Mastropasqua\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-bffd2f75d84d5edb@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261022T133000
+DTEND;TZID=Europe/Rome:20261022T153000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: M. Mastropasqua\nLuogo: Aula CA101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-096981f7358ddd65@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261026T103000
+DTEND;TZID=Europe/Rome:20261026T123000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: M. Colecchia\nLuogo: Aula VA302\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-15ae2a14cabc50cf@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261029T103000
+DTEND;TZID=Europe/Rome:20261029T123000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: M. Colecchia\nLuogo: Aula VA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6bd3d0de11efb385@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261102T103000
+DTEND;TZID=Europe/Rome:20261102T123000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: M. Colecchia\nLuogo: Aula CA102\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-768a43e5130e9e20@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261104T083000
+DTEND;TZID=Europe/Rome:20261104T103000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: F. Pedica\nLuogo: Aula VA101\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b27751c8accb2e01@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261113T083000
+DTEND;TZID=Europe/Rome:20261113T103000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula BO302
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: M. Mastropasqua\nLuogo: Aula BO302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-91d3ed1a2573aeec@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261118T083000
+DTEND;TZID=Europe/Rome:20261118T103000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula BO301
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: L. Bongiovanni\nLuogo: Aula BO301\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3c3bf49e540540de@easycourse.unisr.it
+DTSTAMP:20261007T085851Z
+DTSTART;TZID=Europe/Rome:20261123T133000
+DTEND;TZID=Europe/Rome:20261123T153000
+SUMMARY:[LEZ] Anatomia Patologica
+LOCATION:Aula CA201
+DESCRIPTION:Materia: Anatomia Patologica\nTipo: Lezione\nDocente: F. Pedica\nLuogo: Aula CA201\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

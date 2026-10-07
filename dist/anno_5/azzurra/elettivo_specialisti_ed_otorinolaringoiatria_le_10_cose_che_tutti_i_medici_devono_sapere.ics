@@ -1,82 +1,82 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UniSR//Calendari Medicina//IT
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Elettivo: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
-X-WR-CALDESC:Corso Elettivo: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
-X-WR-TIMEZONE:Europe/Rome
-BEGIN:VTIMEZONE
-TZID:Europe/Rome
-X-LIC-LOCATION:Europe/Rome
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:unisr-med-5d086f08e23be24c@easycourse.unisr.it
-DTSTAMP:20260930T203543Z
-DTSTART;TZID=Europe/Rome:20261007T173000
-DTEND;TZID=Europe/Rome:20261007T193000
-SUMMARY:Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e7fc1cd4e1bd68a2@easycourse.unisr.it
-DTSTAMP:20260930T203543Z
-DTSTART;TZID=Europe/Rome:20261014T173000
-DTEND;TZID=Europe/Rome:20261014T193000
-SUMMARY:Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-179c327c04818ae6@easycourse.unisr.it
-DTSTAMP:20260930T203543Z
-DTSTART;TZID=Europe/Rome:20261021T173000
-DTEND;TZID=Europe/Rome:20261021T193000
-SUMMARY:Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d398cee891fc94a1@easycourse.unisr.it
-DTSTAMP:20260930T203543Z
-DTSTART;TZID=Europe/Rome:20261028T173000
-DTEND;TZID=Europe/Rome:20261028T193000
-SUMMARY:Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c9c792fde4be5295@easycourse.unisr.it
-DTSTAMP:20260930T203543Z
-DTSTART;TZID=Europe/Rome:20261104T173000
-DTEND;TZID=Europe/Rome:20261104T193000
-SUMMARY:Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
+X-WR-CALDESC:Corso Elettivo: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-5d086f08e23be24c@easycourse.unisr.it
+DTSTAMP:20261007T085923Z
+DTSTART;TZID=Europe/Rome:20261007T173000
+DTEND;TZID=Europe/Rome:20261007T193000
+SUMMARY:[LEZ] Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere\nTipo: Lezione\nDocente: R. Battista\nLuogo: Aula BO201\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e7fc1cd4e1bd68a2@easycourse.unisr.it
+DTSTAMP:20261007T085923Z
+DTSTART;TZID=Europe/Rome:20261014T173000
+DTEND;TZID=Europe/Rome:20261014T193000
+SUMMARY:[LEZ] Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere\nTipo: Lezione\nDocente: R. Battista\nLuogo: Aula BO201\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-179c327c04818ae6@easycourse.unisr.it
+DTSTAMP:20261007T085923Z
+DTSTART;TZID=Europe/Rome:20261021T173000
+DTEND;TZID=Europe/Rome:20261021T193000
+SUMMARY:[LEZ] Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere\nTipo: Lezione\nDocente: R. Battista\nLuogo: Aula BO201\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d398cee891fc94a1@easycourse.unisr.it
+DTSTAMP:20261007T085923Z
+DTSTART;TZID=Europe/Rome:20261028T173000
+DTEND;TZID=Europe/Rome:20261028T193000
+SUMMARY:[LEZ] Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere\nTipo: Lezione\nDocente: R. Battista\nLuogo: Aula BO201\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c9c792fde4be5295@easycourse.unisr.it
+DTSTAMP:20261007T085923Z
+DTSTART;TZID=Europe/Rome:20261104T173000
+DTEND;TZID=Europe/Rome:20261104T193000
+SUMMARY:[LEZ] Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere\nTipo: Lezione\nDocente: R. Battista\nLuogo: Aula BO201\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

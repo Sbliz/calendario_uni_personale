@@ -1,412 +1,412 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UniSR//Calendari Medicina//IT
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Genetica Medica
-X-WR-CALDESC:Corso: Genetica Medica
-X-WR-TIMEZONE:Europe/Rome
-BEGIN:VTIMEZONE
-TZID:Europe/Rome
-X-LIC-LOCATION:Europe/Rome
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:unisr-med-c8bd47611c183aff@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20260922T133000
-DTEND;TZID=Europe/Rome:20260922T153000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-aa3cb575d9d148bb@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20260930T083000
-DTEND;TZID=Europe/Rome:20260930T103000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-73e445a0137f1d99@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261001T103000
-DTEND;TZID=Europe/Rome:20261001T123000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-d9a96e3238067a27@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261002T103000
-DTEND;TZID=Europe/Rome:20261002T123000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a6ff907cc83fa681@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261005T083000
-DTEND;TZID=Europe/Rome:20261005T103000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-51615a4ecbfbb99c@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261006T133000
-DTEND;TZID=Europe/Rome:20261006T153000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-31a999121eb0630c@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261013T133000
-DTEND;TZID=Europe/Rome:20261013T153000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-96d4a4a7cfd3d012@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261015T103000
-DTEND;TZID=Europe/Rome:20261015T123000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ea286cbf3d685145@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261016T153000
-DTEND;TZID=Europe/Rome:20261016T173000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8d30cdc009703c47@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261022T103000
-DTEND;TZID=Europe/Rome:20261022T123000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1409da462f0b09fb@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261027T133000
-DTEND;TZID=Europe/Rome:20261027T153000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 4 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-b3ac34d297c77d9b@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261029T103000
-DTEND;TZID=Europe/Rome:20261029T123000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3e6693b1f5fb045e@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261030T103000
-DTEND;TZID=Europe/Rome:20261030T123000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-253ba45a01c3470c@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261104T153000
-DTEND;TZID=Europe/Rome:20261104T173000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 2 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6b38515907009cf2@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261105T103000
-DTEND;TZID=Europe/Rome:20261105T123000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c4ea4db358b5a5b8@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261112T103000
-DTEND;TZID=Europe/Rome:20261112T123000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-b08cb8d9ae3cb6d2@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261117T133000
-DTEND;TZID=Europe/Rome:20261117T153000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ace931507219d601@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261119T103000
-DTEND;TZID=Europe/Rome:20261119T123000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-0f3755f212c6e346@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261120T103000
-DTEND;TZID=Europe/Rome:20261120T123000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c47c9566198e80b2@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261124T133000
-DTEND;TZID=Europe/Rome:20261124T153000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 4 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-4b03617b460301f9@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261127T153000
-DTEND;TZID=Europe/Rome:20261127T173000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 4 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-49cc37c77af76c7c@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261202T133000
-DTEND;TZID=Europe/Rome:20261202T153000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-98df41a536a3f206@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261203T133000
-DTEND;TZID=Europe/Rome:20261203T153000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6a49702b0e4af0dd@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261204T153000
-DTEND;TZID=Europe/Rome:20261204T173000
-SUMMARY:Genetica Medica [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 2 LS (LINEA VIOLA) - ESE\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-7230d03a1c1404b5@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261211T103000
-DTEND;TZID=Europe/Rome:20261211T123000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-4182dc7c44e1664b@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261211T133000
-DTEND;TZID=Europe/Rome:20261211T153000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio VASARI\, Aula VA101
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5891fa53825c541b@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261214T083000
-DTEND;TZID=Europe/Rome:20261214T103000
-SUMMARY:Genetica Medica [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO302
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LS (LINEA VIOLA) - ESE\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-0f4f14507a0211a2@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261216T133000
-DTEND;TZID=Europe/Rome:20261216T153000
-SUMMARY:Genetica Medica [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO302
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LS (LINEA VIOLA) - ESE\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a634e3cf39cdee02@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261218T103000
-DTEND;TZID=Europe/Rome:20261218T123000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-b4ac1e11611b22ea@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261218T133000
-DTEND;TZID=Europe/Rome:20261218T153000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA202
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-cdc49b7a8fb4c19a@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261221T133000
-DTEND;TZID=Europe/Rome:20261221T153000
-SUMMARY:Genetica Medica [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA102
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 3 LU (LINEA VIOLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a1b22c82a485d791@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20261222T133000
-DTEND;TZID=Europe/Rome:20261222T153000
-SUMMARY:Genetica Medica [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO301
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 3 LS (LINEA VIOLA) - ESE\nLuogo: Edificio BORROMINI\, Aula BO301\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-fe728f1508d22b06@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20270107T133000
-DTEND;TZID=Europe/Rome:20270107T153000
-SUMMARY:Genetica Medica [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO402
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 4 LS (LINEA VIOLA) - ESE\nLuogo: Edificio BORROMINI\, Aula BO402\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a5e1fab9e678f636@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20270111T153000
-DTEND;TZID=Europe/Rome:20270111T173000
-SUMMARY:Genetica Medica [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO302
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LS (LINEA VIOLA) - ESE\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-412b5189ee180ed5@easycourse.unisr.it
-DTSTAMP:20260930T202258Z
-DTSTART;TZID=Europe/Rome:20270112T153000
-DTEND;TZID=Europe/Rome:20270112T173000
-SUMMARY:Genetica Medica [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO401
-DESCRIPTION:Insegnamento: Genetica Medica [C0009] - Genetica Medica 1 LS (LINEA VIOLA) - ESE\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Genetica Medica
+X-WR-CALDESC:Corso: Genetica Medica
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-c8bd47611c183aff@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20260922T133000
+DTEND;TZID=Europe/Rome:20260922T153000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula CA302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-aa3cb575d9d148bb@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20260930T083000
+DTEND;TZID=Europe/Rome:20260930T103000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula VA201\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-73e445a0137f1d99@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261001T103000
+DTEND;TZID=Europe/Rome:20261001T123000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula CA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d9a96e3238067a27@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261002T103000
+DTEND;TZID=Europe/Rome:20261002T123000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula VA201\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a6ff907cc83fa681@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261005T083000
+DTEND;TZID=Europe/Rome:20261005T103000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula VA102\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-51615a4ecbfbb99c@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261006T133000
+DTEND;TZID=Europe/Rome:20261006T153000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula CA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-31a999121eb0630c@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261013T133000
+DTEND;TZID=Europe/Rome:20261013T153000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: F. Maltecca\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-96d4a4a7cfd3d012@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261015T103000
+DTEND;TZID=Europe/Rome:20261015T123000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: F. Maltecca\nLuogo: Aula CA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ea286cbf3d685145@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261016T153000
+DTEND;TZID=Europe/Rome:20261016T173000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula VA201\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8d30cdc009703c47@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261022T103000
+DTEND;TZID=Europe/Rome:20261022T123000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: F. Maltecca\nLuogo: Aula CA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1409da462f0b09fb@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261027T133000
+DTEND;TZID=Europe/Rome:20261027T153000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula CA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b3ac34d297c77d9b@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261029T103000
+DTEND;TZID=Europe/Rome:20261029T123000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: O. Zuffardi\nLuogo: Aula CA102\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3e6693b1f5fb045e@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261030T103000
+DTEND;TZID=Europe/Rome:20261030T123000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: O. Zuffardi\nLuogo: Aula VA201\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-253ba45a01c3470c@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261104T153000
+DTEND;TZID=Europe/Rome:20261104T173000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula VA101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6b38515907009cf2@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261105T103000
+DTEND;TZID=Europe/Rome:20261105T123000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: F. Maltecca\nLuogo: Aula CA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c4ea4db358b5a5b8@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261112T103000
+DTEND;TZID=Europe/Rome:20261112T123000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: S. Giglio\nLuogo: Aula CA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b08cb8d9ae3cb6d2@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261117T133000
+DTEND;TZID=Europe/Rome:20261117T153000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: S. Giglio\nLuogo: Aula CA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ace931507219d601@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261119T103000
+DTEND;TZID=Europe/Rome:20261119T123000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: F. Maltecca\nLuogo: Aula CA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0f3755f212c6e346@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261120T103000
+DTEND;TZID=Europe/Rome:20261120T123000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula VA201\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c47c9566198e80b2@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261124T133000
+DTEND;TZID=Europe/Rome:20261124T153000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula CA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4b03617b460301f9@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261127T153000
+DTEND;TZID=Europe/Rome:20261127T173000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula CA102\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-49cc37c77af76c7c@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261202T133000
+DTEND;TZID=Europe/Rome:20261202T153000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula CA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-98df41a536a3f206@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261203T133000
+DTEND;TZID=Europe/Rome:20261203T153000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: F. Maltecca\nLuogo: Aula VA101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6a49702b0e4af0dd@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261204T153000
+DTEND;TZID=Europe/Rome:20261204T173000
+SUMMARY:[ESE] Genetica Medica
+LOCATION:Aula BO102
+DESCRIPTION:Materia: Genetica Medica\nTipo: Esercitazione\nDocente: M. Cratere\nLuogo: Aula BO102\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7230d03a1c1404b5@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261211T103000
+DTEND;TZID=Europe/Rome:20261211T123000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: S. Giglio\nLuogo: Aula VA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-4182dc7c44e1664b@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261211T133000
+DTEND;TZID=Europe/Rome:20261211T153000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula VA101
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: S. Giglio\nLuogo: Aula VA101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5891fa53825c541b@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261214T083000
+DTEND;TZID=Europe/Rome:20261214T103000
+SUMMARY:[ESE] Genetica Medica
+LOCATION:Aula BO302
+DESCRIPTION:Materia: Genetica Medica\nTipo: Esercitazione\nDocente: M. Cratere\nLuogo: Aula BO302\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0f4f14507a0211a2@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261216T133000
+DTEND;TZID=Europe/Rome:20261216T153000
+SUMMARY:[ESE] Genetica Medica
+LOCATION:Aula BO302
+DESCRIPTION:Materia: Genetica Medica\nTipo: Esercitazione\nDocente: M. Cratere\nLuogo: Aula BO302\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a634e3cf39cdee02@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261218T103000
+DTEND;TZID=Europe/Rome:20261218T123000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: S. Giglio\nLuogo: Aula CA202\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b4ac1e11611b22ea@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261218T133000
+DTEND;TZID=Europe/Rome:20261218T153000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA202
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: S. Giglio\nLuogo: Aula CA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-cdc49b7a8fb4c19a@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261221T133000
+DTEND;TZID=Europe/Rome:20261221T153000
+SUMMARY:[LEZ] Genetica Medica
+LOCATION:Aula CA102
+DESCRIPTION:Materia: Genetica Medica\nTipo: Lezione\nDocente: L. Rampoldi\nLuogo: Aula CA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a1b22c82a485d791@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20261222T133000
+DTEND;TZID=Europe/Rome:20261222T153000
+SUMMARY:[ESE] Genetica Medica
+LOCATION:Aula BO301
+DESCRIPTION:Materia: Genetica Medica\nTipo: Esercitazione\nDocente: M. Cratere\nLuogo: Aula BO301\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fe728f1508d22b06@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20270107T133000
+DTEND;TZID=Europe/Rome:20270107T153000
+SUMMARY:[ESE] Genetica Medica
+LOCATION:Aula BO402
+DESCRIPTION:Materia: Genetica Medica\nTipo: Esercitazione\nDocente: M. Cratere\nLuogo: Aula BO402\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a5e1fab9e678f636@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20270111T153000
+DTEND;TZID=Europe/Rome:20270111T173000
+SUMMARY:[ESE] Genetica Medica
+LOCATION:Aula BO302
+DESCRIPTION:Materia: Genetica Medica\nTipo: Esercitazione\nDocente: M. Cratere\nLuogo: Aula BO302\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-412b5189ee180ed5@easycourse.unisr.it
+DTSTAMP:20261007T085353Z
+DTSTART;TZID=Europe/Rome:20270112T153000
+DTEND;TZID=Europe/Rome:20270112T173000
+SUMMARY:[ESE] Genetica Medica
+LOCATION:Aula BO401
+DESCRIPTION:Materia: Genetica Medica\nTipo: Esercitazione\nDocente: M. Cratere\nLuogo: Aula BO401\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

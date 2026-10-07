@@ -1,511 +1,500 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UniSR//Calendari Medicina//IT
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Morfologia Umana
-X-WR-CALDESC:Corso: Morfologia Umana
-X-WR-TIMEZONE:Europe/Rome
-BEGIN:VTIMEZONE
-TZID:Europe/Rome
-X-LIC-LOCATION:Europe/Rome
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:unisr-med-87b423240eacacb9@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20260922T103000
-DTEND;TZID=Europe/Rome:20260922T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-7643b635663ace07@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20260924T133000
-DTEND;TZID=Europe/Rome:20260924T153000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ff099a895f2e8779@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20260929T103000
-DTEND;TZID=Europe/Rome:20260929T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-fe5ac30720060d69@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20260930T133000
-DTEND;TZID=Europe/Rome:20260930T153000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA401
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA401\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-462f5ed8011d4632@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261001T133000
-DTEND;TZID=Europe/Rome:20261001T153000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-2db525e0847a20c3@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261002T103000
-DTEND;TZID=Europe/Rome:20261002T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f012caadcf96c33e@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261005T153000
-DTEND;TZID=Europe/Rome:20261005T173000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA302
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA302\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1081dbe8c1a0f143@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261006T103000
-DTEND;TZID=Europe/Rome:20261006T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1fd7311638352580@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261007T103000
-DTEND;TZID=Europe/Rome:20261007T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-563770c249080d08@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261008T133000
-DTEND;TZID=Europe/Rome:20261008T153000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-9eb7c8b3e41b60d9@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261009T153000
-DTEND;TZID=Europe/Rome:20261009T173000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO101
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8787178c0c5af480@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261013T103000
-DTEND;TZID=Europe/Rome:20261013T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-0b45d964b652448b@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261026T153000
-DTEND;TZID=Europe/Rome:20261026T173000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-332d1bd78585c5ec@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261027T103000
-DTEND;TZID=Europe/Rome:20261027T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-db710df3104e0144@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261102T153000
-DTEND;TZID=Europe/Rome:20261102T173000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8a90def43d42db43@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261103T103000
-DTEND;TZID=Europe/Rome:20261103T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-77025f8e26161998@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261105T133000
-DTEND;TZID=Europe/Rome:20261105T153000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5ab4e1aaea51a674@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261109T083000
-DTEND;TZID=Europe/Rome:20261109T103000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-40f2998e0affdcea@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261110T103000
-DTEND;TZID=Europe/Rome:20261110T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-7847334b7c02a70b@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261113T153000
-DTEND;TZID=Europe/Rome:20261113T173000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO302
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO302\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-cda133ad2cfece62@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261116T083000
-DTEND;TZID=Europe/Rome:20261116T103000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8ab3d8fe2061a340@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261117T103000
-DTEND;TZID=Europe/Rome:20261117T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-8923374cb087a3ac@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261119T133000
-DTEND;TZID=Europe/Rome:20261119T153000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 2 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ae096e32014be953@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261123T083000
-DTEND;TZID=Europe/Rome:20261123T103000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-c451d74d0514c21c@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261124T103000
-DTEND;TZID=Europe/Rome:20261124T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e61ddcefa92f15bf@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261125T133000
-DTEND;TZID=Europe/Rome:20261125T153000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-401dd687b27115a2@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261126T103000
-DTEND;TZID=Europe/Rome:20261126T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO401
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO401\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3a9f4f32356d843a@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261130T083000
-DTEND;TZID=Europe/Rome:20261130T103000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-6e33899341107cf1@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261201T103000
-DTEND;TZID=Europe/Rome:20261201T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA301
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA301\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-ede848b63908658e@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261203T133000
-DTEND;TZID=Europe/Rome:20261203T153000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1fa6c1a02c1d43c0@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261211T153000
-DTEND;TZID=Europe/Rome:20261211T173000
-SUMMARY:Morfologia Umana [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO101
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LS (LINEA GIALLA) - ESE\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-5b03e9e8d6e1fab7@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261214T083000
-DTEND;TZID=Europe/Rome:20261214T103000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-906809c78de8eaf9@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261215T083000
-DTEND;TZID=Europe/Rome:20261215T103000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f0b3e16d8ae34436@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261215T153000
-DTEND;TZID=Europe/Rome:20261215T173000
-SUMMARY:Morfologia Umana [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO101
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LS (LINEA GIALLA) - ESE\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-05b0d064c38ceff1@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261216T103000
-DTEND;TZID=Europe/Rome:20261216T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA201
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-fcd95dde90f3220b@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261218T133000
-DTEND;TZID=Europe/Rome:20261218T153000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-dd7205e2e91ddb1d@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261218T153000
-DTEND;TZID=Europe/Rome:20261218T173000
-SUMMARY:Morfologia Umana [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO101
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LS (LINEA GIALLA) - ESE\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e55354862db774b9@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261221T083000
-DTEND;TZID=Europe/Rome:20261221T103000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-bb2c301870f28b6b@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20261222T153000
-DTEND;TZID=Europe/Rome:20261222T173000
-SUMMARY:Morfologia Umana [Esercitazione]
-LOCATION:Edificio BORROMINI\, Aula BO101
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LS (LINEA GIALLA) - ESE\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-a7be9573d22a05d0@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20270107T133000
-DTEND;TZID=Europe/Rome:20270107T153000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO202\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-f673c27cf9cef01e@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20270107T153000
-DTEND;TZID=Europe/Rome:20270107T173000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 2 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 15:30 - 17:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-e57b3956dc4a1585@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20270111T083000
-DTEND;TZID=Europe/Rome:20270111T103000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio VASARI\, Aula VA202
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio VASARI\, Aula VA202\nOrario: 08:30 - 10:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1e4dd34ce165c666@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20270113T103000
-DTEND;TZID=Europe/Rome:20270113T123000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO201
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 1 LS (LINEA GIALLA) - LEZ\nLuogo: Edificio BORROMINI\, Aula BO201\nOrario: 10:30 - 12:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-3fc127e6e533b7d0@easycourse.unisr.it
-DTSTAMP:20260930T201533Z
-DTSTART;TZID=Europe/Rome:20270113T133000
-DTEND;TZID=Europe/Rome:20270113T153000
-SUMMARY:Morfologia Umana [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Morfologia Umana [B0012] - Morfologia umana 3 LU (LINEA GIALLA) - LEZ\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 13:30 - 15:30\nFonte: EasyCourse UniSR (Sincronizzato)
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Morfologia Umana
+X-WR-CALDESC:Corso: Morfologia Umana
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-87b423240eacacb9@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20260922T103000
+DTEND;TZID=Europe/Rome:20260922T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: M. Vitale\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7643b635663ace07@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20260924T133000
+DTEND;TZID=Europe/Rome:20260924T153000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: M. Vitale\nLuogo: Aula VA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ff099a895f2e8779@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20260929T103000
+DTEND;TZID=Europe/Rome:20260929T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: M. Vitale\nLuogo: Aula CA101\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fe5ac30720060d69@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20260930T133000
+DTEND;TZID=Europe/Rome:20260930T153000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA401
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: M. Vitale\nLuogo: Aula VA401\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-462f5ed8011d4632@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261001T133000
+DTEND;TZID=Europe/Rome:20261001T153000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: M. Vitale\nLuogo: Aula VA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2db525e0847a20c3@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261002T103000
+DTEND;TZID=Europe/Rome:20261002T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: M. Vitale\nLuogo: Aula VA202\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f012caadcf96c33e@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261005T153000
+DTEND;TZID=Europe/Rome:20261005T173000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: M. Vitale\nLuogo: Aula VA302\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-b5f2fa403ed06f57@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261006T083000
+DTEND;TZID=Europe/Rome:20261006T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: M. Vitale\nLuogo: Aula VA301\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-563770c249080d08@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261008T133000
+DTEND;TZID=Europe/Rome:20261008T153000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: M. Vitale\nLuogo: Aula VA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8787178c0c5af480@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261013T103000
+DTEND;TZID=Europe/Rome:20261013T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: M. Vitale\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e846feb8c161863b@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261013T153000
+DTEND;TZID=Europe/Rome:20261013T173000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: M. Vitale\nLuogo: Aula BO202\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-0b45d964b652448b@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261026T153000
+DTEND;TZID=Europe/Rome:20261026T173000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: K. Cortese\nLuogo: Aula CA101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-332d1bd78585c5ec@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261027T103000
+DTEND;TZID=Europe/Rome:20261027T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: K. Cortese\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-db710df3104e0144@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261102T153000
+DTEND;TZID=Europe/Rome:20261102T173000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: P. Falletta\nLuogo: Aula CA302\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8a90def43d42db43@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261103T103000
+DTEND;TZID=Europe/Rome:20261103T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: P. Falletta\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-77025f8e26161998@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261105T133000
+DTEND;TZID=Europe/Rome:20261105T153000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: P. Falletta\nLuogo: Aula VA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5ab4e1aaea51a674@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261109T083000
+DTEND;TZID=Europe/Rome:20261109T103000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: C. Tacchetti\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-40f2998e0affdcea@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261110T103000
+DTEND;TZID=Europe/Rome:20261110T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: P. Falletta\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7847334b7c02a70b@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261113T153000
+DTEND;TZID=Europe/Rome:20261113T173000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula BO302
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: P. Falletta\nLuogo: Aula BO302\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-cda133ad2cfece62@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261116T083000
+DTEND;TZID=Europe/Rome:20261116T103000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: C. Tacchetti\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8ab3d8fe2061a340@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261117T103000
+DTEND;TZID=Europe/Rome:20261117T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: P. Falletta\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-8923374cb087a3ac@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261119T133000
+DTEND;TZID=Europe/Rome:20261119T153000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: P. Falletta\nLuogo: Aula VA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ae096e32014be953@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261123T083000
+DTEND;TZID=Europe/Rome:20261123T103000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: C. Tacchetti\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c451d74d0514c21c@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261124T103000
+DTEND;TZID=Europe/Rome:20261124T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: C. Tacchetti\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e61ddcefa92f15bf@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261125T133000
+DTEND;TZID=Europe/Rome:20261125T153000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: C. Tacchetti\nLuogo: Aula VA102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-401dd687b27115a2@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261126T103000
+DTEND;TZID=Europe/Rome:20261126T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula BO401
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: M. Ramella\nLuogo: Aula BO401\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3a9f4f32356d843a@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261130T083000
+DTEND;TZID=Europe/Rome:20261130T103000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: K. Cortese\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-6e33899341107cf1@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261201T103000
+DTEND;TZID=Europe/Rome:20261201T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA301
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: K. Cortese\nLuogo: Aula VA301\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ede848b63908658e@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261203T133000
+DTEND;TZID=Europe/Rome:20261203T153000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: C. Tacchetti\nLuogo: Aula VA202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1fa6c1a02c1d43c0@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261211T153000
+DTEND;TZID=Europe/Rome:20261211T173000
+SUMMARY:[ESE] Morfologia Umana
+LOCATION:Aula BO101
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Esercitazione\nDocenti: P. Falletta\, M. Ramella\nLuogo: Aula BO101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-5b03e9e8d6e1fab7@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261214T083000
+DTEND;TZID=Europe/Rome:20261214T103000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: K. Cortese\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-906809c78de8eaf9@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261215T083000
+DTEND;TZID=Europe/Rome:20261215T103000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: C. Tacchetti\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f0b3e16d8ae34436@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261215T153000
+DTEND;TZID=Europe/Rome:20261215T173000
+SUMMARY:[ESE] Morfologia Umana
+LOCATION:Aula BO101
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Esercitazione\nDocenti: P. Falletta\, M. Ramella\nLuogo: Aula BO101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-05b0d064c38ceff1@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261216T103000
+DTEND;TZID=Europe/Rome:20261216T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA201
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: F. Casoni\nLuogo: Aula VA201\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-fcd95dde90f3220b@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261218T133000
+DTEND;TZID=Europe/Rome:20261218T153000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula BO102
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: F. Casoni\nLuogo: Aula BO102\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-dd7205e2e91ddb1d@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261218T153000
+DTEND;TZID=Europe/Rome:20261218T173000
+SUMMARY:[ESE] Morfologia Umana
+LOCATION:Aula BO101
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Esercitazione\nDocenti: P. Falletta\, M. Ramella\nLuogo: Aula BO101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e55354862db774b9@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261221T083000
+DTEND;TZID=Europe/Rome:20261221T103000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: C. Tacchetti\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-bb2c301870f28b6b@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20261222T153000
+DTEND;TZID=Europe/Rome:20261222T173000
+SUMMARY:[ESE] Morfologia Umana
+LOCATION:Aula BO101
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Esercitazione\nDocenti: P. Falletta\, M. Ramella\nLuogo: Aula BO101\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-a7be9573d22a05d0@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20270107T133000
+DTEND;TZID=Europe/Rome:20270107T153000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: F. Casoni\nLuogo: Aula BO202\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-f673c27cf9cef01e@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20270107T153000
+DTEND;TZID=Europe/Rome:20270107T173000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: C. Tacchetti\nLuogo: Aula BO201\nOrario: 15:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-e57b3956dc4a1585@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20270111T083000
+DTEND;TZID=Europe/Rome:20270111T103000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula VA202
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: D. Palumbo\nLuogo: Aula VA202\nOrario: 08:30 - 10:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-1e4dd34ce165c666@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20270113T103000
+DTEND;TZID=Europe/Rome:20270113T123000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula BO201
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: P. Falletta\nLuogo: Aula BO201\nOrario: 10:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3fc127e6e533b7d0@easycourse.unisr.it
+DTSTAMP:20261007T085049Z
+DTSTART;TZID=Europe/Rome:20270113T133000
+DTEND;TZID=Europe/Rome:20270113T153000
+SUMMARY:[LEZ] Morfologia Umana
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Morfologia Umana\nTipo: Lezione\nDocente: D. Vignale\nLuogo: Aula CA101\nOrario: 13:30 - 15:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

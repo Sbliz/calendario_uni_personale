@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche
+X-WR-CALDESC:Corso Elettivo: Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-5e0a6753d13cb81d@easycourse.unisr.it
+DTSTAMP:20261007T085923Z
+DTSTART;TZID=Europe/Rome:20261119T173000
+DTEND;TZID=Europe/Rome:20261119T193000
+SUMMARY:[LEZ] Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche\nTipo: Lezione\nDocente: G. Vanella\nLuogo: Aula BO202\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-ab56e6c01653f130@easycourse.unisr.it
+DTSTAMP:20261007T085923Z
+DTSTART;TZID=Europe/Rome:20261203T173000
+DTEND;TZID=Europe/Rome:20261203T193000
+SUMMARY:[LEZ] Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche\nTipo: Lezione\nDocente: G. Vanella\nLuogo: Aula BO202\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-7ac886e7e9d978c4@easycourse.unisr.it
+DTSTAMP:20261007T085923Z
+DTSTART;TZID=Europe/Rome:20261210T173000
+DTEND;TZID=Europe/Rome:20261210T193000
+SUMMARY:[LEZ] Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche\nTipo: Lezione\nDocente: G. Vanella\nLuogo: Aula BO202\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-3d3aabd654ae16c4@easycourse.unisr.it
+DTSTAMP:20261007T085923Z
+DTSTART;TZID=Europe/Rome:20261217T173000
+DTEND;TZID=Europe/Rome:20261217T193000
+SUMMARY:[LEZ] Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche
+LOCATION:Aula BO202
+DESCRIPTION:Materia: Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche\nTipo: Lezione\nDocente: G. Vanella\nLuogo: Aula BO202\nOrario: 17:30 - 19:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

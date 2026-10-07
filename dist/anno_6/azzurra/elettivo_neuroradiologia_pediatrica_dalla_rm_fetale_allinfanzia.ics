@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSR//Calendari Medicina//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elettivo: Neuroradiologia Pediatrica: dalla RM fetale all'infanzia
+X-WR-CALDESC:Corso Elettivo: Neuroradiologia Pediatrica: dalla RM fetale all'infanzia
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unisr-med-0c10d2ce915319e3@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261008T163000
+DTEND;TZID=Europe/Rome:20261008T183000
+SUMMARY:[LEZ] Neuroradiologia Pediatrica: dalla RM fetale all'infanzia
+LOCATION:Aula BO401
+DESCRIPTION:Materia: Neuroradiologia Pediatrica: dalla RM fetale all'infanzia\nTipo: Lezione\nDocente: C. Baldoli\nLuogo: Aula BO401\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-942733abd892ee3d@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261015T163000
+DTEND;TZID=Europe/Rome:20261015T183000
+SUMMARY:[LEZ] Neuroradiologia Pediatrica: dalla RM fetale all'infanzia
+LOCATION:Aula BO401
+DESCRIPTION:Materia: Neuroradiologia Pediatrica: dalla RM fetale all'infanzia\nTipo: Lezione\nDocente: C. Baldoli\nLuogo: Aula BO401\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-853e05824aa96f58@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261022T163000
+DTEND;TZID=Europe/Rome:20261022T183000
+SUMMARY:[LEZ] Neuroradiologia Pediatrica: dalla RM fetale all'infanzia
+LOCATION:Aula BO401
+DESCRIPTION:Materia: Neuroradiologia Pediatrica: dalla RM fetale all'infanzia\nTipo: Lezione\nDocente: C. Baldoli\nLuogo: Aula BO401\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-34515d1819a236d4@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261029T163000
+DTEND;TZID=Europe/Rome:20261029T183000
+SUMMARY:[LEZ] Neuroradiologia Pediatrica: dalla RM fetale all'infanzia
+LOCATION:Aula BO401
+DESCRIPTION:Materia: Neuroradiologia Pediatrica: dalla RM fetale all'infanzia\nTipo: Lezione\nDocente: C. Baldoli\nLuogo: Aula BO401\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-471898e05b547b5d@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261105T163000
+DTEND;TZID=Europe/Rome:20261105T183000
+SUMMARY:[LEZ] Neuroradiologia Pediatrica: dalla RM fetale all'infanzia
+LOCATION:Aula BO401
+DESCRIPTION:Materia: Neuroradiologia Pediatrica: dalla RM fetale all'infanzia\nTipo: Lezione\nDocente: C. Baldoli\nLuogo: Aula BO401\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-977c0c37ee49a88d@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261112T163000
+DTEND;TZID=Europe/Rome:20261112T183000
+SUMMARY:[LEZ] Neuroradiologia Pediatrica: dalla RM fetale all'infanzia
+LOCATION:Aula BO401
+DESCRIPTION:Materia: Neuroradiologia Pediatrica: dalla RM fetale all'infanzia\nTipo: Lezione\nDocente: C. Baldoli\nLuogo: Aula BO401\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-15f0d55f5ea994c4@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261119T163000
+DTEND;TZID=Europe/Rome:20261119T183000
+SUMMARY:[LEZ] Neuroradiologia Pediatrica: dalla RM fetale all'infanzia
+LOCATION:Aula BO401
+DESCRIPTION:Materia: Neuroradiologia Pediatrica: dalla RM fetale all'infanzia\nTipo: Lezione\nDocente: C. Baldoli\nLuogo: Aula BO401\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-2a074119bea0e0f1@easycourse.unisr.it
+DTSTAMP:20261007T090119Z
+DTSTART;TZID=Europe/Rome:20261126T163000
+DTEND;TZID=Europe/Rome:20261126T183000
+SUMMARY:[LEZ] Neuroradiologia Pediatrica: dalla RM fetale all'infanzia
+LOCATION:Aula BO401
+DESCRIPTION:Materia: Neuroradiologia Pediatrica: dalla RM fetale all'infanzia\nTipo: Lezione\nDocente: C. Baldoli\nLuogo: Aula BO401\nOrario: 16:30 - 18:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
