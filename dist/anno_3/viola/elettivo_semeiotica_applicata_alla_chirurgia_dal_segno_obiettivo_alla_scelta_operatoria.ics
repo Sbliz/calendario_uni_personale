@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-64106505a4589274@easycourse.unisr.it
-DTSTAMP:20261007T112913Z
+DTSTAMP:20261007T214316Z
 DTSTART;TZID=Europe/Rome:20261007T173000
 DTEND;TZID=Europe/Rome:20261007T193000
 SUMMARY:[LEZ] Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria
@@ -37,7 +37,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-0f9736b0adb84ad6@easycourse.unisr.it
-DTSTAMP:20261007T112913Z
+DTSTAMP:20261007T214316Z
 DTSTART;TZID=Europe/Rome:20261021T173000
 DTEND;TZID=Europe/Rome:20261021T193000
 SUMMARY:[LEZ] Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria
@@ -48,7 +48,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-300674f38ff3053c@easycourse.unisr.it
-DTSTAMP:20261007T112913Z
+DTSTAMP:20261007T214316Z
 DTSTART;TZID=Europe/Rome:20261028T173000
 DTEND;TZID=Europe/Rome:20261028T193000
 SUMMARY:[LEZ] Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria
@@ -59,7 +59,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-bdef6a7670a5e06c@easycourse.unisr.it
-DTSTAMP:20261007T112913Z
+DTSTAMP:20261007T214316Z
 DTSTART;TZID=Europe/Rome:20261104T173000
 DTEND;TZID=Europe/Rome:20261104T193000
 SUMMARY:[LEZ] Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria
@@ -70,7 +70,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-c978cb6e20f344e5@easycourse.unisr.it
-DTSTAMP:20261007T112913Z
+DTSTAMP:20261007T214316Z
 DTSTART;TZID=Europe/Rome:20261111T173000
 DTEND;TZID=Europe/Rome:20261111T193000
 SUMMARY:[LEZ] Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria
@@ -81,7 +81,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-16b81ae474f40c18@easycourse.unisr.it
-DTSTAMP:20261007T112913Z
+DTSTAMP:20261007T214316Z
 DTSTART;TZID=Europe/Rome:20261118T173000
 DTEND;TZID=Europe/Rome:20261118T193000
 SUMMARY:[LEZ] Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria
@@ -92,7 +92,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-a9c3e82962c59cba@easycourse.unisr.it
-DTSTAMP:20261007T112913Z
+DTSTAMP:20261007T214316Z
 DTSTART;TZID=Europe/Rome:20261125T173000
 DTEND;TZID=Europe/Rome:20261125T193000
 SUMMARY:[LEZ] Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria
@@ -103,7 +103,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-5968f385c3c87cc1@easycourse.unisr.it
-DTSTAMP:20261007T112913Z
+DTSTAMP:20261007T214316Z
 DTSTART;TZID=Europe/Rome:20261202T173000
 DTEND;TZID=Europe/Rome:20261202T193000
 SUMMARY:[LEZ] Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria
@@ -114,7 +114,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-769e0f7636033b42@easycourse.unisr.it
-DTSTAMP:20261007T112913Z
+DTSTAMP:20261007T214316Z
 DTSTART;TZID=Europe/Rome:20261209T173000
 DTEND;TZID=Europe/Rome:20261209T193000
 SUMMARY:[LEZ] Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria
