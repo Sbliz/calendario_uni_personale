@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-5e0a6753d13cb81d@easycourse.unisr.it
-DTSTAMP:20261008T115047Z
+DTSTAMP:20261008T215512Z
 DTSTART;TZID=Europe/Rome:20261119T173000
 DTEND;TZID=Europe/Rome:20261119T193000
 SUMMARY:[LEZ] Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche
@@ -37,7 +37,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-ab56e6c01653f130@easycourse.unisr.it
-DTSTAMP:20261008T115047Z
+DTSTAMP:20261008T215512Z
 DTSTART;TZID=Europe/Rome:20261203T173000
 DTEND;TZID=Europe/Rome:20261203T193000
 SUMMARY:[LEZ] Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche
@@ -48,7 +48,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-7ac886e7e9d978c4@easycourse.unisr.it
-DTSTAMP:20261008T115047Z
+DTSTAMP:20261008T215512Z
 DTSTART;TZID=Europe/Rome:20261210T173000
 DTEND;TZID=Europe/Rome:20261210T193000
 SUMMARY:[LEZ] Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche
@@ -59,7 +59,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-3d3aabd654ae16c4@easycourse.unisr.it
-DTSTAMP:20261008T115047Z
+DTSTAMP:20261008T215512Z
 DTSTART;TZID=Europe/Rome:20261217T173000
 DTEND;TZID=Europe/Rome:20261217T193000
 SUMMARY:[LEZ] Ecoendoscopia terapeutica : le nuove frontiere dell'interventistica mininvasiva avanzata nel trattamento delle patologie epato-bilio-pancreatiche

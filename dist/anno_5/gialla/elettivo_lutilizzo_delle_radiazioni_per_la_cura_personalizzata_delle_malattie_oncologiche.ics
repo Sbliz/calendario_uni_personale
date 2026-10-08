@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-d1cad377f2018343@easycourse.unisr.it
-DTSTAMP:20261008T115022Z
+DTSTAMP:20261008T215436Z
 DTSTART;TZID=Europe/Rome:20261009T173000
 DTEND;TZID=Europe/Rome:20261009T193000
 SUMMARY:[LEZ] L'utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche
@@ -37,7 +37,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-e01c3f2474d56c83@easycourse.unisr.it
-DTSTAMP:20261008T115022Z
+DTSTAMP:20261008T215436Z
 DTSTART;TZID=Europe/Rome:20261016T173000
 DTEND;TZID=Europe/Rome:20261016T193000
 SUMMARY:[LEZ] L'utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche
@@ -48,7 +48,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-bcf05fa44aa7882e@easycourse.unisr.it
-DTSTAMP:20261008T115022Z
+DTSTAMP:20261008T215436Z
 DTSTART;TZID=Europe/Rome:20261023T173000
 DTEND;TZID=Europe/Rome:20261023T193000
 SUMMARY:[LEZ] L'utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche
@@ -59,7 +59,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-80e0abc06814a898@easycourse.unisr.it
-DTSTAMP:20261008T115022Z
+DTSTAMP:20261008T215436Z
 DTSTART;TZID=Europe/Rome:20261030T173000
 DTEND;TZID=Europe/Rome:20261030T193000
 SUMMARY:[LEZ] L'utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche
@@ -70,7 +70,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-7f8e59dd2458ea80@easycourse.unisr.it
-DTSTAMP:20261008T115022Z
+DTSTAMP:20261008T215436Z
 DTSTART;TZID=Europe/Rome:20261106T173000
 DTEND;TZID=Europe/Rome:20261106T193000
 SUMMARY:[LEZ] L'utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche
@@ -81,7 +81,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-189813cfcdc37535@easycourse.unisr.it
-DTSTAMP:20261008T115022Z
+DTSTAMP:20261008T215436Z
 DTSTART;TZID=Europe/Rome:20261113T173000
 DTEND;TZID=Europe/Rome:20261113T193000
 SUMMARY:[LEZ] L'utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche
@@ -92,7 +92,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-d31e07716465c448@easycourse.unisr.it
-DTSTAMP:20261008T115022Z
+DTSTAMP:20261008T215436Z
 DTSTART;TZID=Europe/Rome:20261120T173000
 DTEND;TZID=Europe/Rome:20261120T193000
 SUMMARY:[LEZ] L'utilizzo delle radiazioni per la cura personalizzata delle malattie oncologiche

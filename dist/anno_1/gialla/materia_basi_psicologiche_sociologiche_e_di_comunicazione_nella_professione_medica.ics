@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-0eb6aead60d7501e@easycourse.unisr.it
-DTSTAMP:20261008T114054Z
+DTSTAMP:20261008T213744Z
 DTSTART;TZID=Europe/Rome:20261007T143000
 DTEND;TZID=Europe/Rome:20261007T163000
 SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
@@ -37,7 +37,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-2d7913e14bc7897d@easycourse.unisr.it
-DTSTAMP:20261008T114054Z
+DTSTAMP:20261008T213744Z
 DTSTART;TZID=Europe/Rome:20261008T143000
 DTEND;TZID=Europe/Rome:20261008T183000
 SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
@@ -48,7 +48,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-118acf619e750317@easycourse.unisr.it
-DTSTAMP:20261008T114054Z
+DTSTAMP:20261008T213744Z
 DTSTART;TZID=Europe/Rome:20261009T093000
 DTEND;TZID=Europe/Rome:20261009T113000
 SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
@@ -59,7 +59,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-4628e1640010b2e1@easycourse.unisr.it
-DTSTAMP:20261008T114054Z
+DTSTAMP:20261008T213744Z
 DTSTART;TZID=Europe/Rome:20261016T093000
 DTEND;TZID=Europe/Rome:20261016T113000
 SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
@@ -70,7 +70,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-8b6480e1a3285ecd@easycourse.unisr.it
-DTSTAMP:20261008T114054Z
+DTSTAMP:20261008T213744Z
 DTSTART;TZID=Europe/Rome:20261023T093000
 DTEND;TZID=Europe/Rome:20261023T113000
 SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
@@ -81,7 +81,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-47effe0019d93442@easycourse.unisr.it
-DTSTAMP:20261008T114054Z
+DTSTAMP:20261008T213744Z
 DTSTART;TZID=Europe/Rome:20261029T163000
 DTEND;TZID=Europe/Rome:20261029T183000
 SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
@@ -92,7 +92,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-f4be63773f6d0097@easycourse.unisr.it
-DTSTAMP:20261008T114054Z
+DTSTAMP:20261008T213744Z
 DTSTART;TZID=Europe/Rome:20261103T143000
 DTEND;TZID=Europe/Rome:20261103T163000
 SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
@@ -103,7 +103,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-ab6b3fa2a5eaf288@easycourse.unisr.it
-DTSTAMP:20261008T114054Z
+DTSTAMP:20261008T213744Z
 DTSTART;TZID=Europe/Rome:20261120T143000
 DTEND;TZID=Europe/Rome:20261120T163000
 SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
@@ -114,7 +114,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-c75c24419f819c58@easycourse.unisr.it
-DTSTAMP:20261008T114054Z
+DTSTAMP:20261008T213744Z
 DTSTART;TZID=Europe/Rome:20261120T163000
 DTEND;TZID=Europe/Rome:20261120T183000
 SUMMARY:[LEZ] Basi Psicologiche\, Sociologiche\, e di Comunicazione nella Professione Medica
