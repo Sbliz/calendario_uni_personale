@@ -406,13 +406,13 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_2/gialla/completo_ios.ics",
-    "ios_count": 156,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Fisiologia",
         "abbr": "FISIO",
         "file": "anno_2/gialla/materia_fisiologia.ics",
-        "count": 35,
+        "count": 36,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -489,13 +489,13 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_2/verde/completo_ios.ics",
-    "ios_count": 156,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Fisiologia",
         "abbr": "FISIO",
         "file": "anno_2/verde/materia_fisiologia.ics",
-        "count": 35,
+        "count": 36,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"

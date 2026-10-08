@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-714bcf16ddbaee59@easycourse.unisr.it
-DTSTAMP:20261007T214616Z
+DTSTAMP:20261008T114626Z
 DTSTART;TZID=Europe/Rome:20261022T133000
 DTEND;TZID=Europe/Rome:20261022T173000
 SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
@@ -36,8 +36,30 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+UID:unisr-med-fe25cfd49d493a27@easycourse.unisr.it
+DTSTAMP:20261008T114626Z
+DTSTART;TZID=Europe/Rome:20261112T083000
+DTEND;TZID=Europe/Rome:20261112T123000
+SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
+LOCATION:Aula CA301
+DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocenti: G. Doddato\, A. Naclerio\, G. Pipitone\, E. Sabetta\, S. Pasqualetti\nLuogo: Aula CA301\nOrario: 08:30 - 12:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-c88c1f252067e281@easycourse.unisr.it
+DTSTAMP:20261008T114626Z
+DTSTART;TZID=Europe/Rome:20261124T133000
+DTEND;TZID=Europe/Rome:20261124T173000
+SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
+LOCATION:Aula BO301
+DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocente: F. Saluzzo\nLuogo: Aula BO301\nOrario: 13:30 - 17:30
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 UID:unisr-med-d3952dad43bea34e@easycourse.unisr.it
-DTSTAMP:20261007T214616Z
+DTSTAMP:20261008T114626Z
 DTSTART;TZID=Europe/Rome:20261126T083000
 DTEND;TZID=Europe/Rome:20261126T123000
 SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
@@ -48,7 +70,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-b9251570eb3d48e5@easycourse.unisr.it
-DTSTAMP:20261007T214616Z
+DTSTAMP:20261008T114626Z
 DTSTART;TZID=Europe/Rome:20261201T083000
 DTEND;TZID=Europe/Rome:20261201T123000
 SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
@@ -59,7 +81,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-dc71acc55efd43a8@easycourse.unisr.it
-DTSTAMP:20261007T214616Z
+DTSTAMP:20261008T114626Z
 DTSTART;TZID=Europe/Rome:20261210T083000
 DTEND;TZID=Europe/Rome:20261210T123000
 SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
@@ -70,7 +92,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-d39f3d9a27b92875@easycourse.unisr.it
-DTSTAMP:20261007T214616Z
+DTSTAMP:20261008T114626Z
 DTSTART;TZID=Europe/Rome:20261217T083000
 DTEND;TZID=Europe/Rome:20261217T123000
 SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
@@ -81,31 +103,9 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-3b4050e6059454e5@easycourse.unisr.it
-DTSTAMP:20261007T214616Z
+DTSTAMP:20261008T114626Z
 DTSTART;TZID=Europe/Rome:20261222T083000
 DTEND;TZID=Europe/Rome:20261222T123000
-SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
-LOCATION:Aula CA102A
-DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocente: F. Saluzzo\nLuogo: Aula CA102A\nOrario: 08:30 - 12:30
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-1fd7f9befdc27c99@easycourse.unisr.it
-DTSTAMP:20261007T214616Z
-DTSTART;TZID=Europe/Rome:20270114T083000
-DTEND;TZID=Europe/Rome:20270114T123000
-SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
-LOCATION:Aula CA102A
-DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocenti: G. Doddato\, A. Naclerio\, G. Pipitone\, E. Sabetta\, S. Pasqualetti\nLuogo: Aula CA102A\nOrario: 08:30 - 12:30
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:unisr-med-215b8e285e34d909@easycourse.unisr.it
-DTSTAMP:20261007T214616Z
-DTSTART;TZID=Europe/Rome:20270115T083000
-DTEND;TZID=Europe/Rome:20270115T123000
 SUMMARY:[APR] Attività professionalizzanti di medicina di laboratorio
 LOCATION:Aula CA102A
 DESCRIPTION:Materia: Attività professionalizzanti di medicina di laboratorio\nTipo: Attività Pratica\nDocente: F. Saluzzo\nLuogo: Aula CA102A\nOrario: 08:30 - 12:30

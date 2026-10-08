@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-3d15d06e6dcf6360@easycourse.unisr.it
-DTSTAMP:20261007T214413Z
+DTSTAMP:20261008T114405Z
 DTSTART;TZID=Europe/Rome:20261006T173000
 DTEND;TZID=Europe/Rome:20261006T193000
 SUMMARY:[LEZ] Metodologia della ricerca: dalla medicina di base alla rianimazione
@@ -37,7 +37,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-1cbeee16a6cd9023@easycourse.unisr.it
-DTSTAMP:20261007T214413Z
+DTSTAMP:20261008T114405Z
 DTSTART;TZID=Europe/Rome:20261015T173000
 DTEND;TZID=Europe/Rome:20261015T193000
 SUMMARY:[LEZ] Metodologia della ricerca: dalla medicina di base alla rianimazione
@@ -48,7 +48,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-6b8d3215d8322662@easycourse.unisr.it
-DTSTAMP:20261007T214413Z
+DTSTAMP:20261008T114405Z
 DTSTART;TZID=Europe/Rome:20261027T173000
 DTEND;TZID=Europe/Rome:20261027T193000
 SUMMARY:[LEZ] Metodologia della ricerca: dalla medicina di base alla rianimazione
@@ -59,7 +59,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-2a0d3ec37fc6b4e7@easycourse.unisr.it
-DTSTAMP:20261007T214413Z
+DTSTAMP:20261008T114405Z
 DTSTART;TZID=Europe/Rome:20261110T173000
 DTEND;TZID=Europe/Rome:20261110T193000
 SUMMARY:[LEZ] Metodologia della ricerca: dalla medicina di base alla rianimazione
@@ -70,7 +70,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-dd96bb75860eb195@easycourse.unisr.it
-DTSTAMP:20261007T214413Z
+DTSTAMP:20261008T114405Z
 DTSTART;TZID=Europe/Rome:20261117T173000
 DTEND;TZID=Europe/Rome:20261117T193000
 SUMMARY:[LEZ] Metodologia della ricerca: dalla medicina di base alla rianimazione
@@ -81,7 +81,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-163287b66a7154e5@easycourse.unisr.it
-DTSTAMP:20261007T214413Z
+DTSTAMP:20261008T114405Z
 DTSTART;TZID=Europe/Rome:20261119T173000
 DTEND;TZID=Europe/Rome:20261119T193000
 SUMMARY:[LEZ] Metodologia della ricerca: dalla medicina di base alla rianimazione
@@ -92,7 +92,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-31b501b6ee155225@easycourse.unisr.it
-DTSTAMP:20261007T214413Z
+DTSTAMP:20261008T114405Z
 DTSTART;TZID=Europe/Rome:20261124T173000
 DTEND;TZID=Europe/Rome:20261124T193000
 SUMMARY:[LEZ] Metodologia della ricerca: dalla medicina di base alla rianimazione
@@ -103,7 +103,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-9b4e580710d5f531@easycourse.unisr.it
-DTSTAMP:20261007T214413Z
+DTSTAMP:20261008T114405Z
 DTSTART;TZID=Europe/Rome:20261126T173000
 DTEND;TZID=Europe/Rome:20261126T193000
 SUMMARY:[LEZ] Metodologia della ricerca: dalla medicina di base alla rianimazione
@@ -114,7 +114,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-9126192569bdbbbc@easycourse.unisr.it
-DTSTAMP:20261007T214413Z
+DTSTAMP:20261008T114405Z
 DTSTART;TZID=Europe/Rome:20261215T173000
 DTEND;TZID=Europe/Rome:20261215T193000
 SUMMARY:[LEZ] Metodologia della ricerca: dalla medicina di base alla rianimazione
@@ -125,7 +125,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-80195fc69030754b@easycourse.unisr.it
-DTSTAMP:20261007T214413Z
+DTSTAMP:20261008T114405Z
 DTSTART;TZID=Europe/Rome:20261217T173000
 DTEND;TZID=Europe/Rome:20261217T193000
 SUMMARY:[LEZ] Metodologia della ricerca: dalla medicina di base alla rianimazione
