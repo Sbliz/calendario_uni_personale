@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-85c11444a3a7a836@easycourse.unisr.it
-DTSTAMP:20261009T114347Z
+DTSTAMP:20261009T213342Z
 DTSTART;TZID=Europe/Rome:20261007T173000
 DTEND;TZID=Europe/Rome:20261007T193000
 SUMMARY:[LEZ] Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche\, Applicazione Clinica e Prospettive Traslazionali
@@ -37,7 +37,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-8cd9e4325f2ded55@easycourse.unisr.it
-DTSTAMP:20261009T114347Z
+DTSTAMP:20261009T213342Z
 DTSTART;TZID=Europe/Rome:20261014T173000
 DTEND;TZID=Europe/Rome:20261014T193000
 SUMMARY:[LEZ] Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche\, Applicazione Clinica e Prospettive Traslazionali
@@ -48,7 +48,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-6b02742e6c75c222@easycourse.unisr.it
-DTSTAMP:20261009T114347Z
+DTSTAMP:20261009T213342Z
 DTSTART;TZID=Europe/Rome:20261021T173000
 DTEND;TZID=Europe/Rome:20261021T193000
 SUMMARY:[LEZ] Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche\, Applicazione Clinica e Prospettive Traslazionali
@@ -59,7 +59,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-12edab3abdbb4642@easycourse.unisr.it
-DTSTAMP:20261009T114347Z
+DTSTAMP:20261009T213342Z
 DTSTART;TZID=Europe/Rome:20261028T173000
 DTEND;TZID=Europe/Rome:20261028T193000
 SUMMARY:[LEZ] Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche\, Applicazione Clinica e Prospettive Traslazionali
@@ -70,7 +70,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-ccb1d946846ffc69@easycourse.unisr.it
-DTSTAMP:20261009T114347Z
+DTSTAMP:20261009T213342Z
 DTSTART;TZID=Europe/Rome:20261104T173000
 DTEND;TZID=Europe/Rome:20261104T193000
 SUMMARY:[LEZ] Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche\, Applicazione Clinica e Prospettive Traslazionali
@@ -81,7 +81,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-b22611503f12e8a3@easycourse.unisr.it
-DTSTAMP:20261009T114347Z
+DTSTAMP:20261009T213342Z
 DTSTART;TZID=Europe/Rome:20261111T173000
 DTEND;TZID=Europe/Rome:20261111T193000
 SUMMARY:[LEZ] Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche\, Applicazione Clinica e Prospettive Traslazionali
@@ -92,7 +92,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-a1c113d79e8538cd@easycourse.unisr.it
-DTSTAMP:20261009T114347Z
+DTSTAMP:20261009T213342Z
 DTSTART;TZID=Europe/Rome:20261118T173000
 DTEND;TZID=Europe/Rome:20261118T193000
 SUMMARY:[LEZ] Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche\, Applicazione Clinica e Prospettive Traslazionali
@@ -103,7 +103,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-0af98252ca11a07d@easycourse.unisr.it
-DTSTAMP:20261009T114347Z
+DTSTAMP:20261009T213342Z
 DTSTART;TZID=Europe/Rome:20261125T173000
 DTEND;TZID=Europe/Rome:20261125T193000
 SUMMARY:[LEZ] Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche\, Applicazione Clinica e Prospettive Traslazionali
@@ -114,7 +114,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-25e0c212b10af049@easycourse.unisr.it
-DTSTAMP:20261009T114347Z
+DTSTAMP:20261009T213342Z
 DTSTART;TZID=Europe/Rome:20261202T173000
 DTEND;TZID=Europe/Rome:20261202T193000
 SUMMARY:[LEZ] Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche\, Applicazione Clinica e Prospettive Traslazionali
@@ -125,7 +125,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-04ac23a32ac5bbc7@easycourse.unisr.it
-DTSTAMP:20261009T114347Z
+DTSTAMP:20261009T213342Z
 DTSTART;TZID=Europe/Rome:20261209T173000
 DTEND;TZID=Europe/Rome:20261209T193000
 SUMMARY:[LEZ] Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche\, Applicazione Clinica e Prospettive Traslazionali
@@ -136,7 +136,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-cdfb075faded3bdf@easycourse.unisr.it
-DTSTAMP:20261009T114347Z
+DTSTAMP:20261009T213342Z
 DTSTART;TZID=Europe/Rome:20261216T173000
 DTEND;TZID=Europe/Rome:20261216T193000
 SUMMARY:[LEZ] Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche\, Applicazione Clinica e Prospettive Traslazionali
@@ -147,7 +147,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-cd6434b4d540e1f9@easycourse.unisr.it
-DTSTAMP:20261009T114347Z
+DTSTAMP:20261009T213342Z
 DTSTART;TZID=Europe/Rome:20270113T173000
 DTEND;TZID=Europe/Rome:20270113T193000
 SUMMARY:[LEZ] Il trapianto di Cellule Staminali Ematopoietiche: Basi Biologiche\, Applicazione Clinica e Prospettive Traslazionali

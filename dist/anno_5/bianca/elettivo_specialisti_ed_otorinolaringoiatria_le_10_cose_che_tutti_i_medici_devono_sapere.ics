@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-5d086f08e23be24c@easycourse.unisr.it
-DTSTAMP:20261009T114258Z
+DTSTAMP:20261009T213248Z
 DTSTART;TZID=Europe/Rome:20261007T173000
 DTEND;TZID=Europe/Rome:20261007T193000
 SUMMARY:[LEZ] Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
@@ -37,7 +37,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-e7fc1cd4e1bd68a2@easycourse.unisr.it
-DTSTAMP:20261009T114258Z
+DTSTAMP:20261009T213248Z
 DTSTART;TZID=Europe/Rome:20261014T173000
 DTEND;TZID=Europe/Rome:20261014T193000
 SUMMARY:[LEZ] Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
@@ -48,7 +48,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-179c327c04818ae6@easycourse.unisr.it
-DTSTAMP:20261009T114258Z
+DTSTAMP:20261009T213248Z
 DTSTART;TZID=Europe/Rome:20261021T173000
 DTEND;TZID=Europe/Rome:20261021T193000
 SUMMARY:[LEZ] Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
@@ -59,7 +59,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-d398cee891fc94a1@easycourse.unisr.it
-DTSTAMP:20261009T114258Z
+DTSTAMP:20261009T213248Z
 DTSTART;TZID=Europe/Rome:20261028T173000
 DTEND;TZID=Europe/Rome:20261028T193000
 SUMMARY:[LEZ] Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
@@ -70,7 +70,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-c9c792fde4be5295@easycourse.unisr.it
-DTSTAMP:20261009T114258Z
+DTSTAMP:20261009T213248Z
 DTSTART;TZID=Europe/Rome:20261104T173000
 DTEND;TZID=Europe/Rome:20261104T193000
 SUMMARY:[LEZ] Specialisti ed otorinolaringoiatria: le 10 cose che tutti i medici devono sapere
