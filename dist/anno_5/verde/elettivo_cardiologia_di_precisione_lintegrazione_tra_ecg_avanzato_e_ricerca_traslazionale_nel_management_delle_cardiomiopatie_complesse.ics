@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-c031acf6c764dc83@easycourse.unisr.it
-DTSTAMP:20261008T215512Z
+DTSTAMP:20261009T114347Z
 DTSTART;TZID=Europe/Rome:20261005T173000
 DTEND;TZID=Europe/Rome:20261005T193000
 SUMMARY:[LEZ] Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse
@@ -37,7 +37,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-183ccdcedc2e858b@easycourse.unisr.it
-DTSTAMP:20261008T215512Z
+DTSTAMP:20261009T114347Z
 DTSTART;TZID=Europe/Rome:20261012T173000
 DTEND;TZID=Europe/Rome:20261012T193000
 SUMMARY:[LEZ] Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse
@@ -48,7 +48,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-43674f61857c3389@easycourse.unisr.it
-DTSTAMP:20261008T215512Z
+DTSTAMP:20261009T114347Z
 DTSTART;TZID=Europe/Rome:20261019T173000
 DTEND;TZID=Europe/Rome:20261019T193000
 SUMMARY:[LEZ] Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse
@@ -59,7 +59,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-c656f7e3bf0d160f@easycourse.unisr.it
-DTSTAMP:20261008T215512Z
+DTSTAMP:20261009T114347Z
 DTSTART;TZID=Europe/Rome:20261026T173000
 DTEND;TZID=Europe/Rome:20261026T193000
 SUMMARY:[LEZ] Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse
@@ -70,7 +70,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-44d74be21dbfd8bf@easycourse.unisr.it
-DTSTAMP:20261008T215512Z
+DTSTAMP:20261009T114347Z
 DTSTART;TZID=Europe/Rome:20261102T173000
 DTEND;TZID=Europe/Rome:20261102T193000
 SUMMARY:[LEZ] Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse
@@ -81,7 +81,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-c0229b6a6237e6c6@easycourse.unisr.it
-DTSTAMP:20261008T215512Z
+DTSTAMP:20261009T114347Z
 DTSTART;TZID=Europe/Rome:20261109T173000
 DTEND;TZID=Europe/Rome:20261109T193000
 SUMMARY:[LEZ] Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse
@@ -92,7 +92,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-551d13ed648a41f6@easycourse.unisr.it
-DTSTAMP:20261008T215512Z
+DTSTAMP:20261009T114347Z
 DTSTART;TZID=Europe/Rome:20261116T173000
 DTEND;TZID=Europe/Rome:20261116T193000
 SUMMARY:[LEZ] Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse
@@ -103,7 +103,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-7ff739ed1b5f4663@easycourse.unisr.it
-DTSTAMP:20261008T215512Z
+DTSTAMP:20261009T114347Z
 DTSTART;TZID=Europe/Rome:20261123T173000
 DTEND;TZID=Europe/Rome:20261123T193000
 SUMMARY:[LEZ] Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse
@@ -114,7 +114,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-58fc078ea2a4b4f9@easycourse.unisr.it
-DTSTAMP:20261008T215512Z
+DTSTAMP:20261009T114347Z
 DTSTART;TZID=Europe/Rome:20261130T173000
 DTEND;TZID=Europe/Rome:20261130T193000
 SUMMARY:[LEZ] Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse
@@ -125,7 +125,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-e40d02289db48ccb@easycourse.unisr.it
-DTSTAMP:20261008T215512Z
+DTSTAMP:20261009T114347Z
 DTSTART;TZID=Europe/Rome:20261214T173000
 DTEND;TZID=Europe/Rome:20261214T193000
 SUMMARY:[LEZ] Cardiologia di Precisione: l'Integrazione tra ECG Avanzato e Ricerca Traslazionale nel Management delle Cardiomiopatie Complesse

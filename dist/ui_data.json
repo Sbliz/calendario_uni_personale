@@ -974,7 +974,7 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_2/rossa/completo_ios.ics",
-    "ios_count": 156,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Fisiologia",
@@ -1016,7 +1016,7 @@
         "name": "Semeiotica",
         "abbr": "SEMEIO",
         "file": "anno_2/rossa/materia_semeiotica.ics",
-        "count": 8,
+        "count": 9,
         "color_name": "Blueberry",
         "color_hex": "#818cf8",
         "bg_hex": "#818cf822"
@@ -1057,7 +1057,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_2/viola/completo_ios.ics",
-    "ios_count": 156,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Fisiologia",
@@ -1099,7 +1099,7 @@
         "name": "Semeiotica",
         "abbr": "SEMEIO",
         "file": "anno_2/viola/materia_semeiotica.ics",
-        "count": 8,
+        "count": 9,
         "color_name": "Blueberry",
         "color_hex": "#818cf8",
         "bg_hex": "#818cf822"
