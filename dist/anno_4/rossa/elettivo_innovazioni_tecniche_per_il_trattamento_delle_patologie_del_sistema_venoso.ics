@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-d12e17ed17df2722@easycourse.unisr.it
-DTSTAMP:20261010T105922Z
+DTSTAMP:20261010T203037Z
 DTSTART;TZID=Europe/Rome:20261105T173000
 DTEND;TZID=Europe/Rome:20261105T193000
 SUMMARY:[LEZ] Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso
@@ -37,7 +37,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-df5802e84c994a36@easycourse.unisr.it
-DTSTAMP:20261010T105922Z
+DTSTAMP:20261010T203037Z
 DTSTART;TZID=Europe/Rome:20261119T173000
 DTEND;TZID=Europe/Rome:20261119T193000
 SUMMARY:[LEZ] Innovazioni tecniche per il trattamento delle patologie del Sistema Venoso
