@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-111c666868135ef7@easycourse.unisr.it
-DTSTAMP:20261009T213027Z
+DTSTAMP:20261010T105843Z
 DTSTART;TZID=Europe/Rome:20260922T083000
 DTEND;TZID=Europe/Rome:20260922T123000
 SUMMARY:[APR] Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche
@@ -37,7 +37,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-b3fc74583cf6440e@easycourse.unisr.it
-DTSTAMP:20261009T213027Z
+DTSTAMP:20261010T105843Z
 DTSTART;TZID=Europe/Rome:20260929T083000
 DTEND;TZID=Europe/Rome:20260929T123000
 SUMMARY:[APR] Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche
@@ -48,7 +48,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-14b15727738e3a6c@easycourse.unisr.it
-DTSTAMP:20261009T213027Z
+DTSTAMP:20261010T105843Z
 DTSTART;TZID=Europe/Rome:20261006T083000
 DTEND;TZID=Europe/Rome:20261006T123000
 SUMMARY:[APR] Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche
@@ -59,7 +59,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-5a522cc37f85dc8b@easycourse.unisr.it
-DTSTAMP:20261009T213027Z
+DTSTAMP:20261010T105843Z
 DTSTART;TZID=Europe/Rome:20261013T083000
 DTEND;TZID=Europe/Rome:20261013T123000
 SUMMARY:[APR] Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche
@@ -70,7 +70,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-fa7a72c64b689e2d@easycourse.unisr.it
-DTSTAMP:20261009T213027Z
+DTSTAMP:20261010T105843Z
 DTSTART;TZID=Europe/Rome:20261020T083000
 DTEND;TZID=Europe/Rome:20261020T123000
 SUMMARY:[APR] Attività professionalizzanti: Internato in Chirurgia e Specializzazioni Chirurgiche
