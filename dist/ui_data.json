@@ -810,7 +810,7 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_1/rossa/completo_ios.ics",
-    "ios_count": 140,
+    "ios_count": 139,
     "materie": [
       {
         "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
@@ -825,7 +825,7 @@
         "name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica",
         "abbr": "BASIPSIC",
         "file": "anno_1/rossa/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics",
-        "count": 10,
+        "count": 9,
         "color_name": "Graphite",
         "color_hex": "#94a3b8",
         "bg_hex": "#94a3b822"
@@ -892,7 +892,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_1/viola/completo_ios.ics",
-    "ios_count": 140,
+    "ios_count": 139,
     "materie": [
       {
         "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
@@ -907,7 +907,7 @@
         "name": "Basi Psicologiche, Sociologiche, e di Comunicazione nella Professione Medica",
         "abbr": "BASIPSIC",
         "file": "anno_1/viola/materia_basi_psicologiche_sociologiche_e_di_comunicazione_nella_professione_medica.ics",
-        "count": 10,
+        "count": 9,
         "color_name": "Graphite",
         "color_hex": "#94a3b8",
         "bg_hex": "#94a3b822"
@@ -2970,7 +2970,7 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_6/azzurra/completo_ios.ics",
-    "ios_count": 65,
+    "ios_count": 66,
     "materie": [
       {
         "name": "Clinica Chirurgica",
@@ -2980,6 +2980,15 @@
         "color_name": "Peacock",
         "color_hex": "#60a5fa",
         "bg_hex": "#60a5fa22"
+      },
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_6/azzurra/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Ginecologia ed Ostetricia",
@@ -3062,7 +3071,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_6/bianca/completo_ios.ics",
-    "ios_count": 64,
+    "ios_count": 65,
     "materie": [
       {
         "name": "Clinica Chirurgica",
@@ -3072,6 +3081,15 @@
         "color_name": "Peacock",
         "color_hex": "#60a5fa",
         "bg_hex": "#60a5fa22"
+      },
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_6/bianca/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Ginecologia ed Ostetricia",
@@ -3154,7 +3172,7 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_6/gialla/completo_ios.ics",
-    "ios_count": 66,
+    "ios_count": 67,
     "materie": [
       {
         "name": "Clinica Chirurgica",
@@ -3164,6 +3182,15 @@
         "color_name": "Peacock",
         "color_hex": "#60a5fa",
         "bg_hex": "#60a5fa22"
+      },
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_6/gialla/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Ginecologia ed Ostetricia",
@@ -3246,7 +3273,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_6/verde/completo_ios.ics",
-    "ios_count": 66,
+    "ios_count": 67,
     "materie": [
       {
         "name": "Clinica Chirurgica",
@@ -3256,6 +3283,15 @@
         "color_name": "Peacock",
         "color_hex": "#60a5fa",
         "bg_hex": "#60a5fa22"
+      },
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_6/verde/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Ginecologia ed Ostetricia",
