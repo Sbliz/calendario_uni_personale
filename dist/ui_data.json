@@ -1708,7 +1708,7 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_4/azzurra/completo_ios.ics",
-    "ios_count": 95,
+    "ios_count": 96,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -1750,7 +1750,7 @@
         "name": "Malattie Infettive",
         "abbr": "INFETT",
         "file": "anno_4/azzurra/materia_malattie_infettive.ics",
-        "count": 33,
+        "count": 34,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -1827,7 +1827,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_4/bianca/completo_ios.ics",
-    "ios_count": 95,
+    "ios_count": 96,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -1869,7 +1869,7 @@
         "name": "Malattie Infettive",
         "abbr": "INFETT",
         "file": "anno_4/bianca/materia_malattie_infettive.ics",
-        "count": 33,
+        "count": 34,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -2065,7 +2065,7 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_4/rossa/completo_ios.ics",
-    "ios_count": 96,
+    "ios_count": 95,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2107,7 +2107,7 @@
         "name": "Malattie Infettive",
         "abbr": "INFETT",
         "file": "anno_4/rossa/materia_malattie_infettive.ics",
-        "count": 35,
+        "count": 34,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -2303,7 +2303,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_4/viola/completo_ios.ics",
-    "ios_count": 96,
+    "ios_count": 95,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2345,7 +2345,7 @@
         "name": "Malattie Infettive",
         "abbr": "INFETT",
         "file": "anno_4/viola/materia_malattie_infettive.ics",
-        "count": 35,
+        "count": 34,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -2422,8 +2422,17 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_5/azzurra/completo_ios.ics",
-    "ios_count": 103,
+    "ios_count": 104,
     "materie": [
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_5/azzurra/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
+      },
       {
         "name": "Neurologia",
         "abbr": "NEURO",
@@ -2550,8 +2559,17 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_5/bianca/completo_ios.ics",
-    "ios_count": 105,
+    "ios_count": 106,
     "materie": [
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_5/bianca/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
+      },
       {
         "name": "Neurologia",
         "abbr": "NEURO",
@@ -2678,8 +2696,17 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_5/gialla/completo_ios.ics",
-    "ios_count": 104,
+    "ios_count": 105,
     "materie": [
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_5/gialla/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
+      },
       {
         "name": "Neurologia",
         "abbr": "NEURO",
@@ -2806,8 +2833,17 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_5/verde/completo_ios.ics",
-    "ios_count": 104,
+    "ios_count": 105,
     "materie": [
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_5/verde/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
+      },
       {
         "name": "Neurologia",
         "abbr": "NEURO",
@@ -3026,7 +3062,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_6/bianca/completo_ios.ics",
-    "ios_count": 65,
+    "ios_count": 64,
     "materie": [
       {
         "name": "Clinica Chirurgica",
@@ -3041,7 +3077,7 @@
         "name": "Ginecologia ed Ostetricia",
         "abbr": "GINOST",
         "file": "anno_6/bianca/materia_ginecologia_ed_ostetricia.ics",
-        "count": 20,
+        "count": 19,
         "color_name": "Basil",
         "color_hex": "#34d399",
         "bg_hex": "#34d39922"
