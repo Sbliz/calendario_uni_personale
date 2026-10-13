@@ -2065,7 +2065,7 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_4/rossa/completo_ios.ics",
-    "ios_count": 96,
+    "ios_count": 95,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2107,7 +2107,7 @@
         "name": "Malattie Infettive",
         "abbr": "INFETT",
         "file": "anno_4/rossa/materia_malattie_infettive.ics",
-        "count": 35,
+        "count": 34,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -2303,7 +2303,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_4/viola/completo_ios.ics",
-    "ios_count": 96,
+    "ios_count": 95,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2345,7 +2345,7 @@
         "name": "Malattie Infettive",
         "abbr": "INFETT",
         "file": "anno_4/viola/materia_malattie_infettive.ics",
-        "count": 35,
+        "count": 34,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -2970,13 +2970,13 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_6/azzurra/completo_ios.ics",
-    "ios_count": 66,
+    "ios_count": 65,
     "materie": [
       {
         "name": "Clinica Chirurgica",
         "abbr": "CLINCHIR",
         "file": "anno_6/azzurra/materia_clinica_chirurgica.ics",
-        "count": 25,
+        "count": 24,
         "color_name": "Peacock",
         "color_hex": "#60a5fa",
         "bg_hex": "#60a5fa22"
@@ -3077,7 +3077,7 @@
         "name": "Clinica Chirurgica",
         "abbr": "CLINCHIR",
         "file": "anno_6/bianca/materia_clinica_chirurgica.ics",
-        "count": 25,
+        "count": 24,
         "color_name": "Peacock",
         "color_hex": "#60a5fa",
         "bg_hex": "#60a5fa22"
@@ -3095,7 +3095,7 @@
         "name": "Ginecologia ed Ostetricia",
         "abbr": "GINOST",
         "file": "anno_6/bianca/materia_ginecologia_ed_ostetricia.ics",
-        "count": 19,
+        "count": 20,
         "color_name": "Basil",
         "color_hex": "#34d399",
         "bg_hex": "#34d39922"
@@ -3172,13 +3172,13 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_6/gialla/completo_ios.ics",
-    "ios_count": 67,
+    "ios_count": 66,
     "materie": [
       {
         "name": "Clinica Chirurgica",
         "abbr": "CLINCHIR",
         "file": "anno_6/gialla/materia_clinica_chirurgica.ics",
-        "count": 25,
+        "count": 24,
         "color_name": "Peacock",
         "color_hex": "#60a5fa",
         "bg_hex": "#60a5fa22"
@@ -3273,13 +3273,13 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_6/verde/completo_ios.ics",
-    "ios_count": 67,
+    "ios_count": 66,
     "materie": [
       {
         "name": "Clinica Chirurgica",
         "abbr": "CLINCHIR",
         "file": "anno_6/verde/materia_clinica_chirurgica.ics",
-        "count": 25,
+        "count": 24,
         "color_name": "Peacock",
         "color_hex": "#60a5fa",
         "bg_hex": "#60a5fa22"
