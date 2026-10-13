@@ -1222,7 +1222,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_1/bianca/completo_ios.ics",
-    "ios_count": 141,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
@@ -1264,7 +1264,7 @@
         "name": "Chimica e propedeutica biochimica",
         "abbr": "CHIM",
         "file": "anno_1/bianca/materia_chimica_e_propedeutica_biochimica.ics",
-        "count": 30,
+        "count": 46,
         "color_name": "Peacock",
         "color_hex": "#60a5fa",
         "bg_hex": "#60a5fa22"
@@ -2065,7 +2065,7 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_4/rossa/completo_ios.ics",
-    "ios_count": 95,
+    "ios_count": 96,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2107,7 +2107,7 @@
         "name": "Malattie Infettive",
         "abbr": "INFETT",
         "file": "anno_4/rossa/materia_malattie_infettive.ics",
-        "count": 34,
+        "count": 35,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -2303,7 +2303,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_4/viola/completo_ios.ics",
-    "ios_count": 95,
+    "ios_count": 96,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2345,7 +2345,7 @@
         "name": "Malattie Infettive",
         "abbr": "INFETT",
         "file": "anno_4/viola/materia_malattie_infettive.ics",
-        "count": 34,
+        "count": 35,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
