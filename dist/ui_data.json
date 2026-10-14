@@ -1304,13 +1304,13 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_2/azzurra/completo_ios.ics",
-    "ios_count": 158,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Fisiologia",
         "abbr": "FISIO",
         "file": "anno_2/azzurra/materia_fisiologia.ics",
-        "count": 36,
+        "count": 35,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -1387,13 +1387,13 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_2/bianca/completo_ios.ics",
-    "ios_count": 158,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Fisiologia",
         "abbr": "FISIO",
         "file": "anno_2/bianca/materia_fisiologia.ics",
-        "count": 36,
+        "count": 35,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
