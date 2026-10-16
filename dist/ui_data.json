@@ -810,7 +810,7 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_1/rossa/completo_ios.ics",
-    "ios_count": 138,
+    "ios_count": 139,
     "materie": [
       {
         "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
@@ -843,7 +843,7 @@
         "name": "Biologia",
         "abbr": "BIOL",
         "file": "anno_1/rossa/materia_biologia.ics",
-        "count": 29,
+        "count": 30,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -892,7 +892,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_1/viola/completo_ios.ics",
-    "ios_count": 138,
+    "ios_count": 139,
     "materie": [
       {
         "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
@@ -925,7 +925,7 @@
         "name": "Biologia",
         "abbr": "BIOL",
         "file": "anno_1/viola/materia_biologia.ics",
-        "count": 29,
+        "count": 30,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
