@@ -2065,7 +2065,7 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_4/rossa/completo_ios.ics",
-    "ios_count": 94,
+    "ios_count": 96,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2098,7 +2098,7 @@
         "name": "Immunologia clinica e reumatologia",
         "abbr": "IMMUNO",
         "file": "anno_4/rossa/materia_immunologia_clinica_e_reumatologia.ics",
-        "count": 14,
+        "count": 16,
         "color_name": "Mango",
         "color_hex": "#fbbf24",
         "bg_hex": "#fbbf2422"
@@ -2303,7 +2303,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_4/viola/completo_ios.ics",
-    "ios_count": 94,
+    "ios_count": 95,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2336,7 +2336,7 @@
         "name": "Immunologia clinica e reumatologia",
         "abbr": "IMMUNO",
         "file": "anno_4/viola/materia_immunologia_clinica_e_reumatologia.ics",
-        "count": 14,
+        "count": 15,
         "color_name": "Mango",
         "color_hex": "#fbbf24",
         "bg_hex": "#fbbf2422"
