@@ -1470,7 +1470,7 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_3/azzurra/completo_ios.ics",
-    "ios_count": 128,
+    "ios_count": 129,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
@@ -1512,7 +1512,7 @@
         "name": "Patologia",
         "abbr": "PATO",
         "file": "anno_3/azzurra/materia_patologia.ics",
-        "count": 53,
+        "count": 54,
         "color_name": "Banana",
         "color_hex": "#facc15",
         "bg_hex": "#fef08a22"
