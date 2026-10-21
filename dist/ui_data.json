@@ -1387,7 +1387,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_2/bianca/completo_ios.ics",
-    "ios_count": 157,
+    "ios_count": 156,
     "materie": [
       {
         "name": "Fisiologia",
@@ -1429,7 +1429,7 @@
         "name": "Semeiotica",
         "abbr": "SEMEIO",
         "file": "anno_2/bianca/materia_semeiotica.ics",
-        "count": 10,
+        "count": 9,
         "color_name": "Blueberry",
         "color_hex": "#818cf8",
         "bg_hex": "#818cf822"
@@ -1761,7 +1761,7 @@
         "name": "Anatomia e tecniche della chirurgia tradizionale e mini-invasiva del fegato",
         "abbr": "CHIRFEG",
         "file": "anno_4/azzurra/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini_invasiva_del_fegato.ics",
-        "count": 7,
+        "count": 6,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
@@ -1880,7 +1880,7 @@
         "name": "Anatomia e tecniche della chirurgia tradizionale e mini-invasiva del fegato",
         "abbr": "CHIRFEG",
         "file": "anno_4/bianca/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini_invasiva_del_fegato.ics",
-        "count": 7,
+        "count": 6,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
@@ -1999,7 +1999,7 @@
         "name": "Anatomia e tecniche della chirurgia tradizionale e mini-invasiva del fegato",
         "abbr": "CHIRFEG",
         "file": "anno_4/gialla/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini_invasiva_del_fegato.ics",
-        "count": 7,
+        "count": 6,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
@@ -2118,7 +2118,7 @@
         "name": "Anatomia e tecniche della chirurgia tradizionale e mini-invasiva del fegato",
         "abbr": "CHIRFEG",
         "file": "anno_4/rossa/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini_invasiva_del_fegato.ics",
-        "count": 7,
+        "count": 6,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
@@ -2237,7 +2237,7 @@
         "name": "Anatomia e tecniche della chirurgia tradizionale e mini-invasiva del fegato",
         "abbr": "CHIRFEG",
         "file": "anno_4/verde/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini_invasiva_del_fegato.ics",
-        "count": 7,
+        "count": 6,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
@@ -2356,7 +2356,7 @@
         "name": "Anatomia e tecniche della chirurgia tradizionale e mini-invasiva del fegato",
         "abbr": "CHIRFEG",
         "file": "anno_4/viola/elettivo_anatomia_e_tecniche_della_chirurgia_tradizionale_e_mini_invasiva_del_fegato.ics",
-        "count": 7,
+        "count": 6,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
