@@ -4,7 +4,7 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_3/gialla/completo_ios.ics",
-    "ios_count": 129,
+    "ios_count": 130,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
@@ -19,7 +19,7 @@
         "name": "Eventi generici",
         "abbr": "EVENTI",
         "file": "anno_3/gialla/materia_eventi_generici.ics",
-        "count": 2,
+        "count": 3,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -123,7 +123,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_3/verde/completo_ios.ics",
-    "ios_count": 127,
+    "ios_count": 128,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
@@ -138,7 +138,7 @@
         "name": "Eventi generici",
         "abbr": "EVENTI",
         "file": "anno_3/verde/materia_eventi_generici.ics",
-        "count": 2,
+        "count": 3,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -242,7 +242,7 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_1/gialla/completo_ios.ics",
-    "ios_count": 142,
+    "ios_count": 143,
     "materie": [
       {
         "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
@@ -302,7 +302,7 @@
         "name": "Eventi generici",
         "abbr": "EVENTI",
         "file": "anno_1/gialla/materia_eventi_generici.ics",
-        "count": 2,
+        "count": 3,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -324,7 +324,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_1/verde/completo_ios.ics",
-    "ios_count": 142,
+    "ios_count": 143,
     "materie": [
       {
         "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
@@ -384,7 +384,7 @@
         "name": "Eventi generici",
         "abbr": "EVENTI",
         "file": "anno_1/verde/materia_eventi_generici.ics",
-        "count": 2,
+        "count": 3,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -406,8 +406,17 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_2/gialla/completo_ios.ics",
-    "ios_count": 157,
+    "ios_count": 158,
     "materie": [
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_2/gialla/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
+      },
       {
         "name": "Fisiologia",
         "abbr": "FISIO",
@@ -489,8 +498,17 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_2/verde/completo_ios.ics",
-    "ios_count": 157,
+    "ios_count": 158,
     "materie": [
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_2/verde/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
+      },
       {
         "name": "Fisiologia",
         "abbr": "FISIO",
@@ -572,7 +590,7 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_3/rossa/completo_ios.ics",
-    "ios_count": 132,
+    "ios_count": 133,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
@@ -587,7 +605,7 @@
         "name": "Eventi generici",
         "abbr": "EVENTI",
         "file": "anno_3/rossa/materia_eventi_generici.ics",
-        "count": 2,
+        "count": 3,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -691,7 +709,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_3/viola/completo_ios.ics",
-    "ios_count": 132,
+    "ios_count": 133,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
@@ -706,7 +724,7 @@
         "name": "Eventi generici",
         "abbr": "EVENTI",
         "file": "anno_3/viola/materia_eventi_generici.ics",
-        "count": 2,
+        "count": 3,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -810,7 +828,7 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_1/rossa/completo_ios.ics",
-    "ios_count": 139,
+    "ios_count": 140,
     "materie": [
       {
         "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
@@ -870,7 +888,7 @@
         "name": "Eventi generici",
         "abbr": "EVENTI",
         "file": "anno_1/rossa/materia_eventi_generici.ics",
-        "count": 1,
+        "count": 2,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -892,7 +910,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_1/viola/completo_ios.ics",
-    "ios_count": 139,
+    "ios_count": 140,
     "materie": [
       {
         "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
@@ -952,7 +970,7 @@
         "name": "Eventi generici",
         "abbr": "EVENTI",
         "file": "anno_1/viola/materia_eventi_generici.ics",
-        "count": 1,
+        "count": 2,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -974,8 +992,17 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_2/rossa/completo_ios.ics",
-    "ios_count": 157,
+    "ios_count": 158,
     "materie": [
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_2/rossa/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
+      },
       {
         "name": "Fisiologia",
         "abbr": "FISIO",
@@ -1057,8 +1084,17 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_2/viola/completo_ios.ics",
-    "ios_count": 157,
+    "ios_count": 158,
     "materie": [
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_2/viola/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
+      },
       {
         "name": "Fisiologia",
         "abbr": "FISIO",
@@ -1140,7 +1176,7 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_1/azzurra/completo_ios.ics",
-    "ios_count": 141,
+    "ios_count": 142,
     "materie": [
       {
         "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
@@ -1200,7 +1236,7 @@
         "name": "Eventi generici",
         "abbr": "EVENTI",
         "file": "anno_1/azzurra/materia_eventi_generici.ics",
-        "count": 3,
+        "count": 4,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -1222,7 +1258,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_1/bianca/completo_ios.ics",
-    "ios_count": 157,
+    "ios_count": 158,
     "materie": [
       {
         "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
@@ -1282,7 +1318,7 @@
         "name": "Eventi generici",
         "abbr": "EVENTI",
         "file": "anno_1/bianca/materia_eventi_generici.ics",
-        "count": 3,
+        "count": 4,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -1304,8 +1340,17 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_2/azzurra/completo_ios.ics",
-    "ios_count": 157,
+    "ios_count": 158,
     "materie": [
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_2/azzurra/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
+      },
       {
         "name": "Fisiologia",
         "abbr": "FISIO",
@@ -1387,8 +1432,17 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_2/bianca/completo_ios.ics",
-    "ios_count": 157,
+    "ios_count": 158,
     "materie": [
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_2/bianca/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
+      },
       {
         "name": "Fisiologia",
         "abbr": "FISIO",
@@ -1470,7 +1524,7 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_3/azzurra/completo_ios.ics",
-    "ios_count": 129,
+    "ios_count": 131,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
@@ -1485,7 +1539,7 @@
         "name": "Eventi generici",
         "abbr": "EVENTI",
         "file": "anno_3/azzurra/materia_eventi_generici.ics",
-        "count": 2,
+        "count": 4,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -1589,7 +1643,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_3/bianca/completo_ios.ics",
-    "ios_count": 135,
+    "ios_count": 137,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
@@ -1604,7 +1658,7 @@
         "name": "Eventi generici",
         "abbr": "EVENTI",
         "file": "anno_3/bianca/materia_eventi_generici.ics",
-        "count": 2,
+        "count": 4,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -1708,7 +1762,7 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_4/azzurra/completo_ios.ics",
-    "ios_count": 96,
+    "ios_count": 97,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -1727,6 +1781,15 @@
         "color_name": "Graphite",
         "color_hex": "#94a3b8",
         "bg_hex": "#94a3b822"
+      },
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_4/azzurra/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Gastroenterologia",
@@ -1827,7 +1890,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_4/bianca/completo_ios.ics",
-    "ios_count": 96,
+    "ios_count": 97,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -1846,6 +1909,15 @@
         "color_name": "Graphite",
         "color_hex": "#94a3b8",
         "bg_hex": "#94a3b822"
+      },
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_4/bianca/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Gastroenterologia",
@@ -1946,7 +2018,7 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_4/gialla/completo_ios.ics",
-    "ios_count": 97,
+    "ios_count": 98,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -1965,6 +2037,15 @@
         "color_name": "Graphite",
         "color_hex": "#94a3b8",
         "bg_hex": "#94a3b822"
+      },
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_4/gialla/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Gastroenterologia",
@@ -2065,7 +2146,7 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_4/rossa/completo_ios.ics",
-    "ios_count": 96,
+    "ios_count": 97,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2084,6 +2165,15 @@
         "color_name": "Graphite",
         "color_hex": "#94a3b8",
         "bg_hex": "#94a3b822"
+      },
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_4/rossa/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Gastroenterologia",
@@ -2184,7 +2274,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_4/verde/completo_ios.ics",
-    "ios_count": 97,
+    "ios_count": 98,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2203,6 +2293,15 @@
         "color_name": "Graphite",
         "color_hex": "#94a3b8",
         "bg_hex": "#94a3b822"
+      },
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_4/verde/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Gastroenterologia",
@@ -2303,7 +2402,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_4/viola/completo_ios.ics",
-    "ios_count": 95,
+    "ios_count": 96,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2322,6 +2421,15 @@
         "color_name": "Graphite",
         "color_hex": "#94a3b8",
         "bg_hex": "#94a3b822"
+      },
+      {
+        "name": "Eventi generici",
+        "abbr": "EVENTI",
+        "file": "anno_4/viola/materia_eventi_generici.ics",
+        "count": 1,
+        "color_name": "Tomato",
+        "color_hex": "#f87171",
+        "bg_hex": "#f8717122"
       },
       {
         "name": "Gastroenterologia",
@@ -2970,7 +3078,7 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_6/azzurra/completo_ios.ics",
-    "ios_count": 65,
+    "ios_count": 66,
     "materie": [
       {
         "name": "Clinica Chirurgica",
@@ -2994,7 +3102,7 @@
         "name": "Ginecologia ed Ostetricia",
         "abbr": "GINOST",
         "file": "anno_6/azzurra/materia_ginecologia_ed_ostetricia.ics",
-        "count": 19,
+        "count": 20,
         "color_name": "Basil",
         "color_hex": "#34d399",
         "bg_hex": "#34d39922"
@@ -3071,7 +3179,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_6/bianca/completo_ios.ics",
-    "ios_count": 65,
+    "ios_count": 66,
     "materie": [
       {
         "name": "Clinica Chirurgica",
@@ -3095,7 +3203,7 @@
         "name": "Ginecologia ed Ostetricia",
         "abbr": "GINOST",
         "file": "anno_6/bianca/materia_ginecologia_ed_ostetricia.ics",
-        "count": 19,
+        "count": 20,
         "color_name": "Basil",
         "color_hex": "#34d399",
         "bg_hex": "#34d39922"
@@ -3172,7 +3280,7 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_6/gialla/completo_ios.ics",
-    "ios_count": 66,
+    "ios_count": 67,
     "materie": [
       {
         "name": "Clinica Chirurgica",
@@ -3205,7 +3313,7 @@
         "name": "Pediatria",
         "abbr": "PEDIAT",
         "file": "anno_6/gialla/materia_pediatria.ics",
-        "count": 19,
+        "count": 20,
         "color_name": "Basil",
         "color_hex": "#34d399",
         "bg_hex": "#34d39922"
@@ -3273,7 +3381,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_6/verde/completo_ios.ics",
-    "ios_count": 66,
+    "ios_count": 67,
     "materie": [
       {
         "name": "Clinica Chirurgica",
@@ -3306,7 +3414,7 @@
         "name": "Pediatria",
         "abbr": "PEDIAT",
         "file": "anno_6/verde/materia_pediatria.ics",
-        "count": 19,
+        "count": 20,
         "color_name": "Basil",
         "color_hex": "#34d399",
         "bg_hex": "#34d39922"

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-79d276b18e3e98b4@easycourse.unisr.it
-DTSTAMP:20261022T094315Z
+DTSTAMP:20261022T202052Z
 DTSTART;TZID=Europe/Rome:20261029T153000
 DTEND;TZID=Europe/Rome:20261029T170000
 SUMMARY:Eventi generici
@@ -37,12 +37,23 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-6e107865ec53bc7f@easycourse.unisr.it
-DTSTAMP:20261022T094315Z
+DTSTAMP:20261022T202052Z
 DTSTART;TZID=Europe/Rome:20261103T153000
 DTEND;TZID=Europe/Rome:20261103T170000
 SUMMARY:Eventi generici
 LOCATION:Aula VE201
 DESCRIPTION:Materia: Eventi generici\nLuogo: Aula VE201\nOrario: 15:30 - 17:00\nNota: Attività extra\, assemblee\, benvenuto matricole o altri eventi generici.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unisr-med-d288250c54e2bc70@easycourse.unisr.it
+DTSTAMP:20261022T202052Z
+DTSTART;TZID=Europe/Rome:20261106T123000
+DTEND;TZID=Europe/Rome:20261106T133000
+SUMMARY:Eventi generici
+LOCATION:Aula VA302
+DESCRIPTION:Materia: Eventi generici\nLuogo: Aula VA302\nOrario: 12:30 - 13:30\nNota: Attività extra\, assemblee\, benvenuto matricole o altri eventi generici.
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
