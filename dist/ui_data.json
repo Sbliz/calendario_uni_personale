@@ -892,13 +892,13 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_1/viola/completo_ios.ics",
-    "ios_count": 103,
+    "ios_count": 139,
     "materie": [
       {
         "name": "Autovalutazione e Aggiornamento delle Conoscenze Medico-Scientifiche",
         "abbr": "AUTOVAL",
         "file": "anno_1/viola/materia_autovalutazione_e_aggiornamento_delle_conoscenze_medico_scientifiche.ics",
-        "count": 9,
+        "count": 10,
         "color_name": "Blueberry",
         "color_hex": "#818cf8",
         "bg_hex": "#818cf822"
@@ -916,7 +916,7 @@
         "name": "Biochimica",
         "abbr": "BIOCHIM",
         "file": "anno_1/viola/materia_biochimica.ics",
-        "count": 2,
+        "count": 15,
         "color_name": "Banana",
         "color_hex": "#facc15",
         "bg_hex": "#fef08a22"
@@ -925,7 +925,7 @@
         "name": "Biologia",
         "abbr": "BIOL",
         "file": "anno_1/viola/materia_biologia.ics",
-        "count": 20,
+        "count": 30,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -943,7 +943,7 @@
         "name": "Comunicazione Clinica in Lingua Inglese e Storia della Medicina",
         "abbr": "COMCLIN",
         "file": "anno_1/viola/materia_comunicazione_clinica_in_lingua_inglese_e_storia_della_medicina.ics",
-        "count": 18,
+        "count": 21,
         "color_name": "Graphite",
         "color_hex": "#94a3b8",
         "bg_hex": "#94a3b822"
@@ -961,7 +961,7 @@
         "name": "Statistica",
         "abbr": "STAT",
         "file": "anno_1/viola/materia_statistica.ics",
-        "count": 14,
+        "count": 23,
         "color_name": "Tomato",
         "color_hex": "#f87171",
         "bg_hex": "#f8717122"
@@ -974,13 +974,13 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_2/rossa/completo_ios.ics",
-    "ios_count": 33,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Fisiologia",
         "abbr": "FISIO",
         "file": "anno_2/rossa/materia_fisiologia.ics",
-        "count": 8,
+        "count": 37,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -989,7 +989,7 @@
         "name": "Genetica Medica",
         "abbr": "GENET",
         "file": "anno_2/rossa/materia_genetica_medica.ics",
-        "count": 7,
+        "count": 35,
         "color_name": "Grape",
         "color_hex": "#a78bfa",
         "bg_hex": "#a78bfa22"
@@ -998,7 +998,7 @@
         "name": "Istologia",
         "abbr": "ISTO",
         "file": "anno_2/rossa/materia_istologia.ics",
-        "count": 10,
+        "count": 34,
         "color_name": "Sage",
         "color_hex": "#2dd4bf",
         "bg_hex": "#2dd4bf22"
@@ -1007,7 +1007,7 @@
         "name": "Morfologia Umana",
         "abbr": "MORFUM",
         "file": "anno_2/rossa/materia_morfologia_umana.ics",
-        "count": 6,
+        "count": 42,
         "color_name": "Mango",
         "color_hex": "#fbbf24",
         "bg_hex": "#fbbf2422"
@@ -1016,7 +1016,7 @@
         "name": "Semeiotica",
         "abbr": "SEMEIO",
         "file": "anno_2/rossa/materia_semeiotica.ics",
-        "count": 2,
+        "count": 9,
         "color_name": "Blueberry",
         "color_hex": "#818cf8",
         "bg_hex": "#818cf822"
@@ -1027,7 +1027,16 @@
         "name": "Burnout e stress lavoro correlato nella professione medica",
         "abbr": "BURNOUT",
         "file": "anno_2/rossa/elettivo_burnout_e_stress_lavoro_correlato_nella_professione_medica.ics",
-        "count": 1,
+        "count": 10,
+        "color_name": "Tangerine",
+        "color_hex": "#fb923c",
+        "bg_hex": "#fb923c22"
+      },
+      {
+        "name": "Fondamenti di Intelligenza Artificiale Applicata alla Medicina",
+        "abbr": "AIMED",
+        "file": "anno_2/rossa/elettivo_fondamenti_di_intelligenza_artificiale_applicata_alla_medicina.ics",
+        "count": 6,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
@@ -1036,7 +1045,7 @@
         "name": "Metodologia della ricerca: dalla medicina di base alla rianimazione",
         "abbr": "METRIC",
         "file": "anno_2/rossa/elettivo_metodologia_della_ricerca_dalla_medicina_di_base_alla_rianimazione.ics",
-        "count": 1,
+        "count": 10,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
