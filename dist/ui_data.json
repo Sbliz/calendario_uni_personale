@@ -406,7 +406,7 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_2/gialla/completo_ios.ics",
-    "ios_count": 158,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Eventi generici",
@@ -439,7 +439,7 @@
         "name": "Istologia",
         "abbr": "ISTO",
         "file": "anno_2/gialla/materia_istologia.ics",
-        "count": 34,
+        "count": 33,
         "color_name": "Sage",
         "color_hex": "#2dd4bf",
         "bg_hex": "#2dd4bf22"
@@ -498,7 +498,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_2/verde/completo_ios.ics",
-    "ios_count": 158,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Eventi generici",
@@ -531,7 +531,7 @@
         "name": "Istologia",
         "abbr": "ISTO",
         "file": "anno_2/verde/materia_istologia.ics",
-        "count": 34,
+        "count": 33,
         "color_name": "Sage",
         "color_hex": "#2dd4bf",
         "bg_hex": "#2dd4bf22"
@@ -1340,7 +1340,7 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_2/azzurra/completo_ios.ics",
-    "ios_count": 158,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Eventi generici",
@@ -1373,7 +1373,7 @@
         "name": "Istologia",
         "abbr": "ISTO",
         "file": "anno_2/azzurra/materia_istologia.ics",
-        "count": 34,
+        "count": 33,
         "color_name": "Sage",
         "color_hex": "#2dd4bf",
         "bg_hex": "#2dd4bf22"
@@ -1432,7 +1432,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_2/bianca/completo_ios.ics",
-    "ios_count": 158,
+    "ios_count": 157,
     "materie": [
       {
         "name": "Eventi generici",
@@ -1465,7 +1465,7 @@
         "name": "Istologia",
         "abbr": "ISTO",
         "file": "anno_2/bianca/materia_istologia.ics",
-        "count": 34,
+        "count": 33,
         "color_name": "Sage",
         "color_hex": "#2dd4bf",
         "bg_hex": "#2dd4bf22"
@@ -2530,7 +2530,7 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_5/azzurra/completo_ios.ics",
-    "ios_count": 104,
+    "ios_count": 103,
     "materie": [
       {
         "name": "Eventi generici",
@@ -2554,7 +2554,7 @@
         "name": "Specialità medico-Chirurgiche Testa-Collo",
         "abbr": "TESTCOLL",
         "file": "anno_5/azzurra/materia_specialita_medico_chirurgiche_testa_collo.ics",
-        "count": 48,
+        "count": 47,
         "color_name": "Basil",
         "color_hex": "#34d399",
         "bg_hex": "#34d39922"
@@ -2667,7 +2667,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_5/bianca/completo_ios.ics",
-    "ios_count": 106,
+    "ios_count": 105,
     "materie": [
       {
         "name": "Eventi generici",
@@ -2691,7 +2691,7 @@
         "name": "Specialità medico-Chirurgiche Testa-Collo",
         "abbr": "TESTCOLL",
         "file": "anno_5/bianca/materia_specialita_medico_chirurgiche_testa_collo.ics",
-        "count": 48,
+        "count": 47,
         "color_name": "Basil",
         "color_hex": "#34d399",
         "bg_hex": "#34d39922"
@@ -3158,7 +3158,7 @@
         "name": "Neuroradiologia Pediatrica: dalla RM fetale all'infanzia",
         "abbr": "NEURORAD",
         "file": "anno_6/azzurra/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_allinfanzia.ics",
-        "count": 8,
+        "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
@@ -3259,7 +3259,7 @@
         "name": "Neuroradiologia Pediatrica: dalla RM fetale all'infanzia",
         "abbr": "NEURORAD",
         "file": "anno_6/bianca/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_allinfanzia.ics",
-        "count": 8,
+        "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
@@ -3360,7 +3360,7 @@
         "name": "Neuroradiologia Pediatrica: dalla RM fetale all'infanzia",
         "abbr": "NEURORAD",
         "file": "anno_6/gialla/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_allinfanzia.ics",
-        "count": 8,
+        "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
@@ -3461,7 +3461,7 @@
         "name": "Neuroradiologia Pediatrica: dalla RM fetale all'infanzia",
         "abbr": "NEURORAD",
         "file": "anno_6/verde/elettivo_neuroradiologia_pediatrica_dalla_rm_fetale_allinfanzia.ics",
-        "count": 8,
+        "count": 7,
         "color_name": "Tangerine",
         "color_hex": "#fb923c",
         "bg_hex": "#fb923c22"
