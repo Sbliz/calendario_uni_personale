@@ -1524,7 +1524,7 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_3/azzurra/completo_ios.ics",
-    "ios_count": 131,
+    "ios_count": 130,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
@@ -1557,7 +1557,7 @@
         "name": "Microbiologia e Microbiologia Clinica",
         "abbr": "MICRO",
         "file": "anno_3/azzurra/materia_microbiologia_e_microbiologia_clinica.ics",
-        "count": 35,
+        "count": 34,
         "color_name": "Eucalyptus",
         "color_hex": "#4ade80",
         "bg_hex": "#4ade8022"
@@ -1643,7 +1643,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_3/bianca/completo_ios.ics",
-    "ios_count": 137,
+    "ios_count": 135,
     "materie": [
       {
         "name": "Attività professionalizzanti di medicina di laboratorio",
@@ -1676,7 +1676,7 @@
         "name": "Microbiologia e Microbiologia Clinica",
         "abbr": "MICRO",
         "file": "anno_3/bianca/materia_microbiologia_e_microbiologia_clinica.ics",
-        "count": 42,
+        "count": 40,
         "color_name": "Eucalyptus",
         "color_hex": "#4ade80",
         "bg_hex": "#4ade8022"
@@ -2146,7 +2146,7 @@
     "linea_name": "PERCORSO COMUNE LINEA ROSSA",
     "slug_linea": "rossa",
     "ios_link": "anno_4/rossa/completo_ios.ics",
-    "ios_count": 97,
+    "ios_count": 98,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2197,7 +2197,7 @@
         "name": "Malattie Infettive",
         "abbr": "INFETT",
         "file": "anno_4/rossa/materia_malattie_infettive.ics",
-        "count": 33,
+        "count": 34,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"
@@ -2402,7 +2402,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VIOLA",
     "slug_linea": "viola",
     "ios_link": "anno_4/viola/completo_ios.ics",
-    "ios_count": 96,
+    "ios_count": 97,
     "materie": [
       {
         "name": "Anatomia Patologica",
@@ -2453,7 +2453,7 @@
         "name": "Malattie Infettive",
         "abbr": "INFETT",
         "file": "anno_4/viola/materia_malattie_infettive.ics",
-        "count": 33,
+        "count": 34,
         "color_name": "Cherry Blossom",
         "color_hex": "#f472b6",
         "bg_hex": "#f472b622"

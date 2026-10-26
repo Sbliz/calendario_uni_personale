@@ -25,13 +25,13 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:unisr-med-ce957c8808fed0fa@easycourse.unisr.it
-DTSTAMP:20261026T104409Z
-DTSTART;TZID=Europe/Rome:20261102T143000
-DTEND;TZID=Europe/Rome:20261102T153000
+UID:unisr-med-c466d4a2ebe0cecd@easycourse.unisr.it
+DTSTAMP:20261026T212331Z
+DTSTART;TZID=Europe/Rome:20261105T123000
+DTEND;TZID=Europe/Rome:20261105T133000
 SUMMARY:Eventi generici
-LOCATION:Aula VA102
-DESCRIPTION:Materia: Eventi generici\nLuogo: Aula VA102\nOrario: 14:30 - 15:30\nNota: Attività extra\, assemblee\, benvenuto matricole o altri eventi generici.
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Eventi generici\nLuogo: Aula CA302\nOrario: 12:30 - 13:30\nNota: Attività extra\, assemblee\, benvenuto matricole o altri eventi generici.
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
