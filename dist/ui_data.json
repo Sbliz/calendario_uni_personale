@@ -2530,7 +2530,7 @@
     "linea_name": "PERCORSO COMUNE LINEA AZZURRA",
     "slug_linea": "azzurra",
     "ios_link": "anno_5/azzurra/completo_ios.ics",
-    "ios_count": 103,
+    "ios_count": 104,
     "materie": [
       {
         "name": "Eventi generici",
@@ -2554,7 +2554,7 @@
         "name": "Specialità medico-Chirurgiche Testa-Collo",
         "abbr": "TESTCOLL",
         "file": "anno_5/azzurra/materia_specialita_medico_chirurgiche_testa_collo.ics",
-        "count": 47,
+        "count": 48,
         "color_name": "Basil",
         "color_hex": "#34d399",
         "bg_hex": "#34d39922"
@@ -2667,7 +2667,7 @@
     "linea_name": "PERCORSO COMUNE LINEA BIANCA",
     "slug_linea": "bianca",
     "ios_link": "anno_5/bianca/completo_ios.ics",
-    "ios_count": 105,
+    "ios_count": 106,
     "materie": [
       {
         "name": "Eventi generici",
@@ -2691,7 +2691,7 @@
         "name": "Specialità medico-Chirurgiche Testa-Collo",
         "abbr": "TESTCOLL",
         "file": "anno_5/bianca/materia_specialita_medico_chirurgiche_testa_collo.ics",
-        "count": 47,
+        "count": 48,
         "color_name": "Basil",
         "color_hex": "#34d399",
         "bg_hex": "#34d39922"
