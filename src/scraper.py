@@ -1083,6 +1083,41 @@ def generate_dynamic_index(ui_data, dist_dir):
 
 
 def main():
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    config_mode_path = os.path.join(base_dir, "config", "active_mode.json")
+    
+    if os.path.exists(config_mode_path):
+        try:
+            with open(config_mode_path, "r", encoding="utf-8") as f_cfg:
+                mode_data = json.load(f_cfg)
+                mode = mode_data.get("mode")
+                
+                # Se è già stata effettuata la transizione permanente a 'private'
+                if mode == "private":
+                    print("[INFO] Modalita 'private' attiva. Aggiornamento feed privati...")
+                    scripts_dir = os.path.join(base_dir, "scripts")
+                    sys.path.insert(0, scripts_dir)
+                    import switch_to_private
+                    switch_to_private.main()
+                    return
+
+                # Controllo Cutover Programmato (Venerdì 30 Ottobre alle 17:30 italiane = 16:30 UTC)
+                cutover_at_str = mode_data.get("cutover_at")
+                if cutover_at_str:
+                    cutover_dt = datetime.fromisoformat(cutover_at_str.replace("Z", "+00:00"))
+                    now_utc = datetime.now(timezone.utc)
+                    if now_utc >= cutover_dt:
+                        print(f"[INFO] Scattata soglia temporale ({cutover_at_str}). Avvio spegnimento programmato e attivazione privata...")
+                        scripts_dir = os.path.join(base_dir, "scripts")
+                        sys.path.insert(0, scripts_dir)
+                        import switch_to_private
+                        switch_to_private.main()
+                        return
+                    else:
+                        print(f"[INFO] Spegnimento programmato per {cutover_at_str}. Ora attuale: {now_utc.isoformat()}. Procedo in modalita pubblica.")
+        except Exception as e:
+            print(f"[Warning] Errore lettura config/active_mode.json: {e}")
+
     print("=== Avvio Sincronizzatore Multicanale UniSR ===")
     os.makedirs(DIST_DIR, exist_ok=True)
     load_acronyms_map()
@@ -1192,6 +1227,14 @@ def main():
     print(f"Totale Lezioni Estratte: {total_lezioni_estratte}")
     print(f"Totale Feed Generati: {total_feed_generati}")
     
+    # GUARDRAIL ANTI-SVUOTAMENTO (Circuit Breaker)
+    # Se il server universitario è offline o ha restituito 0 lezioni, NON sovrascrivere
+    # ui_data.json e index.html con dati vuoti, per non rompere il portale web agli studenti.
+    if total_lezioni_estratte == 0 or len(ui_data) < 20:
+        print(f"\n[ERRORE CRITICO] Scraping anomalo: estratte solo {total_lezioni_estratte} lezioni e {len(ui_data)} configurazioni.")
+        print("[BLOCCO DI SICUREZZA] Interruzione immediata senza toccare dist/ui_data.json né dist/index.html per preservare il sito.")
+        sys.exit(1)
+
     with open(os.path.join(DIST_DIR, "ui_data.json"), "w", encoding="utf-8") as f:
         json.dump(ui_data, f, ensure_ascii=False, indent=2)
 

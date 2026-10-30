@@ -1,0 +1,13 @@
+{
+  "mode": "scheduled",
+  "cutover_at": "2026-10-30T16:30:00Z",
+  "private_config": {
+    "target": "anno_3_viola",
+    "cdl_id": 458,
+    "anno_id": 1084,
+    "curr_id": 1736,
+    "private_token": "p_viola3",
+    "apple_calendar_name": "UniSR Medicina 3 - Linea Viola",
+    "google_calendar_prefix": "UniSR Med3 Viola"
+  }
+}

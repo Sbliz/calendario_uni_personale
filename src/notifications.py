@@ -128,6 +128,10 @@ def check_and_notify_watched_courses(all_lessons):
     Verifica se ci sono aggiornamenti rispetto allo stato salvato
     per i corsi nella configurazione WATCHED_CONFIG.
     """
+    if not all_lessons:
+        print("[Watch] Nessuna lezione fornita (possibile fallimento scraping o server offline). Controllo notifiche saltato per sicurezza.")
+        return False
+
     token, chat_id = get_telegram_credentials()
     state = load_watched_state()
     has_changes = False

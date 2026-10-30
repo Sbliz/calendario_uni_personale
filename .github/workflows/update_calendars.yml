@@ -2,7 +2,8 @@ name: Sincronizza Calendari UniSR
 
 on:
   schedule:
-    # Esegue automaticamente ogni giorno alle 05:00 e alle 17:00 UTC (07:00 e 19:00 ora italiana)
+    # Esegue alle 16:30 UTC (17:30 ora italiana) per cutover programmato e alle 05:00 e 17:00 UTC
+    - cron: '30 16 * * *'
     - cron: '0 5,17 * * *'
   workflow_dispatch: # Permette di avviare la sincronizzazione manualmente con un clic su GitHub
   push:
@@ -46,7 +47,7 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/ src/watched_state.json
+          git add dist/ src/watched_state.json config/active_mode.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: sincronizzazione automatica calendari e stato corsi [skip ci]" && git push)
 
       - name: Configura GitHub Pages
