@@ -3280,7 +3280,7 @@
     "linea_name": "PERCORSO COMUNE LINEA GIALLA",
     "slug_linea": "gialla",
     "ios_link": "anno_6/gialla/completo_ios.ics",
-    "ios_count": 67,
+    "ios_count": 66,
     "materie": [
       {
         "name": "Clinica Chirurgica",
@@ -3304,7 +3304,7 @@
         "name": "Ginecologia ed Ostetricia",
         "abbr": "GINOST",
         "file": "anno_6/gialla/materia_ginecologia_ed_ostetricia.ics",
-        "count": 21,
+        "count": 20,
         "color_name": "Basil",
         "color_hex": "#34d399",
         "bg_hex": "#34d39922"
@@ -3381,7 +3381,7 @@
     "linea_name": "PERCORSO COMUNE LINEA VERDE",
     "slug_linea": "verde",
     "ios_link": "anno_6/verde/completo_ios.ics",
-    "ios_count": 67,
+    "ios_count": 66,
     "materie": [
       {
         "name": "Clinica Chirurgica",
@@ -3405,7 +3405,7 @@
         "name": "Ginecologia ed Ostetricia",
         "abbr": "GINOST",
         "file": "anno_6/verde/materia_ginecologia_ed_ostetricia.ics",
-        "count": 21,
+        "count": 20,
         "color_name": "Basil",
         "color_hex": "#34d399",
         "bg_hex": "#34d39922"
