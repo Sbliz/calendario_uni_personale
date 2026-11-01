@@ -600,7 +600,11 @@ def generate_private_html(apple_file, apple_count, materie, elettivi):
         }}
 
         document.getElementById('materie-grid').innerHTML = materie.map(buildCard).join('');
-        document.getElementById('elettivi-grid').innerHTML = elettivi.map(buildCard).join('');
+        if (elettivi.length > 0) {{
+            document.getElementById('elettivi-grid').innerHTML = elettivi.map(buildCard).join('');
+        }} else {{
+            document.getElementById('elettivi-grid').innerHTML = '<p style="color:var(--text-muted); font-size:0.95rem;">Nessun corso elettivo rilevato per questa linea.</p>';
+        }}
 
         window.copyUrl = function(file, btn) {{
             const url = baseUrl + '/' + file + '?v=1';
@@ -651,14 +655,29 @@ def main():
     
     # 2. Scraping 3° anno Linea Viola
     lessons = fetch_viola_lessons()
-    if not lessons:
-        print("[AVVISO] Nessuna lezione estratta. Generazione feed con dati minimi di fallback.")
-    
-    # 3. Costruzione feed privati
-    generate_private_feeds(lessons)
+    apple_file = os.path.join(PRIVATE_DIR, "apple_linea_viola.ics")
+    has_existing_feeds = os.path.exists(apple_file) and os.path.getsize(apple_file) > 1000
+
+    if not lessons and has_existing_feeds:
+        print("[CIRCUIT BREAKER] Nessuna lezione estratta da EasyCourse ma i feed privati esistono gia. Preservo i feed esistenti.")
+    else:
+        # 3. Costruzione feed privati
+        generate_private_feeds(lessons)
     
     # 4. Aggiornamento stato
     update_mode_configuration()
+
+    # 5. Notifiche corsi monitorati
+    if lessons:
+        try:
+            src_dir = os.path.join(BASE_DIR, "src")
+            if src_dir not in sys.path:
+                sys.path.insert(0, src_dir)
+            from notifications import check_and_notify_watched_courses
+            print("\n=== Verifica Corsi Monitorati (Notifiche Telegram) ===")
+            check_and_notify_watched_courses(lessons)
+        except Exception as e:
+            print(f"[Warning] Controllo notifiche Telegram fallito: {e}")
 
     print("\n================================================================")
     print(" OPERAZIONE COMPLETATA CON SUCCESSO!                           ")

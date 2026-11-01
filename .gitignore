@@ -25,6 +25,7 @@ restore_antigravity_data.*
 # Large test/sample dumps
 *.html
 !dist/index.html
+!dist/**/*.html
 src/week2_raw.html
 semester_full.html
 easycourse_w1.html

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendari UniSR - Medicina 3 (Linea Viola)</title>
+    <style>
+        :root {
+            --bg: #0f172a; --surface: #1e293b; --surface-hover: #334155;
+            --text: #f8fafc; --text-muted: #94a3b8; --primary: #38bdf8;
+            --border: #334155; --orange: #fb923c;
+            --apple: #0284c7; --google: #1a73e8; --outlook: #0078d4;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        body { background: var(--bg); color: var(--text); padding: 2rem 1rem; line-height: 1.5; }
+        .container { max-width: 980px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 2rem; }
+        h1 { font-size: 2.1rem; margin-bottom: 0.5rem; color: #fff; }
+        .subtitle { color: var(--text-muted); font-size: 1.15rem; }
+        
+        .pill-banner {
+            background: #1e1b4b; border: 1px solid #6366f1; border-radius: 12px;
+            padding: 0.9rem 1.25rem; margin-bottom: 2rem; display: flex;
+            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem;
+        }
+        .pill-tag {
+            font-size: 0.8rem; font-weight: 700; color: #a5b4fc; background: #312e81;
+            padding: 0.25rem 0.6rem; border-radius: 6px; text-transform: uppercase;
+        }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem; }
+        .card {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 14px; padding: 1.35rem; display: flex; flex-direction: column; justify-content: space-between;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+        .card:hover { transform: translateY(-2px); border-color: #475569; }
+        .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; gap: 0.5rem; }
+        .card-header h3 { font-size: 1.1rem; font-weight: 600; flex-grow: 1; }
+        .badge { font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px; text-transform: uppercase; white-space: nowrap; }
+        .card-meta { font-size: 0.85rem; color: #cbd5e1; margin-bottom: 1rem; }
+        .actions { display: flex; flex-direction: column; gap: 0.5rem; }
+        .actions-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+        
+        .btn {
+            display: flex; align-items: center; justify-content: center; gap: 0.4rem;
+            text-align: center; padding: 0.6rem 0.8rem; border-radius: 8px;
+            font-size: 0.82rem; font-weight: 600; text-decoration: none; cursor: pointer;
+            border: none; transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.9; }
+        .btn-apple { background: #0284c7; color: white; }
+        .btn-gcal { background: #2563eb; color: white; }
+        .btn-outlook { background: #0284c7; color: white; }
+        .btn-copy { background: var(--surface-hover); color: #e2e8f0; border: 1px solid var(--border); width: 100%; }
+        
+        .section-title { font-size: 1.35rem; margin: 2.2rem 0 1rem; color: #fff; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
+        
+        .guide-box {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 14px; padding: 1.75rem; margin-top: 3rem;
+        }
+        .guide-box h2 { font-size: 1.3rem; margin-bottom: 1rem; color: #fff; }
+        .platforms-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin-top: 1rem;
+        }
+        .platform-card {
+            background: #0f172a; border: 1px solid var(--border); border-radius: 10px; padding: 1rem;
+        }
+        .platform-card h4 { font-size: 0.98rem; margin-bottom: 0.4rem; color: var(--primary); display: flex; align-items: center; gap: 0.4rem; }
+        .platform-card p, .platform-card li { font-size: 0.85rem; color: var(--text-muted); line-height: 1.4; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sincronizzazione Calendario UniSR</h1>
+            <p class="subtitle">Accesso Diretto Personale • Medicina e Chirurgia 3</p>
+        </header>
+
+        <div class="pill-banner">
+            <div>
+                <strong style="color:#fff; font-size:1rem;">Configurazione Attiva:</strong>
+                <span style="color:#cbd5e1; margin-left:0.5rem;">3° Anno — Linea Viola (Canale C)</span>
+            </div>
+            <span class="pill-tag">Feed Riservato</span>
+        </div>
+
+        <!-- Box Calendario Completo Curricolare (Apple / iOS / Mac) -->
+        <div class="card" style="border-color: var(--primary); background: #0b1329; margin-bottom: 2rem;">
+            <div class="card-header">
+                <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf8;">FEED UNICO COMPLETO</span>
+                <h3 id="full-card-title">Tutti i Corsi Curricolari Obbligatori (Linea Viola)</h3>
+            </div>
+            <p class="card-meta"><b>133</b> eventi curricolari obbligatori nel semestre</p>
+            <div class="actions">
+                <div class="actions-row">
+                    <a id="apple-full-btn" href="#" class="btn btn-apple">🍏 Apple Calendar (iOS/Mac)</a>
+                    <a id="gcal-full-btn" href="#" target="_blank" class="btn btn-gcal">📅 Google Calendar</a>
+                </div>
+                <div class="actions-row">
+                    <a id="outlook-full-btn" href="#" target="_blank" class="btn btn-outlook">📧 Outlook / 365</a>
+                    <button id="copy-full-btn" onclick="copyUrl('apple_linea_viola.ics', this)" class="btn btn-copy">📋 Copia Link Universale (ICS)</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Moduli Obbligatori per Materia (Google Calendar / Multi-Colore) -->
+        <h2 class="section-title">📚 Corsi per Materia (Google Calendar / Outlook / Multi-Colore)</h2>
+        <p style="color:var(--text-muted); font-size:0.9rem; margin-top:-0.5rem; margin-bottom:1.25rem;">
+            Sottoscrivi le singole materie per visualizzarle con i rispettivi colori nel tuo calendario.
+        </p>
+        <div class="grid" id="materie-grid"></div>
+
+        <!-- Corsi Elettivi -->
+        <h2 class="section-title">🎯 Corsi Elettivi (A scelta dello studente - Arancione)</h2>
+        <p style="color:var(--text-muted); font-size:0.9rem; margin-top:-0.5rem; margin-bottom:1.25rem;">
+            Sottoscrivi unicamente i corsi opzionali che avete inserito nel rispettivo piano di studi.
+        </p>
+        <div class="grid" id="elettivi-grid"></div>
+
+        <!-- Guida Multi-Piattaforma -->
+        <div class="guide-box">
+            <h2>📱 Istruzioni Rapide per Dispositivo</h2>
+            <div class="platforms-grid">
+                <div class="platform-card">
+                    <h4>🍏 Apple (iPhone, iPad, Mac)</h4>
+                    <p>Clicca sul pulsante azzurro <b>"Apple Calendar"</b>. Il sistema aprirà automaticamente l'app Calendario. Sincronizzandosi con iCloud, apparirà su tutti i tuoi dispositivi e Apple Watch.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>📅 Google Calendar (Android / PC)</h4>
+                    <p>Clicca su <b>"Google Calendar"</b> per aggiungerlo direttamente con 1 clic. Assegna il colore suggerito sul badge per mantenere l'ordine visivo.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>📧 Microsoft Outlook (Windows / Mac / Web)</h4>
+                    <p>Clicca su <b>"Outlook / 365"</b> per aprire la sottoscrizione web, oppure copia il link ICS e incollalo in Outlook in <i>"Aggiungi calendario" ➔ "Iscriviti dal Web"</i>.</p>
+                </div>
+                <div class="platform-card">
+                    <h4>📲 Samsung Calendar / Android Nativo</h4>
+                    <p>Copia il link universale ICS e incollalo nell'app Calendario sotto <i>"Gestisci calendari" ➔ "Aggiungi da URL"</i>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const materie = [{"name": "Attività professionalizzanti di medicina di laboratorio", "filename": "materie/materia_attivita_professionalizzanti_di_medicina_di_laboratorio.ics", "count": 8, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}, {"name": "Evento generico", "filename": "materie/materia_evento_generico.ics", "count": 3, "color_name": "Cherry Blossom", "color_hex": "#f472b6", "bg_hex": "#f472b622"}, {"name": "Medicina di Laboratorio", "filename": "materie/materia_medicina_di_laboratorio.ics", "count": 20, "color_name": "Amethyst", "color_hex": "#c084fc", "bg_hex": "#c084fc22"}, {"name": "Microbiologia e Microbiologia Clinica", "filename": "materie/materia_microbiologia_e_microbiologia_clinica.ics", "count": 35, "color_name": "Eucalyptus", "color_hex": "#4ade80", "bg_hex": "#4ade8022"}, {"name": "Patologia", "filename": "materie/materia_patologia.ics", "count": 57, "color_name": "Banana", "color_hex": "#facc15", "bg_hex": "#fef08a22"}, {"name": "Preparedness in Medicina: dal Quotidiano allo Straordinario", "filename": "materie/materia_preparedness_in_medicina_dal_quotidiano_allo_straordinario.ics", "count": 10, "color_name": "Graphite", "color_hex": "#94a3b8", "bg_hex": "#94a3b822"}];
+        const elettivi = [{"name": "Cyber", "filename": "elettivi/elettivo_cyber.ics", "count": 3, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Imaging morfologico e funzionale del sistema nervoso", "filename": "elettivi/elettivo_imaging_morfologico_e_funzionale_del_sistema_nervoso.ics", "count": 5, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Ricerche bibliografiche", "filename": "elettivi/elettivo_ricerche_bibliografiche.ics", "count": 12, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria", "filename": "elettivi/elettivo_semeiotica_applicata_alla_chirurgia_dal_segno_obiettivo_alla_scelta_operatoria.ics", "count": 9, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Tele", "filename": "elettivi/elettivo_tele.ics", "count": 4, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}, {"name": "Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra", "filename": "elettivi/elettivo_urgenze_ed_emergenze_in_chirurgia_vascolare_tempo_di_pace_e_tempo_di_guerra.ics", "count": 3, "color_name": "Tangerine", "color_hex": "#fb923c", "bg_hex": "#fb923c22"}];
+        const baseUrl = window.location.href.replace(/[/]index[.]html$/, '').replace(/[/]$/, '');
+
+        // Setup Feed Unico
+        const appleFullUrl = baseUrl + '/apple_linea_viola.ics?v=1';
+        const cleanWebcal = appleFullUrl.replace(/^https?:[/][/]/, 'webcal://');
+        const gcalFullUrl = 'https://calendar.google.com/calendar/render?cid=' + encodeURIComponent(cleanWebcal);
+        const outlookFullUrl = 'https://outlook.live.com/calendar/0/addfromweb?url=' + encodeURIComponent(appleFullUrl) + '&name=' + encodeURIComponent('UniSR Med3 Linea Viola');
+
+        document.getElementById('apple-full-btn').href = cleanWebcal;
+        document.getElementById('gcal-full-btn').href = gcalFullUrl;
+        document.getElementById('outlook-full-btn').href = outlookFullUrl;
+
+        function buildCard(item) {
+            const itemIcsUrl = baseUrl + '/' + item.filename + '?v=1';
+            const itemWebcal = itemIcsUrl.replace(/^https?:[/][/]/, 'webcal://');
+            const gcalItemUrl = 'https://calendar.google.com/calendar/render?cid=' + encodeURIComponent(itemWebcal);
+            const outlookItemUrl = 'https://outlook.live.com/calendar/0/addfromweb?url=' + encodeURIComponent(itemIcsUrl) + '&name=' + encodeURIComponent(item.name);
+            
+            return `
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" style="background: ${item.bg_hex}; color: ${item.color_hex}; border: 1px solid ${item.color_hex};">${item.color_name}</span>
+                    <h3>${item.name}</h3>
+                </div>
+                <p class="card-meta"><b>${item.count}</b> sessioni in calendario</p>
+                <div class="actions">
+                    <div class="actions-row">
+                        <a href="${gcalItemUrl}" target="_blank" class="btn btn-gcal">📅 Google</a>
+                        <a href="${itemWebcal}" class="btn btn-apple">🍏 Apple</a>
+                    </div>
+                    <div class="actions-row">
+                        <a href="${outlookItemUrl}" target="_blank" class="btn btn-outlook">📧 Outlook</a>
+                        <button onclick="copyUrl('${item.filename}', this)" class="btn btn-copy">📋 Copia ICS</button>
+                    </div>
+                </div>
+            </div>`;
+        }
+
+        document.getElementById('materie-grid').innerHTML = materie.map(buildCard).join('');
+        if (elettivi.length > 0) {
+            document.getElementById('elettivi-grid').innerHTML = elettivi.map(buildCard).join('');
+        } else {
+            document.getElementById('elettivi-grid').innerHTML = '<p style="color:var(--text-muted); font-size:0.95rem;">Nessun corso elettivo rilevato per questa linea.</p>';
+        }
+
+        window.copyUrl = function(file, btn) {
+            const url = baseUrl + '/' + file + '?v=1';
+            navigator.clipboard.writeText(url).then(() => {
+                const orig = btn.innerText;
+                btn.innerText = '✅ Copiato!';
+                btn.style.borderColor = '#22c55e'; btn.style.color = '#22c55e';
+                setTimeout(() => { btn.innerText = orig; btn.style.borderColor = ''; btn.style.color = ''; }, 2000);
+            }).catch(() => {
+                prompt('Copia questo link:', url);
+            });
+        };
+    </script>
+</body>
+</html>

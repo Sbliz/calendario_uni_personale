@@ -6,6 +6,7 @@ File monolitico auto-consistente per GitHub Actions.
 """
 
 import os
+import sys
 import re
 import ssl
 import time
@@ -1086,6 +1087,7 @@ def main():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     config_mode_path = os.path.join(base_dir, "config", "active_mode.json")
     
+    is_private_mode = False
     if os.path.exists(config_mode_path):
         try:
             with open(config_mode_path, "r", encoding="utf-8") as f_cfg:
@@ -1094,29 +1096,30 @@ def main():
                 
                 # Se è già stata effettuata la transizione permanente a 'private'
                 if mode == "private":
-                    print("[INFO] Modalita 'private' attiva. Aggiornamento feed privati...")
-                    scripts_dir = os.path.join(base_dir, "scripts")
-                    sys.path.insert(0, scripts_dir)
-                    import switch_to_private
-                    switch_to_private.main()
-                    return
-
-                # Controllo Cutover Programmato (Venerdì 30 Ottobre alle 17:30 italiane = 16:30 UTC)
-                cutover_at_str = mode_data.get("cutover_at")
-                if cutover_at_str:
-                    cutover_dt = datetime.fromisoformat(cutover_at_str.replace("Z", "+00:00"))
-                    now_utc = datetime.now(timezone.utc)
-                    if now_utc >= cutover_dt:
-                        print(f"[INFO] Scattata soglia temporale ({cutover_at_str}). Avvio spegnimento programmato e attivazione privata...")
-                        scripts_dir = os.path.join(base_dir, "scripts")
-                        sys.path.insert(0, scripts_dir)
-                        import switch_to_private
-                        switch_to_private.main()
-                        return
-                    else:
-                        print(f"[INFO] Spegnimento programmato per {cutover_at_str}. Ora attuale: {now_utc.isoformat()}. Procedo in modalita pubblica.")
+                    is_private_mode = True
+                else:
+                    # Controllo Cutover Programmato (Venerdì 30 Ottobre alle 17:30 italiane = 16:30 UTC)
+                    cutover_at_str = mode_data.get("cutover_at")
+                    if cutover_at_str:
+                        cutover_dt = datetime.fromisoformat(cutover_at_str.replace("Z", "+00:00"))
+                        now_utc = datetime.now(timezone.utc)
+                        if now_utc >= cutover_dt:
+                            print(f"[INFO] Scattata soglia temporale ({cutover_at_str}). Avvio spegnimento programmato e attivazione privata...")
+                            is_private_mode = True
+                        else:
+                            print(f"[INFO] Spegnimento programmato per {cutover_at_str}. Ora attuale: {now_utc.isoformat()}. Procedo in modalita pubblica.")
         except Exception as e:
             print(f"[Warning] Errore lettura config/active_mode.json: {e}")
+
+    if is_private_mode:
+        print("[INFO] Modalita 'private' attiva. Aggiornamento feed privati...")
+        scripts_dir = os.path.join(base_dir, "scripts")
+        if scripts_dir not in sys.path:
+            sys.path.insert(0, scripts_dir)
+        import switch_to_private
+        switch_to_private.main()
+        # Non procedere MAI con lo scraper pubblico quando la modalita privata e' attiva!
+        return
 
     print("=== Avvio Sincronizzatore Multicanale UniSR ===")
     os.makedirs(DIST_DIR, exist_ok=True)
