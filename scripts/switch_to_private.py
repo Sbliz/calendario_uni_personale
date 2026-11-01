@@ -22,6 +22,7 @@ import time
 import hashlib
 import unicodedata
 import urllib.request
+import html as html_lib
 from datetime import datetime, timezone
 from collections import defaultdict
 
@@ -46,6 +47,42 @@ PALETTE = [
     ('#fbbf24', '#fbbf2422', 'Mango'),
     ('#94a3b8', '#94a3b822', 'Graphite'),
 ]
+
+
+def sanitize_input(text, max_length=150):
+    if not text:
+        return ""
+    text = re.sub(r'https?://\S+|www\.\S+', '[LINK RIMOSSO]', text, flags=re.IGNORECASE)
+    text = re.sub(r'<[^>]*>', '', text)
+    return text[:max_length].strip()
+
+
+def format_docente_name(nome, cognome):
+    nome = (nome or "").strip()
+    cognome = (cognome or "").strip()
+    if not cognome:
+        return nome.title()
+    
+    iniziale = f"{nome[0].upper()}." if nome else ""
+    cognome_fmt = " ".join([w.capitalize() for w in cognome.split()])
+    cognome_fmt = re.sub(r"([a-zA-Z]')([a-zA-Z])", lambda m: m.group(1) + m.group(2).upper(), cognome_fmt)
+    
+    if iniziale:
+        return f"{iniziale} {cognome_fmt}"
+    return cognome_fmt
+
+
+def get_activity_type_info(raw_title):
+    raw_title = html_lib.unescape(raw_title)
+    if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
+        return "Lezione", "LEZ"
+    elif " - ESE" in raw_title:
+        return "Esercitazione", "ESE"
+    elif " - APR" in raw_title or " - APRO" in raw_title:
+        return "Attività Pratica", "APR"
+    elif " - TIR" in raw_title:
+        return "Tirocinio", "TIR"
+    return "", ""
 
 
 def get_color_for_subject(subject_name):
@@ -140,7 +177,7 @@ def fetch_viola_lessons():
     html = ""
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(req, context=ctx, timeout=40) as resp:
+            with urllib.request.urlopen(req, context=ctx, timeout=60) as resp:
                 html = resp.read().decode('utf-8', errors='ignore')
                 break
         except Exception as e:
@@ -170,11 +207,11 @@ def fetch_viola_lessons():
         if not lez_wrap:
             continue
 
-        lezioni_tags = re.findall(r'<div[^>]*class="lezione"[^>]*>', lez_wrap.group(1))
+        lezioni_tags = re.findall(r'<div\s+class="lezione"(.*?)>', lez_wrap.group(1), re.DOTALL)
         for l in lezioni_tags:
             def get_attr(name):
-                m = re.search(rf'data-{name}="([^"]*)"', l)
-                return m.group(1).strip() if m else ""
+                m = re.search(rf'data-{name}=([\'"])(.*?)\1', l, re.DOTALL)
+                return m.group(2).strip() if m else ""
 
             ora_ini = get_attr("ora-inizio")
             ora_fine = get_attr("ora-fine")
@@ -187,11 +224,14 @@ def fetch_viola_lessons():
             nomi_docenti = []
             if docenti_json:
                 try:
-                    doc_data = json.loads(docenti_json)
+                    doc_data = json.loads(html_lib.unescape(docenti_json))
                     for d in doc_data:
-                        nome = f"{d.get('Nome', '')} {d.get('Cognome', '')}".strip()
-                        if nome:
-                            nomi_docenti.append(nome)
+                        nome = d.get('Nome', '').strip()
+                        cognome = d.get('Cognome', '').strip()
+                        doc_str = format_docente_name(nome, cognome)
+                        doc_str = sanitize_input(doc_str, max_length=100)
+                        if doc_str:
+                            nomi_docenti.append(doc_str)
                 except Exception:
                     pass
 
@@ -224,18 +264,21 @@ def fetch_viola_lessons():
 
 
 def clean_title(raw_title):
-    tipo = ""
-    if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
-        tipo = "Lezione"
-    elif " - ESE" in raw_title:
-        tipo = "Esercitazione"
-    elif " - APR" in raw_title or " - TIR" in raw_title:
-        tipo = "Attività Pratica"
+    raw_title = html_lib.unescape(raw_title)
+    raw_title = sanitize_input(raw_title, max_length=200)
     
-    base_match = re.match(r'^(.*?)(?:\s*\[|\s*-)', raw_title)
-    base_name = base_match.group(1).strip() if base_match else raw_title
-    if tipo:
-        return f"{base_name} [{tipo}]"
+    clean = re.sub(r'\s*-\s*Corso Elettivo.*$', '', raw_title, flags=re.IGNORECASE)
+    clean = re.sub(r'\s*-\s*(LEZ(_D)?|ESE|APR(_[A-Z0-9]+)?|TIR|APRO).*$', '', clean, flags=re.IGNORECASE)
+    
+    # Se dopo la rimozione dei tipi rimane una struttura 'NomeInsegnamento - ModuloCanale',
+    # estraiamo il nome principale dell'insegnamento per evitare duplicati come 'Semeiotica - Semeiotica 2'
+    parts = re.split(r'\s+-\s+', clean)
+    base_name = parts[0].strip()
+    base_name = re.sub(r'\s*\[.*?\]', '', base_name).strip()
+    
+    if base_name.lower() in ("evento generico", "eventi generici"):
+        base_name = "Eventi generici"
+        
     return base_name
 
 
@@ -307,16 +350,43 @@ def build_ics_calendar(calendar_name, lessons, description=""):
         uid = generate_uid(l)
         summary = clean_title(l['titolo'])
 
-        loc_parts = []
-        if l['sede']: loc_parts.append(f"Edificio {l['sede']}")
-        if l['aula']: loc_parts.append(f"Aula {l['aula']}")
-        location = ", ".join(loc_parts)
+        base_subj = get_base_subject_name(summary)
+        tipo_nome, tipo_tag = get_activity_type_info(l['titolo'])
+        if tipo_tag:
+            summary_with_tag = f"[{tipo_tag}] {summary.upper()}"
+        else:
+            summary_with_tag = summary.upper()
 
-        desc_lines = [f"Insegnamento: {l['titolo']}"]
-        if l['docenti']: desc_lines.append(f"Docenti: {', '.join(l['docenti'])}")
-        if location: desc_lines.append(f"Luogo: {location}")
+        location = ""
+        if l.get('aula'):
+            raw_aula = l['aula'].strip()
+            if raw_aula.lower().startswith("aula"):
+                location = raw_aula
+            else:
+                location = f"Aula {raw_aula}"
+
+        desc_luogo_parts = []
+        if l.get('sede'):
+            raw_sede = l['sede'].strip()
+            if raw_sede.lower().startswith("edificio"):
+                desc_luogo_parts.append(raw_sede)
+            else:
+                desc_luogo_parts.append(f"Edificio {raw_sede}")
+        if location:
+            desc_luogo_parts.append(location)
+        desc_luogo = ", ".join(desc_luogo_parts)
+
+        desc_lines = [f"Materia: {base_subj}"]
+        if tipo_nome:
+            desc_lines.append(f"Tipo: {tipo_nome}")
+        if l.get('docenti'):
+            doc_label = "Docente" if len(l['docenti']) == 1 else "Docenti"
+            desc_lines.append(f"{doc_label}: {', '.join(l['docenti'])}")
+        if desc_luogo:
+            desc_lines.append(f"Luogo: {desc_luogo}")
         desc_lines.append(f"Orario: {l['ora_inizio']} - {l['ora_fine']}")
-        desc_lines.append("Fonte: EasyCourse UniSR (Privato)")
+        if "Eventi generici" in base_subj:
+            desc_lines.append("Nota: Attività extra, assemblee, benvenuto matricole o altri eventi generici.")
 
         lines.extend([
             "BEGIN:VEVENT",
@@ -324,7 +394,7 @@ def build_ics_calendar(calendar_name, lessons, description=""):
             f"DTSTAMP:{now_utc}",
             f"DTSTART;TZID=Europe/Rome:{dtstart}",
             f"DTEND;TZID=Europe/Rome:{dtend}",
-            f"SUMMARY:{escape_ical_text(summary)}",
+            f"SUMMARY:{escape_ical_text(summary_with_tag)}",
             f"LOCATION:{escape_ical_text(location)}",
             f"DESCRIPTION:{escape_ical_text(chr(10).join(desc_lines))}",
             "STATUS:CONFIRMED",

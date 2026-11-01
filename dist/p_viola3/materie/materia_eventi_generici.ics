@@ -3,8 +3,8 @@ VERSION:2.0
 PRODID:-//UniSR//Calendari Medicina//IT
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Evento generico
-X-WR-CALDESC:Insegnamento: Evento generico
+X-WR-CALNAME:Eventi generici
+X-WR-CALDESC:Insegnamento: Eventi generici
 X-WR-TIMEZONE:Europe/Rome
 BEGIN:VTIMEZONE
 TZID:Europe/Rome
@@ -26,34 +26,34 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-e9fe80a955ac77e6@easycourse.unisr.it
-DTSTAMP:20261101T134746Z
+DTSTAMP:20261101T164932Z
 DTSTART;TZID=Europe/Rome:20261029T153000
 DTEND;TZID=Europe/Rome:20261029T170000
-SUMMARY:Evento generico
-LOCATION:Edificio VASARI\, Aula VA102
-DESCRIPTION:Insegnamento: Evento generico - CLMMC-C - 3 - PDS0-2024C\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 15:30 - 17:00\nFonte: EasyCourse UniSR (Privato)
+SUMMARY:EVENTI GENERICI
+LOCATION:Aula VA102
+DESCRIPTION:Materia: Eventi generici\nLuogo: Edificio VASARI\, Aula VA102\nOrario: 15:30 - 17:00\nNota: Attività extra\, assemblee\, benvenuto matricole o altri eventi generici.
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-04bb226afcf61d3f@easycourse.unisr.it
-DTSTAMP:20261101T134746Z
+DTSTAMP:20261101T164932Z
 DTSTART;TZID=Europe/Rome:20261103T093000
 DTEND;TZID=Europe/Rome:20261103T103000
-SUMMARY:Evento generico
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Evento generico - CLMMC-C - 3 - PDS0-2024C\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 09:30 - 10:30\nFonte: EasyCourse UniSR (Privato)
+SUMMARY:EVENTI GENERICI
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Eventi generici\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 09:30 - 10:30\nNota: Attività extra\, assemblee\, benvenuto matricole o altri eventi generici.
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-61232383296da277@easycourse.unisr.it
-DTSTAMP:20261101T134746Z
+DTSTAMP:20261101T164932Z
 DTSTART;TZID=Europe/Rome:20261103T153000
 DTEND;TZID=Europe/Rome:20261103T170000
-SUMMARY:Evento generico
-LOCATION:Edificio CANOVA\, Aula CA302
-DESCRIPTION:Insegnamento: Evento generico - CLMMC-C - 3 - PDS0-2024C\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 15:30 - 17:00\nFonte: EasyCourse UniSR (Privato)
+SUMMARY:EVENTI GENERICI
+LOCATION:Aula CA302
+DESCRIPTION:Materia: Eventi generici\nLuogo: Edificio CANOVA\, Aula CA302\nOrario: 15:30 - 17:00\nNota: Attività extra\, assemblee\, benvenuto matricole o altri eventi generici.
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

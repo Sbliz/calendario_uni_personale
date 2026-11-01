@@ -3,8 +3,8 @@ VERSION:2.0
 PRODID:-//UniSR//Calendari Medicina//IT
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Elettivo: Cyber
-X-WR-CALDESC:Corso Elettivo: Cyber
+X-WR-CALNAME:Elettivo: Cyber-Humanities
+X-WR-CALDESC:Corso Elettivo: Cyber-Humanities
 X-WR-TIMEZONE:Europe/Rome
 BEGIN:VTIMEZONE
 TZID:Europe/Rome
@@ -26,34 +26,34 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-66cf66d47bd94844@easycourse.unisr.it
-DTSTAMP:20261101T134746Z
+DTSTAMP:20261101T164932Z
 DTSTART;TZID=Europe/Rome:20261026T173000
 DTEND;TZID=Europe/Rome:20261026T193000
-SUMMARY:Cyber [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Cyber-Humanities - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Privato)
+SUMMARY:[LEZ] CYBER-HUMANITIES
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Cyber-Humanities\nTipo: Lezione\nDocente: M. Camisani Calzolari\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-b84e9c978846643f@easycourse.unisr.it
-DTSTAMP:20261101T134746Z
+DTSTAMP:20261101T164932Z
 DTSTART;TZID=Europe/Rome:20261102T173000
 DTEND;TZID=Europe/Rome:20261102T193000
-SUMMARY:Cyber [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Cyber-Humanities - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Privato)
+SUMMARY:[LEZ] CYBER-HUMANITIES
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Cyber-Humanities\nTipo: Lezione\nDocente: M. Camisani Calzolari\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-95c0b433a50d149a@easycourse.unisr.it
-DTSTAMP:20261101T134746Z
+DTSTAMP:20261101T164932Z
 DTSTART;TZID=Europe/Rome:20261109T173000
 DTEND;TZID=Europe/Rome:20261109T193000
-SUMMARY:Cyber [Lezione]
-LOCATION:Edificio CANOVA\, Aula CA101
-DESCRIPTION:Insegnamento: Cyber-Humanities - LEZ - Corso Elettivo\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Privato)
+SUMMARY:[LEZ] CYBER-HUMANITIES
+LOCATION:Aula CA101
+DESCRIPTION:Materia: Cyber-Humanities\nTipo: Lezione\nDocente: M. Camisani Calzolari\nLuogo: Edificio CANOVA\, Aula CA101\nOrario: 17:30 - 19:30
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

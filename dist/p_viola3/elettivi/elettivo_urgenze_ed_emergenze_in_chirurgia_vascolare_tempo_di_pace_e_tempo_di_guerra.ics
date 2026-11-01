@@ -26,34 +26,34 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:unisr-med-af0b5d5ae4884100@easycourse.unisr.it
-DTSTAMP:20261101T134746Z
+DTSTAMP:20261101T164932Z
 DTSTART;TZID=Europe/Rome:20261112T173000
 DTEND;TZID=Europe/Rome:20261112T193000
-SUMMARY:Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Privato)
+SUMMARY:[LEZ] URGENZE ED EMERGENZE IN CHIRURGIA VASCOLARE: TEMPO DI PACE E TEMPO DI GUERRA
+LOCATION:Aula BO102
+DESCRIPTION:Materia: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra\nTipo: Lezione\nDocente: A. Kahlberg\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 17:30 - 19:30
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-a56aa658e8a83110@easycourse.unisr.it
-DTSTAMP:20261101T134746Z
+DTSTAMP:20261101T164932Z
 DTSTART;TZID=Europe/Rome:20261119T173000
 DTEND;TZID=Europe/Rome:20261119T193000
-SUMMARY:Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO101
-DESCRIPTION:Insegnamento: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Privato)
+SUMMARY:[LEZ] URGENZE ED EMERGENZE IN CHIRURGIA VASCOLARE: TEMPO DI PACE E TEMPO DI GUERRA
+LOCATION:Aula BO101
+DESCRIPTION:Materia: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra\nTipo: Lezione\nDocente: M. Bossi\nLuogo: Edificio BORROMINI\, Aula BO101\nOrario: 17:30 - 19:30
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:unisr-med-bbbe8534f4dd5244@easycourse.unisr.it
-DTSTAMP:20261101T134746Z
+DTSTAMP:20261101T164932Z
 DTSTART;TZID=Europe/Rome:20261126T173000
 DTEND;TZID=Europe/Rome:20261126T193000
-SUMMARY:Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra [Lezione]
-LOCATION:Edificio BORROMINI\, Aula BO102
-DESCRIPTION:Insegnamento: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra - LEZ - Corso Elettivo\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 17:30 - 19:30\nFonte: EasyCourse UniSR (Privato)
+SUMMARY:[LEZ] URGENZE ED EMERGENZE IN CHIRURGIA VASCOLARE: TEMPO DI PACE E TEMPO DI GUERRA
+LOCATION:Aula BO102
+DESCRIPTION:Materia: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra\nTipo: Lezione\nDocente: A. Kahlberg\nLuogo: Edificio BORROMINI\, Aula BO102\nOrario: 17:30 - 19:30
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

@@ -738,9 +738,9 @@ def build_ics_calendar(calendar_name, lessons, description=""):
         base_subj = get_base_subject_name(summary)
         tipo_nome, tipo_tag = get_activity_type_info(l['titolo'])
         if tipo_tag:
-            summary_with_tag = f"[{tipo_tag}] {summary}"
+            summary_with_tag = f"[{tipo_tag}] {summary.upper()}"
         else:
-            summary_with_tag = summary
+            summary_with_tag = summary.upper()
 
         location = ""
         if l.get('aula'):
@@ -750,14 +750,25 @@ def build_ics_calendar(calendar_name, lessons, description=""):
             else:
                 location = f"Aula {raw_aula}"
 
+        desc_luogo_parts = []
+        if l.get('sede'):
+            raw_sede = l['sede'].strip()
+            if raw_sede.lower().startswith("edificio"):
+                desc_luogo_parts.append(raw_sede)
+            else:
+                desc_luogo_parts.append(f"Edificio {raw_sede}")
+        if location:
+            desc_luogo_parts.append(location)
+        desc_luogo = ", ".join(desc_luogo_parts)
+
         desc_lines = [f"Materia: {base_subj}"]
         if tipo_nome:
             desc_lines.append(f"Tipo: {tipo_nome}")
         if l.get('docenti'):
             doc_label = "Docente" if len(l['docenti']) == 1 else "Docenti"
             desc_lines.append(f"{doc_label}: {', '.join(l['docenti'])}")
-        if location:
-            desc_lines.append(f"Luogo: {location}")
+        if desc_luogo:
+            desc_lines.append(f"Luogo: {desc_luogo}")
         desc_lines.append(f"Orario: {l['ora_inizio']} - {l['ora_fine']}")
         if "Eventi generici" in base_subj:
             desc_lines.append("Nota: Attività extra, assemblee, benvenuto matricole o altri eventi generici.")
