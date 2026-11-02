@@ -119,20 +119,6 @@
       "titolo": "Lezione: Patologia"
     },
     {
-      "aula": "CA101",
-      "date": "02-11-2026",
-      "docenti": [
-        "M. Camisani Calzolari"
-      ],
-      "elettivo": true,
-      "id": "",
-      "ora_fine": "19:30",
-      "ora_inizio": "17:30",
-      "piano": "1 piano",
-      "sede": "CANOVA",
-      "titolo": "Lezione: Cyber-Humanities - Corso Elettivo"
-    },
-    {
       "aula": "CA202",
       "date": "02-11-2026",
       "docenti": [
@@ -693,20 +679,6 @@
       "piano": "1 piano",
       "sede": "CANOVA",
       "titolo": "Lezione: Patologia"
-    },
-    {
-      "aula": "CA101",
-      "date": "09-11-2026",
-      "docenti": [
-        "M. Camisani Calzolari"
-      ],
-      "elettivo": true,
-      "id": "",
-      "ora_fine": "19:30",
-      "ora_inizio": "17:30",
-      "piano": "1 piano",
-      "sede": "CANOVA",
-      "titolo": "Lezione: Cyber-Humanities - Corso Elettivo"
     },
     {
       "aula": "VA101",
