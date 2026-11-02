@@ -1,0 +1,2677 @@
+{
+  "01-10-2026": [
+    {
+      "aula": "VA302",
+      "date": "01-10-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "3 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "01-12-2026": [
+    {
+      "aula": "BO102",
+      "date": "01-12-2026",
+      "docenti": [
+        "C. Di Resta"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "BO202",
+      "date": "01-12-2026",
+      "docenti": [
+        "V. Fumagalli"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "2 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA202",
+      "date": "01-12-2026",
+      "docenti": [
+        "F. Puccetti"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
+    },
+    {
+      "aula": "VA101",
+      "date": "01-12-2026",
+      "docenti": [
+        "G. Tonon"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "02-10-2026": [
+    {
+      "aula": "VA102",
+      "date": "02-10-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA102",
+      "date": "02-10-2026",
+      "docenti": [
+        "R. Burioni"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "02-11-2026": [
+    {
+      "aula": "BO102",
+      "date": "02-11-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA101",
+      "date": "02-11-2026",
+      "docenti": [
+        "M. Camisani Calzolari"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Cyber-Humanities - Corso Elettivo"
+    },
+    {
+      "aula": "CA202",
+      "date": "02-11-2026",
+      "docenti": [
+        "L. Silvestrini"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "CA202",
+      "date": "02-11-2026",
+      "docenti": [
+        "G. Banfi"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "VA101",
+      "date": "02-11-2026",
+      "docenti": [
+        "R. Furlan"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "02-12-2026": [
+    {
+      "aula": "BO101",
+      "date": "02-12-2026",
+      "docenti": [
+        "F. Cipriani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria - Corso Elettivo"
+    },
+    {
+      "aula": "BO302",
+      "date": "02-12-2026",
+      "docenti": [
+        "M. Castelli"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "3 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "03-11-2026": [
+    {
+      "aula": "CA202",
+      "date": "03-11-2026",
+      "docenti": [
+        "F. Puccetti"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
+    },
+    {
+      "aula": "CA302",
+      "date": "03-11-2026",
+      "docenti": [
+        "L. Silvestrini"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "3 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA101",
+      "date": "03-11-2026",
+      "docenti": [
+        "R. Furlan"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "03-12-2026": [
+    {
+      "aula": "BO101",
+      "date": "03-12-2026",
+      "docenti": [
+        "A. Castellano"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Imaging morfologico e funzionale del sistema nervoso - Corso Elettivo"
+    },
+    {
+      "aula": "VA102",
+      "date": "03-12-2026",
+      "docenti": [
+        "M. Castelli"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA102",
+      "date": "03-12-2026",
+      "docenti": [
+        "E. Criscuolo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "04-11-2026": [
+    {
+      "aula": "BO101",
+      "date": "04-11-2026",
+      "docenti": [
+        "F. Cipriani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria - Corso Elettivo"
+    },
+    {
+      "aula": "CA202",
+      "date": "04-11-2026",
+      "docenti": [
+        "R. Furlan"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA202",
+      "date": "04-11-2026",
+      "docenti": [
+        "L. Silvestrini"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "CA302",
+      "date": "04-11-2026",
+      "docenti": [
+        "S. Carletti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "3 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "04-12-2026": [
+    {
+      "aula": "CA301",
+      "date": "04-12-2026",
+      "docenti": [
+        "E. Scifo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "3 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    }
+  ],
+  "05-10-2026": [
+    {
+      "aula": "CA202",
+      "date": "05-10-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA202",
+      "date": "05-10-2026",
+      "docenti": [
+        "G. Banfi"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    }
+  ],
+  "05-11-2026": [
+    {
+      "aula": "VA102",
+      "date": "05-11-2026",
+      "docenti": [
+        "L. Silvestrini"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA102",
+      "date": "05-11-2026",
+      "docenti": [
+        "S. Carletti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA201",
+      "date": "05-11-2026",
+      "docenti": [
+        "G. Rezza"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "2 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Preparedness in Medicina: dal Quotidiano allo Straordinario"
+    }
+  ],
+  "06-10-2026": [
+    {
+      "aula": "CA102",
+      "date": "06-10-2026",
+      "docenti": [
+        "A. Leocani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Tele-neuro fisiologia, neuromodulazione e tecnologie digitali - Corso Elettivo"
+    },
+    {
+      "aula": "CA202",
+      "date": "06-10-2026",
+      "docenti": [
+        "F. Puccetti"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
+    },
+    {
+      "aula": "VA101",
+      "date": "06-10-2026",
+      "docenti": [
+        "C. Di Resta"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "VA101",
+      "date": "06-10-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "06-11-2026": [
+    {
+      "aula": "BO301",
+      "date": "06-11-2026",
+      "docenti": [
+        "A. Naclerio"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "3 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    },
+    {
+      "aula": "BO301",
+      "date": "06-11-2026",
+      "docenti": [
+        "A. Naclerio"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "3 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    }
+  ],
+  "07-01-2027": [],
+  "07-10-2026": [
+    {
+      "aula": "BO101",
+      "date": "07-10-2026",
+      "docenti": [
+        "F. Cipriani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria - Corso Elettivo"
+    },
+    {
+      "aula": "CA202",
+      "date": "07-10-2026",
+      "docenti": [
+        "M. Pieri"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Preparedness in Medicina: dal Quotidiano allo Straordinario"
+    },
+    {
+      "aula": "CA202",
+      "date": "07-10-2026",
+      "docenti": [
+        "R. Burioni"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "CA202",
+      "date": "07-10-2026",
+      "docenti": [
+        "M. Kuka"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "07-12-2026": [],
+  "08-01-2027": [],
+  "08-10-2026": [
+    {
+      "aula": "BO101",
+      "date": "08-10-2026",
+      "docenti": [
+        "A. Castellano"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Imaging morfologico e funzionale del sistema nervoso - Corso Elettivo"
+    },
+    {
+      "aula": "VA102",
+      "date": "08-10-2026",
+      "docenti": [
+        "M. Iannacone"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA102",
+      "date": "08-10-2026",
+      "docenti": [
+        "R. Burioni"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA102",
+      "date": "08-10-2026",
+      "docenti": [
+        "M. Kuka"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "08-12-2026": [],
+  "09-10-2026": [
+    {
+      "aula": "CA102",
+      "date": "09-10-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "09-11-2026": [
+    {
+      "aula": "CA101",
+      "date": "09-11-2026",
+      "docenti": [
+        "F. Andreata"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA101",
+      "date": "09-11-2026",
+      "docenti": [
+        "F. Andreata"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA101",
+      "date": "09-11-2026",
+      "docenti": [
+        "M. Camisani Calzolari"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Cyber-Humanities - Corso Elettivo"
+    },
+    {
+      "aula": "VA101",
+      "date": "09-11-2026",
+      "docenti": [
+        "S. Carletti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA101",
+      "date": "09-11-2026",
+      "docenti": [
+        "G. Banfi"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    }
+  ],
+  "09-12-2026": [
+    {
+      "aula": "BO101",
+      "date": "09-12-2026",
+      "docenti": [
+        "F. Cipriani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria - Corso Elettivo"
+    },
+    {
+      "aula": "BO202",
+      "date": "09-12-2026",
+      "docenti": [
+        "R. Tomaiuolo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "CA101",
+      "date": "09-12-2026",
+      "docenti": [
+        "S. Battaglia"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
+    },
+    {
+      "aula": "VA102",
+      "date": "09-12-2026",
+      "docenti": [
+        "V. Russo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "10-11-2026": [
+    {
+      "aula": "CA101",
+      "date": "10-11-2026",
+      "docenti": [
+        "F. Andreata"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA202",
+      "date": "10-11-2026",
+      "docenti": [
+        "F. Puccetti"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
+    },
+    {
+      "aula": "VA101",
+      "date": "10-11-2026",
+      "docenti": [
+        "G. Banfi"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "VA101",
+      "date": "10-11-2026",
+      "docenti": [
+        "S. Carletti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "10-12-2026": [
+    {
+      "aula": "BO101",
+      "date": "10-12-2026",
+      "docenti": [
+        "A. Castellano"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Imaging morfologico e funzionale del sistema nervoso - Corso Elettivo"
+    },
+    {
+      "aula": "CA101",
+      "date": "10-12-2026",
+      "docenti": [
+        "E. Criscuolo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA102",
+      "date": "10-12-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA102",
+      "date": "10-12-2026",
+      "docenti": [
+        "G. Tonon"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "11-01-2027": [],
+  "11-11-2026": [
+    {
+      "aula": "BO101",
+      "date": "11-11-2026",
+      "docenti": [
+        "F. Cipriani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria - Corso Elettivo"
+    },
+    {
+      "aula": "BO201",
+      "date": "11-11-2026",
+      "docenti": [
+        "M. Castelli"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "BO402",
+      "date": "11-11-2026",
+      "docenti": [
+        "F. Andreata"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA101",
+      "date": "11-11-2026",
+      "docenti": [
+        "L. Silvestrini"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA201",
+      "date": "11-11-2026",
+      "docenti": [
+        "S. Carletti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "2 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "11-12-2026": [
+    {
+      "aula": "BO102",
+      "date": "11-12-2026",
+      "docenti": [
+        "G. Pipitone"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    },
+    {
+      "aula": "BO102",
+      "date": "11-12-2026",
+      "docenti": [
+        "G. Pipitone"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    },
+    {
+      "aula": "VA102",
+      "date": "11-12-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA102",
+      "date": "11-12-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "12-01-2027": [
+    {
+      "aula": "BO402",
+      "date": "12-01-2027",
+      "docenti": [
+        "E. Scifo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    },
+    {
+      "aula": "BO402",
+      "date": "12-01-2027",
+      "docenti": [
+        "E. Scifo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    },
+    {
+      "aula": "CA202",
+      "date": "12-01-2027",
+      "docenti": [
+        "S. Battaglia"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
+    }
+  ],
+  "12-10-2026": [
+    {
+      "aula": "CA202",
+      "date": "12-10-2026",
+      "docenti": [
+        "M. Kuka"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA102",
+      "date": "12-10-2026",
+      "docenti": [
+        "R. Burioni"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "12-11-2026": [
+    {
+      "aula": "BO102",
+      "date": "12-11-2026",
+      "docenti": [
+        "A. Kahlberg"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra - Corso Elettivo"
+    }
+  ],
+  "13-01-2027": [],
+  "13-10-2026": [
+    {
+      "aula": "CA102",
+      "date": "13-10-2026",
+      "docenti": [
+        "A. Leocani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Tele-neuro fisiologia, neuromodulazione e tecnologie digitali - Corso Elettivo"
+    },
+    {
+      "aula": "CA202",
+      "date": "13-10-2026",
+      "docenti": [
+        "D. Bertini"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
+    },
+    {
+      "aula": "VA101",
+      "date": "13-10-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA101",
+      "date": "13-10-2026",
+      "docenti": [
+        "C. Di Resta"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "VA102",
+      "date": "13-10-2026",
+      "docenti": [
+        "M. Kuka"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA102",
+      "date": "13-10-2026",
+      "docenti": [
+        "M. Iannacone"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "13-11-2026": [],
+  "14-01-2027": [],
+  "14-10-2026": [
+    {
+      "aula": "CA101",
+      "date": "14-10-2026",
+      "docenti": [
+        "M. Iannacone"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA202",
+      "date": "14-10-2026",
+      "docenti": [
+        "M. Pieri"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Preparedness in Medicina: dal Quotidiano allo Straordinario"
+    },
+    {
+      "aula": "CA202",
+      "date": "14-10-2026",
+      "docenti": [
+        "R. Burioni"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "14-12-2026": [
+    {
+      "aula": "BO402",
+      "date": "14-12-2026",
+      "docenti": [
+        "V. Russo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "BO402",
+      "date": "14-12-2026",
+      "docenti": [
+        "S. Pasqualetti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    },
+    {
+      "aula": "BO402",
+      "date": "14-12-2026",
+      "docenti": [
+        "S. Pasqualetti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    }
+  ],
+  "15-01-2027": [
+    {
+      "aula": "SIMLAB 2 - PLENARIA 2",
+      "date": "15-01-2027",
+      "docenti": [
+        "G. De Luca"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "08:30",
+      "piano": "piano terra",
+      "sede": "DIBIT1",
+      "titolo": "Lezione: Attività Professionalizzanti: Semeiotica II parte"
+    },
+    {
+      "aula": "SIMLAB 2 - PLENARIA 2",
+      "date": "15-01-2027",
+      "docenti": [
+        "G. De Luca"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "13:30",
+      "piano": "piano terra",
+      "sede": "DIBIT1",
+      "titolo": "Lezione: Attività Professionalizzanti: Semeiotica II parte"
+    }
+  ],
+  "15-10-2026": [
+    {
+      "aula": "BO101",
+      "date": "15-10-2026",
+      "docenti": [
+        "A. Castellano"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Imaging morfologico e funzionale del sistema nervoso - Corso Elettivo"
+    },
+    {
+      "aula": "BO102",
+      "date": "15-10-2026",
+      "docenti": [
+        "M. Pieri"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Preparedness in Medicina: dal Quotidiano allo Straordinario"
+    },
+    {
+      "aula": "VA101",
+      "date": "15-10-2026",
+      "docenti": [
+        "M. Iannacone"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA101",
+      "date": "15-10-2026",
+      "docenti": [
+        "L. Silvestrini"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA102",
+      "date": "15-10-2026",
+      "docenti": [
+        "M. Iannacone"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "15-12-2026": [
+    {
+      "aula": "BO102",
+      "date": "15-12-2026",
+      "docenti": [
+        "G. Banfi"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "CA202",
+      "date": "15-12-2026",
+      "docenti": [
+        "F. Puccetti"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
+    },
+    {
+      "aula": "VA402",
+      "date": "15-12-2026",
+      "docenti": [
+        "G. Tonon"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "4 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "16-10-2026": [],
+  "16-11-2026": [
+    {
+      "aula": "VA101",
+      "date": "16-11-2026",
+      "docenti": [
+        "D. Inverso"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA101",
+      "date": "16-11-2026",
+      "docenti": [
+        "G. Banfi"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    }
+  ],
+  "16-12-2026": [
+    {
+      "aula": "BO101",
+      "date": "16-12-2026",
+      "docenti": [
+        "F. Cipriani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria - Corso Elettivo"
+    },
+    {
+      "aula": "BO402",
+      "date": "16-12-2026",
+      "docenti": [
+        "E. Scifo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    },
+    {
+      "aula": "BO402",
+      "date": "16-12-2026",
+      "docenti": [
+        "E. Scifo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    },
+    {
+      "aula": "BO402",
+      "date": "16-12-2026",
+      "docenti": [
+        "E. Criscuolo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "17-11-2026": [
+    {
+      "aula": "CA102",
+      "date": "17-11-2026",
+      "docenti": [
+        "A. Leocani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Tele-neuro fisiologia, neuromodulazione e tecnologie digitali - Corso Elettivo"
+    },
+    {
+      "aula": "CA202",
+      "date": "17-11-2026",
+      "docenti": [
+        "F. Puccetti"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
+    },
+    {
+      "aula": "VA102",
+      "date": "17-11-2026",
+      "docenti": [
+        "S. Carletti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA302",
+      "date": "17-11-2026",
+      "docenti": [
+        "D. Inverso"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "3 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "17-12-2026": [
+    {
+      "aula": "BO102",
+      "date": "17-12-2026",
+      "docenti": [
+        "E. Criscuolo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA102",
+      "date": "17-12-2026",
+      "docenti": [
+        "R. Burioni"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA402",
+      "date": "17-12-2026",
+      "docenti": [
+        "G. Tonon"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "4 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "18-01-2027": [
+    {
+      "aula": "SIMLAB 2 - PLENARIA 2",
+      "date": "18-01-2027",
+      "docenti": [
+        "G. De Luca"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "08:30",
+      "piano": "piano terra",
+      "sede": "DIBIT1",
+      "titolo": "Lezione: Attività Professionalizzanti: Semeiotica II parte"
+    },
+    {
+      "aula": "SIMLAB 2 - PLENARIA 2",
+      "date": "18-01-2027",
+      "docenti": [
+        "G. De Luca"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "13:30",
+      "piano": "piano terra",
+      "sede": "DIBIT1",
+      "titolo": "Lezione: Attività Professionalizzanti: Semeiotica II parte"
+    }
+  ],
+  "18-11-2026": [
+    {
+      "aula": "BO101",
+      "date": "18-11-2026",
+      "docenti": [
+        "F. Cipriani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria - Corso Elettivo"
+    },
+    {
+      "aula": "BO301",
+      "date": "18-11-2026",
+      "docenti": [
+        "G. Rezza"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "3 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Preparedness in Medicina: dal Quotidiano allo Straordinario"
+    },
+    {
+      "aula": "VA301",
+      "date": "18-11-2026",
+      "docenti": [
+        "S. Carletti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "3 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA302",
+      "date": "18-11-2026",
+      "docenti": [
+        "D. Inverso"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "3 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "18-12-2026": [
+    {
+      "aula": "BO101",
+      "date": "18-12-2026",
+      "docenti": [
+        "V. Russo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "BO101",
+      "date": "18-12-2026",
+      "docenti": [
+        "V. Russo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "19-01-2027": [],
+  "19-10-2026": [
+    {
+      "aula": "CA202",
+      "date": "19-10-2026",
+      "docenti": [
+        "L. Silvestrini"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA101",
+      "date": "19-10-2026",
+      "docenti": [
+        "C. Di Resta"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    }
+  ],
+  "19-11-2026": [
+    {
+      "aula": "BO101",
+      "date": "19-11-2026",
+      "docenti": [
+        "M. Bossi"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra - Corso Elettivo"
+    },
+    {
+      "aula": "BO301",
+      "date": "19-11-2026",
+      "docenti": [
+        "E. Criscuolo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "3 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "CA101",
+      "date": "19-11-2026",
+      "docenti": [
+        "M. Kuka"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA101",
+      "date": "19-11-2026",
+      "docenti": [
+        "M. Kuka"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA201",
+      "date": "19-11-2026",
+      "docenti": [
+        "R. Furlan"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "20-01-2027": [],
+  "20-10-2026": [
+    {
+      "aula": "CA202",
+      "date": "20-10-2026",
+      "docenti": [
+        "L. Tei"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
+    },
+    {
+      "aula": "VA201",
+      "date": "20-10-2026",
+      "docenti": [
+        "R. Tomaiuolo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "2 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "VA201",
+      "date": "20-10-2026",
+      "docenti": [
+        "M. Iannacone"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "2 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "20-11-2026": [
+    {
+      "aula": "BO101",
+      "date": "20-11-2026",
+      "docenti": [
+        "R. Furlan"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA202",
+      "date": "20-11-2026",
+      "docenti": [
+        "G. Rezza"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Preparedness in Medicina: dal Quotidiano allo Straordinario"
+    }
+  ],
+  "21-01-2027": [],
+  "21-09-2026": [],
+  "21-10-2026": [
+    {
+      "aula": "CA202",
+      "date": "21-10-2026",
+      "docenti": [
+        "M. Mazzetti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Preparedness in Medicina: dal Quotidiano allo Straordinario"
+    },
+    {
+      "aula": "CA202",
+      "date": "21-10-2026",
+      "docenti": [
+        "C. Di Resta"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "CA302",
+      "date": "21-10-2026",
+      "docenti": [
+        "M. Iannacone"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "3 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "21-12-2026": [
+    {
+      "aula": "BO402",
+      "date": "21-12-2026",
+      "docenti": [
+        "E. Scifo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    },
+    {
+      "aula": "BO402",
+      "date": "21-12-2026",
+      "docenti": [
+        "E. Scifo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    }
+  ],
+  "22-01-2027": [],
+  "22-09-2026": [
+    {
+      "aula": "VA101",
+      "date": "22-09-2026",
+      "docenti": [
+        "G. Banfi"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "VA101",
+      "date": "22-09-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "22-10-2026": [
+    {
+      "aula": "CA102",
+      "date": "22-10-2026",
+      "docenti": [
+        "V. Fumagalli"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA102",
+      "date": "22-10-2026",
+      "docenti": [
+        "L. Silvestrini"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "22-12-2026": [],
+  "23-09-2026": [
+    {
+      "aula": "VA201",
+      "date": "23-09-2026",
+      "docenti": [
+        "G. Monti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Preparedness in Medicina: dal Quotidiano allo Straordinario"
+    }
+  ],
+  "23-10-2026": [],
+  "23-11-2026": [
+    {
+      "aula": "BO201",
+      "date": "23-11-2026",
+      "docenti": [
+        "D. Inverso"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "2 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "BO202",
+      "date": "23-11-2026",
+      "docenti": [
+        "V. Fumagalli"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "24-09-2026": [
+    {
+      "aula": "VA102",
+      "date": "24-09-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "24-11-2026": [
+    {
+      "aula": "BO102",
+      "date": "24-11-2026",
+      "docenti": [
+        "G. Banfi"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "CA102",
+      "date": "24-11-2026",
+      "docenti": [
+        "A. Leocani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Tele-neuro fisiologia, neuromodulazione e tecnologie digitali - Corso Elettivo"
+    },
+    {
+      "aula": "CA202",
+      "date": "24-11-2026",
+      "docenti": [
+        "F. Puccetti"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
+    },
+    {
+      "aula": "VA101",
+      "date": "24-11-2026",
+      "docenti": [
+        "G. Tonon"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "25-09-2026": [],
+  "25-11-2026": [
+    {
+      "aula": "BO101",
+      "date": "25-11-2026",
+      "docenti": [
+        "F. Cipriani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria - Corso Elettivo"
+    },
+    {
+      "aula": "CA302",
+      "date": "25-11-2026",
+      "docenti": [
+        "V. Russo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "3 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "26-10-2026": [
+    {
+      "aula": "CA101",
+      "date": "26-10-2026",
+      "docenti": [
+        "M. Camisani Calzolari"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Cyber-Humanities - Corso Elettivo"
+    },
+    {
+      "aula": "VA101",
+      "date": "26-10-2026",
+      "docenti": [
+        "M. Kuka"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA101",
+      "date": "26-10-2026",
+      "docenti": [
+        "R. Tomaiuolo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "VA102",
+      "date": "26-10-2026",
+      "docenti": [
+        "M. Kuka"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "26-11-2026": [
+    {
+      "aula": "BO102",
+      "date": "26-11-2026",
+      "docenti": [
+        "A. Kahlberg"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Urgenze ed emergenze in chirurgia vascolare: tempo di pace e tempo di guerra - Corso Elettivo"
+    },
+    {
+      "aula": "CA202",
+      "date": "26-11-2026",
+      "docenti": [
+        "V. Russo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA102",
+      "date": "26-11-2026",
+      "docenti": [
+        "M. Castelli"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "27-10-2026": [
+    {
+      "aula": "CA202",
+      "date": "27-10-2026",
+      "docenti": [
+        "D. Bertini"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
+    },
+    {
+      "aula": "CA302",
+      "date": "27-10-2026",
+      "docenti": [
+        "L. Silvestrini"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "3 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA101",
+      "date": "27-10-2026",
+      "docenti": [
+        "R. Tomaiuolo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "VA101",
+      "date": "27-10-2026",
+      "docenti": [
+        "M. Kuka"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    }
+  ],
+  "27-11-2026": [
+    {
+      "aula": "BO101",
+      "date": "27-11-2026",
+      "docenti": [
+        "L. Silvestrini"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "BO402",
+      "date": "27-11-2026",
+      "docenti": [
+        "S. Pasqualetti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    },
+    {
+      "aula": "BO402",
+      "date": "27-11-2026",
+      "docenti": [
+        "S. Pasqualetti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "4 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    }
+  ],
+  "28-09-2026": [
+    {
+      "aula": "CA202",
+      "date": "28-09-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA101",
+      "date": "28-09-2026",
+      "docenti": [
+        "G. Banfi"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    }
+  ],
+  "28-10-2026": [
+    {
+      "aula": "BO101",
+      "date": "28-10-2026",
+      "docenti": [
+        "F. Cipriani"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Semeiotica applicata alla chirurgia: dal segno obiettivo alla scelta operatoria - Corso Elettivo"
+    },
+    {
+      "aula": "CA101",
+      "date": "28-10-2026",
+      "docenti": [
+        "V. Fumagalli"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA202",
+      "date": "28-10-2026",
+      "docenti": [
+        "G. Rezza"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Preparedness in Medicina: dal Quotidiano allo Straordinario"
+    },
+    {
+      "aula": "CA202",
+      "date": "28-10-2026",
+      "docenti": [
+        "M. Mazzetti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Preparedness in Medicina: dal Quotidiano allo Straordinario"
+    }
+  ],
+  "29-09-2026": [
+    {
+      "aula": "VA101",
+      "date": "29-09-2026",
+      "docenti": [
+        "G. Banfi"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    }
+  ],
+  "29-10-2026": [
+    {
+      "aula": "BO101",
+      "date": "29-10-2026",
+      "docenti": [
+        "A. Castellano"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "BORROMINI",
+      "titolo": "Lezione: Imaging morfologico e funzionale del sistema nervoso - Corso Elettivo"
+    },
+    {
+      "aula": "VA102",
+      "date": "29-10-2026",
+      "docenti": [
+        "R. Furlan"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "VA401",
+      "date": "29-10-2026",
+      "docenti": [
+        "M. Castelli"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "4 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "30-09-2026": [
+    {
+      "aula": "CA302",
+      "date": "30-09-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "3 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA302",
+      "date": "30-09-2026",
+      "docenti": [
+        "R. Burioni"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "3 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "CA302",
+      "date": "30-09-2026",
+      "docenti": [
+        "G. Monti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "3 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Preparedness in Medicina: dal Quotidiano allo Straordinario"
+    }
+  ],
+  "30-10-2026": [
+    {
+      "aula": "VA101",
+      "date": "30-10-2026",
+      "docenti": [
+        "R. Tomaiuolo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "15:30",
+      "ora_inizio": "13:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Medicina di Laboratorio"
+    },
+    {
+      "aula": "VA101",
+      "date": "30-10-2026",
+      "docenti": [
+        "L. Silvestrini"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    }
+  ],
+  "30-11-2026": [
+    {
+      "aula": "CA202",
+      "date": "30-11-2026",
+      "docenti": [
+        "G. Tonon"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "10:30",
+      "ora_inizio": "08:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Patologia"
+    }
+  ]
+}

@@ -21,14 +21,16 @@ import json
 import time
 import hashlib
 import unicodedata
+import http.client
 import urllib.request
 import html as html_lib
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date, timedelta
 from collections import defaultdict
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIST_DIR = os.path.join(BASE_DIR, "dist")
 CONFIG_PATH = os.path.join(BASE_DIR, "config", "active_mode.json")
+CACHE_PATH = os.path.join(BASE_DIR, "config", "orario_cache.json")
 
 PRIVATE_TOKEN = "p_viola3"
 PRIVATE_DIR = os.path.join(DIST_DIR, PRIVATE_TOKEN)
@@ -57,6 +59,13 @@ def sanitize_input(text, max_length=150):
     return text[:max_length].strip()
 
 
+COMPOUND_SURNAMES = (
+    'DE ', 'DI ', 'DEL ', 'DELLA ', 'DELLO ', 'DEGLI ',
+    'DAL ', 'DALLA ', 'LO ', 'LA ', 'MC ', 'MAC ',
+    'VAN ', 'VON ', 'SAN ', 'SANT ', 'CAMISANI '
+)
+
+
 def format_docente_name(nome, cognome):
     nome = (nome or "").strip()
     cognome = (cognome or "").strip()
@@ -72,17 +81,39 @@ def format_docente_name(nome, cognome):
     return cognome_fmt
 
 
+def format_orario_docente(raw_doc):
+    """Converte 'COGNOME NOME' da orario.unisr.it in 'N. Cognome'."""
+    s = " ".join((raw_doc or "").strip().upper().split())
+    if not s:
+        return ""
+    if s == "NACLERO ASSUNTA":
+        s = "NACLERIO ASSUNTA"
+    words = s.split(" ")
+    if len(words) == 1:
+        return words[0].capitalize()
+    if any(s.startswith(p) for p in COMPOUND_SURNAMES) and len(words) >= 3:
+        cognome = f"{words[0]} {words[1]}"
+        nome = " ".join(words[2:])
+    else:
+        cognome = words[0]
+        nome = " ".join(words[1:])
+    return format_docente_name(nome, cognome)
+
+
 def get_activity_type_info(raw_title):
     raw_title = html_lib.unescape(raw_title)
-    if " - LEZ" in raw_title or " - LEZ_D" in raw_title:
-        return "Lezione", "LEZ"
-    elif " - ESE" in raw_title:
-        return "Esercitazione", "ESE"
-    elif " - APR" in raw_title or " - APRO" in raw_title:
+    low = raw_title.lower()
+    if " - apr" in low or " - apro" in low or "attività professionalizzanti" in low or "attivita professionalizzanti" in low:
         return "Attività Pratica", "APR"
-    elif " - TIR" in raw_title:
+    elif " - ese" in low or "esercitazion" in low:
+        return "Esercitazione", "ESE"
+    elif " - tir" in low or "tirocinio" in low:
         return "Tirocinio", "TIR"
-    return "", ""
+    elif low.startswith("esame:"):
+        return "Esame", "ESA"
+    elif " - lez" in low or " - lez_d" in low or low.startswith("lezione:"):
+        return "Lezione", "LEZ"
+    return "Lezione", "LEZ"
 
 
 def get_color_for_subject(subject_name):
@@ -152,134 +183,246 @@ def purge_public_calendars():
     return count_purged
 
 
-def fetch_viola_lessons():
-    """Estrae le lezioni del 3° Anno Linea Viola da EasyCourse UniSR."""
-    print("[2/5] Interrogazione EasyCourse UniSR (Medicina 3 - Linea Viola)...")
-    ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
-
-    cdl_id = 458
-    anno_id = 1084
-    curr_id = 1736
-
-    url = (
-        f"https://easycourse.unisr.it/easycourse-new/pubblicazioni-riservate/standardGrid/"
-        f"figlia-4/2026-2027/s1/riservato?"
-        f"catena=S1&ricercaIndex=Corso+di+studi&CorsoDiStudio={cdl_id}&annoCorso={anno_id}&curriculum={curr_id}&settimana=all"
-    )
-    req = urllib.request.Request(
-        url,
-        headers={
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-        }
-    )
-    html = ""
-    for attempt in range(3):
+def load_orario_cache():
+    if os.path.exists(CACHE_PATH):
         try:
-            with urllib.request.urlopen(req, context=ctx, timeout=60) as resp:
-                html = resp.read().decode('utf-8', errors='ignore')
-                break
+            with open(CACHE_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
         except Exception as e:
-            if attempt == 2:
-                print(f"[ERRORE] Impossibile contattare EasyCourse: {e}")
-                return []
-            time.sleep(2)
+            print(f"[Warning] Impossibile leggere {CACHE_PATH}: {e}")
+    return {}
 
-    # Parsing blocchi giornalieri
-    giorno_blocks = re.findall(
-        r'<div[^>]*class="giorno-container\s*([^"]*)"[^>]*>(.*?)(?=<div[^>]*class="giorno-container|<div[^>]*class="easy-ph|<!-- ================= DESKTOP|$)',
-        html,
-        re.DOTALL
-    )
-    all_lessons = []
+
+def save_orario_cache(cache_data):
+    try:
+        os.makedirs(os.path.dirname(CACHE_PATH), exist_ok=True)
+        with open(CACHE_PATH, "w", encoding="utf-8") as f:
+            json.dump(cache_data, f, ensure_ascii=False, indent=2, sort_keys=True)
+    except Exception as e:
+        print(f"[Warning] Impossibile salvare {CACHE_PATH}: {e}")
+
+
+def parse_orario_day_html(body, date_dash):
+    """Estrae le lezioni di Medicina 3 (Linea Viola + Elettivi) dall'HTML giornaliero di orario.unisr.it."""
+    day_lessons = []
     seen = set()
+    trs = re.split(r'<tr[^>]*>', body, flags=re.I)
 
-    for classes, g_content in giorno_blocks:
-        if "senza-lezioni" in classes:
-            continue
-        d_match = re.search(r'(\d{2}-\d{2}-\d{4})', g_content[:1000])
-        if not d_match:
-            continue
-        giorno_data = d_match.group(1)
+    current_sede = ""
+    current_aula = ""
+    current_piano = ""
 
-        lez_wrap = re.search(r'<div[^>]*class="lezioni-giornaliere"[^>]*>(.*)', g_content, re.DOTALL)
-        if not lez_wrap:
-            continue
+    for tr in trs:
+        if "Corso di Laurea" in tr and "anno" in tr and "#C0C0C0" in tr:
+            m_b = re.search(
+                r'<font[^>]*color=#049AD9[^>]*>(.*?)</font>\s*-\s*<font[^>]*><b>(.*?)</b></font>\s*(?:\((.*?)\))?',
+                tr,
+                re.I | re.S
+            )
+            if m_b:
+                current_sede = m_b.group(1).strip()
+                raw_room = m_b.group(2).strip()
+                current_aula = re.sub(r'^Aula\s+', '', raw_room, flags=re.I).strip()
+                current_piano = (m_b.group(3) or "").strip()
+        elif "Lezione:" in tr or "Esame:" in tr:
+            tds = re.findall(r'<td[^>]*>(.*?)</td>', tr, re.I | re.S)
+            if len(tds) < 4:
+                continue
+            clean_cell = lambda s: re.sub(r'<[^>]+>', '', s).replace('&nbsp;', ' ').replace('\xa0', ' ').strip()
+            orario = clean_cell(tds[0])
+            attivita = clean_cell(tds[1])
+            cdl = clean_cell(tds[2])
+            anno = clean_cell(tds[3])
 
-        lezioni_tags = re.findall(r'<div\s+class="lezione"(.*?)>', lez_wrap.group(1), re.DOTALL)
-        for l in lezioni_tags:
-            def get_attr(name):
-                m = re.search(rf'data-{name}=([\'"])(.*?)\1', l, re.DOTALL)
-                return m.group(2).strip() if m else ""
+            if anno != "3" or "-" not in orario:
+                continue
 
-            ora_ini = get_attr("ora-inizio")
-            ora_fine = get_attr("ora-fine")
-            titolo = get_attr("titolo")
-            aula = get_attr("aula")
-            sede = get_attr("sede")
-            docenti_json = get_attr("docenti")
-            lesson_id = get_attr("id")
+            is_viola = "LINEA VIOLA" in attivita.upper()
+            is_elettivo = (
+                not is_viola
+                and "LINEA" not in attivita.upper()
+                and cdl == "Corso di Laurea magistrale in Medicina e Chirurgia"
+            )
 
-            nomi_docenti = []
-            if docenti_json:
-                try:
-                    doc_data = json.loads(html_lib.unescape(docenti_json))
-                    for d in doc_data:
-                        nome = d.get('Nome', '').strip()
-                        cognome = d.get('Cognome', '').strip()
-                        doc_str = format_docente_name(nome, cognome)
-                        doc_str = sanitize_input(doc_str, max_length=100)
-                        if doc_str:
-                            nomi_docenti.append(doc_str)
-                except Exception:
-                    pass
+            if not (is_viola or is_elettivo):
+                continue
 
-            is_elettivo = 'elettiv' in titolo.lower()
+            ora_ini, ora_fine = [x.strip() for x in orario.split("-", 1)]
+            m_act = re.match(r'^(Lezione|Esame):\s*(.*?)\s*\(docente:\s*(.*?)\)\s*$', attivita, re.I)
+            if m_act:
+                prefix_type = m_act.group(1).capitalize()
+                subj_raw = m_act.group(2).strip()
+                doc_raw = m_act.group(3).strip()
+            else:
+                prefix_type = "Lezione"
+                subj_raw = re.sub(r'^(Lezione|Esame):\s*', '', attivita, flags=re.I).strip()
+                doc_raw = ""
 
-            key = (giorno_data, ora_ini, ora_fine, titolo, sede, aula)
+            subj_clean = re.sub(r'\s*\(LINEA\s+VIOLA\)\s*', '', subj_raw, flags=re.I).strip()
+            doc_fmt = format_orario_docente(doc_raw)
+            nomi_docenti = [doc_fmt] if doc_fmt else []
+
+            titolo_norm = f"{prefix_type}: {subj_clean}"
+            if is_elettivo:
+                titolo_norm += " - Corso Elettivo"
+
+            key = (date_dash, ora_ini, ora_fine, subj_clean, current_sede, current_aula)
             if key in seen:
                 continue
             seen.add(key)
 
-            all_lessons.append({
-                'id': lesson_id,
-                'date': giorno_data,
-                'ora_inizio': ora_ini,
-                'ora_fine': ora_fine,
-                'titolo': titolo,
-                'aula': aula,
-                'sede': sede,
-                'docenti': nomi_docenti,
-                'elettivo': is_elettivo
+            day_lessons.append({
+                "id": "",
+                "date": date_dash,
+                "ora_inizio": ora_ini,
+                "ora_fine": ora_fine,
+                "titolo": titolo_norm,
+                "aula": current_aula,
+                "sede": current_sede,
+                "piano": current_piano,
+                "docenti": nomi_docenti,
+                "elettivo": is_elettivo
             })
 
-    def sort_key(x):
-        d, m, y = x['date'].split('-')
-        return f"{y}{m}{d}_{x['ora_inizio']}"
+    return day_lessons
 
-    all_lessons.sort(key=sort_key)
-    print(f" -> Estratte {len(all_lessons)} lezioni totali per Medicina 3 - Linea Viola.")
+
+def merge_contiguous_lessons(lessons):
+    """Fonde slot contigui (es. 08:30-10:30 + 10:30-12:30) con stessa data, materia, aula e docente."""
+    if not lessons:
+        return []
+
+    def sort_for_merge(x):
+        d, m, y = x["date"].split("-")
+        return (f"{y}{m}{d}", x.get("sede", ""), x.get("aula", ""), x["titolo"], x["ora_inizio"])
+
+    sorted_l = sorted(lessons, key=sort_for_merge)
+    merged = [dict(sorted_l[0])]
+
+    for curr in sorted_l[1:]:
+        prev = merged[-1]
+        if (
+            prev["date"] == curr["date"]
+            and prev["titolo"] == curr["titolo"]
+            and prev.get("sede") == curr.get("sede")
+            and prev.get("aula") == curr.get("aula")
+            and prev.get("docenti") == curr.get("docenti")
+            and prev["ora_fine"] == curr["ora_inizio"]
+        ):
+            prev["ora_fine"] = curr["ora_fine"]
+        else:
+            merged.append(dict(curr))
+
+    def final_sort_key(x):
+        d, m, y = x["date"].split("-")
+        return f"{y}{m}{d}_{x['ora_inizio']}_{x['titolo']}"
+
+    merged.sort(key=final_sort_key)
+    return merged
+
+
+def fetch_viola_lessons():
+    """Estrae le lezioni del 3° Anno Linea Viola (+ Elettivi) da orario.unisr.it con cache incrementale e Keep-Alive."""
+    print("[2/5] Interrogazione orario.unisr.it (Medicina 3 - Linea Viola + Elettivi)...")
+    ctx = ssl.create_default_context()
+    ctx.check_hostname = False
+    ctx.verify_mode = ssl.CERT_NONE
+
+    cache = load_orario_cache()
+    today = datetime.now(timezone.utc).date()
+
+    start_d = date(2026, 9, 21)
+    end_d = date(2027, 1, 23)
+
+    weekdays = []
+    curr = start_d
+    while curr <= end_d:
+        if curr.weekday() < 5:
+            if not (date(2026, 12, 23) <= curr <= date(2027, 1, 6)):
+                weekdays.append(curr)
+        curr += timedelta(days=1)
+
+    conn = None
+    live_requests = 0
+    live_success = 0
+    cached_hits = 0
+
+    for d_obj in weekdays:
+        d_slash = d_obj.strftime("%d/%m/%Y")
+        d_dash = d_obj.strftime("%d-%m-%Y")
+
+        # Usa la cache per i giorni passati già storicizzati
+        if d_obj < today and d_dash in cache:
+            cached_hits += 1
+            continue
+
+        live_requests += 1
+        path = f"/default.asp?ext=ok&data={d_slash}&CDS_ID=0&DAORA=0&ANNO_CORSO=3&id_palazzo=0&lezioni=ok&esami=ok"
+        body = ""
+        for attempt in range(3):
+            try:
+                if conn is None:
+                    conn = http.client.HTTPSConnection("orario.unisr.it", context=ctx, timeout=15)
+                conn.request("GET", path, headers={"User-Agent": "Mozilla/5.0", "Connection": "keep-alive"})
+                resp = conn.getresponse()
+                raw_bytes = resp.read()
+                if resp.status == 200 and len(raw_bytes) > 5000:
+                    body = raw_bytes.decode("latin-1", errors="replace")
+                    live_success += 1
+                    break
+            except Exception as e:
+                if conn is not None:
+                    try:
+                        conn.close()
+                    except Exception:
+                        pass
+                    conn = None
+                if attempt == 2:
+                    print(f"[Warning] Errore fetch {d_slash}: {e}")
+                time.sleep(1)
+
+        if body:
+            cache[d_dash] = parse_orario_day_html(body, d_dash)
+
+    if conn is not None:
+        try:
+            conn.close()
+        except Exception:
+            pass
+
+    if live_requests > 0 and live_success == 0:
+        print("[ERRORE] Nessuna risposta valida da orario.unisr.it.")
+        return []
+
+    save_orario_cache(cache)
+
+    raw_lessons = []
+    for d_obj in weekdays:
+        d_dash = d_obj.strftime("%d-%m-%Y")
+        raw_lessons.extend(cache.get(d_dash, []))
+
+    all_lessons = merge_contiguous_lessons(raw_lessons)
+    print(
+        f" -> Estratte {len(all_lessons)} lezioni totali "
+        f"(da {cached_hits} giorni in cache + {live_success}/{live_requests} giorni live)."
+    )
     return all_lessons
 
 
 def clean_title(raw_title):
     raw_title = html_lib.unescape(raw_title)
     raw_title = sanitize_input(raw_title, max_length=200)
-    
-    clean = re.sub(r'\s*-\s*Corso Elettivo.*$', '', raw_title, flags=re.IGNORECASE)
+
+    clean = re.sub(r'^(Lezione|Esame):\s*', '', raw_title, flags=re.IGNORECASE)
+    clean = re.sub(r'\s*\(LINEA\s+[^\)]+\)\s*', '', clean, flags=re.IGNORECASE)
+    clean = re.sub(r'\s*-\s*Corso Elettivo.*$', '', clean, flags=re.IGNORECASE)
     clean = re.sub(r'\s*-\s*(LEZ(_D)?|ESE|APR(_[A-Z0-9]+)?|TIR|APRO).*$', '', clean, flags=re.IGNORECASE)
-    
-    # Se dopo la rimozione dei tipi rimane una struttura 'NomeInsegnamento - ModuloCanale',
-    # estraiamo il nome principale dell'insegnamento per evitare duplicati come 'Semeiotica - Semeiotica 2'
-    parts = re.split(r'\s+-\s+', clean)
-    base_name = parts[0].strip()
-    base_name = re.sub(r'\s*\[.*?\]', '', base_name).strip()
-    
-    if base_name.lower() in ("evento generico", "eventi generici"):
-        base_name = "Eventi generici"
-        
-    return base_name
+    clean = re.sub(r'\s*\[.*?\]', '', clean).strip()
+
+    if clean.lower() in ("evento generico", "eventi generici"):
+        clean = "Eventi generici"
+
+    return clean
 
 
 def get_base_subject_name(cleaned_title):
@@ -431,9 +574,11 @@ def generate_private_feeds(lessons):
         subjects[s].append(l)
 
     materie_ui = []
+    valid_materie_files = set()
     for s_name, s_lessons in sorted(subjects.items()):
         slug = slugify(s_name)
         f_name = f"materia_{slug}.ics"
+        valid_materie_files.add(f_name)
         f_path = os.path.join(materie_dir, f_name)
         color_hex, bg_hex, color_name = get_color_for_subject(s_name)
         with open(f_path, "w", encoding="utf-8") as f:
@@ -448,6 +593,11 @@ def generate_private_feeds(lessons):
         })
         print(f" -> Materia Google: {s_name} ({len(s_lessons)} lez) -> {color_name}")
 
+    for existing_f in os.listdir(materie_dir):
+        if existing_f.endswith(".ics") and existing_f not in valid_materie_files:
+            os.remove(os.path.join(materie_dir, existing_f))
+            print(f" -> Rimosso feed materia obsoleto: {existing_f}")
+
     # 3. Feed separati per elettivi
     elettivi_subjects = defaultdict(list)
     for l in electives:
@@ -455,9 +605,11 @@ def generate_private_feeds(lessons):
         elettivi_subjects[s].append(l)
 
     elettivi_ui = []
+    valid_elettivi_files = set()
     for e_name, e_lessons in sorted(elettivi_subjects.items()):
         slug = slugify(e_name)
         f_name = f"elettivo_{slug}.ics"
+        valid_elettivi_files.add(f_name)
         f_path = os.path.join(elettivi_dir, f_name)
         with open(f_path, "w", encoding="utf-8") as f:
             f.write(build_ics_calendar(f"Elettivo: {e_name}", e_lessons, f"Corso Elettivo: {e_name}"))
@@ -470,6 +622,11 @@ def generate_private_feeds(lessons):
             "bg_hex": "#fb923c22"
         })
         print(f" -> Elettivo: {e_name} ({len(e_lessons)} lez)")
+
+    for existing_f in os.listdir(elettivi_dir):
+        if existing_f.endswith(".ics") and existing_f not in valid_elettivi_files:
+            os.remove(os.path.join(elettivi_dir, existing_f))
+            print(f" -> Rimosso feed elettivo obsoleto: {existing_f}")
 
     # 4. Generazione Dashboard Privata index.html
     print("[4/5] Creazione interfaccia web riservata (p_viola3/index.html)...")
