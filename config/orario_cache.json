@@ -858,20 +858,6 @@
       "aula": "VA102",
       "date": "10-12-2026",
       "docenti": [
-        "L. Guidotti"
-      ],
-      "elettivo": false,
-      "id": "",
-      "ora_fine": "10:30",
-      "ora_inizio": "08:30",
-      "piano": "1 piano",
-      "sede": "VASARI",
-      "titolo": "Lezione: Patologia"
-    },
-    {
-      "aula": "VA102",
-      "date": "10-12-2026",
-      "docenti": [
         "G. Tonon"
       ],
       "elettivo": false,
@@ -1897,6 +1883,20 @@
       "ora_inizio": "10:30",
       "piano": "1 piano",
       "sede": "BORROMINI",
+      "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA101",
+      "date": "20-11-2026",
+      "docenti": [
+        "L. Guidotti"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "17:30",
+      "ora_inizio": "15:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
       "titolo": "Lezione: Patologia"
     },
     {
