@@ -1265,6 +1265,20 @@
       "piano": "4 piano",
       "sede": "BORROMINI",
       "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    },
+    {
+      "aula": "CA101",
+      "date": "14-12-2026",
+      "docenti": [
+        "M. Camisani Calzolari"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Cyber-Humanities - Corso Elettivo"
     }
   ],
   "15-01-2027": [
@@ -2097,6 +2111,20 @@
       "piano": "2 piano",
       "sede": "BORROMINI",
       "titolo": "Lezione: Patologia"
+    },
+    {
+      "aula": "CA101",
+      "date": "23-11-2026",
+      "docenti": [
+        "M. Camisani Calzolari"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Cyber-Humanities - Corso Elettivo"
     }
   ],
   "24-09-2026": [
@@ -2631,6 +2659,20 @@
     }
   ],
   "30-11-2026": [
+    {
+      "aula": "CA101",
+      "date": "30-11-2026",
+      "docenti": [
+        "M. Camisani Calzolari"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Cyber-Humanities - Corso Elettivo"
+    },
     {
       "aula": "CA202",
       "date": "30-11-2026",
