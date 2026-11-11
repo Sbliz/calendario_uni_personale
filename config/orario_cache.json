@@ -970,34 +970,6 @@
       "piano": "1 piano",
       "sede": "BORROMINI",
       "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
-    },
-    {
-      "aula": "VA102",
-      "date": "11-12-2026",
-      "docenti": [
-        "L. Guidotti"
-      ],
-      "elettivo": false,
-      "id": "",
-      "ora_fine": "15:30",
-      "ora_inizio": "13:30",
-      "piano": "1 piano",
-      "sede": "VASARI",
-      "titolo": "Lezione: Patologia"
-    },
-    {
-      "aula": "VA102",
-      "date": "11-12-2026",
-      "docenti": [
-        "L. Guidotti"
-      ],
-      "elettivo": false,
-      "id": "",
-      "ora_fine": "17:30",
-      "ora_inizio": "15:30",
-      "piano": "1 piano",
-      "sede": "VASARI",
-      "titolo": "Lezione: Patologia"
     }
   ],
   "12-01-2027": [
