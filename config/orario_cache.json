@@ -189,6 +189,20 @@
       "piano": "3 piano",
       "sede": "BORROMINI",
       "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "VA101",
+      "date": "02-12-2026",
+      "docenti": [
+        "S. Battaglia"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "1 piano",
+      "sede": "VASARI",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
     }
   ],
   "03-11-2026": [
@@ -739,20 +753,6 @@
       "titolo": "Lezione: Medicina di Laboratorio"
     },
     {
-      "aula": "CA101",
-      "date": "09-12-2026",
-      "docenti": [
-        "S. Battaglia"
-      ],
-      "elettivo": true,
-      "id": "",
-      "ora_fine": "19:30",
-      "ora_inizio": "17:30",
-      "piano": "1 piano",
-      "sede": "CANOVA",
-      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
-    },
-    {
       "aula": "VA102",
       "date": "09-12-2026",
       "docenti": [
@@ -1000,20 +1000,6 @@
       "piano": "4 piano",
       "sede": "BORROMINI",
       "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
-    },
-    {
-      "aula": "CA202",
-      "date": "12-01-2027",
-      "docenti": [
-        "S. Battaglia"
-      ],
-      "elettivo": true,
-      "id": "",
-      "ora_fine": "19:30",
-      "ora_inizio": "17:30",
-      "piano": "2 piano",
-      "sede": "CANOVA",
-      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
     }
   ],
   "12-10-2026": [
@@ -2097,6 +2083,20 @@
       "piano": "1 piano",
       "sede": "CANOVA",
       "titolo": "Lezione: Cyber-Humanities - Corso Elettivo"
+    },
+    {
+      "aula": "CA202",
+      "date": "23-11-2026",
+      "docenti": [
+        "S. Battaglia"
+      ],
+      "elettivo": true,
+      "id": "",
+      "ora_fine": "19:30",
+      "ora_inizio": "17:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Ricerche bibliografiche - Corso Elettivo"
     }
   ],
   "24-09-2026": [
