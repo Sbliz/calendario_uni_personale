@@ -10,28 +10,28 @@ on:
       - main
       - master
 
-# Permessi necessari per il deploy automatico su GitHub Pages e salvataggio modifiche
+# Permessi necessari per il deploy automatico su GitHub Pages, verifica stato run e salvataggio modifiche
 permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read
 
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
+    outputs:
+      should_deploy: ${{ steps.sync.outputs.should_deploy }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Configura Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
 
@@ -42,21 +42,126 @@ jobs:
         run: |
           python src/scraper.py
 
-      - name: Salva aggiornamenti e stato su GitHub
+      - name: Verifica variazioni reali e salva aggiornamenti su GitHub
+        id: sync
+        shell: python
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_NAME: ${{ github.event_name }}
+          REPO_NAME: ${{ github.repository }}
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A dist/ src/watched_state.json config/active_mode.json config/orario_cache.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: sincronizzazione automatica calendari e stato corsi [skip ci]" && git push)
+          import json
+          import os
+          import subprocess
+          import urllib.request
+
+          def run_git(*args, check=True):
+              return subprocess.run(
+                  ["git", *args],
+                  check=check,
+                  text=True,
+                  capture_output=True,
+                  encoding="utf-8",
+                  errors="replace",
+              )
+
+          has_real_changes = False
+
+          # 1. File nuovi, eliminati o rinominati in dist/, watched_state o orario_cache
+          status_out = run_git(
+              "status", "--porcelain", "--",
+              "dist/", "src/watched_state.json", "config/orario_cache.json"
+          ).stdout
+          for line in status_out.splitlines():
+              if line and not line.startswith(" M "):
+                  has_real_changes = True
+                  break
+
+          # 2. Modifiche ai file di stato/cache tracciati
+          if not has_real_changes:
+              cache_diff = run_git(
+                  "diff", "--quiet", "--",
+                  "src/watched_state.json", "config/orario_cache.json",
+                  check=False,
+              )
+              if cache_diff.returncode != 0:
+                  has_real_changes = True
+
+          # 3. Modifiche reali in dist/ (ignorando le sole righe DTSTAMP nei file .ics)
+          if not has_real_changes:
+              dist_diff = run_git("diff", "-U0", "--", "dist/").stdout
+              for line in dist_diff.splitlines():
+                  if line.startswith(("+++ ", "--- ")):
+                      continue
+                  if line.startswith(("+", "-")):
+                      if not line.startswith(("+DTSTAMP:", "-DTSTAMP:")):
+                          has_real_changes = True
+                          break
+
+          if has_real_changes:
+              print("Rilevate variazioni effettive nei calendari o nella cache: commit e push su GitHub.")
+              run_git("config", "--local", "user.name", "github-actions[bot]")
+              run_git("config", "--local", "user.email", "github-actions[bot]@users.noreply.github.com")
+              run_git(
+                  "add", "-A",
+                  "dist/", "src/watched_state.json", "config/active_mode.json", "config/orario_cache.json"
+              )
+              if run_git("diff", "--staged", "--quiet", check=False).returncode != 0:
+                  run_git("commit", "-m", "chore: sincronizzazione automatica calendari e stato corsi [skip ci]")
+                  run_git("push")
+          else:
+              print("Nessuna variazione sostanziale rilevata (solo DTSTAMP/timestamp): ripristino file locali.")
+              run_git("checkout", "--", "dist/", "config/active_mode.json", check=False)
+
+          event_name = os.environ.get("EVENT_NAME", "")
+          should_deploy = (event_name != "schedule") or has_real_changes
+
+          if not should_deploy:
+              # Auto-recovery: se l'ultima run completata non era in stato 'success', esegui comunque il deploy
+              try:
+                  repo = os.environ["REPO_NAME"]
+                  token = os.environ["GITHUB_TOKEN"]
+                  url = f"https://api.github.com/repos/{repo}/actions/runs?per_page=5&status=completed"
+                  req = urllib.request.Request(
+                      url,
+                      headers={
+                          "Authorization": f"Bearer {token}",
+                          "Accept": "application/vnd.github+json",
+                          "User-Agent": "unisr-calendar-sync",
+                      },
+                  )
+                  with urllib.request.urlopen(req, timeout=10) as resp:
+                      runs = json.loads(resp.read().decode("utf-8")).get("workflow_runs", [])
+                  if not runs or runs[0].get("conclusion") != "success":
+                      print("Ultima run precedente non riuscita: attivo deploy di auto-ripristino.")
+                      should_deploy = True
+              except Exception as exc:
+                  print(f"Impossibile verificare lo stato dell'ultima run ({exc}): attivo deploy per sicurezza.")
+                  should_deploy = True
+
+          out_val = "true" if should_deploy else "false"
+          print(f"Decisione deploy GitHub Pages: should_deploy={out_val}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"should_deploy={out_val}\n")
 
       - name: Configura GitHub Pages
-        uses: actions/configure-pages@v5
+        if: steps.sync.outputs.should_deploy == 'true'
+        uses: actions/configure-pages@v6
 
       - name: Carica artefatti di build
-        uses: actions/upload-pages-artifact@v3
+        if: steps.sync.outputs.should_deploy == 'true'
+        uses: actions/upload-pages-artifact@v5
         with:
           path: './dist'
 
+  deploy:
+    needs: build
+    if: needs.build.outputs.should_deploy == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Esegui Deploy su GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
