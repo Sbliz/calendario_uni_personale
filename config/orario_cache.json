@@ -2281,6 +2281,20 @@
       "aula": "CA202",
       "date": "26-11-2026",
       "docenti": [
+        "M. Castelli"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "2 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
+    },
+    {
+      "aula": "CA202",
+      "date": "26-11-2026",
+      "docenti": [
         "V. Russo"
       ],
       "elettivo": false,
@@ -2290,20 +2304,6 @@
       "piano": "2 piano",
       "sede": "CANOVA",
       "titolo": "Lezione: Patologia"
-    },
-    {
-      "aula": "VA102",
-      "date": "26-11-2026",
-      "docenti": [
-        "M. Castelli"
-      ],
-      "elettivo": false,
-      "id": "",
-      "ora_fine": "12:30",
-      "ora_inizio": "10:30",
-      "piano": "1 piano",
-      "sede": "VASARI",
-      "titolo": "Lezione: Microbiologia e Microbiologia Clinica"
     }
   ],
   "27-10-2026": [
