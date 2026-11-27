@@ -365,6 +365,20 @@
       "piano": "3 piano",
       "sede": "CANOVA",
       "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
+    },
+    {
+      "aula": "CA301",
+      "date": "04-12-2026",
+      "docenti": [
+        "E. Scifo"
+      ],
+      "elettivo": false,
+      "id": "",
+      "ora_fine": "12:30",
+      "ora_inizio": "10:30",
+      "piano": "3 piano",
+      "sede": "CANOVA",
+      "titolo": "Lezione: Attività professionalizzanti di medicina di laboratorio"
     }
   ],
   "05-10-2026": [
